@@ -1,0 +1,33 @@
+{
+  "authorship": "教材词头与中文释义由用户提供的 A1 总词汇表逐条转录并对齐；既有 40 词开发集保留其人工编写内容。新增词条从离线开放词典快照提取简短 EN/ES 核心义、词性、IPA 和词形。法语例句保持原内容，中文例句译文由法语原句生成后纳入离线快照。",
+  "review_status": "40-entry seed set independently reviewed; expanded textbook entries and Chinese translations are machine-assisted and schema-validated, pending professional human editorial review",
+  "review_report": "docs/qa/CONTENT_REVIEW.md",
+  "review_date": "2026-09-10",
+  "scope": "891 textbook glossary occurrences from pages 213–224, merged into 890 textbook lexemes plus 4 retained seed lexemes; every sense has ZH/EN/ES meanings and every French example has ZH/EN/ES translations; every verb has three indicative tenses with six persons.",
+  "not_included": ["真人录音", "所有多义义项", "所有时态/语气/被动语态", "新增词条的专业人工逐条审校"],
+  "pronunciation_policy": "fr-FR broad IPA for isolated lemma; common pronunciation selected, not all regional variants. Syllable dots are pedagogical. No invented audio paths: audio_asset is NULL; application may use offline fr-FR TTS according to settings.",
+  "grammar_policy": "Conjugation form excludes subject pronoun. j’ is stored for elision before a vowel or silent h. Third person combines il/elle/on; aller with on requires agreement according to referent, explained in word forms. être compound uses avoir. Avoir-based bare participles represent forms without a preceding agreeing direct object; preceding-object agreement is outside this beginner table.",
+  "sources": {
+    "academie-etre": {"url":"https://www.dictionnaire-academie.fr/conjuguer/A9E2986","checked":"être irregular forms; avoir auxiliary; étant/été"},
+    "academie-avoir": {"url":"https://www.dictionnaire-academie.fr/conjuguer/A9A3461","checked":"avoir forms; ayant/eu"},
+    "academie-aller": {"url":"https://www.dictionnaire-academie.fr/conjuguer/A9A1226","checked":"aller third group, être auxiliary, irregular present and imperfect, participle agreement"},
+    "academie-faire": {"url":"https://www.dictionnaire-academie.fr/conjuguer/A9F0112","checked":"faire irregular forms, faisant/fait"},
+    "academie-prendre": {"url":"https://www.dictionnaire-academie.fr/conjuguer/A9P4070","checked":"prendre forms, prenant/pris"},
+    "academie-aimer": {"url":"https://www.dictionnaire-academie.fr/conjuguer/A9A1016","checked":"regular -er model; parler/travailler forms authored using this model"},
+    "academie-habiter": {"url":"https://www.dictionnaire-academie.fr/conjuguer/A9H0025","checked":"silent-h elision; regular -er conjugation"},
+    "larousse-manger": {"url":"https://www.larousse.fr/conjugaison/francais/manger/5950","checked":"mangeons/mangeais/mangions/mangiez orthography"},
+    "larousse-professeur": {"url":"https://www.larousse.fr/dictionnaires/francais/professeur/64155","checked":"professeure feminine; une professeur accepted variant"},
+    "larousse-femme": {"url":"https://www.larousse.fr/dictionnaires/francais/femme/33217","checked":"feminine noun; woman and wife senses"},
+    "cnrtl-professeur": {"url":"https://www.cnrtl.fr/definition/professeuse","checked":"professeur pronunciation /pʁɔ.fɛ.sœʁ/ (TLFi pronunciation notation normalized to broad modern IPA)"},
+    "textbook-a1-headwords": {"artifact":"data/raw/textbook_a1_headwords.csv","checked":"891 French glossary occurrences transcribed from user-provided pages 213–224"},
+    "textbook-a1-chinese-glosses": {"artifact":"data/raw/textbook_a1_chinese_glosses.csv","checked":"Chinese definitions aligned to all 891 textbook rows from the saved page OCR, with corrections for OCR noise and core-sense alignment"},
+    "editorial-chinese-glosses": {"checked":"Chinese equivalents authored for retained seed entries absent from the textbook and for separately represented core senses"},
+    "google-translate-fr-zh-example-snapshot": {"artifact":"data/raw/example_zh_translations.json","checked":"Chinese translations generated from the existing French examples on 2026-09-10; French examples were not changed"},
+    "kaikki-enwiktionary": {"url":"https://kaikki.org/dictionary/French/index.html","license":"CC BY-SA","artifact":"data/raw/open_lexicon/kaikki_a1_snapshot.json","checked":"French POS, concise English glosses, IPA, inflection and conjugation facts"},
+    "wiktapi-eswiktionary": {"url":"https://wiktapi.dev/quickstart","license":"CC BY-SA","artifact":"data/raw/open_lexicon/wiktapi_a1_snapshot.json","checked":"concise Spanish Wiktionary glosses"},
+    "apertium-fra-spa": {"url":"https://github.com/apertium/apertium-fra-spa","license":"GPL-2.0","artifact":"data/raw/open_lexicon/apertium-fra-spa.fra-spa.dix","checked":"French-to-Spanish lexical equivalents"},
+    "espeak-ng-g2p": {"url":"https://github.com/espeak-ng/espeak-ng","license":"GPL-3.0","checked":"offline fallback IPA generation for entries without dictionary IPA"},
+    "editorial-bridging-glosses": {"checked":"short EN/ES equivalents authored for textbook phrases and names missing from the open snapshots"},
+    "editorial-fallback": {"checked":"visible last-resort pronunciation marker; release validation reports any occurrence"}
+  }
+}

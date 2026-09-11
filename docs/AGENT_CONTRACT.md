@@ -1,0 +1,11 @@
+# Shared integration contract
+
+Models are in `com.scott.frenchvocab.domain.Models.kt`, owned by root. Do not change without coordinating.
+
+Content agent implements `com.scott.frenchvocab.data.content.ContentRepository(context: Context)` with synchronous `allWords(): List<Lexeme>`, `books(): List<VocabularyBook>`, `find(uid: String): Lexeme?`, `close()`. Asset is `french_content.db`, book default `essential-fr`. All cached reads safe after load; open DB read-only; schema/version upgrade cannot delete user DB.
+
+Backend agent implements `com.scott.frenchvocab.data.user.StudyRepository(context: Context, content: ContentRepository)` with synchronous `snapshot(now: Long = System.currentTimeMillis()): AppSnapshot`, `startSession(now: Long = System.currentTimeMillis()): AppSnapshot`, `reveal(sessionId: Long, expectedUid: String): AppSnapshot`, `rate(sessionId: Long, expectedUid: String, rating: Rating, now: Long = System.currentTimeMillis()): AppSnapshot`, `saveSettings(settings: UserSettings): AppSnapshot`, `toggleFavorite(uid: String): AppSnapshot`, `close()`. start resumes active; completed session stored as latestCompletedSession. Stale reveal/rate no-op. Root manages app/build.gradle.kts. Agent must not run Gradle against external user cache.
+
+UI agent implements `com.scott.frenchvocab.feature.FrenchVocabApp()` called by MainActivity. Own lifecycle/ViewModel or saved Compose state, async IO repository calls with serialized mutations and error display. Use repositories and models above. Root supplies `com.scott.frenchvocab.domain.audio.PronunciationPlayer(context: Context)` with `speak(word: Lexeme, allowTts: Boolean, onResult: (String?) -> Unit)` and `close()`. Callback null means successful playback accepted; string is user-facing missing/error message. Stop on disposal. Do not display fake playback confirmation. UI settings are Chinese with French labels; learning translations support ZH/EN/ES. Optional Chinese columns and rollout rules are in [CONTENT_CONTRACT_ZH.md](CONTENT_CONTRACT_ZH.md).
+
+Root owns MainActivity, audio, build config, shared Models, project docs, build/test scripts, and Android instrumentation tests. Agents own their directories plus narrowly scoped tests. Keep every write under L:\Words, including caches and temp; do not modify external SDK or configs.

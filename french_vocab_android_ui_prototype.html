@@ -1,0 +1,906 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>French Vocabulary — Android UI Prototype</title>
+<style>
+  :root{
+    --accent:#35b69d;
+    --accent-dark:#23927e;
+    --accent-soft:#eaf8f4;
+    --text:#242826;
+    --muted:#8a918e;
+    --line:#e9eeec;
+    --bg:#f4f6f5;
+    --card:#ffffff;
+    --warn:#d29349;
+    --danger:#c76565;
+    --shadow:0 16px 40px rgba(33,55,48,.12);
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    min-height:100vh;
+    background:
+      radial-gradient(circle at 20% 10%, #eefaf7 0, transparent 28%),
+      linear-gradient(180deg,#f8faf9,#eff3f1);
+    color:var(--text);
+    font-family:Inter, "Noto Sans SC", "PingFang SC", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  }
+
+  .workspace{
+    display:grid;
+    grid-template-columns:minmax(260px,320px) minmax(390px,430px);
+    gap:30px;
+    width:min(850px,96vw);
+    margin:0 auto;
+    padding:28px 0 38px;
+    align-items:start;
+  }
+
+  .guide{
+    padding:10px 4px;
+    position:sticky;
+    top:20px;
+  }
+  .eyebrow{
+    color:var(--accent-dark);
+    font-weight:750;
+    letter-spacing:.08em;
+    font-size:12px;
+    text-transform:uppercase;
+  }
+  h1{
+    font-size:27px;
+    line-height:1.2;
+    margin:8px 0 10px;
+    letter-spacing:-.02em;
+  }
+  .guide p{
+    color:#66706c;
+    font-size:14px;
+    line-height:1.7;
+    margin:0 0 18px;
+  }
+  .screen-picker{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+  }
+  .screen-picker button{
+    width:100%;
+    text-align:left;
+    border:1px solid transparent;
+    background:rgba(255,255,255,.62);
+    padding:13px 14px;
+    border-radius:13px;
+    color:#49514e;
+    cursor:pointer;
+    font-weight:650;
+  }
+  .screen-picker button.active{
+    background:#fff;
+    border-color:#dce9e5;
+    color:var(--accent-dark);
+    box-shadow:0 7px 20px rgba(32,95,80,.07);
+  }
+  .micro{
+    margin-top:18px;
+    padding:14px;
+    border:1px solid #dce8e4;
+    background:rgba(255,255,255,.5);
+    border-radius:14px;
+    color:#6a746f;
+    font-size:12px;
+    line-height:1.6;
+  }
+
+  .phone{
+    width:100%;
+    max-width:412px;
+    height:min(870px, calc(100vh - 56px));
+    min-height:720px;
+    margin:auto;
+    background:#fff;
+    border-radius:32px;
+    overflow:hidden;
+    box-shadow:var(--shadow);
+    border:1px solid #e3e9e6;
+    position:relative;
+  }
+
+  .status{
+    height:30px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:5px 18px 0;
+    font-size:11px;
+    font-weight:700;
+    color:#252927;
+    background:#fff;
+  }
+  .status-icons{letter-spacing:1px;font-size:10px}
+
+  .app{
+    height:calc(100% - 30px);
+    position:relative;
+    overflow:hidden;
+  }
+
+  .screen{
+    position:absolute;
+    inset:0;
+    background:#fff;
+    display:none;
+    flex-direction:column;
+  }
+  .screen.active{display:flex}
+
+  .topbar{
+    height:54px;
+    display:grid;
+    grid-template-columns:54px 1fr 54px;
+    align-items:center;
+    border-bottom:1px solid var(--line);
+    flex:0 0 auto;
+  }
+  .topbar .title{
+    text-align:center;
+    font-weight:700;
+    font-size:15px;
+  }
+  .icon-btn{
+    border:0;
+    background:transparent;
+    width:44px;height:44px;
+    border-radius:50%;
+    margin:auto;
+    cursor:pointer;
+    color:#6d7672;
+    font-size:19px;
+  }
+  .icon-btn:hover{background:#f4f8f6}
+
+  .content{
+    overflow:auto;
+    flex:1 1 auto;
+    padding:20px 20px 92px;
+    scrollbar-width:none;
+  }
+  .content::-webkit-scrollbar{display:none}
+
+  .bottom-nav{
+    height:66px;
+    position:absolute;
+    left:0;right:0;bottom:0;
+    background:rgba(255,255,255,.96);
+    border-top:1px solid var(--line);
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    padding-bottom:3px;
+  }
+  .nav-item{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:#9ca39f;
+    font-size:10px;
+    gap:4px;
+  }
+  .nav-item b{font-size:19px;font-weight:500}
+  .nav-item.active{color:var(--accent-dark)}
+
+  .hero-card{
+    border:1px solid #edf1ef;
+    border-radius:20px;
+    padding:22px 20px;
+    box-shadow:0 10px 28px rgba(32,68,58,.055);
+    background:#fff;
+  }
+  .hello{
+    font-size:12px;
+    color:#89928e;
+    margin-bottom:8px;
+  }
+  .today{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:14px;
+  }
+  .today h2{
+    font-size:26px;
+    margin:0;
+    font-weight:760;
+    letter-spacing:-.03em;
+  }
+  .today .count{
+    color:var(--accent-dark);
+    font-weight:800;
+    font-size:26px;
+  }
+  .sub{
+    color:#919a96;
+    font-size:12px;
+    margin-top:5px;
+  }
+  .progress{
+    height:7px;
+    background:#edf2f0;
+    border-radius:999px;
+    overflow:hidden;
+    margin:18px 0 10px;
+  }
+  .progress > i{
+    display:block;
+    width:42%;
+    height:100%;
+    background:var(--accent);
+    border-radius:999px;
+  }
+  .progress-row{
+    display:flex;
+    justify-content:space-between;
+    font-size:11px;
+    color:#8e9793;
+  }
+  .start{
+    margin-top:20px;
+    border:0;
+    color:#fff;
+    background:var(--accent);
+    width:100%;
+    height:48px;
+    border-radius:14px;
+    font-weight:750;
+    font-size:15px;
+    cursor:pointer;
+    box-shadow:0 8px 20px rgba(53,182,157,.22);
+  }
+
+  .section-title{
+    margin:24px 4px 12px;
+    font-size:13px;
+    color:#777f7b;
+    font-weight:750;
+  }
+  .list-card{
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+    background:#fff;
+  }
+  .row{
+    min-height:58px;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    border-bottom:1px solid var(--line);
+  }
+  .row:last-child{border-bottom:0}
+  .ring{
+    width:34px;height:34px;
+    border-radius:50%;
+    border:4px solid #dbe7e3;
+    border-top-color:var(--accent);
+    display:grid;place-items:center;
+    color:#66716d;
+    font-size:11px;
+    flex:0 0 auto;
+  }
+  .row-main{flex:1}
+  .row-main strong{display:block;font-size:14px}
+  .row-main span{font-size:11px;color:#98a09d}
+  .row-go{color:#aab0ad}
+
+  .study-wrap{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+  }
+  .study-top{
+    height:50px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 14px 0 16px;
+    border-bottom:1px solid var(--line);
+    font-size:12px;
+    color:#8a938f;
+  }
+  .mini-progress{
+    flex:1;
+    height:3px;
+    margin:0 12px;
+    background:#edf2f0;
+    border-radius:10px;
+    overflow:hidden;
+  }
+  .mini-progress i{
+    display:block;height:100%;width:31%;background:var(--accent);
+  }
+
+  .study-body{
+    flex:1;
+    overflow:auto;
+    padding:42px 24px 120px;
+    scrollbar-width:none;
+  }
+  .study-body::-webkit-scrollbar{display:none}
+  .word-head{
+    text-align:center;
+    margin-top:6px;
+  }
+  .word{
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:42px;
+    font-weight:500;
+    letter-spacing:-.02em;
+    color:#2c3632;
+  }
+  .ipa{
+    margin-top:7px;
+    color:#8b9590;
+    font-size:15px;
+  }
+  .audio{
+    display:inline-grid;
+    place-items:center;
+    width:30px;height:30px;
+    margin-left:4px;
+    border-radius:50%;
+    color:var(--accent-dark);
+    cursor:pointer;
+  }
+  .pos{
+    margin-top:16px;
+    font-size:11px;
+    color:#9ca4a0;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+  }
+
+  .recall-hint{
+    margin:70px auto 0;
+    max-width:250px;
+    text-align:center;
+    color:#a2aaa6;
+    font-size:13px;
+    line-height:1.75;
+  }
+  .reveal{
+    width:210px;
+    height:46px;
+    border:1px solid #d8e9e4;
+    background:#f9fcfb;
+    color:var(--accent-dark);
+    border-radius:14px;
+    font-weight:750;
+    margin:28px auto 0;
+    display:block;
+    cursor:pointer;
+  }
+
+  .meaning-block{
+    margin-top:34px;
+    border-top:1px solid var(--line);
+    padding-top:23px;
+  }
+  .sense{
+    display:grid;
+    grid-template-columns:20px 1fr;
+    gap:7px;
+    margin:0 0 17px;
+  }
+  .sense-no{
+    font-size:11px;
+    color:#a5aca9;
+    padding-top:3px;
+  }
+  .sense-en{
+    font-size:16px;
+    font-weight:700;
+    margin-bottom:4px;
+  }
+  .sense-es{
+    font-size:14px;
+    color:#5d6863;
+  }
+  .tag{
+    display:inline-flex;
+    margin-top:7px;
+    border-radius:999px;
+    background:var(--accent-soft);
+    color:var(--accent-dark);
+    padding:4px 8px;
+    font-size:10px;
+    font-weight:700;
+  }
+
+  .panel{
+    margin-top:19px;
+    border-top:1px solid var(--line);
+    padding-top:17px;
+  }
+  .panel-title{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:12px;
+    color:#707975;
+    font-size:12px;
+    font-weight:800;
+  }
+  .example-fr{
+    font-family:Georgia, "Times New Roman", serif;
+    font-size:17px;
+    line-height:1.55;
+  }
+  .example-tr{
+    color:#7c8581;
+    line-height:1.55;
+    font-size:12px;
+    margin-top:5px;
+  }
+
+  .review-actions{
+    position:absolute;
+    left:0;right:0;bottom:0;
+    background:#fff;
+    border-top:1px solid var(--line);
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    min-height:74px;
+    padding:8px 8px 10px;
+    gap:5px;
+  }
+  .review-actions button{
+    border:0;
+    background:transparent;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:700;
+    font-size:12px;
+  }
+  .review-actions small{
+    display:block;
+    margin-top:5px;
+    font-size:9px;
+    color:#a2aaa6;
+    font-weight:500;
+  }
+  .again{color:var(--danger)}
+  .hard{color:var(--warn)}
+  .good{color:var(--accent-dark)}
+  .easy{color:#607972}
+
+  .detail-head{
+    text-align:center;
+    padding:10px 0 18px;
+    border-bottom:1px solid var(--line);
+  }
+  .detail-word{
+    font-family:Georgia,serif;
+    font-size:34px;
+  }
+  .gram{
+    margin-top:7px;
+    color:#8c9691;
+    font-size:12px;
+  }
+  .tabs{
+    height:46px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    border-bottom:1px solid var(--line);
+    position:sticky;
+    top:0;
+    background:white;
+    z-index:2;
+  }
+  .tabs button{
+    border:0;background:white;position:relative;
+    color:#929a96;font-weight:700;cursor:pointer;
+  }
+  .tabs button.active{color:var(--accent-dark)}
+  .tabs button.active:after{
+    content:"";
+    position:absolute;left:22%;right:22%;bottom:0;height:2px;
+    background:var(--accent);
+  }
+
+  .conj-section{margin-bottom:24px}
+  .conj-title{
+    display:flex;justify-content:space-between;
+    font-weight:800;font-size:13px;margin-bottom:10px;
+  }
+  .conj-title span{font-size:10px;color:#a0a8a4;font-weight:600}
+  .conj-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    border-top:1px solid var(--line);
+  }
+  .conj-cell{
+    padding:10px 4px;
+    border-bottom:1px solid var(--line);
+    font-family:Georgia,serif;
+    font-size:14px;
+  }
+  .conj-cell:nth-child(odd){padding-right:12px}
+  .conj-cell:nth-child(even){padding-left:12px;border-left:1px solid var(--line)}
+  .pronoun{color:#9aa29e;font-family:Inter,system-ui,sans-serif;font-size:11px;margin-right:6px}
+
+  .summary-hero{
+    text-align:center;
+    padding:26px 10px 12px;
+  }
+  .check{
+    width:68px;height:68px;border-radius:50%;
+    background:var(--accent-soft);color:var(--accent-dark);
+    display:grid;place-items:center;margin:0 auto 15px;
+    font-size:31px;font-weight:500;
+  }
+  .summary-hero h2{margin:0;font-size:22px}
+  .summary-hero p{color:#939b97;font-size:12px}
+  .stats{
+    display:grid;grid-template-columns:repeat(3,1fr);
+    margin:18px 0 8px;
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+  }
+  .stat{text-align:center;padding:18px 6px}
+  .stat + .stat{border-left:1px solid var(--line)}
+  .stat strong{display:block;font-size:21px}
+  .stat span{font-size:10px;color:#969e9a}
+  .memory-list .row{padding:0 2px}
+  .familiar{
+    min-width:44px;text-align:right;font-size:11px;font-weight:700;
+  }
+  .familiar.good{color:var(--accent-dark)}
+  .familiar.hard{color:var(--warn)}
+  .familiar.again{color:var(--danger)}
+
+  .toast{
+    position:absolute;left:50%;bottom:92px;transform:translateX(-50%);
+    background:#29312e;color:white;padding:9px 14px;border-radius:999px;
+    font-size:11px;opacity:0;pointer-events:none;transition:.2s;
+  }
+  .toast.show{opacity:.94}
+
+  @media(max-width:760px){
+    body{background:#fff}
+    .workspace{display:block;width:100%;padding:0}
+    .guide{display:none}
+    .phone{
+      max-width:none;width:100vw;height:100vh;min-height:0;
+      border:0;border-radius:0;box-shadow:none;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="workspace">
+  <aside class="guide">
+    <div class="eyebrow">Prototype 01</div>
+    <h1>French Vocabulary<br>Android UI</h1>
+    <p>以墨墨式的“先回忆，再核对，再反馈”为核心，视觉保持留白、弱分隔线和低干扰的青绿色强调。</p>
+    <div class="screen-picker">
+      <button class="active" data-screen="home">01 今日学习</button>
+      <button data-screen="question">02 回忆词义</button>
+      <button data-screen="answer">03 核对答案</button>
+      <button data-screen="detail">04 词条 / 变位</button>
+      <button data-screen="summary">05 本轮完成</button>
+    </div>
+    <div class="micro">
+      桌面端左侧用于切换原型页面。手机浏览器打开时会自动只保留 Android 页面本体。<br><br>
+      当前样例词：<strong>prendre</strong>，释义固定为 EN + ES，发音按 fr-FR 设计。
+    </div>
+  </aside>
+
+  <main class="phone">
+    <div class="status">
+      <span>10:31</span>
+      <span class="status-icons">▮▮▮  WiFi  82%</span>
+    </div>
+
+    <div class="app">
+
+      <!-- Home -->
+      <section class="screen active" id="home">
+        <div class="topbar">
+          <button class="icon-btn">☰</button>
+          <div class="title">Révision</div>
+          <button class="icon-btn">⌕</button>
+        </div>
+        <div class="content">
+          <div class="hero-card">
+            <div class="hello">Bonjour · 6 septembre</div>
+            <div class="today">
+              <div>
+                <h2>Aujourd'hui</h2>
+                <div class="sub">A0–A1 · Français essentiel</div>
+              </div>
+              <div class="count">46</div>
+            </div>
+            <div class="progress"><i></i></div>
+            <div class="progress-row">
+              <span>复习 34</span>
+              <span>新词 12</span>
+              <span>预计 18 min</span>
+            </div>
+            <button class="start" data-goto="question">开始学习</button>
+          </div>
+
+          <div class="section-title">学习进度</div>
+          <div class="list-card">
+            <div class="row">
+              <div class="ring">68</div>
+              <div class="row-main"><strong>A0 · 基础词汇</strong><span>204 / 300 已学习</span></div>
+              <div class="row-go">›</div>
+            </div>
+            <div class="row">
+              <div class="ring">21</div>
+              <div class="row-main"><strong>A1 · 核心词汇</strong><span>126 / 600 已学习</span></div>
+              <div class="row-go">›</div>
+            </div>
+            <div class="row">
+              <div class="ring">12</div>
+              <div class="row-main"><strong>Verbes essentiels</strong><span>18 / 150 已学习</span></div>
+              <div class="row-go">›</div>
+            </div>
+          </div>
+
+          <div class="section-title">今日状态</div>
+          <div class="list-card">
+            <div class="row">
+              <div class="row-main"><strong>连续学习 8 天</strong><span>本周完成率 86%</span></div>
+              <div class="row-go">›</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="bottom-nav">
+          <div class="nav-item active"><b>◉</b><span>复习</span></div>
+          <div class="nav-item"><b>＋</b><span>选词</span></div>
+          <div class="nav-item"><b>⌁</b><span>统计</span></div>
+          <div class="nav-item"><b>○</b><span>我的</span></div>
+        </div>
+      </section>
+
+      <!-- Question -->
+      <section class="screen" id="question">
+        <div class="study-wrap">
+          <div class="study-top">
+            <button class="icon-btn" data-goto="home" style="margin:0;width:34px;height:34px">‹</button>
+            <span>14 / 46</span>
+            <div class="mini-progress"><i></i></div>
+            <button class="icon-btn" style="margin:0;width:34px;height:34px">⋮</button>
+          </div>
+          <div class="study-body">
+            <div class="word-head">
+              <div class="word">prendre</div>
+              <div class="ipa">/pʁɑ̃dʁ/ <span class="audio" data-audio>◖))</span></div>
+              <div class="pos">verbe · 3e groupe</div>
+            </div>
+            <div class="recall-hint">
+              先回想这个词最常用的意思。<br>
+              尽量同时想出一个简单法语例句。
+            </div>
+            <button class="reveal" data-goto="answer">查看释义</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Answer -->
+      <section class="screen" id="answer">
+        <div class="study-wrap">
+          <div class="study-top">
+            <button class="icon-btn" data-goto="home" style="margin:0;width:34px;height:34px">‹</button>
+            <span>14 / 46</span>
+            <div class="mini-progress"><i></i></div>
+            <button class="icon-btn" data-goto="detail" style="margin:0;width:34px;height:34px">⋮</button>
+          </div>
+          <div class="study-body">
+            <div class="word-head">
+              <div class="word">prendre</div>
+              <div class="ipa">/pʁɑ̃dʁ/ <span class="audio" data-audio>◖))</span></div>
+              <div class="pos">verbe · 3e groupe</div>
+            </div>
+
+            <div class="meaning-block">
+              <div class="sense">
+                <div class="sense-no">1</div>
+                <div>
+                  <div class="sense-en">to take</div>
+                  <div class="sense-es">tomar · coger</div>
+                  <span class="tag">A1 · core</span>
+                </div>
+              </div>
+              <div class="sense">
+                <div class="sense-no">2</div>
+                <div>
+                  <div class="sense-en">to have / consume</div>
+                  <div class="sense-es">tomar</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel">
+              <div class="panel-title"><span>EXEMPLE</span><span>1 / 2</span></div>
+              <div class="example-fr">Je prends le métro tous les jours.</div>
+              <div class="example-tr">EN · I take the metro every day.</div>
+              <div class="example-tr">ES · Tomo el metro todos los días.</div>
+            </div>
+
+            <div class="panel">
+              <div class="panel-title"><span>FORMES CLÉS</span><span data-goto="detail" style="cursor:pointer">全部变位 ›</span></div>
+              <div class="example-fr" style="font-size:15px">
+                je <b>prends</b> · nous <b>prenons</b> · ils <b>prennent</b>
+              </div>
+              <div class="example-tr">participe passé · <b>pris</b></div>
+            </div>
+          </div>
+
+          <div class="review-actions">
+            <button class="again" data-rate="Again">忘记<small>Again</small></button>
+            <button class="hard" data-rate="Hard">模糊<small>Hard</small></button>
+            <button class="good" data-rate="Good">记得<small>Good</small></button>
+            <button class="easy" data-rate="Easy">很熟<small>Easy</small></button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Detail -->
+      <section class="screen" id="detail">
+        <div class="topbar">
+          <button class="icon-btn" data-goto="answer">‹</button>
+          <div class="title">词条</div>
+          <button class="icon-btn">☆</button>
+        </div>
+        <div class="content" style="padding-top:0">
+          <div class="detail-head">
+            <div class="detail-word">prendre <span class="audio" data-audio>◖))</span></div>
+            <div class="gram">/pʁɑ̃dʁ/ · verbe · 3e groupe · auxiliaire avoir</div>
+          </div>
+          <div class="tabs">
+            <button>释义</button>
+            <button class="active">变位</button>
+            <button>例句</button>
+          </div>
+
+          <div style="padding-top:22px">
+            <div class="conj-section">
+              <div class="conj-title">Indicatif présent <span>A1</span></div>
+              <div class="conj-grid">
+                <div class="conj-cell"><span class="pronoun">je</span>prends</div>
+                <div class="conj-cell"><span class="pronoun">nous</span>prenons</div>
+                <div class="conj-cell"><span class="pronoun">tu</span>prends</div>
+                <div class="conj-cell"><span class="pronoun">vous</span>prenez</div>
+                <div class="conj-cell"><span class="pronoun">il / elle</span>prend</div>
+                <div class="conj-cell"><span class="pronoun">ils / elles</span>prennent</div>
+              </div>
+            </div>
+
+            <div class="conj-section">
+              <div class="conj-title">Passé composé <span>A1</span></div>
+              <div class="conj-grid">
+                <div class="conj-cell"><span class="pronoun">j'</span>ai pris</div>
+                <div class="conj-cell"><span class="pronoun">nous</span>avons pris</div>
+                <div class="conj-cell"><span class="pronoun">tu</span>as pris</div>
+                <div class="conj-cell"><span class="pronoun">vous</span>avez pris</div>
+                <div class="conj-cell"><span class="pronoun">il / elle</span>a pris</div>
+                <div class="conj-cell"><span class="pronoun">ils / elles</span>ont pris</div>
+              </div>
+            </div>
+
+            <div class="conj-section">
+              <div class="conj-title">Imparfait <span>A2+</span></div>
+              <div class="conj-grid">
+                <div class="conj-cell"><span class="pronoun">je</span>prenais</div>
+                <div class="conj-cell"><span class="pronoun">nous</span>prenions</div>
+                <div class="conj-cell"><span class="pronoun">tu</span>prenais</div>
+                <div class="conj-cell"><span class="pronoun">vous</span>preniez</div>
+                <div class="conj-cell"><span class="pronoun">il / elle</span>prenait</div>
+                <div class="conj-cell"><span class="pronoun">ils / elles</span>prenaient</div>
+              </div>
+            </div>
+
+            <div class="conj-section">
+              <div class="conj-title">Autres formes</div>
+              <div class="list-card">
+                <div class="row" style="padding:0 4px"><div class="row-main"><strong>Participe passé</strong><span>pris</span></div></div>
+                <div class="row" style="padding:0 4px"><div class="row-main"><strong>Participe présent</strong><span>prenant</span></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Summary -->
+      <section class="screen" id="summary">
+        <div class="topbar">
+          <button class="icon-btn" data-goto="home">×</button>
+          <div class="title">学习完成</div>
+          <button class="icon-btn">⋮</button>
+        </div>
+        <div class="content">
+          <div class="summary-hero">
+            <div class="check">✓</div>
+            <h2>这一轮完成了</h2>
+            <p>FSRS 已根据本轮反馈更新后续复习安排</p>
+          </div>
+          <div class="stats">
+            <div class="stat"><strong>46</strong><span>完成</span></div>
+            <div class="stat"><strong>82%</strong><span>记得</span></div>
+            <div class="stat"><strong>16m</strong><span>用时</span></div>
+          </div>
+
+          <div class="section-title">需要重点复习</div>
+          <div class="memory-list list-card">
+            <div class="row">
+              <div class="row-main"><strong>prendre</strong><span>to take · tomar</span></div>
+              <div class="familiar hard">模糊</div>
+            </div>
+            <div class="row">
+              <div class="row-main"><strong>depuis</strong><span>since / for · desde / desde hace</span></div>
+              <div class="familiar again">忘记</div>
+            </div>
+            <div class="row">
+              <div class="row-main"><strong>chez</strong><span>at / to someone's place · en casa de</span></div>
+              <div class="familiar good">记得</div>
+            </div>
+          </div>
+
+          <button class="start" data-goto="home">返回首页</button>
+        </div>
+      </section>
+
+      <div class="toast" id="toast">已播放 fr-FR 发音</div>
+    </div>
+  </main>
+</div>
+
+<script>
+  const screens = [...document.querySelectorAll('.screen')];
+  const pickerButtons = [...document.querySelectorAll('.screen-picker button')];
+
+  function showScreen(id){
+    screens.forEach(s => s.classList.toggle('active', s.id === id));
+    pickerButtons.forEach(b => b.classList.toggle('active', b.dataset.screen === id));
+    const active = document.getElementById(id);
+    const scroller = active && active.querySelector('.content, .study-body');
+    if(scroller) scroller.scrollTop = 0;
+  }
+
+  document.querySelectorAll('[data-goto]').forEach(el=>{
+    el.addEventListener('click',()=>showScreen(el.dataset.goto));
+  });
+  pickerButtons.forEach(btn=>{
+    btn.addEventListener('click',()=>showScreen(btn.dataset.screen));
+  });
+
+  document.querySelectorAll('[data-rate]').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const toast = document.getElementById('toast');
+      toast.textContent = '已记录：' + btn.dataset.rate;
+      toast.classList.add('show');
+      setTimeout(()=>{
+        toast.classList.remove('show');
+        showScreen('summary');
+      },650);
+    });
+  });
+
+  document.querySelectorAll('[data-audio]').forEach(el=>{
+    el.addEventListener('click',()=>{
+      const toast = document.getElementById('toast');
+      toast.textContent = '发音占位：fr-FR audio';
+      toast.classList.add('show');
+      setTimeout(()=>toast.classList.remove('show'),1100);
+    });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "verified_at": "2026-09-09T07:49:57.9341948+02:00",
+  "version": "0.2.0",
+  "application_id": "com.scott.frenchvocab",
+  "apk_path": "releases/french-vocab-0.2.0-debug.apk",
+  "apk_bytes": 9700839,
+  "apk_sha256": "930cd16f59aa9ccf283053ad36ed14284f3ba318d212016ac50c0b073a52edec",
+  "content_sha256": "2643762ac9e76331475981d1a437a32ff1470107a339c6e8eefa153fad28d25b",
+  "unit_tests": 10,
+  "fsrs_reference_cases": 36,
+  "content_tests": 8,
+  "android_tests": 15,
+  "large_font_ui_tests": 3,
+  "font_scale": 2.0,
+  "process_recovery": "PASS",
+  "lint_errors": 0,
+  "lint_warnings": 0,
+  "android_api_tested": 35,
+  "android_min_api_declared": 26,
+  "emulator": "WordsApi35 / emulator-5556"
+}

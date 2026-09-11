@@ -1,0 +1,19 @@
+{
+  "verified_at": "2026-09-10T08:03:03.3293404+02:00",
+  "version": "0.3.0",
+  "apk_path": "releases/french-vocab-0.3.0-debug.apk",
+  "apk_bytes": 10102134,
+  "apk_sha256": "677457c8022a1a08de2e0e0e768be82cc1b6b640173c55b17e977b80f2f26faa",
+  "content_sha256": "8a4efd7013a26cef4f0e0c516ab50efa8ad7097c92fd05e590837c6241498543",
+  "production_content_edited_by_this_task": false,
+  "unit_tests": 11,
+  "android_tests": 28,
+  "large_font_ui_tests": 8,
+  "font_scale": 2.0,
+  "apk_upgrade": "0.2.0 -> 0.3.0 PASS",
+  "process_recovery": "PASS",
+  "lint_errors": 0,
+  "lint_warnings": 5,
+  "lint_warning_category": "GradleDependency",
+  "android_api_tested": 35
+}

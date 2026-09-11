@@ -1,0 +1,25 @@
+{
+  "result": "PASS",
+  "from_app": "0.2.0",
+  "to_app": "0.3.0",
+  "schema": [
+    1,
+    2
+  ],
+  "apk_sha256": "677457c8022a1a08de2e0e0e768be82cc1b6b640173c55b17e977b80f2f26faa",
+  "old_columns_unchanged": [
+    "settings",
+    "learning_card",
+    "review_log",
+    "study_session",
+    "study_session_item",
+    "favorites",
+    "sqlite_sequence"
+  ],
+  "session_id": 2,
+  "position": 0,
+  "answer_revealed": true,
+  "show_chinese": 1,
+  "old_rows_sha256": "6fd4ef1f7957c2c0930079ecf6990005d1b101e982825d307a33f6b08efdb083",
+  "new_rows_sha256": "6fd4ef1f7957c2c0930079ecf6990005d1b101e982825d307a33f6b08efdb083"
+}

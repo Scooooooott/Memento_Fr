@@ -1,0 +1,19 @@
+{
+  "result": "PASS",
+  "serial": "emulator-5556",
+  "pid_before": "3141",
+  "pid_after": "3204",
+  "active_session_id": 2,
+  "position": 0,
+  "answer_revealed": true,
+  "tables_unchanged": [
+    "learning_card",
+    "review_log",
+    "study_session",
+    "study_session_item",
+    "settings",
+    "favorites"
+  ],
+  "before_sha256": "f8bcc0393cdd0f9d65183113234c5c57507473adc418436af567a6062a121b48",
+  "after_sha256": "f8bcc0393cdd0f9d65183113234c5c57507473adc418436af567a6062a121b48"
+}

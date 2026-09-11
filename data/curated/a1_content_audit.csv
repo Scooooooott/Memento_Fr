@@ -1,0 +1,892 @@
+﻿序号,原书页码,原词条,lexeme_uid,lemma,pos,ipa,english,spanish,chinese,example_fr,example_en,example_es,example_zh,review_status
+1,213,à,fr:à:preposition:1,à,preposition,/a/,to (destination),a,在；向，到；给,Je vais à Paris.,I am going to Paris.,Voy a París.,我要去巴黎。,machine-assisted
+2,213,à partir de,fr:à partir de:preposition:1,à partir de,preposition,/a paʁ.tiʁ də/,from […] onward; starting from; beginning with,a partir de,从起（表示时间或空间的起点）,Le musée ouvre à partir de neuf heures.,The museum opens from nine o'clock.,El museo abre a partir de las nueve.,博物馆从九点起开放。,machine-assisted
+3,213,accident,fr:accident:noun:1,accident,noun,/ak.si.dɑ̃/,accident,accidente,事故,On parle de l’accident.,We are talking about it.,Estamos hablando de ello.,我们正在谈论事故。,machine-assisted
+4,213,acheter,fr:acheter:verb:1,acheter,verb,/aʃ.te/,to purchase; buy,comprar,买,Je vais acheter du pain.,I am going to purchase some bread.,Voy a comprar pan.,我要去买一些面包。,machine-assisted
+5,213,acteur(trice),fr:acteur:noun:1,acteur,noun,/ak.tœʁ/,actor,actor,演员,Voici l’acteur.,Here it is.,Aquí está.,这是演员。,machine-assisted
+6,213,activité,fr:activité:noun:1,activité,noun,/ak.ti.vi.te/,"activity (something to do for educational, recreational, or other purposes)",actividad,活动,On parle de l’activité.,We are talking about it.,Estamos hablando de ello.,我们正在谈论活动。,machine-assisted
+7,213,actuel(le),fr:actuel:adjective:1,actuel,adjective,/ak.tɥɛl/,current,actual,目前的，现实的，当前的,C’est quelque chose d’actuel.,It is something current.,Es algo actual.,这是当前的事情。,machine-assisted
+8,213,adorer,fr:adorer:verb:1,adorer,verb,/a.dɔ.ʁe/,"to love, to adore",adorar,热爱，爱慕，宠爱，（俗）喜爱,Je vais adorer ce film.,I am going to love this film.,Voy a adorar esta película.,我会很喜欢这部电影。,machine-assisted
+9,213,adresse,fr:adresse:noun:1,adresse,noun,/a.dʁɛs/,address (the description or instructions to determine a geographic location),"dirección, indicación, destinatario, destino",地址，住址,On parle de l’adresse.,We are talking about it.,Estamos hablando de ello.,我们正在谈论地址。,machine-assisted
+10,213,aéroport,fr:aéroport:noun:1,aéroport,noun,/a.e.ʁɔ.pɔʁ/,"airport (place, company managing such a place)",aeropuerto,飞机场,Voici l’aéroport.,Here it is.,Aquí está.,这是飞机场。,machine-assisted
+11,213,affiche,fr:affiche:noun:1,affiche,noun,/a.fiʃ/,poster,cartelera,海报，布告，广告，通告,Voici l’affiche.,Here it is.,Aquí está.,这是海报。,machine-assisted
+12,213,âge,fr:âge:noun:1,âge,noun,/aʒ/,age,edad,年龄，年纪,Voici l’âge.,Here it is.,Aquí está.,这是年龄。,machine-assisted
+13,213,agence,fr:agence:noun:1,agence,noun,/a.ʒɑ̃s/,agency,agencia,代理处，代办处,On parle de l’agence.,We are talking about it.,Estamos hablando de ello.,我们正在谈论代理处。,machine-assisted
+14,213,agence immobilière,fr:agence immobilière:expression:1,agence immobilière,expression,/aʒˈɑ̃s imobiljˈɛʁ/,real estate agency,agencia inmobiliaria,房产代理公司,Nous cherchons un appartement dans une agence immobilière.,We are looking for a flat through a real estate agency.,Buscamos un piso en una agencia inmobiliaria.,我们正在一家房地产中介公司寻找一套公寓。,machine-assisted
+15,213,agenda,fr:agenda:noun:1,agenda,noun,/a.ʒɛ̃.da/,"organiser, appointment book, engagement book",agenda,日程；记事表,Voici l’agenda.,Here it is.,Aquí está.,这是日程。,machine-assisted
+16,213,ah,fr:ah:interjection:1,ah,interjection,/a/,ah,ah,啊！哦！,"Ah, je comprends maintenant.","Ah, I understand now.","Ah, ahora entiendo.",啊，我明白了。,machine-assisted
+17,213,aimer,fr:aimer:verb:1,aimer,verb,/ɛ.me/,to like,gustar,喜欢,J’aime le café.,I like coffee.,Me gusta el café.,我喜欢咖啡。,seed-reviewed
+18,213,air,fr:air:noun:1,air,noun,/ɛʁ/,air (gases of the atmosphere),aire,空气,Voici l’air.,Here it is.,Aquí está.,这是空气。,machine-assisted
+19,213,air conditionné,fr:air conditionné:noun:1,air conditionné,noun,/ɛʁ kɔ̃.di.sjɔ.ne/,air conditioning,aire acondicionado,空调,Voici les air conditionné.,Here it is.,Aquí está.,这些是空调。,machine-assisted
+20,213,Albi,fr:albi:proper_noun:1,Albi,proper_noun,/al.bi/,"Albi (a town and commune, the prefecture of Tarn department, Occitania, in southern France)",Albi,阿尔比（法国城镇，位于塔恩省）,Je connais bien Albi.,I know Albi well.,Conozco bien Albi.,我很了解阿尔比。,machine-assisted
+21,213,album,fr:album:noun:1,album,noun,/al.bɔm/,album (all meanings),álbum,影集，集邮册，纪念册；唱片集,On parle de l’album.,We are talking about it.,Estamos hablando de ello.,我们正在谈论影集。,machine-assisted
+22,213,aller,fr:aller:verb:1,aller,verb,/a.le/,to go,ir,去，走；处于的健康状况；运转，进行，进展,Nous allons à l’école.,We are going to school.,Vamos a la escuela.,我们去学校。,seed-reviewed
+23,213,aller,fr:aller:noun:1,aller,noun,/a.le/,outward trip; journey out; trip away,ida,去程（的火车、飞机）票,Voici l’aller.,Here it is.,Aquí está.,这是去程（的火车、飞机）票。,machine-assisted
+24,213,aller-retour,fr:aller-retour:noun:1,aller-retour,noun,/a.le.ʁ(ə).tuʁ/,round trip,ida y vuelta,往返票,Voici l’aller-retour.,Here it is.,Aquí está.,这是往返票。,machine-assisted
+25,213,allô,fr:allô:interjection:1,allô,interjection,/a.lo/,hello (when answering at the beginning of a call),hola; diga,喂！（打电话用语）,"Allô, je voudrais parler à Marie.","Hello, I would like to speak to Marie.","Diga, quisiera hablar con Marie.",你好，我想和玛丽通话。,machine-assisted
+26,213,allumer,fr:allumer:verb:1,allumer,verb,/a.ly.me/,to turn on; to light,encender,点亮；（俗）打开（暖气、收音机、电视、电脑等）,Je vais allumer la lumière.,I am going to turn on the light.,Voy a encender la luz.,我要开灯。,machine-assisted
+27,213,alors,fr:alors:adverb:1,alors,adverb,/a.lɔʁ/,then (at that time),entonces,那么，在这种情况下,"Alors, on commence ?","So, shall we start?","Entonces, ¿empezamos?",那么，我们开始吧？,machine-assisted
+28,213,ami(e),fr:ami:noun:1,ami,noun,/a.mi/,friend,amigo; amiga,朋友,Mon amie habite à Paris.,My friend lives in Paris.,Mi amiga vive en París.,我的朋友住在巴黎。,seed-reviewed
+29,213,petit ami,fr:petit ami:noun:1,petit ami,noun,/pə.ti.t‿a.mi/,boyfriend (boy/man to whom one has a romantic attachment),novio,男朋友,On parle des petit ami.,We are talking about it.,Estamos hablando de ello.,我们正在谈论男朋友。,machine-assisted
+30,213,amour,fr:amour:noun:1,amour,noun,/a.muʁ/,love,amor,爱，爱情,Voici les amours.,Here it is.,Aquí está.,这些是爱。,machine-assisted
+31,213,amoureux(euse),fr:amoureux:adjective:1,amoureux,adjective,/a.mu.ʁø/,love,amoroso,恋爱中的；爱情的,C’est quelque chose d’amoureux.,It is something love.,Es algo amoroso.,这是一件充满爱的事情。,machine-assisted
+32,213,amuser(s'),fr:amuser:verb:1,amuser,verb,/a.my.ze/,"to amuse, to entertain",divertir,玩耍；娱乐,Je vais amuser les enfants.,I am going to amuse the children.,Voy a divertir a los niños.,我会逗孩子们开心。,machine-assisted
+33,213,an,fr:an:noun:1,an,noun,/ɑ̃/,year,año,年；岁,On parle de l’an.,We are talking about it.,Estamos hablando de ello.,我们正在谈论年。,machine-assisted
+34,213,ancien(ne),fr:ancien:adjective:1,ancien,adjective,/ɑ̃.sjɛ̃/,"old, former, ex- (no longer current)",antiguo o anciano,旧的，先前的,C’est quelque chose d’ancien.,"It is something old, former, ex- (no longer current).",Es algo antiguo o anciano.,这是件旧东西。,machine-assisted
+35,213,année,fr:année:noun:1,année,noun,/a.ne/,year (period),año,年,On parle de l’année.,We are talking about it.,Estamos hablando de ello.,我们正在谈论年。,machine-assisted
+36,213,Bonne année !,fr:bonne année:interjection:1,bonne année,interjection,/bɔ.n‿a.ne/,Happy New Year!,feliz año nuevo,新年好,Bonne année à toute la famille !,Happy New Year to the whole family!,¡Feliz Año Nuevo a toda la familia!,祝全家新年快乐！,machine-assisted
+37,213,anniversaire,fr:anniversaire:noun:1,anniversaire,noun,/a.ni.vɛʁ.sɛʁ/,birthday,aniversario,生日,On parle de l’anniversaire.,We are talking about it.,Estamos hablando de ello.,我们正在谈论生日。,machine-assisted
+38,213,annonce,fr:annonce:noun:1,annonce,noun,/a.nɔ̃s/,advertisement,anuncio,启事，告示，布告，公告,Voici l’annonce.,Here it is.,Aquí está.,这是启事。,machine-assisted
+39,213,petite annonce,fr:petite annonce:noun:1,petite annonce,noun,/pə.ti.t‿a.nɔ̃s/,ellipsis of petite annonce classée (“a single classified advertisement”),anuncio clasificado,（报纸上的）启事（栏）广告（栏）,On parle des petite annonce.,We are talking about it.,Estamos hablando de ello.,我们正在谈论（报纸上的）启事（栏）广告（栏）。,machine-assisted
+40,213,août,fr:août:noun:1,août,noun,/u/,August,agosto,八月,Paris est calme en août.,Paris is quiet in August.,París está tranquilo en agosto.,八月的巴黎很平静。,machine-assisted
+41,213,appartement,fr:appartement:noun:1,appartement,noun,/a.paʁ.tə.mɑ̃/,"apartment, flat",departamento,公寓套房,On parle de l’appartement.,We are talking about it.,Estamos hablando de ello.,我们正在谈论公寓套房。,machine-assisted
+42,213,appeler,fr:appeler:verb:1,appeler,verb,/a.p(ə).le/,to call (out),"llamar, invocar",称呼为；给（某人）打电话,Je vais appeler Marie.,I am going to call Marie.,Voy a llamar a Marie.,我要打电话给玛丽。,machine-assisted
+43,213,s'appeler,fr:s'appeler:verb:1,s'appeler,verb,/saplˈe/,to be called; to have the name of,llamarse,名叫；互相通电话,Je m’appelle Louise.,My name is Louise.,Me llamo Louise.,我叫路易丝。,machine-assisted
+44,213,apprendre,fr:apprendre:verb:1,apprendre,verb,/a.pʁɑ̃dʁ/,to learn,aprender,学习,Je vais apprendre le français.,I am going to learn French.,Voy a aprender francés.,我要学法语。,machine-assisted
+45,213,après,fr:après:preposition:1,après,preposition,/a.pʁɛ/,"after, later than in time",después de,然后,Nous partons après le déjeuner.,We are leaving after lunch.,Nos vamos después del almuerzo.,午饭后我们出发。,machine-assisted
+46,213,après-midi,fr:après-midi:noun:1,après-midi,noun,/a.pʁɛ.mi.di/,afternoon,tarde,下午,Voici les après-midi.,Here it is.,Aquí está.,这些是下午。,machine-assisted
+47,213,aquarium,fr:aquarium:noun:1,aquarium,noun,/a.kwa.ʁjɔm/,aquarium,acuario,水族馆,On parle de l’aquarium.,We are talking about it.,Estamos hablando de ello.,我们正在谈论水族馆。,machine-assisted
+48,213,arc,fr:arc:noun:1,arc,noun,/aʁk/,bow (weapon),ARC,弓,Voici l’arc.,Here it is.,Aquí está.,这是弓。,machine-assisted
+49,213,arc de triomphe,fr:arc de triomphe:noun:1,arc de triomphe,noun,/aʁk də tʁi.jɔ̃f/,"triumphal arch (monumental arch commemorating a triumph, such as a military victory)",arco de triunfo,凯旋门,On parle des arc de triomphe.,We are talking about it.,Estamos hablando de ello.,我们正在谈论凯旋门。,machine-assisted
+50,213,Arcachon,fr:arcachon:proper_noun:1,Arcachon,proper_noun,/aʁ.ka.ʃɔ̃/,"a commune of Gironde department, France",Arcachón,阿卡雄（法国）,Je connais bien Arcachon.,"I know a commune of Gironde department, France well.",Conozco bien Arcachón.,我很了解阿卡雄。,machine-assisted
+51,213,archéologie,fr:archéologie:noun:1,archéologie,noun,/aʁ.ke.ɔ.lɔ.ʒi/,archaeology (scientific study of past remains),arqueología,考古学,Voici l’archéologie.,Here it is.,Aquí está.,这是考古学。,machine-assisted
+52,213,argent,fr:argent:noun:1,argent,noun,/aʁ.ʒɑ̃/,silver,dinero,银，白银；钱,On parle de l’argent.,We are talking about it.,Estamos hablando de ello.,我们正在谈论银。,machine-assisted
+53,213,arrêter,fr:arrêter:verb:1,arrêter,verb,/a.ʁɛ.te/,"to stop, to come to a standstill; to halt, to stop from moving",parar; detener,停止,Le bus va s’arrêter devant la gare.,The bus is going to stop in front of the station.,El autobús va a parar delante de la estación.,巴士将停在车站前。,machine-assisted
+54,213,arrêter de faire qch.,fr:arrêter de:verb:1,arrêter de,verb,/a.ʁɛ.te/,to stop; to give up,dejar de,停止做某事,Elle essaie d’arrêter de fumer.,She is trying to stop smoking.,Intenta dejar de fumar.,她正在努力戒烟。,machine-assisted
+55,213,arrivée,fr:arrivée:noun:1,arrivée,noun,/a.ʁi.ve/,arrival,llegada,到达,Voici l’arrivée.,Here it is.,Aquí está.,这是到达。,machine-assisted
+56,213,arriver,fr:arriver:verb:1,arriver,verb,/a.ʁi.ve/,to arrive (often followed by a location),llegar,到达，抵达；来临，来到；发生,Le train va arriver à midi.,The train is going to arrive at noon.,El tren va a llegar al mediodía.,火车中午到达。,machine-assisted
+57,213,art,fr:art:noun:1,art,noun,/aʁ/,art,arte,艺术；美术,On parle de l’art.,We are talking about it.,Estamos hablando de ello.,我们正在谈论艺术。,machine-assisted
+58,213,article,fr:article:noun:1,article,noun,/aʁ.tikl/,article (a piece of nonfictional writing),artículo,（报刊）文章,Voici l’article.,Here it is.,Aquí está.,这是（报刊）文章。,machine-assisted
+59,213,artiste,fr:artiste:noun:1,artiste,noun,/aʁ.tist/,artist,artista,艺术家,Voici les artistes.,Here it is.,Aquí está.,这些是艺术家。,machine-assisted
+60,213,assez,fr:assez:adverb:1,assez,adverb,/a.se/,to a sufficient or moderate degree; enough; sufficiently,"bastante, suficientemente",足够地,Cette salle est assez grande.,This room is big enough.,Esta sala es bastante grande.,这个房间相当大。,machine-assisted
+61,213,assiette,fr:assiette:noun:1,assiette,noun,/a.sjɛt/,seat,plato,盘子,Voici l’assiette.,Here it is.,Aquí está.,这是盘子。,machine-assisted
+62,213,assistant(e),fr:assistant:noun:1,assistant,noun,/a.sis.tɑ̃/,assistant,asistente,助理，助手，副手,Voici l’assistant.,Here it is.,Aquí está.,这是助理。,machine-assisted
+63,213,athlétisme,fr:athlétisme:noun:1,athlétisme,noun,/at.le.tism/,athletics; track and field,atletismo,田径运动,Voici l’athlétisme.,Here it is.,Aquí está.,这是田径运动。,machine-assisted
+64,213,attendre,fr:attendre:verb:1,attendre,verb,/a.tɑ̃dʁ/,"to wait for, to await","aguardar, esperar",等待,Je vais attendre le bus.,I am going to wait for the bus.,Voy a aguardar el autobús.,我要去等公共汽车。,machine-assisted
+65,213,attention,fr:attention:noun:1,attention,noun,/a.tɑ̃.sjɔ̃/,attention (mental focus),atención,注意，专心,Voici l’attention.,Here it is.,Aquí está.,这是注意。,machine-assisted
+66,213,faire attention à...,fr:faire attention à:verb:1,faire attention à,verb,/fɛʁ/,to pay attention to,prestar atención a,注意；当心,Faites attention à la circulation.,Pay attention to the traffic.,Preste atención al tráfico.,注意来往车辆。,machine-assisted
+67,213,au-dessous,fr:au-dessous:preposition:1,au-dessous,preposition,/o.d(ə).su/,"beneath, below","debajo, (de) abajo",在下面,Le parking est au-dessous de l’immeuble.,The car park is below the building.,El aparcamiento está debajo del edificio.,停车场位于大楼下方。,machine-assisted
+68,213,au-dessus,fr:au-dessus:adverb:1,au-dessus,adverb,/o.d(ə).sy/,above,"arriba, encima, por encima",在上面，以上,La chambre est au-dessus.,The bedroom is upstairs.,El dormitorio está arriba.,卧室在上面。,machine-assisted
+69,213,au-dessus de,fr:au-dessus de:preposition:1,au-dessus de,preposition,/o.d(ə).sy də/,above,por encima de,在的上面，在之上,La lampe est au-dessus de la table.,The lamp is above the table.,La lámpara está encima de la mesa.,灯在桌子上方。,machine-assisted
+70,213,aujourd'hui,fr:aujourd'hui:adverb:1,aujourd'hui,adverb,/o.ʒuʁ.dɥi/,today,hoy,今天,"Aujourd’hui, je travaille à la maison.","Today, I am working at home.",Hoy trabajo en casa.,今天，我在家工作。,seed-reviewed
+71,213,aussi,fr:aussi:adverb:1,aussi,adverb,/o.si/,"too, also, as well",también,也,Marie vient aussi.,Marie is coming too.,Marie también viene.,玛丽也来了。,machine-assisted
+72,214,autoroute,fr:autoroute:noun:1,autoroute,noun,/o.tɔ.ʁut/,"expressway, freeway, motorway, highway",autopista,高速公路,Voici l’autoroute.,Here it is.,Aquí está.,这是高速公路。,machine-assisted
+73,214,autour de,fr:autour de:preposition:1,autour de,preposition,/otˈuʁ də-/,around,en torno a,在四周，在周围,Nous marchons autour du lac.,We are walking around the lake.,Caminamos alrededor del lago.,我们绕湖散步。,machine-assisted
+74,214,autre,fr:autre:adjective:1,autre,adjective,/otʁ/,other,otro,另一个的，别的，另外的,C’est quelque chose d’autre.,It is something other.,Es algo otro.,这是另一回事。,machine-assisted
+75,214,avant,fr:avant:adverb:1,avant,adverb,/a.vɑ̃/,beforehand; earlier,"ante, antes de, antes que",在之前,Je l’ai déjà vu avant.,I have seen him before.,Ya lo he visto antes.,我以前见过。,machine-assisted
+76,214,avantage,fr:avantage:noun:1,avantage,noun,/a.vɑ̃.taʒ/,advantage (advantageous position),bondad,好处，利处，优点,On parle de l’avantage.,We are talking about it.,Estamos hablando de ello.,我们正在谈论好处。,machine-assisted
+77,214,avec,fr:avec:preposition:1,avec,preposition,/a.vɛk/,with,"con, en colaboración con, en compañía de o junto con",和……一起；带有；以……方式,Je viens avec mes amis.,I am coming with my friends.,Voy con mis amigos.,我和朋友们一起来的。,machine-assisted
+78,214,avenir,fr:avenir:noun:1,avenir,noun,/av.niʁ/,future,"futuro, porvenir",未来,On parle de l’avenir.,We are talking about it.,Estamos hablando de ello.,我们正在谈论未来。,machine-assisted
+79,214,avenue,fr:avenue:noun:1,avenue,noun,/a.vny/,"avenue (broad street, especially bordered with trees)",avenida,（城市中通常栽有树木的）大街,Voici l’avenue.,Here it is.,Aquí está.,这是（城市中通常栽有树木的）大街。,machine-assisted
+80,214,avion,fr:avion:noun:1,avion,noun,/a.vjɔ̃/,aeroplane,avión,飞机,On parle de l’avion.,We are talking about it.,Estamos hablando de ello.,我们正在谈论飞机。,machine-assisted
+81,214,avoir,fr:avoir:verb:1,avoir,verb,/a.vwaʁ/,to have,tener,有；拥有,J’ai un petit livre.,I have a small book.,Tengo un libro pequeño.,我有一本小书。,seed-reviewed
+82,214,bac,fr:bac:noun:1,bac,noun,/bak/,ferry,transbordador,渡船,Voici le bac.,Here it is.,Aquí está.,这是渡船。,machine-assisted
+83,214,baguette,fr:baguette:noun:1,baguette,noun,/ba.ɡɛt/,"stick, rod, any long thin object",baguete,法国长棍面包，法棍,On parle de la baguette.,We are talking about it.,Estamos hablando de ello.,我们正在谈论法国长棍面包。,machine-assisted
+84,214,baigner(se),fr:baigner:verb:1,baigner,verb,/bɛ.ɲe/,to bathe,bañar,游泳；洗澡，沐浴,Je vais baigner le bébé.,I am going to bathe the baby.,Voy a bañar al bebé.,我要去给宝宝洗澡。,machine-assisted
+85,214,banque,fr:banque:noun:1,banque,noun,/bɑ̃k/,bank,banco,银行,Voici la banque.,Here it is.,Aquí está.,这是银行。,machine-assisted
+86,214,bar,fr:bar:noun:1,bar,noun,/baʁ/,bar (establishment),lubina,酒吧,On parle du bar.,We are talking about it.,Estamos hablando de ello.,我们正在谈论酒吧。,machine-assisted
+87,214,Barcelone,fr:barcelone:proper_noun:1,Barcelone,proper_noun,/baʁ.sə.lɔn/,"Barcelona (the capital city of Catalonia, Spain)",barcelona,巴塞罗那（西班牙）,Je connais bien Barcelone.,I know Barcelona well.,Conozco bien Barcelona.,我很了解巴塞罗那。,machine-assisted
+88,214,basket,fr:basket:noun:1,basket,noun,/bas.kɛt/,basketball,zapatillas de deporte; baloncesto,篮球,Voici le basket.,Here it is.,Aquí está.,这是篮球。,machine-assisted
+89,214,bateau,fr:bateau:noun:1,bateau,noun,/ba.to/,"a vessel of any size, a ship or boat",barco,船,Voici le bateau.,Here it is.,Aquí está.,这是船。,machine-assisted
+90,214,"beau (bel, belle, beaux, belles)",fr:beau:adjective:1,beau,adjective,/bo/,"handsome, fine, attractive","bello, hermoso",美丽的；漂亮的,C’est quelque chose de beau.,"It is something handsome, fine, attractive.","Es algo bello, hermoso.",这是美丽的东西。,machine-assisted
+91,214,beaucoup,fr:beaucoup:adverb:1,beaucoup,adverb,/bo.ku/,"much, very much, a lot",mucho,很，非常；很多,Elle voyage beaucoup.,She travels a lot.,Viaja mucho.,她经常旅行。,machine-assisted
+92,214,bébé,fr:bébé:noun:1,bébé,noun,/be.be/,baby,bebé,婴儿；孩子，宝宝,Voici le bébé.,Here it is.,Aquí está.,这是婴儿。,machine-assisted
+93,214,Belge,fr:belge:noun:1,Belge,noun,/bɛlʒ/,"Belgian person, resident or native of Belgium; used of both genders",belga,比利时人,On parle des Belges.,We are talking about it.,Estamos hablando de ello.,我们正在谈论比利时人。,machine-assisted
+94,214,belge,fr:belge:adjective:1,belge,adjective,/bɛlʒ/,Belgian,"belga. Originario, relativo a, o propio de Bélgica",比利时的,C’est quelque chose de belge.,It is something Belgian.,"Es algo belga. Originario, relativo a, o propio de Bélgica.",这是比利时的东西。,machine-assisted
+95,214,Belgique,fr:belgique:proper_noun:1,Belgique,proper_noun,/bɛl.ʒik/,"Belgium (a country in Western Europe that has borders with the Netherlands, Germany, Luxembourg and France; official name: Royaume de Belgique)",bélgica,比利时,Je connais bien Belgique.,I know Belgium well.,Conozco bien Bélgica.,我很了解比利时。,machine-assisted
+96,214,ben,fr:ben:interjection:1,ben,interjection,/bɛ̃/,Well; uh,Ben,回答时表示犹豫的语气词,"Ben, je ne sais pas.","Well, I don't know.","Pues, no lo sé.",嗯，我不知道。,machine-assisted
+97,214,beurre,fr:beurre:noun:1,beurre,noun,/bœʁ/,butter,mantequilla,黄油,On parle du beurre.,We are talking about it.,Estamos hablando de ello.,我们正在谈论黄油。,machine-assisted
+98,214,bien,fr:bien:adverb:1,bien,adverb,/bjɛ̃/,well,bien,好；许多，很，非常，完全，十分,Elle parle bien français.,She speaks French well.,Habla bien francés.,她法语说得很好。,machine-assisted
+99,214,bien sûr,fr:bien sûr:adverb:1,bien sûr,adverb,/bjɛ̃ syʁ/,of course,por supuesto,当然（语气词）,"Bien sûr, je peux vous aider.","Of course, I can help you.","Claro, puedo ayudarle.",我当然可以帮助你。,machine-assisted
+100,214,bienvenue,fr:bienvenue:noun:1,bienvenue,noun,/bjɛ̃.v(ə).ny/,welcome,"bienvenida (recibimiento cortés, llegada feliz)",欢迎,On parle de la bienvenue.,We are talking about it.,Estamos hablando de ello.,我们正在谈论欢迎。,machine-assisted
+101,214,billet,fr:billet:noun:1,billet,noun,/bi.jɛ/,"note, a brief message",billete,票,Voici le billet.,Here it is.,Aquí está.,这是票。,machine-assisted
+102,214,bise,fr:bise:noun:1,bise,noun,/biz/,north wind; northeasterly (wind),beso,吻,On parle de la bise.,We are talking about it.,Estamos hablando de ello.,我们正在谈论吻。,machine-assisted
+103,214,bisou,fr:bisou:noun:1,bisou,noun,/bi.zu/,kiss (friendly kiss),beso,《俗》亲吻,Voici le bisou.,Here it is.,Aquí está.,这是亲吻。,machine-assisted
+104,214,blanc(che),fr:blanc:adjective:1,blanc,adjective,/blɑ̃/,white color,blanco,白的，白色的,C’est quelque chose de blanc.,It is something white color.,Es algo blanco.,这是白色的东西。,machine-assisted
+105,214,blessé(e),fr:blessé:adjective:1,blessé,adjective,/blɛ.se/,"injured, wounded",herido,受伤的,C’est quelque chose de blessé.,"It is something injured, wounded.",Es algo herido.,这是受伤的。,machine-assisted
+106,214,bleu(e),fr:bleu:adjective:1,bleu,adjective,/blø/,blue,azul,蓝色的，青的,C’est quelque chose de bleu.,It is something blue.,Es algo azul.,这是蓝色的东西。,machine-assisted
+107,214,blond(e),fr:blond:adjective:1,blond,adjective,/blɔ̃/,blond (of a pale golden colour),rubio,金色的；有金色头发的,C’est quelque chose de blond.,It is something blond (of a pale golden colour).,Es algo rubio.,这是金色的。,machine-assisted
+108,214,blouson,fr:blouson:noun:1,blouson,noun,/blu.zɔ̃/,blouson,cazadora; chaqueta,夹克衫,Voici le blouson.,Here it is.,Aquí está.,这是夹克衫。,machine-assisted
+109,214,boire,fr:boire:verb:1,boire,verb,/bwaʁ/,to drink,beber,喝,Je vais boire un café.,I am going to drink a coffee.,Voy a beber un café.,我要去喝杯咖啡。,machine-assisted
+110,214,boîte,fr:boîte:noun:1,boîte,noun,/bwat/,box (a container),caja,盒子；夜总会,Voici la boîte.,Here it is.,Aquí está.,这是盒子。,machine-assisted
+111,214,bon(ne),fr:bon:adjective:1,bon,adjective,/bɔ̃/,good,bueno,好的；恰当的；正确的,Ce pain est bon.,This bread is good.,Este pan está bueno.,这个面包很好吃。,seed-reviewed
+112,214,bonjour,fr:bonjour:noun:1,bonjour,noun,/bɔ̃.ʒuʁ/,greetings; hello (general salutation),"hola, buenos días, buenas tardes",您好，早上好,On parle du bonjour.,We are talking about it.,Estamos hablando de ello.,我们正在谈论您好。,machine-assisted
+113,214,bord,fr:bord:noun:1,bord,noun,/bɔʁ/,"border, edge, limit; boundary",borde,边，边缘；岸边,On parle du bord.,We are talking about it.,Estamos hablando de ello.,我们正在谈论边。,machine-assisted
+114,214,Bordeaux,fr:bordeaux:proper_noun:1,Bordeaux,proper_noun,/bɔʁ.do/,"Bordeaux (the capital city of Gironde department, France; the capital city of the region of Nouvelle-Aquitaine)","burdeos, municipio y ciudad del sudoeste de Francia, capital de Nueva Aquitania (región) y prefectura de Gironda (departamento)",波尔多（法国）,Je connais bien Bordeaux.,I know Bordeaux well.,"Conozco bien Burdeos, municipio y ciudad del sudoeste de Francia, capital de Nueva Aquitania.",我很了解波尔多。,machine-assisted
+115,214,bouche,fr:bouche:noun:1,bouche,noun,/buʃ/,mouth,boca,嘴,Voici la bouche.,Here it is.,Aquí está.,这是嘴。,machine-assisted
+116,214,boulanger(ère),fr:boulanger:noun:1,boulanger,noun,/bu.lɑ̃.ʒe/,baker (who bakes bread; contrast pâtissier),panadero,面包师，面包商,On parle du boulanger.,We are talking about it.,Estamos hablando de ello.,我们正在谈论面包师。,machine-assisted
+117,214,boulangerie,fr:boulangerie:noun:1,boulangerie,noun,/bu.lɑ̃ʒ.ʁi/,"bread shop; bakery, baker's",panadería,面包店,On parle de la boulangerie.,We are talking about it.,Estamos hablando de ello.,我们正在谈论面包店。,machine-assisted
+118,214,boulot,fr:boulot:noun:1,boulot,noun,/bu.lo/,work,curro,《俗》工作，活儿,On parle du boulot.,We are talking about it.,Estamos hablando de ello.,我们正在谈论工作。,machine-assisted
+119,214,bout,fr:bout:noun:1,bout,noun,/bu/,"end, extremity, tip (of a physical object)",punta,末端，尽头,Voici le bout.,Here it is.,Aquí está.,这是末端。,machine-assisted
+120,214,bouteille,fr:bouteille:noun:1,bouteille,noun,/bu.tɛj/,"bottle (container, typically made of glass or plastic and having a tapered neck, used primarily for holding liquids)",botella,瓶子,On parle de la bouteille.,We are talking about it.,Estamos hablando de ello.,我们正在谈论瓶子。,machine-assisted
+121,214,bravo,fr:bravo:interjection:1,bravo,interjection,/bʁa.vo/,"bravo!, hear, hear!, well said!, well done!",¡Bravo!,好！妙！,"Bravo, tu as réussi !","Well done, you passed!","¡Bravo, lo has conseguido!",干得好，你成功了！,machine-assisted
+122,214,bref,fr:bref:adjective:1,bref,adjective,/bʁɛf/,brief (of short duration),pequeño,总而言之，简而言之,C’est quelque chose de bref.,It is something brief (of short duration).,Es algo pequeño.,这很简短。,machine-assisted
+123,214,Brest,fr:brest:proper_noun:1,Brest,proper_noun,/bʁɛst/,"Brest (a port city in Finistère, Brittany, France)",Brest,布雷斯特（法国）,Je connais bien Brest.,I know Brest well.,Conozco bien Brest.,我很了解布雷斯特。,machine-assisted
+124,214,Bretagne,fr:bretagne:proper_noun:1,Bretagne,proper_noun,/bʁə.taɲ/,"Brittany (a cultural region, historical province, and peninsula in northwest France)",bretaña,布列塔尼（法国西部省份，首府为雷恩）,Je connais bien Bretagne.,I know Brittany well.,Conozco bien Bretaña.,我很了解布列塔尼。,machine-assisted
+125,214,briller,fr:briller:verb:1,briller,verb,/bʁi.je/,"to shine, to sparkle",brillar,发光，闪耀,Le soleil brille ce matin.,The sun is shining this morning.,El sol brilla esta mañana.,今天早上，阳光明媚。,machine-assisted
+126,214,brun(e),fr:brun:adjective:1,brun,adjective,/bʁœ̃/,brown (color/colour),moreno,棕色的；有棕色头发的,C’est quelque chose de brun.,It is something brown (color/colour).,Es algo moreno.,这是棕色的东西。,machine-assisted
+127,214,Bruxelles,fr:bruxelles:proper_noun:1,Bruxelles,proper_noun,/bʁy.sɛl/,Brussels (the capital city of Belgium),bruselas,布鲁塞尔（比利时）,Je connais bien Bruxelles.,I know Brussels well.,Conozco bien Bruselas.,我很了解布鲁塞尔。,machine-assisted
+128,214,bruyant(e),fr:bruyant:adjective:1,bruyant,adjective,/bʁɥi.jɑ̃/,noisy (making a noise),ruidoso,吵闹的,C’est quelque chose de bruyant.,It is something noisy (making a noise).,Es algo ruidoso.,有点吵。,machine-assisted
+129,214,bureau,fr:bureau:noun:1,bureau,noun,/by.ʁo/,desk,escritorio,办公桌，写字台；办公室,Voici le bureau.,Here it is.,Aquí está.,这是办公桌。,machine-assisted
+130,214,bus,fr:bus:noun:1,bus,noun,/bys/,bus,autobús,公交车,Voici les bus.,Here it is.,Aquí está.,这些是公交车。,machine-assisted
+131,214,ça,fr:ça:pronoun:1,ça,pronoun,/sa/,that (distal demonstrative pronoun),esto,《俗》这个；那个,Ça va très bien.,It is going very well.,Va muy bien.,事情进展得很顺利。,machine-assisted
+132,214,cabinet,fr:cabinet:noun:1,cabinet,noun,/ka.bi.nɛ/,"an office, a surgery",consejería,事务所,Voici le cabinet.,Here it is.,Aquí está.,这是事务所。,machine-assisted
+133,214,cadeau (cadeaux),fr:cadeau:noun:1,cadeau,noun,/ka.do/,"present, gift","regalo, obsequio",礼物,On parle du cadeau.,We are talking about it.,Estamos hablando de ello.,我们正在谈论礼物。,machine-assisted
+134,214,café,fr:café:noun:1,café,noun,/ka.fe/,coffee,café (bebida),咖啡（饮料）,Je prends un café sans sucre.,I am having a coffee without sugar.,Tomo un café sin azúcar.,我喝一杯不加糖的咖啡。,seed-reviewed
+135,214,calme,fr:calme:adjective:1,calme,adjective,/kalm/,calm,tranquilo,平静的；安静的；冷静的,C’est quelque chose de calme.,It is something calm.,Es algo tranquilo.,这是平静的。,machine-assisted
+136,214,calmer(se),fr:calmer:verb:1,calmer,verb,/kal.me/,"to calm, pacify, soothe",calmar,冷静下来，镇定下来,Je vais calmer le bébé.,I am going to calm the baby.,Voy a calmar al bebé.,我会让宝宝平静下来。,machine-assisted
+137,214,camembert,fr:camembert:noun:1,camembert,noun,/ka.mɑ̃.bɛʁ/,camembert (creamy French cheese),camembert,卡芒贝尔奶酪,Voici le camembert.,Here it is.,Aquí está.,这是卡芒贝尔奶酪。,machine-assisted
+138,214,camion,fr:camion:noun:1,camion,noun,/ka.mjɔ̃/,lorry (UK); truck (US),camión,卡车,On parle du camion.,We are talking about it.,Estamos hablando de ello.,我们正在谈论卡车。,machine-assisted
+139,214,campagne,fr:campagne:noun:1,campagne,noun,/kɑ̃.paɲ/,"country (the country, rural area, as opposed to the town or city), countryside",campiña,乡村,Voici la campagne.,Here it is.,Aquí está.,这是乡村。,machine-assisted
+140,214,camping,fr:camping:noun:1,camping,noun,/kɑ̃.piŋ/,camping,camping,野营,On parle du camping.,We are talking about it.,Estamos hablando de ello.,我们正在谈论野营。,machine-assisted
+141,214,faire du camping,fr:faire du camping:verb:1,faire du camping,verb,/fɛʁ/,to go camping,ir de camping,露营,Nous faisons du camping en été.,We go camping in summer.,Vamos de camping en verano.,夏天我们去露营。,machine-assisted
+142,214,Canada,fr:canada:proper_noun:1,Canada,proper_noun,/ka.na.da/,Canada (a country in North America),canadá,加拿大,Je connais bien Canada.,I know Canada well.,Conozco bien Canadá.,我很了解加拿大。,machine-assisted
+143,215,candidat(e),fr:candidat:noun:1,candidat,noun,/kɑ̃.di.da/,candidate,candidato,应聘者，求职者；候选人,Voici le candidat.,Here it is.,Aquí está.,这是应聘者。,machine-assisted
+144,215,Cantal,fr:cantal:proper_noun:1,Cantal,proper_noun,/kɑ̃.tal/,"Cantal (a department of Auvergne-Rhône-Alpes, France)",Cantal,康塔尔（法国中南部大区省份）,Je connais bien Cantal.,I know Cantal well.,Conozco bien Cantal.,我很了解康塔尔。,machine-assisted
+145,215,carte,fr:carte:noun:1,carte,noun,/kaʁt/,card,carta₂ o naipe,地图；卡片，明信片,On parle de la carte.,We are talking about it.,Estamos hablando de ello.,我们正在谈论地图。,machine-assisted
+146,215,carte postale,fr:carte postale:noun:1,carte postale,noun,/kaʁ.t(ə) pɔs.tal/,postcard,postal,明信片,On parle des carte postale.,We are talking about it.,Estamos hablando de ello.,我们正在谈论明信片。,machine-assisted
+147,215,casting,fr:casting:noun:1,casting,noun,/kas.tiŋ/,casting (selection of actors),casting,试镜，角色分配，挑选演员,On parle du casting.,We are talking about it.,Estamos hablando de ello.,我们正在谈论试镜。,machine-assisted
+148,215,Cayenne,fr:cayenne:proper_noun:1,Cayenne,proper_noun,/ka.jɛn/,"Cayenne (the capital city of French Guiana department, France)",Cayenne,卡宴（法属圭亚那的首府）,Je connais bien Cayenne.,I know Cayenne well.,Conozco bien Cayenne.,我很了解卡宴。,machine-assisted
+149,215,CD,fr:cd:noun:1,CD,noun,/se.de/,CD (compact disk),CD,激光唱片；光盘（英文的缩写）,On parle du CD.,We are talking about it.,Estamos hablando de ello.,我们正在谈论激光唱片。,machine-assisted
+150,215,célèbre,fr:célèbre:adjective:1,célèbre,adjective,/se.lɛbʁ/,famous,célebre,有名的，著名的,C’est quelque chose de célèbre.,It is something famous.,Es algo célebre.,这是一件很有名的事情。,machine-assisted
+151,215,centre,fr:centre:noun:1,centre,noun,/sɑ̃tʁ/,"centre, center",centro,中心；中部,On parle du centre.,We are talking about it.,Estamos hablando de ello.,我们正在谈论中心。,machine-assisted
+152,215,céréales,fr:céréales:noun:1,céréales,noun,/seʁeˈal/,breakfast cereal; cereals,cereales,谷物食品（指麦片、玉米片等）,Voici les céréales.,Here it is.,Aquí está.,这些是谷物食品（指麦片、玉米片等）。,machine-assisted
+153,215,certain(e),fr:certain:adjective:1,certain,adjective,/sɛʁ.tɛ̃/,"certain, guaranteed (sure, positive)",cierto,肯定的，一定的；确信无疑的,C’est quelque chose de certain.,"It is something certain, guaranteed (sure, positive).",Es algo cierto.,这是肯定的事情。,machine-assisted
+154,215,certainement,fr:certainement:adverb:1,certainement,adverb,/sɛʁ.tɛn.mɑ̃/,"certainly (with certainty, without doubt)",seguramente,肯定地，一定地；确实地，当然,Il viendra certainement demain.,He will certainly come tomorrow.,Seguramente vendrá mañana.,他明天一定会来。,machine-assisted
+155,215,chaise,fr:chaise:noun:1,chaise,noun,/ʃɛz/,"chair, seat",silla,椅子,On parle de la chaise.,We are talking about it.,Estamos hablando de ello.,我们正在谈论椅子。,machine-assisted
+156,215,chambre,fr:chambre:noun:1,chambre,noun,/ʃɑ̃bʁ/,"a chamber in its various senses, including:; a room","habitación, cuarto, dormitorio",房间，卧室,Voici la chambre.,Here it is.,Aquí está.,这是房间。,machine-assisted
+157,215,champagne,fr:champagne:noun:1,champagne,noun,/ʃɑ̃.paɲ/,champagne (“wine from the Champagne region of France”),champán,香槟酒,Voici le champagne.,Here it is.,Aquí está.,这是香槟酒。,machine-assisted
+158,215,champion(ne),fr:champion:noun:1,champion,noun,/ʃɑ̃.pjɔ̃/,champion,campeón,冠军，优胜者，第一名,On parle du champion.,We are talking about it.,Estamos hablando de ello.,我们正在谈论冠军。,machine-assisted
+159,215,chance,fr:chance:noun:1,chance,noun,/ʃɑ̃s/,chance,suerte,运气,Voici la chance.,Here it is.,Aquí está.,这是运气。,machine-assisted
+160,215,Chandeleur,fr:chandeleur:proper_noun:1,Chandeleur,proper_noun,/ʃɑ̃d.lœʁ/,Candlemas,Candelaria,圣蜡节（天主教节日）,Je connais bien Chandeleur.,I know Candlemas well.,Conozco bien Candelaria.,我很了解圣蜡节。,machine-assisted
+161,215,changement,fr:changement:noun:1,changement,noun,/ʃɑ̃ʒ.mɑ̃/,change,cambio,变化,Voici le changement.,Here it is.,Aquí está.,这是变化。,machine-assisted
+162,215,changer,fr:changer:verb:1,changer,verb,/ʃɑ̃.ʒe/,to exchange (something),cambiar,改变，改动；更换,Je vais changer de train.,I am going to exchange trains.,Voy a cambiar de tren.,我要换车。,machine-assisted
+163,215,chanson,fr:chanson:noun:1,chanson,noun,/ʃɑ̃.sɔ̃/,song,canción,歌曲,Voici la chanson.,Here it is.,Aquí está.,这是歌曲。,machine-assisted
+164,215,chapeau,fr:chapeau:noun:1,chapeau,noun,/ʃa.po/,hat,sombrero,帽子,On parle du chapeau.,We are talking about it.,Estamos hablando de ello.,我们正在谈论帽子。,machine-assisted
+165,215,chat(te),fr:chat:noun:1,chat,noun,/ʃa/,cat (feline),gato,猫,Voici le chat.,Here it is.,Aquí está.,这是猫。,machine-assisted
+166,215,château,fr:château:noun:1,château,noun,/ʃa.to/,castle (fortified building or similar structure; winegrower's estate),castillo,城堡,Voici le château.,Here it is.,Aquí está.,这是城堡。,machine-assisted
+167,215,chaton,fr:chaton:noun:1,chaton,noun,/ʃa.tɔ̃/,"kitten, kitty (baby cat)",gatito,小猫,On parle du chaton.,We are talking about it.,Estamos hablando de ello.,我们正在谈论小猫。,machine-assisted
+168,215,chaud(e),fr:chaud:adjective:1,chaud,adjective,/ʃo/,"warm, hot",cálido,热的，暖的，烫的；暖和的，保暖的,C’est quelque chose de chaud.,"It is something warm, hot.",Es algo cálido.,这是很热的东西。,machine-assisted
+169,215,chaussure,fr:chaussure:noun:1,chaussure,noun,/ʃo.syʁ/,shoe,zapato,鞋，靴,On parle de la chaussure.,We are talking about it.,Estamos hablando de ello.,我们正在谈论鞋。,machine-assisted
+170,215,cheminée,fr:cheminée:noun:1,cheminée,noun,/ʃə.mi.ne/,a chimney,chimenea,壁炉；烟囱,Voici la cheminée.,Here it is.,Aquí está.,这是壁炉。,machine-assisted
+171,215,chemise,fr:chemise:noun:1,chemise,noun,/ʃə.miz/,shirt (that opens in the front),camisa,男式衬衫,Voici la chemise.,Here it is.,Aquí está.,这是男式衬衫。,machine-assisted
+172,215,cher(ère),fr:cher:noun:1,cher,noun,/ʃɛʁ/,"dear, honey, hon","caro, querido",高价的，昂贵的,Voici le cher.,Here it is.,Aquí está.,这是高价的。,machine-assisted
+173,215,chercher,fr:chercher:verb:1,chercher,verb,/ʃɛʁ.ʃe/,"to look for, to seek",buscar,找，寻找，寻觅,Je vais chercher une adresse.,I am going to look for an address.,Voy a buscar una dirección.,我要去寻找一个地址。,machine-assisted
+174,215,cheval (chevaux),fr:cheval:noun:1,cheval,noun,/ʃə.val/,horse,caballo,马,On parle du cheval.,We are talking about it.,Estamos hablando de ello.,我们正在谈论马。,machine-assisted
+175,215,cheveux,fr:cheveux:noun:1,cheveux,noun,/ʃə.vø/,hair,pelo; cabello,头发,Voici les cheveux.,Here it is.,Aquí está.,这些是头发。,machine-assisted
+176,215,chez,fr:chez:preposition:1,chez,preposition,/ʃe/,"to, at, in or into the place of","en casa de, en su casa, donde",在…家；在那里,Nous dînons chez Paul.,We are having dinner at Paul's place.,Cenamos en casa de Paul.,我们在保罗家吃饭。,machine-assisted
+177,215,chien(ne),fr:chien:noun:1,chien,noun,/ʃjɛ̃/,dog,(Canis lupus familiaris) Perro,狗,On parle du chien.,We are talking about it.,Estamos hablando de ello.,我们正在谈论狗。,machine-assisted
+178,215,chiffre,fr:chiffre:noun:1,chiffre,noun,/ʃifʁ/,"a digit i.e. 0,1,2,3,4,5,6,7,8,9",dígito,数字,On parle du chiffre.,We are talking about it.,Estamos hablando de ello.,我们正在谈论数字。,machine-assisted
+179,215,Chinois(e),fr:chinois:noun:1,Chinois,noun,/ʃi.nwa/,Chinese (resident or native of China),chino,中国人,On parle du Chinois.,We are talking about it.,Estamos hablando de ello.,我们正在谈论中国人。,machine-assisted
+180,215,chinois(e),fr:chinois:adjective:1,chinois,adjective,/ʃi.nwa/,of China; Chinese,chino,中国的,C’est quelque chose de chinois.,It is something of China.,Es algo chino.,这是中国的东西。,machine-assisted
+181,215,chocolat,fr:chocolat:noun:1,chocolat,noun,/ʃɔ.kɔ.la/,chocolate,chocolate,巧克力,On parle du chocolat.,We are talking about it.,Estamos hablando de ello.,我们正在谈论巧克力。,machine-assisted
+182,215,choisir,fr:choisir:verb:1,choisir,verb,/ʃwa.ziʁ/,to choose,escoger,选择,Je vais choisir un livre.,I am going to choose a book.,Voy a escoger un libro.,我要选一本书。,machine-assisted
+183,215,chose,fr:chose:noun:1,chose,noun,/ʃoz/,thing,"objeto, cosa",事情，事物,Voici la chose.,Here it is.,Aquí está.,这是事情。,machine-assisted
+184,215,cidre,fr:cidre:noun:1,cidre,noun,/sidʁ/,cider,sidra,苹果酒,On parle du cidre.,We are talking about it.,Estamos hablando de ello.,我们正在谈论苹果酒。,machine-assisted
+185,215,cinéma,fr:cinéma:noun:1,cinéma,noun,/si.ne.ma/,"cinema, filmmaking (the art of making films and movies)",cine,电影，电影艺术；电影院,On parle du cinéma.,We are talking about it.,Estamos hablando de ello.,我们正在谈论电影。,machine-assisted
+186,215,circonstance,fr:circonstance:noun:1,circonstance,noun,/siʁ.kɔ̃s.tɑ̃s/,"circumstance, situation",circunstancia,情形，环境,Voici la circonstance.,Here it is.,Aquí está.,这是情形。,machine-assisted
+187,215,circuit,fr:circuit:noun:1,circuit,noun,/siʁ.kɥi/,circuit,circuito,旅游线路,On parle du circuit.,We are talking about it.,Estamos hablando de ello.,我们正在谈论旅游线路。,machine-assisted
+188,215,clair(e),fr:clair:adjective:1,clair,adjective,/klɛʁ/,clear (see-through),claro,明亮的；清晰的，清楚的,C’est quelque chose de clair.,It is something clear (see-through).,Es algo claro.,这是很清楚的事情。,machine-assisted
+189,215,classe,fr:classe:noun:1,classe,noun,/klas/,"class, type, group",clase,等级，级别；班级；教室,On parle de la classe.,We are talking about it.,Estamos hablando de ello.,我们正在谈论等级。,machine-assisted
+190,215,classique,fr:classique:adjective:1,classique,adjective,/kla.sik/,classic,clásico; clásica,古典的,C’est quelque chose de classique.,It is something classic.,Es algo clásico.,这是经典的东西。,machine-assisted
+191,215,client(e),fr:client:noun:1,client,noun,/kli.jɑ̃/,customer (one who purchases or receives a product or service),cliente,顾客，客户,On parle du client.,We are talking about it.,Estamos hablando de ello.,我们正在谈论顾客。,machine-assisted
+192,215,club,fr:club:noun:1,club,noun,/klœb/,"club (an association of members joining together for some common purpose, especially sports or recreation)",club,（英）俱乐部，会，社,Voici le club.,Here it is.,Aquí está.,这是（英）俱乐部。,machine-assisted
+193,215,coca,fr:coca:noun:1,coca,noun,/kɔ.ka/,Coke (serving of Coca-Cola),refresco de cola,可乐,Voici le coca.,Here it is.,Aquí está.,这是可乐。,machine-assisted
+194,215,coiffure,fr:coiffure:noun:1,coiffure,noun,/kwa.fyʁ/,"headwear, headgear (garment worn on one's head)","peinado, estilo de cabello",发型,On parle de la coiffure.,We are talking about it.,Estamos hablando de ello.,我们正在谈论发型。,machine-assisted
+195,215,coin,fr:coin:noun:1,coin,noun,/kwɛ̃/,"wedge, cornerpiece",rincón,角，角落；街角处,On parle du coin.,We are talking about it.,Estamos hablando de ello.,我们正在谈论角。,machine-assisted
+196,215,collègue,fr:collègue:noun:1,collègue,noun,/kɔ.lɛɡ/,colleague,colega,同事,On parle des collègues.,We are talking about it.,Estamos hablando de ello.,我们正在谈论同事。,machine-assisted
+197,215,combien,fr:combien:adverb:1,combien,adverb,/kɔ̃.bjɛ̃/,how much (for uncountable nouns and portions),cuánto,多少（用于疑问句中）,Combien coûte ce livre ?,How much does this book cost?,¿Cuánto cuesta este libro?,这本书多少钱？,machine-assisted
+198,215,comme,fr:comme:conjunction:1,comme,conjunction,/kɔm/,"as (in the role of, by way of)",como,作为，以身份；当做；如同，好像,Elle travaille comme médecin.,She works as a doctor.,Trabaja como médica.,她是一名医生。,machine-assisted
+199,215,commencer,fr:commencer:verb:1,commencer,verb,/kɔ.mɑ̃.se/,"to begin, commence",comenzar,开始,Le cours va commencer à neuf heures.,The class is going to start at nine.,La clase va a empezar a las nueve.,九点钟开始上课。,machine-assisted
+200,215,commencer à faire qch.,fr:commencer à:verb:1,commencer à,verb,/kɔ.mɑ̃.se/,to begin; to start,empezar a,开始做某事,Il commence à pleuvoir.,It is beginning to rain.,Empieza a llover.,天开始下雨了。,machine-assisted
+201,215,comment,fr:comment:adverb:1,comment,adverb,/kɔ.mɑ̃/,how,cómo,如何，怎么，怎样；怎么！表示惊讶，愤怒、谴责,Comment allez-vous ?,How are you?,¿Cómo está usted?,你好吗？,machine-assisted
+202,215,commerce,fr:commerce:noun:1,commerce,noun,/kɔ.mɛʁs/,"commerce, trade",comercio,买卖，交易；商业，贸易，；商店，店铺,On parle du commerce.,We are talking about it.,Estamos hablando de ello.,我们正在谈论买卖。,machine-assisted
+203,215,complet(ète),fr:complet:adjective:1,complet,adjective,/kɔ̃.plɛ/,"full, without room for more",completo,满员的；满座的,C’est quelque chose de complet.,"It is something full, without room for more.",Es algo completo.,这是一个完整的东西。,machine-assisted
+204,215,comprendre,fr:comprendre:verb:1,comprendre,verb,/kɔ̃.pʁɑ̃dʁ/,"to understand, comprehend",comprender,理解，懂得,Je vais comprendre la question.,I am going to understand the question.,Voy a comprender la pregunta.,我会理解这个问题。,machine-assisted
+205,215,conditionné(e),fr:conditionné:adjective:1,conditionné,adjective,/kɔ̃.di.sjɔ.ne/,packaged (about a product),acondicionado,有条件的，受条件限制的,C’est quelque chose de conditionné.,It is something packaged (about a product).,Es algo acondicionado.,它是有条件的东西。,machine-assisted
+206,215,confiture,fr:confiture:noun:1,confiture,noun,/kɔ̃.fi.tyʁ/,"jam (UK), jelly (US)",mermelada,果酱,On parle de la confiture.,We are talking about it.,Estamos hablando de ello.,我们正在谈论果酱。,machine-assisted
+207,215,connaître,fr:connaître:verb:1,connaître,verb,/kɔ.nɛtʁ/,"to know (of), to be familiar with (a person, place, fact, event)",conocer,了解；认识,Je vais connaître Paris.,I am going to know Paris.,Voy a conocer París.,我要去了解巴黎。,machine-assisted
+208,215,conseil,fr:conseil:noun:1,conseil,noun,/kɔ̃.sɛj/,piece of advice,consejo,建议,On parle du conseil.,We are talking about it.,Estamos hablando de ello.,我们正在谈论建议。,machine-assisted
+209,215,construction,fr:construction:noun:1,construction,noun,/kɔ̃s.tʁyk.sjɔ̃/,construction,construcción,建造，建筑；建筑物,On parle de la construction.,We are talking about it.,Estamos hablando de ello.,我们正在谈论建造。,machine-assisted
+210,215,contacter,fr:contacter:verb:1,contacter,verb,/kɔ̃.tak.te/,to contact (all senses),contactar,联系,Je vais contacter le propriétaire.,I am going to contact the owner.,Voy a contactar al propietario.,我要联系房东。,machine-assisted
+211,215,contemporain(e),fr:contemporain:adjective:1,contemporain,adjective,/kɔ̃.tɑ̃.pɔ.ʁɛ̃/,"current, of the current era",contemporáneo,当代的，同时代的,C’est quelque chose de contemporain.,"It is something current, of the current era.",Es algo contemporáneo.,这是当代的东西。,machine-assisted
+212,215,continuer,fr:continuer:verb:1,continuer,verb,/kɔ̃.ti.nɥe/,to continue,continuar,继续（做）,Je vais continuer ce travail.,I am going to continue this work.,Voy a continuar este trabajo.,我将继续这项工作。,machine-assisted
+213,215,contre,fr:contre:preposition:1,contre,preposition,/kɔ̃tʁ/,against (in physical contact with),contra,紧靠；倚着,Le vélo est contre le mur.,The bicycle is against the wall.,La bicicleta está contra la pared.,自行车靠在墙上。,machine-assisted
+214,215,copain(copine),fr:copain:noun:1,copain,noun,/kɔ.pɛ̃/,"friend, chum, mate (UK), pal, buddy","camarada, amigo",《俗》朋友；伙伴,Voici le copain.,Here it is.,Aquí está.,这是朋友。,machine-assisted
+215,215,coq,fr:coq:noun:1,coq,noun,/kɔk/,"male chicken, rooster, cockerel, cock",gallo,公鸡，雄鸡,On parle du coq.,We are talking about it.,Estamos hablando de ello.,我们正在谈论公鸡。,machine-assisted
+216,215,corps,fr:corps:noun:1,corps,noun,/kɔʁ/,body,cuerpo,身体,On parle du corps.,We are talking about it.,Estamos hablando de ello.,我们正在谈论身体。,machine-assisted
+217,216,correctement,fr:correctement:adverb:1,correctement,adverb,/kɔ.ʁɛk.tə.mɑ̃/,correctly (in a correct manner),correctamente,正确地；合适地,Elle répond correctement.,She answers correctly.,Responde correctamente.,她回答得很正确。,machine-assisted
+218,216,correspondance,fr:correspondance:noun:1,correspondance,noun,/kɔ.ʁɛs.pɔ̃.dɑ̃s/,correspondence,correspondencia,通信，通信联系；（集）书信，信件,Voici la correspondance.,Here it is.,Aquí está.,这是通信。,machine-assisted
+219,216,correspondant(e),fr:correspondant:noun:1,correspondant,noun,/kɔ.ʁɛs.pɔ̃.dɑ̃/,pen pal,correspondiente,通信者，有信件来往者,Voici le correspondant.,Here it is.,Aquí está.,这是通信者。,machine-assisted
+220,216,Corse (la),fr:corse:proper_noun:1,Corse,proper_noun,/kɔʁs/,"Corsica (an island and administrative region of France, in the Mediterranean to the north of Sardinia)",Córcega,科西嘉（岛）（法国）,Je connais bien Corse.,I know Corsica well.,Conozco bien Córcega.,我很了解科西嘉岛。,machine-assisted
+221,216,côté,fr:côté:noun:1,côté,noun,/ko.te/,side,lado,旁，侧,Voici le côté.,Here it is.,Aquí está.,这是旁。,machine-assisted
+222,216,à côté (de),fr:à côté:preposition:1,à côté,preposition,/a ko.te/,"beside, next to",cerca,在（的）旁边,La pharmacie est juste à côté.,The pharmacy is right next door.,La farmacia está justo al lado.,药房就在隔壁。,machine-assisted
+223,216,coucher(se),fr:coucher:verb:1,coucher,verb,/ku.ʃe/,"to lay, to lay down",acostar,躺下；上床，睡觉去,Je vais coucher le bébé.,I am going to lay the baby.,Voy a acostar al bebé.,我要去哄孩子睡觉了。,machine-assisted
+224,216,couleur,fr:couleur:noun:1,couleur,noun,/ku.lœʁ/,color/colour,color,色，颜色,On parle de la couleur.,We are talking about it.,Estamos hablando de ello.,我们正在谈论色。,machine-assisted
+225,216,couloir,fr:couloir:noun:1,couloir,noun,/ku.lwaʁ/,"corridor, hallway",pasillo,走廊,On parle du couloir.,We are talking about it.,Estamos hablando de ello.,我们正在谈论走廊。,machine-assisted
+226,216,couple,fr:couple:noun:1,couple,noun,/kupl/,two partners in a romantic or sexual relationship,pareja,一对夫妇；一对情侣,Voici le couple.,Here it is.,Aquí está.,这是一对夫妇。,machine-assisted
+227,216,cours,fr:cours:noun:1,cours,noun,/kuʁ/,"stream of water, river","curso, recorrido, trayecto",课，课程,Voici le cours.,Here it is.,Aquí está.,这是课。,machine-assisted
+228,216,course,fr:course:noun:1,course,noun,/kuʁs/,"run, running",carrera,跑；奔跑,On parle de la course.,We are talking about it.,Estamos hablando de ello.,我们正在谈论跑。,machine-assisted
+229,216,faire des / les courses,fr:faire les courses:verb:1,faire les courses,verb,/fɛʁ le kuʁs/,"to do the shopping, to do the shopping errands",hacer la compra,购物,Je fais les courses le samedi.,I do the shopping on Saturdays.,Hago la compra los sábados.,星期六我去购物。,machine-assisted
+230,216,court(e),fr:court:adjective:1,court,adjective,/kuʁ/,short,corto,短的,C’est quelque chose de court.,It is something short.,Es algo corto.,内容很短。,machine-assisted
+231,216,coûter,fr:coûter:verb:1,coûter,verb,/ku.te/,to cost,costar,价值（多少钱）；花费，花钱,Ce billet coûte dix euros.,This ticket costs ten euros.,Este billete cuesta diez euros.,这张票要十欧元。,machine-assisted
+232,216,couture,fr:couture:noun:1,couture,noun,/ku.tyʁ/,sewing,costura,服装业，时装业,On parle de la couture.,We are talking about it.,Estamos hablando de ello.,我们正在谈论服装业。,machine-assisted
+233,216,haute couture,fr:haute couture:noun:1,haute couture,noun,/ot ku.tyʁ/,"haute couture, high fashion",alta costura,高档时装业,Voici les haute couture.,Here it is.,Aquí está.,这些是高档时装业。,machine-assisted
+234,216,crêpe,fr:crêpe:noun:1,crêpe,noun,/kʁɛp/,crepe,crepe,可丽饼（一种以鸡蛋、面粉为原料的油煎薄饼）,Voici le crêpe.,Here it is.,Aquí está.,这是可丽饼（一种以鸡蛋、面粉为原料的油煎薄饼）。,machine-assisted
+235,216,crêperie,fr:crêperie:noun:1,crêperie,noun,/kʁɛ.pʁi/,a restaurant specialising in making crêpes,crepería,薄饼店，可丽饼店,Voici la crêperie.,Here it is.,Aquí está.,这是薄饼店。,machine-assisted
+236,216,croire,fr:croire:verb:1,croire,verb,/kʁwaʁ/,to believe (someone),creer,相信,Je vais croire cette histoire.,I am going to believe this story.,Voy a creer esta historia.,我会相信这个故事。,machine-assisted
+237,216,croissant,fr:croissant:noun:1,croissant,noun,/kʁwa.sɑ̃/,crescent,medialuna (manjar de repostería),羊角面包；月牙,Voici le croissant.,Here it is.,Aquí está.,这是羊角面包。,machine-assisted
+238,216,cuisine,fr:cuisine:noun:1,cuisine,noun,/kɥi.zin/,kitchen,cocina,厨房；烹调，烹饪法；菜肴,Voici la cuisine.,Here it is.,Aquí está.,这是厨房。,machine-assisted
+239,216,culturel(le),fr:culturel:adjective:1,culturel,adjective,/kyl.ty.ʁɛl/,cultural,cultural,文化的,C’est quelque chose de culturel.,It is something cultural.,Es algo cultural.,这是一个文化问题。,machine-assisted
+240,216,d'abord,fr:d'abord:adverb:1,d'abord,adverb,/d‿a.bɔʁ/,"first, at first, right away",primeramente,首先,"D’abord, lisez la question.","First, read the question.","Primero, lea la pregunta.",首先，请读题目。,machine-assisted
+241,216,d'accord,fr:d'accord:adverb:1,d'accord,adverb,/da.kɔʁ/,in agreement,de acuerdo,同意，赞同,"D’accord, je viens avec toi.","All right, I am coming with you.","De acuerdo, voy contigo.",好吧，我跟你一起去。,machine-assisted
+242,216,Dakar,fr:dakar:proper_noun:1,Dakar,proper_noun,/dakˈaʁ/,Dakar (the capital city of Senegal),Dakar,达喀尔（塞内加尔）,Je connais bien Dakar.,I know Dakar well.,Conozco bien Dakar.,我很了解达喀尔。,machine-assisted
+243,216,dans,fr:dans:preposition:1,dans,preposition,/dɑ̃/,"in, inside (enclosed in a physical space, a group, a state)",en,在……里；处于……状态,Les clés sont dans le sac.,The keys are in the bag.,Las llaves están en el bolso.,钥匙在包里。,machine-assisted
+244,216,danse,fr:danse:noun:1,danse,noun,/dɑ̃s/,dance,"danza, baile",舞蹈,On parle de la danse.,We are talking about it.,Estamos hablando de ello.,我们正在谈论舞蹈。,machine-assisted
+245,216,de,fr:de:preposition:1,de,preposition,/də/,from (used to indicate origin),de (indica posesiva),从；自；……的,Je viens de Lyon.,I come from Lyon.,Vengo de Lyon.,我来自里昂。,machine-assisted
+246,216,degré,fr:degré:noun:1,degré,noun,/də.ɡʁe/,degree,grada,程度，度,On parle du degré.,We are talking about it.,Estamos hablando de ello.,我们正在谈论程度。,machine-assisted
+247,216,déjà,fr:déjà:adverb:1,déjà,adverb,/de.ʒa/,"already, before",ya,已经,J’ai déjà terminé.,I have already finished.,Ya he terminado.,我已经完成了。,machine-assisted
+248,216,déjeuner,fr:déjeuner:verb:1,déjeuner,verb,/de.ʒœ.ne/,"to lunch, to eat lunch, to have lunch",comer,午饭；吃午饭,Nous allons déjeuner au café.,We are going to have lunch at the café.,Vamos a almorzar en la cafetería.,我们要去咖啡馆吃午饭。,machine-assisted
+249,216,demander,fr:demander:verb:1,demander,verb,/də.mɑ̃.de/,to ask for,pedir,请求，要求,Je vais demander une information.,I am going to ask for some information.,Voy a pedir información.,我要询问信息。,machine-assisted
+250,216,demander à qn de faire qch.,fr:demander à:verb:1,demander à,verb,/də.mɑ̃.de/,to ask someone to,pedir a,要求某人做某事,Je demande à Paul de venir.,I ask Paul to come.,Le pido a Paul que venga.,我请保罗来。,machine-assisted
+251,216,départ,fr:départ:noun:1,départ,noun,/de.paʁ/,"departure, start",salida,出发,Voici le départ.,Here it is.,Aquí está.,这是出发。,machine-assisted
+252,216,dépense,fr:dépense:noun:1,dépense,noun,/de.pɑ̃s/,expense,gasto,开销,Voici la dépense.,Here it is.,Aquí está.,这是开销。,machine-assisted
+253,216,dernier(ère),fr:dernier:adjective:1,dernier,adjective,/dɛʁ.nje/,last,último,最近的，最新的；最后的,C’est quelque chose de dernier.,It is something last.,Es algo último.,这是最后的事情。,machine-assisted
+254,216,descendre,fr:descendre:verb:1,descendre,verb,/de.sɑ̃dʁ/,to go down,bajar,下来,Je descends à la prochaine station.,I am getting off at the next station.,Bajo en la próxima estación.,我在下一站下车。,machine-assisted
+255,216,désolé(e),fr:désolé:adjective:1,désolé,adjective,/de.zɔ.le/,"desolate, forsaken",lo siento,感到遗憾的，感到抱歉的,C’est quelque chose de désolé.,"It is something desolate, forsaken.",Es algo lo siento.,这是一件令人遗憾的事。,machine-assisted
+256,216,dessert,fr:dessert:noun:1,dessert,noun,/de.sɛʁ/,"dessert, pudding",postre,甜点,Voici le dessert.,Here it is.,Aquí está.,这是甜点。,machine-assisted
+257,216,destination,fr:destination:noun:1,destination,noun,/dɛs.ti.na.sjɔ̃/,destination,destino,目的地,Voici la destination.,Here it is.,Aquí está.,这是目的地。,machine-assisted
+258,216,détendre(se),fr:détendre:verb:1,détendre,verb,/de.tɑ̃dʁ/,to relax,relajar; relajarse,放松,Cette musique détend l’atmosphère.,This music relaxes the atmosphere.,Esta música relaja el ambiente.,这首音乐放松了气氛。,machine-assisted
+259,216,détester,fr:détester:verb:1,détester,verb,/de.tɛs.te/,"to hate, to detest (to thoroughly dislike)",aborrecer,厌恶，憎恨,Je vais détester le bruit.,I am going to hate the noise.,Voy a aborrecer el ruido.,我会讨厌噪音。,machine-assisted
+260,216,deux-chevaux,fr:deux-chevaux:noun:1,deux-chevaux,noun,/dø.ʃ(ə).vo/,2CV,Citroën 2CV,两马力的小汽车,On parle du deux-chevaux.,We are talking about it.,Estamos hablando de ello.,我们正在谈论两马力的小汽车。,machine-assisted
+261,216,deuxième,fr:deuxième:adjective:1,deuxième,adjective,/dø.zjɛm/,second,segundo,第二的,C’est quelque chose de deuxième.,It is something second.,Es algo segundo.,这是第二件事。,machine-assisted
+262,216,devant,fr:devant:preposition:1,devant,preposition,/də.vɑ̃/,"confronted with, faced with","delante, delante de",在…前面,Le taxi attend devant l’hôtel.,The taxi is waiting in front of the hotel.,El taxi espera delante del hotel.,出租车在酒店门前等候。,machine-assisted
+263,216,difficile,fr:difficile:adjective:1,difficile,adjective,/di.fi.sil/,difficult,difícil,困难的,Cet exercice est difficile.,This exercise is difficult.,Este ejercicio es difícil.,这个练习很难。,seed-reviewed
+264,216,dimanche,fr:dimanche:noun:1,dimanche,noun,/di.mɑ̃ʃ/,Sunday,domingo,周日,Nous restons à la maison dimanche.,We are staying home on Sunday.,Nos quedamos en casa el domingo.,周日我们待在家里。,machine-assisted
+265,216,dîner,fr:dîner:verb:1,dîner,verb,/di.ne/,to dine,cenar,晚餐；吃晚餐,Nous allons dîner au restaurant.,We are going to have dinner at the restaurant.,Vamos a cenar en el restaurante.,我们要去餐厅吃晚饭。,machine-assisted
+266,216,dire,fr:dire:verb:1,dire,verb,/diʁ/,"to say, to tell (to express through speech)",decir,说，说出,Je vais dire la vérité.,I am going to say the truth.,Voy a decir la verdad.,我会说实话。,machine-assisted
+267,216,direct(e),fr:direct:adjective:1,direct,adjective,/di.ʁɛkt/,direct,directo,直的；直接的,C’est quelque chose de direct.,It is something direct.,Es algo directo.,这是直接的东西。,machine-assisted
+268,216,directeur(trice),fr:directeur:noun:1,directeur,noun,/di.ʁɛk.tœʁ/,director,director,经理,On parle du directeur.,We are talking about it.,Estamos hablando de ello.,我们正在谈论经理。,machine-assisted
+269,216,discothèque,fr:discothèque:noun:1,discothèque,noun,/dis.kɔ.tɛk/,"record library, library of discs",discoteca,迪斯科舞厅,On parle de la discothèque.,We are talking about it.,Estamos hablando de ello.,我们正在谈论迪斯科舞厅。,machine-assisted
+270,216,docteur,fr:docteur:noun:1,docteur,noun,/dɔk.tœʁ/,a doctor (physician),doctor,医生,Voici le docteur.,Here it is.,Aquí está.,这是医生。,machine-assisted
+271,216,document,fr:document:noun:1,document,noun,/dɔ.ky.mɑ̃/,document,documento,材料，文件,On parle du document.,We are talking about it.,Estamos hablando de ello.,我们正在谈论材料。,machine-assisted
+272,216,donc,fr:donc:adverb:1,donc,adverb,/dɔ̃k/,"therefore, consequently; thus","pues, entonces, luego, por lo tanto",嗯，好吧（用来引出被岔开的话题）；因此，所以,"Il pleut, donc je reste ici.","It is raining, so I am staying here.","Llueve, así que me quedo aquí.",下雨了，所以我留在这里。,machine-assisted
+273,216,donner,fr:donner:verb:1,donner,verb,/dɔ.ne/,to give,"dar, otorgar, entregar",给,Je vais donner un conseil.,I am going to give some advice.,Voy a dar un consejo.,我会给一些建议。,machine-assisted
+274,216,dormir,fr:dormir:verb:1,dormir,verb,/dɔʁ.miʁ/,to sleep,dormir,睡觉,Je vais dormir huit heures.,I am going to sleep for eight hours.,Voy a dormir ocho horas.,我会睡八个小时。,machine-assisted
+275,216,douche,fr:douche:noun:1,douche,noun,/duʃ/,shower,ducha,淋浴；淋浴设备，莲蓬头,Voici la douche.,Here it is.,Aquí está.,这是淋浴。,machine-assisted
+276,216,droit,fr:droit:noun:1,droit,noun,/dʁwa/,right (entitlement),derecho,笔直地,Voici le droit.,Here it is.,Aquí está.,这是笔直地。,machine-assisted
+277,216,droite,fr:droite:noun:1,droite,noun,/dʁwat/,straight line,derecha,右面，右边，右方,On parle de la droite.,We are talking about it.,Estamos hablando de ello.,我们正在谈论右面。,machine-assisted
+278,216,à droite (de),fr:à droite:expression:1,à droite,expression,/a dʁwat/,on the right; to the right,a la derecha,在（的）右边,Tournez à droite après la banque.,Turn right after the bank.,Gire a la derecha después del banco.,经过银行后右转。,machine-assisted
+279,216,dynamique,fr:dynamique:adjective:1,dynamique,adjective,/di.na.mik/,"in motion, dynamic",dinámico,有活力的；充满活力的,C’est quelque chose de dynamique.,"It is something in motion, dynamic.",Es algo dinámico.,这是动态的。,machine-assisted
+280,216,eau,fr:eau:noun:1,eau,noun,/o/,water,agua,水,Je voudrais un verre d’eau.,I would like a glass of water.,Quisiera un vaso de agua.,我想要一杯水。,seed-reviewed
+281,216,école,fr:école:noun:1,école,noun,/e.kɔl/,school,escuela,小学,Les enfants sont à l’école.,The children are at school.,Los niños están en la escuela.,孩子们正在上学。,seed-reviewed
+282,216,écouter,fr:écouter:verb:1,écouter,verb,/e.ku.te/,to listen to,escuchar,听,Je vais écouter la radio.,I am going to listen to the radio.,Voy a escuchar la radio.,我要去听广播。,machine-assisted
+283,216,écrire,fr:écrire:verb:1,écrire,verb,/e.kʁiʁ/,to write,escribir,写,Je vais écrire un message.,I am going to write a message.,Voy a escribir un mensaje.,我会写一条消息。,machine-assisted
+284,216,écrivain,fr:écrivain:noun:1,écrivain,noun,/e.kʁi.vɛ̃/,writer,escritor,作家,On parle de l’écrivain.,We are talking about it.,Estamos hablando de ello.,我们正在谈论作家。,machine-assisted
+285,216,e-mail,fr:e-mail:noun:1,e-mail,noun,/i.mɛl/,An e-mail,e-mail,电子邮件,On parle de l’e-mail.,We are talking about it.,Estamos hablando de ello.,我们正在谈论电子邮件。,machine-assisted
+286,216,embrasser,fr:embrasser:verb:1,embrasser,verb,/ɑ̃.bʁa.se/,"to hug, embrace (to affectionately wrap one's arms around another)",abrazar,拥抱；亲吻,Je vais embrasser ma mère.,I am going to hug my mother.,Voy a abrazar a mi madre.,我要吻我妈妈。,machine-assisted
+287,216,employé(e),fr:employé:noun:1,employé,noun,/ɑ̃.plwa.je/,employee,empleado,雇员,On parle de l’employé.,We are talking about it.,Estamos hablando de ello.,我们正在谈论雇员。,machine-assisted
+288,216,en,fr:en:preposition:1,en,preposition,/ɑ̃/,"in (used to indicate space, also see usage notes)","en cuanto a, por lo tocante a, respecto de, acerca de",在……里；在……时；以……方式,Elle habite en France.,She lives in France.,Vive en Francia.,她住在法国。,machine-assisted
+289,217,endormir(s'),fr:endormir:verb:1,endormir,verb,/ɑ̃.dɔʁ.miʁ/,to put to sleep,dormir; adormecer,睡着,Elle va endormir le bébé.,She is going to put the baby to sleep.,Va a dormir al bebé.,她要去哄孩子睡觉。,machine-assisted
+290,217,enfance,fr:enfance:noun:1,enfance,noun,/ɑ̃.fɑ̃s/,childhood,infancia o niñez,童年,Voici l’enfance.,Here it is.,Aquí está.,这是童年。,machine-assisted
+291,217,enfant,fr:enfant:noun:1,enfant,noun,/ɑ̃.fɑ̃/,child,niño; niña,孩子,Les enfants aiment ce livre.,The children like this book.,A los niños les gusta este libro.,孩子们很喜欢这本书。,seed-reviewed
+292,217,enfin,fr:enfin:adverb:1,enfin,adverb,/ɑ̃.fɛ̃/,finally; in the end,"por último, finalmente, para terminar, en fin",最后，终于；总之；（表示更正前面的话）其实，至少，不过,Le bus arrive enfin.,The bus is finally arriving.,Por fin llega el autobús.,公共汽车终于来了。,machine-assisted
+293,217,ennuyer(s'),fr:ennuyer:verb:1,ennuyer,verb,/ɑ̃.nɥi.je/,to bore,aburrir,感到厌倦；感到烦恼,Ce bruit ennuie mes voisins.,This noise bothers my neighbours.,Este ruido molesta a mis vecinos.,这种噪音惹恼了我的邻居。,machine-assisted
+294,217,en plus,fr:en plus:adverb:1,en plus,adverb,/ɑ̃ plys/,"moreover, what is more, on top of that",además,并且，而且,"Il est rapide et, en plus, très précis.","He is fast and, moreover, very precise.","Es rápido y, además, muy preciso.",他速度快，而且非常精准。,machine-assisted
+295,217,enquête,fr:enquête:noun:1,enquête,noun,/ɑ̃.kɛt/,"inquest, investigation, examination",encuesta,调查,Voici l’enquête.,Here it is.,Aquí está.,这是调查。,machine-assisted
+296,217,ensemble,fr:ensemble:adverb:1,ensemble,adverb,/ɑ̃.sɑ̃bl/,together,juntos,一起,Nous travaillons ensemble.,We work together.,Trabajamos juntos.,我们一起工作。,machine-assisted
+297,217,ensuite,fr:ensuite:adverb:1,ensuite,adverb,/ɑ̃.sɥit/,"in turn, subsequently, thereafter, then","a continuación, después",然后，接下来,"Ensuite, tournez à gauche.",Then turn left.,"Después, gire a la izquierda.",然后左转。,machine-assisted
+298,217,entraînement,fr:entraînement:noun:1,entraînement,noun,/ɑ̃.tʁɛn.mɑ̃/,training,entrenamiento,训练,On parle de l’entraînement.,We are talking about it.,Estamos hablando de ello.,我们正在谈论训练。,machine-assisted
+299,217,entraîner(s'),fr:entraîner:verb:1,entraîner,verb,/ɑ̃.tʁɛ.ne/,"to coach, to train",entrenar,训练,Elle entraîne une équipe de jeunes.,She coaches a youth team.,Entrena a un equipo juvenil.,她执教一支青年队。,machine-assisted
+300,217,entre,fr:entre:preposition:1,entre,preposition,/ɑ̃tʁ/,between,entre,在之间,La poste est entre la banque et le café.,The post office is between the bank and the café.,Correos está entre el banco y la cafetería.,邮局位于银行和咖啡馆之间。,machine-assisted
+301,217,entrée,fr:entrée:noun:1,entrée,noun,/ɑ̃.tʁe/,"entry, act of entering",entrada,入口；门厅,On parle de l’entrée.,We are talking about it.,Estamos hablando de ello.,我们正在谈论入口。,machine-assisted
+302,217,entreprise,fr:entreprise:noun:1,entreprise,noun,/ɑ̃.tʁə.pʁiz/,"company, business","empresa, compañía",企业,On parle de l’entreprise.,We are talking about it.,Estamos hablando de ello.,我们正在谈论企业。,machine-assisted
+303,217,entrer,fr:entrer:verb:1,entrer,verb,/ɑ̃.tʁe/,to enter,entrar,进入,Vous pouvez entrer maintenant.,You can come in now.,Puede entrar ahora.,你现在可以进入了。,machine-assisted
+304,217,entretien,fr:entretien:noun:1,entretien,noun,/ɑ̃.tʁə.tjɛ̃/,upkeep (maintenance),entrevista,面试，会面,Voici l’entretien.,Here it is.,Aquí está.,这是面试。,machine-assisted
+305,217,envie,fr:envie:noun:1,envie,noun,/ɑ̃.vi/,"desire, lust, urge",celos o envidia,欲望，强烈的愿望,On parle de l’envie.,We are talking about it.,Estamos hablando de ello.,我们正在谈论欲望。,machine-assisted
+306,217,avoir envie de qch. / faire qch.,fr:avoir envie de:verb:1,avoir envie de,verb,/a.vwaʁ/,to want; to feel like,tener ganas de,想，意欲,J’ai envie de voyager.,I feel like travelling.,Tengo ganas de viajar.,我想去旅行。,machine-assisted
+307,217,époque,fr:époque:noun:1,époque,noun,/e.pɔk/,epoch,época,时代；时期,On parle de l’époque.,We are talking about it.,Estamos hablando de ello.,我们正在谈论时代。,machine-assisted
+308,217,erreur,fr:erreur:noun:1,erreur,noun,/e.ʁœʁ/,error (a faulty process of thought that leads to conclusions out of agreement with reality),error,错误,On parle de l’erreur.,We are talking about it.,Estamos hablando de ello.,我们正在谈论错误。,machine-assisted
+309,217,espace,fr:espace:noun:1,espace,noun,/ɛs.pas/,space,espacio,空间；场地，场所,On parle de l’espace.,We are talking about it.,Estamos hablando de ello.,我们正在谈论空间。,machine-assisted
+310,217,espace vert,fr:espace vert:expression:1,espace vert,expression,/ɛspˈas vˈɛʁ/,green space; park,zona verde,绿地,Les enfants jouent dans cet espace vert.,The children are playing in this green space.,Los niños juegan en esta zona verde.,孩子们在这片绿地里玩耍。,machine-assisted
+311,217,espagnol,fr:espagnol:noun:1,espagnol,noun,/ɛs.pa.ɲɔl/,Spanish language,español,西班牙语,On parle de l’espagnol.,We are talking about it.,Estamos hablando de ello.,我们正在谈论西班牙语。,machine-assisted
+312,217,Espagnol(e),fr:espagnol:noun:2,Espagnol,noun,/ɛs.pa.ɲɔl/,Spaniard (male),español,西班牙人,Voici l’Espagnol.,Here it is.,Aquí está.,这是西班牙人。,machine-assisted
+313,217,espagnol(e),fr:espagnol:adjective:1,espagnol,adjective,/ɛs.pa.ɲɔl/,"Spanish, from or otherwise related to Spain, its people etc",español,西班牙的,C’est quelque chose d’espagnol.,"It is something Spanish, from or otherwise related to Spain, its people etc.",Es algo español.,这是西班牙的东西。,machine-assisted
+314,217,essayer,fr:essayer:verb:1,essayer,verb,/e.sɛ.je/,to try on; to try,probar,试；试穿；尝试,Je vais essayer ce manteau.,I am going to try on this coat.,Voy a probar este abrigo.,我要试试这件外套。,machine-assisted
+315,217,essayer de faire qch.,fr:essayer de:verb:1,essayer de,verb,/e.sɛ.je/,to try to,intentar,尝试做某事,Nous essayons de comprendre.,We are trying to understand.,Intentamos comprender.,我们尝试去理解。,machine-assisted
+316,217,est,fr:est:noun:1,est,noun,/ɛst/,east,este,东，东边，东方,Voici l’est.,Here it is.,Aquí está.,这是东。,machine-assisted
+317,217,et,fr:et:conjunction:1,et,conjunction,/e/,and,et; et,和，而，且；（表示数量的相加）加，又,Paul et Marie arrivent demain.,Paul and Marie arrive tomorrow.,Paul y Marie llegan mañana.,保罗和玛丽明天抵达。,machine-assisted
+318,217,étage,fr:étage:noun:1,étage,noun,/e.taʒ/,"floor, storey",piso; planta,楼层,Voici l’étage.,Here it is.,Aquí está.,这是楼层。,machine-assisted
+319,217,étagère,fr:étagère:noun:1,étagère,noun,/e.ta.ʒɛʁ/,"shelf (flat, rigid structure, fixed at right angles to a wall or forming a part of a cabinet, desk, etc., and used to support, store or display objects)",estantería,（固定在墙上的）格，隔板，架子；多层架子,Voici l’étagère.,Here it is.,Aquí está.,这是（固定在墙上的）格。,machine-assisted
+320,217,été,fr:été:noun:1,été,noun,/e.te/,summer,verano,夏天,Voici l’été.,Here it is.,Aquí está.,这是夏天。,machine-assisted
+321,217,étranger,fr:étranger:adjective:1,étranger,adjective,/e.tʁɑ̃.ʒe/,foreign,extranjero,外国，异国,C’est quelque chose d’étranger.,It is something foreign.,Es algo extranjero.,这是外国的东西。,machine-assisted
+322,217,à l'étranger,fr:à l'étranger:adverb:1,à l'étranger,adverb,/a l‿e.tʁɑ̃.ʒe/,abroad,en el extranjero,去国外；在国外,Elle travaille à l’étranger.,She works abroad.,Trabaja en el extranjero.,她在国外工作。,machine-assisted
+323,217,étranger(ère),fr:étranger:noun:1,étranger,noun,/e.tʁɑ̃.ʒe/,foreigner,extranjero,外国的,Voici l’étranger.,Here it is.,Aquí está.,这是外国的。,machine-assisted
+324,217,être,fr:être:verb:1,être,verb,/ɛtʁ/,to be,ser; estar,是；处于,Je suis à la maison.,I am at home.,Estoy en casa.,我在家。,seed-reviewed
+325,217,étudiant(e),fr:étudiant:noun:1,étudiant,noun,/e.ty.djɑ̃/,student,estudiante,大学生,Voici l’étudiant.,Here it is.,Aquí está.,这是大学生。,machine-assisted
+326,217,euro,fr:euro:noun:1,euro,noun,/ø.ʁo/,euro (currency),euro²,欧元,On parle de l’euro.,We are talking about it.,Estamos hablando de ello.,我们正在谈论欧元。,machine-assisted
+327,217,Europe,fr:europe:proper_noun:1,Europe,proper_noun,/ø.ʁɔp/,Europe (a continent located west of Asia and north of Africa),europa,欧洲,Je connais bien Europe.,I know Europe well.,Conozco bien Europa.,我很了解欧洲。,machine-assisted
+328,217,éviter,fr:éviter:verb:1,éviter,verb,/e.vi.te/,to avoid,evitar,避免,Je vais éviter un accident.,I am going to avoid an accident.,Voy a evitar un accidente.,我会避免发生事故。,machine-assisted
+329,217,exactement,fr:exactement:adverb:1,exactement,adverb,/ɛɡ.zak.tə.mɑ̃/,"exactly, quite",exactamente,准确地,C’est exactement ce que je cherche.,That is exactly what I am looking for.,Eso es exactamente lo que busco.,这正是我正在寻找的。,machine-assisted
+330,217,excellent(e),fr:excellent:adjective:1,excellent,adjective,/ɛk.sɛ.lɑ̃/,excellent; splendid,excelente,特别好的,C’est quelque chose d’excellent.,It is something excellent.,Es algo excelente.,这是一件很棒的事情。,machine-assisted
+331,217,excuser,fr:excuser:verb:1,excuser,verb,/ɛk.sky.ze/,"to excuse (to forgive, to pardon)","disculpar, perdonar",原谅，宽恕,Je vais excuser son retard.,I am going to excuse his lateness.,Voy a disculpar su retraso.,我会原谅他的迟到。,machine-assisted
+332,217,exister,fr:exister:verb:1,exister,verb,/ɛɡ.zis.te/,to exist,existir,存在,Ce service existe encore.,This service still exists.,Este servicio todavía existe.,这项服务仍然存在。,machine-assisted
+333,217,expérience,fr:expérience:noun:1,expérience,noun,/ɛk.spe.ʁjɑ̃s/,"experiment, trial, test",experiencia,经验；经历,Voici l’expérience.,Here it is.,Aquí está.,这是经验。,machine-assisted
+334,217,fabriquer,fr:fabriquer:verb:1,fabriquer,verb,/fa.bʁi.ke/,to make; to build; to manufacture,fabricar,制造，生产,Je vais fabriquer une table.,I am going to make a table.,Voy a fabricar una mesa.,我要做一张桌子。,machine-assisted
+335,217,fac,fr:fac:noun:1,fac,noun,/fak/,university,facultad,《俗》大学（的缩写）,Voici la fac.,Here it is.,Aquí está.,这是大学（的缩写）。,machine-assisted
+336,217,face,fr:face:noun:1,face,noun,/fas/,face,cara o rostro,（物体的）面,On parle de la face.,We are talking about it.,Estamos hablando de ello.,我们正在谈论（物体的）面。,machine-assisted
+337,217,facile,fr:facile:adjective:1,facile,adjective,/fa.sil/,easy,fácil,容易的,La question est facile.,The question is easy.,La pregunta es fácil.,这个问题很简单。,seed-reviewed
+338,217,facilement,fr:facilement:adverb:1,facilement,adverb,/fa.sil.mɑ̃/,easily,fácilmente,容易地，轻易地,On trouve facilement cette adresse.,This address is easy to find.,Esta dirección se encuentra fácilmente.,这个地址很容易找到。,machine-assisted
+339,217,faire,fr:faire:verb:1,faire,verb,/fɛʁ/,to do,hacer,做,Je fais mes devoirs.,I am doing my homework.,Estoy haciendo mis deberes.,我做作业。,seed-reviewed
+340,217,fait,fr:fait:noun:1,fait,noun,/fɛ/,fact,hecho,事情，事件，情况，轶闻,Voici le fait.,Here it is.,Aquí está.,这是事情。,machine-assisted
+341,217,fait divers,fr:fait divers:noun:1,fait divers,noun,/fɛ di.vɛʁ/,"miscellaneous news story, minor news item",suceso; noticia breve,杂闻，社会新闻,On parle des fait divers.,We are talking about it.,Estamos hablando de ello.,我们正在谈论杂闻。,machine-assisted
+342,217,familier(ère),fr:familier:adjective:1,familier,adjective,/fa.mi.lje/,familiar (known to one),familiar,通俗的,C’est quelque chose de familier.,It is something familiar (known to one).,Es algo familiar.,这很熟悉。,machine-assisted
+343,217,famille,fr:famille:noun:1,famille,noun,/fa.mij/,family,familia,亲属，家人；家庭,Ma famille habite ici.,My family lives here.,Mi familia vive aquí.,我的家人住在这里。,seed-reviewed
+344,217,fan,fr:fan:noun:1,fan,noun,/fan/,"fan (admirer, supporter)",fan,粉丝，歌迷，影迷,On parle des fans.,We are talking about it.,Estamos hablando de ello.,我们正在谈论粉丝。,machine-assisted
+345,217,fantastique,fr:fantastique:adjective:1,fantastique,adjective,/fɑ̃.tas.tik/,fantastic (related to fantasy or fantasies),fantástico o fantástica,奇幻的；幻想的,C’est quelque chose de fantastique.,It is something fantastic (related to fantasy or fantasies).,Es algo fantástico o fantástica.,这是奇幻的东西。,machine-assisted
+346,217,farine,fr:farine:noun:1,farine,noun,/fa.ʁin/,"flour, specifically wheat flour",harina,面粉,On parle de la farine.,We are talking about it.,Estamos hablando de ello.,我们正在谈论面粉。,machine-assisted
+347,217,fatigué(e),fr:fatigué:adjective:1,fatigué,adjective,/fa.ti.ɡe/,tired,cansado,疲倦的,C’est quelque chose de fatigué.,It is something tired.,Es algo cansado.,这是疲惫的状态。,machine-assisted
+348,217,fauteuil,fr:fauteuil:noun:1,fauteuil,noun,/fo.tœj/,armchair,sillón,扶手椅,On parle du fauteuil.,We are talking about it.,Estamos hablando de ello.,我们正在谈论扶手椅。,machine-assisted
+349,217,félicitations,fr:félicitations:interjection:1,félicitations,interjection,/fe.li.si.ta.sjɔ̃/,"felicitations, congratulations, well done",felicitaciones; enhorabuena,祝词，贺词；称赞，赞扬,Félicitations pour votre réussite !,Congratulations on your success!,¡Enhorabuena por su éxito!,恭喜您取得成功！,machine-assisted
+350,217,femme,fr:femme:noun:1,femme,noun,/fam/,woman,mujer,女人；女性,Cette femme est médecin.,This woman is a doctor.,Esta mujer es médica.,这位女士是一名医生。,seed-reviewed
+351,217,fenêtre,fr:fenêtre:noun:1,fenêtre,noun,/fə.nɛtʁ/,window,ventana,窗，窗子，窗户，玻璃窗,Voici la fenêtre.,Here it is.,Aquí está.,这是窗。,machine-assisted
+352,217,fête,fr:fête:noun:1,fête,noun,/fɛt/,winter holidays (always in plural),fiesta,节日；晚会,On parle de la fête.,We are talking about it.,Estamos hablando de ello.,我们正在谈论节日。,machine-assisted
+353,217,fêter,fr:fêter:verb:1,fêter,verb,/fɛ.te/,to celebrate (an event),celebrar,庆祝，纪念,Je vais fêter mon anniversaire.,I am going to celebrate my birthday.,Voy a celebrar mi cumpleaños.,我要庆祝我的生日。,machine-assisted
+354,217,feu,fr:feu:noun:1,feu,noun,/fø/,fire,fuego,火；焰火,Voici le feu.,Here it is.,Aquí está.,这是火。,machine-assisted
+355,217,feu d'artifice,fr:feu d'artifice:noun:1,feu d'artifice,noun,/fø d‿aʁ.ti.fis/,firework,fuegos artificiales,焰火,Voici les feu d'artifice.,Here it is.,Aquí está.,这些是焰火。,machine-assisted
+356,217,fille,fr:fille:noun:1,fille,noun,/fij/,girl,"niña, chica, o muchacha",女孩，姑娘；女儿,Voici la fille.,Here it is.,Aquí está.,这是女孩。,machine-assisted
+357,217,film,fr:film:noun:1,film,noun,/film/,"movie, film",film,电影，影片,Voici le film.,Here it is.,Aquí está.,这是电影。,machine-assisted
+358,217,fils,fr:fils:noun:1,fils,noun,/fis/,son,hijo (descendiente varón),儿子,Voici le fils.,Here it is.,Aquí está.,这是儿子。,machine-assisted
+359,217,finalement,fr:finalement:adverb:1,finalement,adverb,/fi.nal.mɑ̃/,finally; last; lastly,finalmente,最终，终于,"Finalement, nous prenons le train.","In the end, we are taking the train.","Finalmente, tomamos el tren.",最后，我们坐上了火车。,machine-assisted
+360,217,fini(e),fr:fini:noun:1,fini,noun,/fi.ni/,aspect or texture of what has been completed,terminado,完成的，结束的,Voici le fini.,Here it is.,Aquí está.,这是完成的。,machine-assisted
+361,217,Finlande,fr:finlande:proper_noun:1,Finlande,proper_noun,/fɛ̃.lɑ̃d/,Finland (a country in Northern Europe),finlandia,芬兰,Je connais bien Finlande.,I know Finland well.,Conozco bien Finlandia.,我很了解芬兰。,machine-assisted
+362,217,fixe,fr:fixe:adjective:1,fixe,adjective,/fiks/,fixed,inmueble (que no puede moverse),固定的；长久的，持久的,C’est quelque chose de fixe.,It is something fixed.,Es algo inmueble (que no puede moverse).,这是固定的东西。,machine-assisted
+363,217,beau fixe,fr:beau fixe:expression:1,beau fixe,expression,/bˈo fˈiks/,settled fine weather,buen tiempo estable,持续晴天，连续晴天,Le temps reste au beau fixe.,The fine weather is holding.,El buen tiempo se mantiene estable.,天气依然晴好。,machine-assisted
+364,217,fleur,fr:fleur:noun:1,fleur,noun,/flœʁ/,"flower; bloom; blossom; collectively, the reproductive organs and the envelope which surrounds them in angiosperms (also called ""flowering plants"")",flor,花,Voici la fleur.,Here it is.,Aquí está.,这是花。,machine-assisted
+365,217,fois,fr:fois:noun:1,fois,noun,/fwa/,time (an instance or repetition of something happening),vez,次,On parle de la fois.,We are talking about it.,Estamos hablando de ello.,我们正在谈论次。,machine-assisted
+366,217,foot,fr:foot:noun:1,foot,noun,/fut/,"association football; football, soccer",fútbol,《俗》足球,Voici le foot.,Here it is.,Aquí está.,这是足球。,machine-assisted
+367,217,footing,fr:footing:noun:1,footing,noun,/fu.tiŋ/,"exercise walking, jogging (as a form of exercise)",trotar,慢跑,Voici le footing.,Here it is.,Aquí está.,这是慢跑。,machine-assisted
+368,217,français,fr:français:noun:1,français,noun,/fʁɑ̃.sɛ/,French (language),francés,法语,On parle du français.,We are talking about it.,Estamos hablando de ello.,我们正在谈论法语。,machine-assisted
+369,217,Français(e),fr:français:noun:2,Français,noun,/fʁɑ̃.sɛ/,Frenchman,francés,法国人,Voici le Français.,Here it is.,Aquí está.,这是法国人。,machine-assisted
+370,218,français(e),fr:français:adjective:1,français,adjective,/fʁɑ̃.sɛ/,French,francés,法国的,Elle écoute une chanson française.,She is listening to a French song.,Ella escucha una canción francesa.,她听一首法语歌曲。,seed-reviewed
+371,218,France,fr:france:proper_noun:1,France,proper_noun,/fʁɑ̃s/,France (a country located primarily in Western Europe),francia,法国,Je connais bien France.,I know France well.,Conozco bien Francia.,我很了解法国。,machine-assisted
+372,218,fromage,fr:fromage:noun:1,fromage,noun,/fʁɔ.maʒ/,cheese,queso,奶酪,On parle du fromage.,We are talking about it.,Estamos hablando de ello.,我们正在谈论奶酪。,machine-assisted
+373,218,fruit,fr:fruit:noun:1,fruit,noun,/fʁɥi/,fruit,fruta,水果,Voici le fruit.,Here it is.,Aquí está.,这是水果。,machine-assisted
+374,218,gagner,fr:gagner:verb:1,gagner,verb,/ɡa.ɲe/,to win,ganar,赢；赢得,Je vais gagner le match.,I am going to win the match.,Voy a ganar el partido.,我会赢得比赛。,machine-assisted
+375,218,garçon,fr:garçon:noun:1,garçon,noun,/ɡaʁ.sɔ̃/,boy,chico,男孩；小伙子,Voici le garçon.,Here it is.,Aquí está.,这是男孩。,machine-assisted
+376,218,gare,fr:gare:noun:1,gare,noun,/ɡaʁ/,railway station,estación,车站,On parle de la gare.,We are talking about it.,Estamos hablando de ello.,我们正在谈论车站。,machine-assisted
+377,218,gâteau,fr:gâteau:noun:1,gâteau,noun,/ɡa.to/,"a sponge cake, i.e. a cake made with a chemical leavening agent (e.g. baking powder), making it light and airy (as opposed to a denser torte)",pastel,蛋糕,Voici le gâteau.,Here it is.,Aquí está.,这是蛋糕。,machine-assisted
+378,218,gauche,fr:gauche:noun:1,gauche,noun,/ɡoʃ/,"the left, the left-hand side","izquierda, siniestra o zurda",左边；左面,On parle de la gauche.,We are talking about it.,Estamos hablando de ello.,我们正在谈论左边。,machine-assisted
+379,218,à gauche (de),fr:à gauche:expression:1,à gauche,expression,/a ɡoʃ/,on the left,a la izquierda,在（…的）左边,La poste est à gauche.,The post office is on the left.,Correos está a la izquierda.,邮局在左边。,machine-assisted
+380,218,"général(e), généraux",fr:général:adjective:1,général,adjective,/ʒeneʁˈal/,general,general,一般的，普遍的,C’est quelque chose de général.,It is something general.,Es algo general.,这是一般性的事情。,machine-assisted
+381,218,en général,fr:en général:adverb:1,en général,adverb,/ɑ̃ ʒe.ne.ʁal/,"in general, on the whole",en general,一般而言；通常,"En général, je me lève tôt.",I usually get up early.,"Por lo general, me levanto temprano.",我通常起得很早。,machine-assisted
+382,218,Genève,fr:genève:proper_noun:1,Genève,proper_noun,/ʒə.nɛv/,Geneva (a city in Switzerland),Ginebra,日内瓦（瑞士）,Je connais bien Genève.,I know Geneva well.,Conozco bien Ginebra.,我很了解日内瓦。,machine-assisted
+383,218,gens,fr:gens:noun:1,gens,noun,/ʒɑ̃/,set of people,"gente, gentes",人，人们,On parle du gens.,We are talking about it.,Estamos hablando de ello.,我们正在谈论人。,machine-assisted
+384,218,glace,fr:glace:noun:1,glace,noun,/ɡlas/,ice,hielo,冰；冰淇淋,Voici la glace.,Here it is.,Aquí está.,这是冰。,machine-assisted
+385,218,glissant(e),fr:glissant:adjective:1,glissant,adjective,/ɡli.sɑ̃/,slippery (which tends to cause slipping),resbaladizo,滑的,C’est quelque chose de glissant.,It is something slippery (which tends to cause slipping).,Es algo resbaladizo.,这是一件很滑的事情。,machine-assisted
+386,218,golf,fr:golf:noun:1,golf,noun,/ɡɔlf/,golf,golf,高尔夫球运动,Voici le golf.,Here it is.,Aquí está.,这是高尔夫球运动。,machine-assisted
+387,218,goût,fr:goût:noun:1,goût,noun,/ɡu/,"taste, flavour",sabor,爱好，兴趣；品位；味道,On parle du goût.,We are talking about it.,Estamos hablando de ello.,我们正在谈论爱好。,machine-assisted
+388,218,gramme,fr:gramme:noun:1,gramme,noun,/ɡʁam/,gram (unit of mass),gramo,克,On parle du gramme.,We are talking about it.,Estamos hablando de ello.,我们正在谈论克。,machine-assisted
+389,218,grand(e),fr:grand:adjective:1,grand,adjective,/ɡʁɑ̃/,big; large,grande,大的；宽广的,C’est une grande ville.,It is a large city.,Es una ciudad grande.,这是一座大城市。,seed-reviewed
+390,218,grand-mère (grands-mères),fr:grand-mère:noun:1,grand-mère,noun,/ɡʁɑ̃.mɛʁ/,grandmother,abuela,（外）祖母,On parle de la grand-mère.,We are talking about it.,Estamos hablando de ello.,我们正在谈论（外）祖母。,machine-assisted
+391,218,grand-père (grands-pères),fr:grand-père:noun:1,grand-père,noun,/ɡʁɑ̃.pɛʁ/,grandfather,abuelo,（外）祖父,Voici le grand-père.,Here it is.,Aquí está.,这是（外）祖父。,machine-assisted
+392,218,gratuit(e),fr:gratuit:adjective:1,gratuit,adjective,/ɡʁa.tɥi/,free of charge,gratis o gratuito (sin cargo),免费的,C’est quelque chose de gratuit.,It is something free of charge.,Es algo gratis o gratuito (sin cargo).,这是免费的。,machine-assisted
+393,218,gris(e),fr:gris:adjective:1,gris,adjective,/ɡʁi/,grey / gray,gris,灰色的,C’est quelque chose de gris.,It is something grey / gray.,Es algo gris.,这是灰色的东西。,machine-assisted
+394,218,groupe,fr:groupe:noun:1,groupe,noun,/ɡʁup/,group,grupo,组；群；团体,Voici le groupe.,Here it is.,Aquí está.,这是组。,machine-assisted
+395,218,guerre,fr:guerre:noun:1,guerre,noun,/ɡɛʁ/,war,"conflicto armado, hostilidades, guerra o pelea",战争,Voici la guerre.,Here it is.,Aquí está.,这是战争。,machine-assisted
+396,218,guitare,fr:guitare:noun:1,guitare,noun,/ɡi.taʁ/,guitar,guitarra,吉他,On parle de la guitare.,We are talking about it.,Estamos hablando de ello.,我们正在谈论吉他。,machine-assisted
+397,218,guyanais(e),fr:guyanais:adjective:1,guyanais,adjective,/ɡɥi.ja.nɛ/,of French Guiana; Guianese,guayanés,圭亚那的,C’est quelque chose de guyanais.,It is something of French Guiana.,Es algo guayanés.,这是圭亚那的东西。,machine-assisted
+398,218,gymnastique,fr:gymnastique:noun:1,gymnastique,noun,/ʒim.nas.tik/,gymnastics,gimnasia,体操,On parle de la gymnastique.,We are talking about it.,Estamos hablando de ello.,我们正在谈论体操。,machine-assisted
+399,218,habiller(s'),fr:habiller:verb:1,habiller,verb,/a.bi.je/,to dress,vestir,穿衣服,Je vais habiller mon enfant.,I am going to dress my child.,Voy a vestir a mi hijo.,我会给我的孩子穿衣服。,machine-assisted
+400,218,habiter,fr:habiter:verb:1,habiter,verb,/a.bi.te/,to live (in a place),vivir; residir,居住（在）,J’habite dans une petite ville.,I live in a small town.,Vivo en una ciudad pequeña.,我住在一个小镇。,seed-reviewed
+401,218,habitude,fr:habitude:noun:1,habitude,noun,/a.bi.tyd/,habit (action done on a regular basis),costumbre,习惯,Voici l’habitude.,Here it is.,Aquí está.,这是习惯。,machine-assisted
+402,218,habituel(le),fr:habituel:adjective:1,habituel,adjective,/a.bi.tɥɛl/,"customary, habitual",habitual,习惯的,C’est quelque chose d’habituel.,"It is something customary, habitual.",Es algo habitual.,这是很平常的事情。,machine-assisted
+403,218,haut(e),fr:haut:adjective:1,haut,adjective,/o/,high,alto,高的；高等的,C’est quelque chose d’haut.,It is something high.,Es algo alto.,这是很高的东西。,machine-assisted
+404,218,hélicoptère,fr:hélicoptère:noun:1,hélicoptère,noun,/e.li.kɔp.tɛʁ/,helicopter,helicóptero,直升机,On parle de l’hélicoptère.,We are talking about it.,Estamos hablando de ello.,我们正在谈论直升机。,machine-assisted
+405,218,heure,fr:heure:noun:1,heure,noun,/œʁ/,"hour, time",hora,时间；小时,On parle de l’heure.,We are talking about it.,Estamos hablando de ello.,我们正在谈论时间。,machine-assisted
+406,218,heurter,fr:heurter:verb:1,heurter,verb,/œʁ.te/,to hit; to collide with,chocar contra,碰撞,La voiture a heurté le mur.,The car hit the wall.,El coche chocó contra la pared.,车撞墙了。,machine-assisted
+407,218,heureux(euse),fr:heureux:adjective:1,heureux,adjective,/œ.ʁø/,happy,"afortunado, feliz",快乐的,C’est quelque chose d’heureux.,It is something happy.,"Es algo afortunado, feliz.",这是一件令人高兴的事情。,machine-assisted
+408,218,hier,fr:hier:adverb:1,hier,adverb,/jɛʁ/,yesterday,ayer,昨天,Je l’ai rencontré hier.,I met him yesterday.,Lo encontré ayer.,我昨天见过他。,machine-assisted
+409,218,histoire,fr:histoire:noun:1,histoire,noun,/is.twaʁ/,story,historia,故事,On parle de l’histoire.,We are talking about it.,Estamos hablando de ello.,我们正在谈论故事。,machine-assisted
+410,218,Hollande,fr:hollande:proper_noun:1,Hollande,proper_noun,/ɔ.lɑ̃d/,Holland (a historical province of the Netherlands),holanda,荷兰（非官方称谓）,Je connais bien Hollande.,I know Holland well.,Conozco bien Holanda.,我很了解荷兰。,machine-assisted
+411,218,homme,fr:homme:noun:1,homme,noun,/ɔm/,man,hombre,人，男人，男子,Cet homme est mon professeur.,This man is my teacher.,Este hombre es mi profesor.,这个人是我的老师。,seed-reviewed
+412,218,horaire,fr:horaire:noun:1,horaire,noun,/ɔ.ʁɛʁ/,schedule,horario,时刻表,Voici l’horaire.,Here it is.,Aquí está.,这是时刻表。,machine-assisted
+413,218,hôtel,fr:hôtel:noun:1,hôtel,noun,/o.tɛl/,"mansion, town house, hotel (in the sense of a town house or mansion)",hotel,宾馆，大饭店；（行政机关）办公大楼，官邸，大厦,On parle de l’hôtel.,We are talking about it.,Estamos hablando de ello.,我们正在谈论宾馆。,machine-assisted
+414,218,hôtel de ville,fr:hôtel de ville:noun:1,hôtel de ville,noun,/o.tɛl də vil/,"town hall, city hall",ayuntamiento,市政府大楼,Voici les hôtel de ville.,Here it is.,Aquí está.,这些是市政府大楼。,machine-assisted
+415,218,hum,fr:hum:interjection:1,hum,interjection,/ɔm/,"um..., hm",hum,嗯！（表示怀疑、不耐烦或持保留意见）,"Hum, je ne suis pas sûr.","Hmm, I am not sure.","Mmm, no estoy seguro.",嗯，我不确定。,machine-assisted
+416,218,ici,fr:ici:adverb:1,ici,adverb,/i.si/,here,aquí o acá,这里,Attendez-moi ici.,Wait for me here.,Espéreme aquí.,在这里等我。,machine-assisted
+417,218,idéal(e),fr:idéal:noun:1,idéal,noun,/i.de.al/,ideal,ideal,理想的,On parle de l’idéal.,We are talking about it.,Estamos hablando de ello.,我们正在谈论理想的。,machine-assisted
+418,218,idée,fr:idée:noun:1,idée,noun,/i.de/,idea,idea,主意,On parle de l’idée.,We are talking about it.,Estamos hablando de ello.,我们正在谈论主意。,machine-assisted
+419,218,il faut,fr:il faut:expression:1,il faut,expression,/il fˈo/,one must; it is necessary,hay que,需要；必须；应该,Il faut réserver à l’avance.,You have to book in advance.,Hay que reservar con antelación.,您必须提前预订。,machine-assisted
+420,218,il y a,fr:il y a:expression:1,il y a,expression,/i.l‿i.j‿a/,ago,hay,有,Il y a un café près de la gare.,There is a café near the station.,Hay una cafetería cerca de la estación.,车站附近有一家咖啡馆。,machine-assisted
+421,218,île,fr:île:noun:1,île,noun,/il/,island,isla,岛,On parle de l’île.,We are talking about it.,Estamos hablando de ello.,我们正在谈论岛。,machine-assisted
+422,218,imaginer,fr:imaginer:verb:1,imaginer,verb,/i.ma.ʒi.ne/,to imagine,imaginar,想象,Je vais imaginer une solution.,I am going to imagine a solution.,Voy a imaginar una solución.,我要设想一个解决方案。,machine-assisted
+423,218,immeuble,fr:immeuble:noun:1,immeuble,noun,/i.mœbl/,building,finca urbana,房屋，大楼,Voici l’immeuble.,Here it is.,Aquí está.,这是房屋。,machine-assisted
+424,218,immobilier(ère),fr:immobilier:adjective:1,immobilier,adjective,/i.mɔ.bi.lje/,"real, in the sense of ""tangible and immovable""",inmobiliario,不动产的,C’est quelque chose d’immobilier.,"It is something real, in the sense of ""tangible and immovable"".",Es algo inmobiliario.,这是房地产。,machine-assisted
+425,218,important(e),fr:important:adjective:1,important,adjective,/ɛ̃.pɔʁ.tɑ̃/,important,importante,重要的,C’est quelque chose d’important.,It is something important.,Es algo importante.,这很重要。,machine-assisted
+426,218,inconvénient,fr:inconvénient:noun:1,inconvénient,noun,/ɛ̃.kɔ̃.ve.njɑ̃/,inconvenience,inconveniente,不便之处；缺点,Voici l’inconvénient.,Here it is.,Aquí está.,这是不便之处。,machine-assisted
+427,218,indispensable,fr:indispensable:adjective:1,indispensable,adjective,/ɛ̃.dis.pɑ̃.sabl/,indispensable,imprescindible,不可或缺的,C’est quelque chose d’indispensable.,It is something indispensable.,Es algo imprescindible.,这是至关重要的。,machine-assisted
+428,218,informaticien(ienne),fr:informaticien:noun:1,informaticien,noun,/ɛ̃.fɔʁ.ma.ti.sjɛ̃/,"computer specialist, computer scientist; IT worker",informático,计算机工程师,Voici l’informaticien.,Here it is.,Aquí está.,这是计算机工程师。,machine-assisted
+429,218,inquiéter(s'),fr:inquiéter:verb:1,inquiéter,verb,/ɛ̃.kje.te/,to worry,inquietar,担心,Mon retard va inquiéter mes parents.,My lateness is going to worry my parents.,Mi retraso va a preocupar a mis padres.,我迟到会让父母担心。,machine-assisted
+430,218,inspecteur(trice),fr:inspecteur:noun:1,inspecteur,noun,/ɛ̃s.pɛk.tœʁ/,inspector,inspector,检查员；视察员,Voici l’inspecteur.,Here it is.,Aquí está.,这是检查员。,machine-assisted
+431,218,inspecteur de police,fr:inspecteur de police:expression:1,inspecteur de police,expression,/ɛ̃spɛktˈœʁ də- polˈis/,police inspector; detective,inspector de policía,警探；刑警,L’inspecteur de police pose des questions.,The police inspector is asking questions.,El inspector de policía hace preguntas.,警务督察提问。,machine-assisted
+432,218,installer,fr:installer:verb:1,installer,verb,/ɛ̃s.ta.le/,to install,instalar,安置，放置,Je vais installer cette application.,I am going to install this app.,Voy a instalar esta aplicación.,我将安装此应用程序。,machine-assisted
+433,218,institut,fr:institut:noun:1,institut,noun,/ɛ̃s.ti.ty/,institute,instituto,机构；学院,Voici l’institut.,Here it is.,Aquí está.,这是机构。,machine-assisted
+434,218,interdit(e),fr:interdit:adjective:1,interdit,adjective,/ɛ̃.tɛʁ.di/,"forbidden, prohibited, off-limits",prohibido,被禁止的,C’est quelque chose d’interdit.,"It is something forbidden, prohibited, off-limits.",Es algo prohibido.,这是被禁止的事情。,machine-assisted
+435,218,intéressant(e),fr:intéressant:adjective:1,intéressant,adjective,/ɛ̃.te.ʁɛ.sɑ̃/,interesting,interesante,有趣的，有意义的,C’est quelque chose d’intéressant.,It is something interesting.,Es algo interesante.,这是一件很有趣的事。,machine-assisted
+436,218,Internet,fr:internet:proper_noun:1,Internet,proper_noun,/ɛ̃.tɛʁ.nɛt/,the Internet,Internet,因特网,Je connais bien Internet.,I know the Internet well.,Conozco bien Internet.,我很了解互联网。,machine-assisted
+437,218,interview,fr:interview:noun:1,interview,noun,/ɛ̃.tɛʁ.vju/,interview (by a journalist),entrevista,采访，访谈,On parle des interviews.,We are talking about it.,Estamos hablando de ello.,我们正在谈论采访。,machine-assisted
+438,218,invité(e),fr:invité:noun:1,invité,noun,/ɛ̃.vi.te/,guest (person who is invited),invitado,来宾,On parle de l’invité.,We are talking about it.,Estamos hablando de ello.,我们正在谈论来宾。,machine-assisted
+439,218,inviter,fr:inviter:verb:1,inviter,verb,/ɛ̃.vi.te/,to invite,invitar o convidar,邀请,Je vais inviter mes amis.,I am going to invite my friends.,Voy a invitar o convidar a mis amigos.,我会邀请我的朋友。,machine-assisted
+440,218,Irlande,fr:irlande:proper_noun:1,Irlande,proper_noun,/iʁ.lɑ̃d/,Ireland (a country in northwestern Europe),irlanda (isla),爱尔兰,Je connais bien Irlande.,I know Ireland well.,Conozco bien Irlanda.,我很了解爱尔兰。,machine-assisted
+441,218,italien,fr:italien:noun:1,italien,noun,/i.ta.ljɛ̃/,Italian (language),italiano,意大利语,Voici l’italien.,Here it is.,Aquí está.,这是意大利语。,machine-assisted
+442,218,Italien(ne),fr:italien:noun:2,Italien,noun,/i.ta.ljɛ̃/,Italian (person),italiano,意大利人,On parle de l’Italien.,We are talking about it.,Estamos hablando de ello.,我们正在谈论意大利人。,machine-assisted
+443,218,italien(ne),fr:italien:adjective:1,italien,adjective,/i.ta.ljɛ̃/,Italian,italiano,意大利的,C’est quelque chose d’italien.,It is something Italian.,Es algo italiano.,这是意大利的东西。,machine-assisted
+444,219,janvier,fr:janvier:noun:1,janvier,noun,/ʒɑ̃.vje/,January,enero,一月,Nous partons en janvier.,We are leaving in January.,Nos vamos en enero.,我们一月份出发。,machine-assisted
+445,219,Japon,fr:japon:proper_noun:1,Japon,proper_noun,/ʒa.pɔ̃/,Japan (a country in East Asia),japón,日本,Je connais bien Japon.,I know Japan well.,Conozco bien Japón.,我很了解日本。,machine-assisted
+446,219,Japonais(e),fr:japonais:noun:1,Japonais,noun,/ʒaponˈɛ/,resident or native of Japan; Japanese person (male or of unspecified gender),japonés,日本人,On parle du Japonais.,We are talking about it.,Estamos hablando de ello.,我们正在谈论日本人。,machine-assisted
+447,219,japonais(e),fr:japonais:adjective:1,japonais,adjective,/ʒa.pɔ.nɛ/,Japanese,japonés,日本的,C’est quelque chose de japonais.,It is something Japanese.,Es algo japonés.,这是日本的东西。,machine-assisted
+448,219,jardin,fr:jardin:noun:1,jardin,noun,/ʒaʁ.dɛ̃/,garden,jardín,公园，花园,Voici le jardin.,Here it is.,Aquí está.,这是公园。,machine-assisted
+449,219,jean,fr:jean:noun:1,jean,noun,/dʒin/,a pair of jeans,color de mezclilla,牛仔裤,Voici le jean.,Here it is.,Aquí está.,这是牛仔裤。,machine-assisted
+450,219,jeudi,fr:jeudi:noun:1,jeudi,noun,/ʒø.di/,Thursday (day of the week),jueves,周四,Le train part jeudi matin.,The train leaves on Thursday morning.,El tren sale el jueves por la mañana.,火车周四早上出发。,machine-assisted
+451,219,joli(e),fr:joli:adjective:1,joli,adjective,/ʒɔ.li/,pretty; cute,bonito,漂亮的，好看的,C’est quelque chose de joli.,It is something pretty.,Es algo bonito.,这很漂亮。,machine-assisted
+452,219,jouer,fr:jouer:verb:1,jouer,verb,/ʒwe/,to play (engage in games or play),jugar,玩；演奏,Je vais jouer au football.,I am going to play football.,Voy a jugar al fútbol.,我要去踢足球。,machine-assisted
+453,219,jouet,fr:jouet:noun:1,jouet,noun,/ʒwɛ/,toy; plaything,juguete,玩具,On parle du jouet.,We are talking about it.,Estamos hablando de ello.,我们正在谈论玩具。,machine-assisted
+454,219,jour,fr:jour:noun:1,jour,noun,/ʒuʁ/,day,día,日子，天,Je travaille cinq jours par semaine.,I work five days a week.,Trabajo cinco días a la semana.,我每周工作五天。,seed-reviewed
+455,219,du jour,fr:du jour:expression:1,du jour,expression,/dy- ʒˈuʁ/,of the day; today's,del día,当天的，当日的,Je prends le plat du jour.,I will have the dish of the day.,Tomo el plato del día.,我要点今日特餐。,machine-assisted
+456,219,journal,fr:journal:noun:1,journal,noun,/ʒuʁ.nal/,"diary, journal","periódico, diario",报纸,On parle du journal.,We are talking about it.,Estamos hablando de ello.,我们正在谈论报纸。,machine-assisted
+457,219,journaliste,fr:journaliste:noun:1,journaliste,noun,/ʒuʁ.na.list/,a journalist,periodista,新闻工作者，新闻记者,Voici les journalistes.,Here it is.,Aquí está.,这些是新闻工作者。,machine-assisted
+458,219,journée,fr:journée:noun:1,journée,noun,/ʒuʁ.ne/,day,jornada,一天，一昼夜；白天，白昼,Voici la journée.,Here it is.,Aquí está.,这是一天。,machine-assisted
+459,219,juillet,fr:juillet:noun:1,juillet,noun,/ʒɥi.jɛ/,July,julio,七月,Je prends mes vacances en juillet.,I take my holiday in July.,Tomo mis vacaciones en julio.,我七月要休假。,machine-assisted
+460,219,juin,fr:juin:noun:1,juin,noun,/ʒɥɛ̃/,June,junio,六月,Il fait chaud en juin.,It is hot in June.,Hace calor en junio.,六月天气炎热。,machine-assisted
+461,219,jupe,fr:jupe:noun:1,jupe,noun,/ʒyp/,skirt,falda,裙子,Voici la jupe.,Here it is.,Aquí está.,这是裙子。,machine-assisted
+462,219,jus,fr:jus:noun:1,jus,noun,/ʒy/,juice,"jugo, zumo",果汁,Voici le jus.,Here it is.,Aquí está.,这是果汁。,machine-assisted
+463,219,jusque,fr:jusque:preposition:1,jusque,preposition,/ʒysk/,"until, up to",hasta,直到，直至,Nous marchons jusque chez lui.,We are walking all the way to his place.,Caminamos hasta su casa.,我们步行到他家。,machine-assisted
+464,219,juste,fr:juste:adjective:1,juste,adjective,/ʒyst/,"fair, just","justo, correcto",正好，恰巧,C’est quelque chose de juste.,"It is something fair, just.","Es algo justo, correcto.",这是公平的事情。,machine-assisted
+465,219,kilo,fr:kilo:noun:1,kilo,noun,/ki.lo/,kilo,kilo,公斤，千克（的缩写）,On parle du kilo.,We are talking about it.,Estamos hablando de ello.,我们正在谈论公斤。,machine-assisted
+466,219,kilomètre,fr:kilomètre:noun:1,kilomètre,noun,/ki.lɔ.mɛːtʁ/,kilometre (UK) / kilometer (US),kilómetro,千米,On parle du kilomètre.,We are talking about it.,Estamos hablando de ello.,我们正在谈论千米。,machine-assisted
+467,219,là,fr:là:adverb:1,là,adverb,/la/,referring to physical place; there,allí,那儿；那里,Posez le sac là.,Put the bag there.,Ponga la bolsa ahí.,把袋子放在那里。,machine-assisted
+468,219,là-bas,fr:là-bas:adverb:1,là-bas,adverb,/la.ba/,"there, over there",allá,那里，那边,Mes amis habitent là-bas.,My friends live over there.,Mis amigos viven allí.,我的朋友住在那里。,machine-assisted
+469,219,laisser,fr:laisser:verb:1,laisser,verb,/lɛ.se/,"to leave, to leave behind",dejar,放开，使得,Je vais laisser la porte ouverte.,I am going to leave the door open.,Voy a dejar la puerta abierta.,我会让门开着。,machine-assisted
+470,219,lait,fr:lait:noun:1,lait,noun,/lɛ/,milk,leche,牛奶,Voici le lait.,Here it is.,Aquí está.,这是牛奶。,machine-assisted
+471,219,langue,fr:langue:noun:1,langue,noun,/lɑ̃ɡ/,tongue,lengua,语言；舌头,Voici la langue.,Here it is.,Aquí está.,这是语言。,machine-assisted
+472,219,Lausanne,fr:lausanne:proper_noun:1,Lausanne,proper_noun,/lo.zan/,"Lausanne (a municipality and city, the capital of Vaud canton, in western Switzerland, in which French is the main language)",Lausana,洛桑（瑞士）,Je connais bien Lausanne.,I know Lausanne well.,Conozco bien Lausana.,我很了解洛桑。,machine-assisted
+473,219,laver(se),fr:laver:verb:1,laver,verb,/la.ve/,to wash,lavar,洗漱,Je vais laver la voiture.,I am going to wash the car.,Voy a lavar el coche.,我要去洗车。,machine-assisted
+474,219,lecture,fr:lecture:noun:1,lecture,noun,/lɛk.tyʁ/,"reading (act or process of reading, interpretation, material read, and some other senses)",lectura,阅读,Voici la lecture.,Here it is.,Aquí está.,这是阅读。,machine-assisted
+475,219,légumes,fr:légumes:noun:1,légumes,noun,/leɡˈym/,vegetables,verduras,蔬菜,Voici les légumes.,Here it is.,Aquí está.,这些是蔬菜。,machine-assisted
+476,219,lettre,fr:lettre:noun:1,lettre,noun,/lɛtʁ/,letter (written character),"carta₁, epístola, misiva",信；字母,Voici la lettre.,Here it is.,Aquí está.,这是信。,machine-assisted
+477,219,lever(se),fr:lever:verb:1,lever,verb,/lə.ve/,to raise,"levantar, alzar",起床；起身，站起,Je vais lever la main.,I am going to raise his hand.,Voy a levantar la mano.,我举手。,machine-assisted
+478,219,libre,fr:libre:adjective:1,libre,adjective,/libʁ/,"free, at liberty",libre,空闲的,C’est quelque chose de libre.,"It is something free, at liberty.",Es algo libre.,这是空闲的。,machine-assisted
+479,219,lieu,fr:lieu:noun:1,lieu,noun,/ljø/,place,"lugar, sitio",地点，地方,On parle du lieu.,We are talking about it.,Estamos hablando de ello.,我们正在谈论地点。,machine-assisted
+480,219,ligne,fr:ligne:noun:1,ligne,noun,/liɲ/,line,"línea, renglón",线；运输线路,On parle de la ligne.,We are talking about it.,Estamos hablando de ello.,我们正在谈论线。,machine-assisted
+481,219,Lille,fr:lille:proper_noun:1,Lille,proper_noun,/lil/,"Lille (the capital of Nord department and the Hauts-de-France region, France)",lille,里尔（法国）,Je connais bien Lille.,I know Lille well.,Conozco bien Lille.,我很了解里尔。,machine-assisted
+482,219,lire,fr:lire:verb:1,lire,verb,/liʁ/,to read,leer,读,Je vais lire le journal.,I am going to read the newspaper.,Voy a leer el periódico.,我要去读报纸。,machine-assisted
+483,219,liste,fr:liste:noun:1,liste,noun,/list/,list,lista,单子，清单,On parle de la liste.,We are talking about it.,Estamos hablando de ello.,我们正在谈论单子。,machine-assisted
+484,219,lit,fr:lit:noun:1,lit,noun,/li/,bed,cama,床,On parle du lit.,We are talking about it.,Estamos hablando de ello.,我们正在谈论床。,machine-assisted
+485,219,litre,fr:litre:noun:1,litre,noun,/litʁ/,litre,litro,升,Voici le litre.,Here it is.,Aquí está.,这是升。,machine-assisted
+486,219,livre,fr:livre:noun:1,livre,noun,/livʁ/,book,libro,书，书本，书籍,Ce livre est en français.,This book is in French.,Este libro está en francés.,这本书是法文的。,seed-reviewed
+487,219,livre,fr:livre:noun:2,livre,noun,/livʁ/,pound (unit of weight); imperial pound ≈ 454 g,libra,半公斤；磅,On parle de la livre.,We are talking about it.,Estamos hablando de ello.,我们正在谈论半公斤。,machine-assisted
+488,219,loin,fr:loin:adverb:1,loin,adverb,/lwɛ̃/,"far, distant",lejos,远,La gare est loin.,The station is far away.,La estación está lejos.,车站很远。,machine-assisted
+489,219,Londres,fr:londres:proper_noun:1,Londres,proper_noun,/lɔ̃dʁ/,London (the capital city of the United Kingdom; the capital city of England),londres,伦敦（英国）,Je connais bien Londres.,I know London well.,Conozco bien Londres.,我很了解伦敦。,machine-assisted
+490,219,long(ue),fr:long:adjective:1,long,adjective,/lɔ̃/,long,largo,长的,C’est quelque chose de long.,It is something long.,Es algo largo.,有点长了。,machine-assisted
+491,219,longtemps,fr:longtemps:adverb:1,longtemps,adverb,/lɔ̃.tɑ̃/,for a long time; over a long period,mucho tiempo,长时间地,Nous avons attendu longtemps.,We waited for a long time.,Esperamos mucho tiempo.,我们等了很长时间。,machine-assisted
+492,219,louer,fr:louer:verb:1,louer,verb,/lwe/,to rent,alquilar,出租；租用,Je vais louer une voiture.,I am going to rent a car.,Voy a alquilar un coche.,我要租一辆车。,machine-assisted
+493,219,lundi,fr:lundi:noun:1,lundi,noun,/lœ̃.di/,Monday,lunes,星期一；周一,Le musée est fermé lundi.,The museum is closed on Monday.,El museo está cerrado el lunes.,博物馆周一闭馆。,machine-assisted
+494,219,lunettes,fr:lunettes:noun:1,lunettes,noun,/ly.nɛt/,"spectacles, eyeglasses",gafas,眼镜,Voici les lunettes.,Here it is.,Aquí está.,这些是眼镜。,machine-assisted
+495,219,madame (mesdames),fr:madame:noun:1,madame,noun,/ma.dam/,"a title or form of address for a woman, formerly for a married woman and now commonly for any adult woman regardless of marital status, used both in direct and third-person address","señora (vocativo). Se utiliza en presencia de la persona mencionada, en caso contrario se dice dame",夫人,On parle de la madame.,We are talking about it.,Estamos hablando de ello.,我们正在谈论夫人。,machine-assisted
+496,219,magasin,fr:magasin:noun:1,magasin,noun,/ma.ɡa.zɛ̃/,"shop, store",almacén,商店,Voici le magasin.,Here it is.,Aquí está.,这是商店。,machine-assisted
+497,219,magazine,fr:magazine:noun:1,magazine,noun,/ma.ɡa.zin/,magazine (periodical publication),revista,杂志,Voici le magazine.,Here it is.,Aquí está.,这是杂志。,machine-assisted
+498,219,magnifique,fr:magnifique:adjective:1,magnifique,adjective,/ma.ɲi.fik/,"magnificent, splendid, superb",magnífico,壮丽的；豪华的；极美的，极好的；非凡的,C’est quelque chose de magnifique.,"It is something magnificent, splendid, superb.",Es algo magnífico.,这是一件了不起的事情。,machine-assisted
+499,219,mai,fr:mai:noun:1,mai,noun,/mɛ/,May (month),mayo,五月,Les examens commencent en mai.,The exams start in May.,Los exámenes empiezan en mayo.,考试五月开始。,machine-assisted
+500,219,maintenant,fr:maintenant:adverb:1,maintenant,adverb,/mɛ̃t.nɑ̃/,"now, currently",ahora,现在，目前,Nous pouvons partir maintenant.,We can leave now.,Podemos salir ahora.,我们现在可以走了。,machine-assisted
+501,219,mais,fr:mais:conjunction:1,mais,conjunction,/mɛ/,"but, although",pero,可是，但是，然而；在某些惊叹句或疑问句中，表示惊讶、怀疑、愤慨等情绪,"Il est fatigué, mais il continue.","He is tired, but he carries on.","Está cansado, pero continúa.",他很累，但他仍在继续。,machine-assisted
+502,219,maison,fr:maison:noun:1,maison,noun,/mɛ.zɔ̃/,house; home,casa,房子；家,Notre maison est près de l’école.,Our house is near the school.,Nuestra casa está cerca de la escuela.,我们家离学校很近。,seed-reviewed
+503,219,malade,fr:malade:adjective:1,malade,adjective,/ma.lad/,"ill, unwell, sick",enfermo,生病的,C’est quelque chose de malade.,"It is something ill, unwell, sick.",Es algo enfermo.,这是生病的。,machine-assisted
+504,219,manger,fr:manger:verb:1,manger,verb,/mɑ̃.ʒe/,to eat,comer,吃,Nous mangeons du pain.,We are eating bread.,Estamos comiendo pan.,我们吃面包。,seed-reviewed
+505,219,marché,fr:marché:noun:1,marché,noun,/maʁ.ʃe/,market,mercado,市场；集市,Voici le marché.,Here it is.,Aquí está.,这是市场。,machine-assisted
+506,219,marcher,fr:marcher:verb:1,marcher,verb,/maʁ.ʃe/,to walk,caminar,走，行走,Nous allons marcher jusqu’au village.,We are going to walk to the village.,Vamos a caminar hasta el pueblo.,我们将步行到村庄。,machine-assisted
+507,219,mardi,fr:mardi:noun:1,mardi,noun,/maʁ.di/,Tuesday,martes,周二,Nous avons cours mardi.,We have class on Tuesday.,Tenemos clase el martes.,星期二我们有课。,machine-assisted
+508,219,mari,fr:mari:noun:1,mari,noun,/ma.ʁi/,husband,marido,丈夫,On parle du mari.,We are talking about it.,Estamos hablando de ello.,我们正在谈论丈夫。,machine-assisted
+509,219,mariage,fr:mariage:noun:1,mariage,noun,/ma.ʁjaʒ/,marriage,matrimonio,结婚,Voici le mariage.,Here it is.,Aquí está.,这是结婚。,machine-assisted
+510,219,Marianne,fr:marianne:proper_noun:1,Marianne,proper_noun,/ma.ʁjan/,"a female given name, a combination of Marie and Anne","nombre de pila de mujer, equivalente del español Mariana",玛丽安娜（法国共和国的象征）,Je connais bien Marianne.,"I know a female given name, a combination of Marie and Anne well.","Conozco bien Nombre de pila de mujer, equivalente del español Mariana.",我很了解玛丽安。,machine-assisted
+511,219,marier(se),fr:marier:verb:1,marier,verb,/ma.ʁje/,"to marry, to marry off; to perform or cause the marriage of",casar,结婚,Je vais marier ce couple.,I am going to marry this couple.,Voy a casar a esta pareja.,我要为这对新人主持婚礼。,machine-assisted
+512,219,Maroc,fr:maroc:proper_noun:1,Maroc,proper_noun,/ma.ʁɔk/,Morocco (a country in North Africa),marruecos,摩洛哥,Je connais bien Maroc.,I know Morocco well.,Conozco bien Marruecos.,我很了解摩洛哥。,machine-assisted
+513,219,Marseille,fr:marseille:proper_noun:1,Marseille,proper_noun,/maʁ.sɛj/,"Marseille (the capital city of Bouches-du-Rhône department, France; the capital city of the region of Provence-Alpes-Côte d'Azur)",marsella,马赛（法国）,Je connais bien Marseille.,I know Marseille well.,Conozco bien Marsella.,我很了解马赛。,machine-assisted
+514,219,match,fr:match:noun:1,match,noun,/matʃ/,"match, game",partido,比赛,On parle du match.,We are talking about it.,Estamos hablando de ello.,我们正在谈论比赛。,machine-assisted
+515,219,matin,fr:matin:noun:1,matin,noun,/ma.tɛ̃/,morning,mañana,早晨,Je prends un café le matin.,I have a coffee in the morning.,Tomo un café por la mañana.,我早上喝咖啡。,machine-assisted
+516,219,mauvais(e),fr:mauvais:adjective:1,mauvais,adjective,/mo.vɛ/,bad,"malo, mal",坏的，不好的,C’est quelque chose de mauvais.,It is something bad.,"Es algo malo, mal.",这是一件坏事。,machine-assisted
+517,219,médecin,fr:médecin:noun:1,médecin,noun,/med.sɛ̃/,physician; (medical) doctor,médico,医生,On parle des médecins.,We are talking about it.,Estamos hablando de ello.,我们正在谈论医生。,machine-assisted
+518,219,méditerranéen(enne),fr:méditerranéen:adjective:1,méditerranéen,adjective,/me.di.tɛ.ʁa.ne.ɛ̃/,Mediterranean,mediterráneo,地中海的,C’est quelque chose de méditerranéen.,It is something Mediterranean.,Es algo mediterráneo.,这是地中海的东西。,machine-assisted
+519,219,même,fr:même:adverb:1,même,adverb,/mɛm/,even,incluso,同样的；相同的,Même Paul connaît la réponse.,Even Paul knows the answer.,Hasta Paul conoce la respuesta.,甚至保罗也知道答案。,machine-assisted
+520,219,ménage,fr:ménage:noun:1,ménage,noun,/me.naʒ/,"housework, housekeeping",paramento,家务,On parle du ménage.,We are talking about it.,Estamos hablando de ello.,我们正在谈论家务。,machine-assisted
+521,219,faire le ménage,fr:faire le ménage:verb:1,faire le ménage,verb,/fɛʁ lə me.naʒ/,"to do the housework, the household chores",hacer la limpieza,做清洁，打扫屋子,Elle fait le ménage le matin.,She does the cleaning in the morning.,Hace la limpieza por la mañana.,她早上打扫卫生。,machine-assisted
+522,220,mer,fr:mer:noun:1,mer,noun,/mɛʁ/,sea (large body of water),mar,大海,Voici la mer.,Here it is.,Aquí está.,这是大海。,machine-assisted
+523,220,merci,fr:merci:interjection:1,merci,interjection,/mɛʁ.si/,thank you; thanks,gracias,谢谢,Merci pour votre aide.,Thank you for your help.,Gracias por su ayuda.,感谢您的帮助。,seed-reviewed
+524,220,mercredi,fr:mercredi:noun:1,mercredi,noun,/mɛʁ.kʁə.di/,Wednesday,miércoles,周三,Je travaille mercredi.,I work on Wednesday.,Trabajo el miércoles.,我星期三工作。,machine-assisted
+525,220,météo,fr:météo:noun:1,météo,noun,/me.te.o/,weather (general state of weather),clima,气象预报（的缩写）,Voici la météo.,Here it is.,Aquí está.,这是气象预报（的缩写）。,machine-assisted
+526,220,bulletin météo,fr:bulletin météo:expression:1,bulletin météo,expression,/byltˈɛ̃ meteˈo/,weather forecast,pronóstico meteorológico,天气预报,J’écoute le bulletin météo chaque matin.,I listen to the weather forecast every morning.,Escucho el pronóstico meteorológico cada mañana.,我每天早上都会听天气预报。,machine-assisted
+527,220,mètre,fr:mètre:noun:1,mètre,noun,/mɛtʁ/,metre/meter,metro,米,Voici le mètre.,Here it is.,Aquí está.,这是米。,machine-assisted
+528,220,mètre carré,fr:mètre carré:noun:1,mètre carré,noun,/mɛ.tʁə ka.ʁe/,"square metre, square meter (standard unit of area)",metro cuadrado,平方米,On parle des mètre carré.,We are talking about it.,Estamos hablando de ello.,我们正在谈论平方米。,machine-assisted
+529,220,métro,fr:métro:noun:1,métro,noun,/me.tʁo/,"metro; subway (US), underground (UK), Tube (UK)",metro,地铁,On parle du métro.,We are talking about it.,Estamos hablando de ello.,我们正在谈论地铁。,machine-assisted
+530,220,mettre,fr:mettre:verb:1,mettre,verb,/mɛtʁ/,to put; to place,"poner, colocar, meter",放置，摆放,Je vais mettre mon manteau.,I am going to put my coat.,Voy a poner mi abrigo.,我要穿上外套了。,machine-assisted
+531,220,meuble,fr:meuble:noun:1,meuble,noun,/mœbl/,piece of furniture,mueble,家具,Voici le meuble.,Here it is.,Aquí está.,这是家具。,machine-assisted
+532,220,midi,fr:midi:noun:1,midi,noun,/mi.di/,"noon, midday (time of the day at which the sun reaches its highest point)",mediodía,中午，正午,Nous déjeunons à midi.,We have lunch at noon.,Almorzamos al mediodía.,中午我们吃午饭。,machine-assisted
+533,220,minéral(e),fr:minéral:noun:1,minéral,noun,/mi.ne.ʁal/,"mineral, ore",mineral,矿物质的；含矿物质的,Voici le minéral.,Here it is.,Aquí está.,这是矿物质的。,machine-assisted
+534,220,eau minérale,fr:eau minérale:noun:1,eau minérale,noun,/o mi.ne.ʁal/,mineral water,agua mineral,矿泉水,Voici les eau minérale.,Here it is.,Aquí está.,这些是矿泉水。,machine-assisted
+535,220,ministère,fr:ministère:noun:1,ministère,noun,/mi.nis.tɛʁ/,ministry,ministerio,部；部委,On parle du ministère.,We are talking about it.,Estamos hablando de ello.,我们正在谈论部。,machine-assisted
+536,220,minute,fr:minute:noun:1,minute,noun,/mi.nyt/,"minute (etymology 1, time unit, all same senses)",minuto,分钟,Voici la minute.,Here it is.,Aquí está.,这是分钟。,machine-assisted
+537,220,mois,fr:mois:noun:1,mois,noun,/mwa/,month,mes₁₋₃,月，月份,Voici le mois.,Here it is.,Aquí está.,这是月。,machine-assisted
+538,220,môme,fr:môme:noun:1,môme,noun,/mom/,"kid, brat",crío,《俗》小孩；小家伙,On parle des mômes.,We are talking about it.,Estamos hablando de ello.,我们正在谈论小孩。,machine-assisted
+539,220,moment,fr:moment:noun:1,moment,noun,/mɔ.mɑ̃/,moment (point in time),momento,时刻,Voici le moment.,Here it is.,Aquí está.,这是时刻。,machine-assisted
+540,220,monde,fr:monde:noun:1,monde,noun,/mɔ̃d/,world,mundo,世界；人们,On parle du monde.,We are talking about it.,Estamos hablando de ello.,我们正在谈论世界。,machine-assisted
+541,220,monsieur,fr:monsieur:noun:1,monsieur,noun,/mə.sjø/,"mister, sir (a title or form of address for a man, used with or without the name in direct or third-person address)",señor,先生,Voici le monsieur.,Here it is.,Aquí está.,这是先生。,machine-assisted
+542,220,montagne,fr:montagne:noun:1,montagne,noun,/mɔ̃.taɲ/,mountain,montaña,山,On parle de la montagne.,We are talking about it.,Estamos hablando de ello.,我们正在谈论山。,machine-assisted
+543,220,monter,fr:monter:verb:1,monter,verb,/mɔ̃.te/,"to go up, to climb (go to a higher position)",aumentar,登上，上升,Je monte au troisième étage.,I am going up to the third floor.,Subo a la tercera planta.,我上三楼。,machine-assisted
+544,220,Montréal,fr:montréal:proper_noun:1,Montréal,proper_noun,/mɔ̃.ʁe.al/,"Montreal (an island on which is situated the largest city in Quebec, Canada)",Montreal,蒙特利尔（加拿大）,Je connais bien Montréal.,I know Montreal well.,Conozco bien Montreal.,我很了解蒙特利尔。,machine-assisted
+545,220,mot,fr:mot:noun:1,mot,noun,/mo/,word,palabra o vocablo,词语,Voici le mot.,Here it is.,Aquí está.,这是词语。,machine-assisted
+546,220,moto,fr:moto:noun:1,moto,noun,/mɔ.to/,"bike, motorbike (motorcycle)",moto,摩托车,On parle de la moto.,We are talking about it.,Estamos hablando de ello.,我们正在谈论摩托车。,machine-assisted
+547,220,moyenne,fr:moyenne:noun:1,moyenne,noun,/mwa.jɛn/,"average, mean",media,中等；平均数，平均值,On parle de la moyenne.,We are talking about it.,Estamos hablando de ello.,我们正在谈论中等。,machine-assisted
+548,220,en moyenne,fr:en moyenne:adverb:1,en moyenne,adverb,/ɑ̃ mwa.jɛn/,on average,por término medio,平均,Je marche une heure par jour en moyenne.,I walk for an hour a day on average.,Camino una hora al día de media.,我平均每天步行一小时。,machine-assisted
+549,220,muguet,fr:muguet:noun:1,muguet,noun,/my.ɡɛ/,lily of the valley (Convallaria majalis),lirio del valle,铃兰,On parle du muguet.,We are talking about it.,Estamos hablando de ello.,我们正在谈论铃兰。,machine-assisted
+550,220,mur,fr:mur:noun:1,mur,noun,/myʁ/,wall,muro o pared,墙，壁,Voici le mur.,Here it is.,Aquí está.,这是墙。,machine-assisted
+551,220,musculation,fr:musculation:noun:1,musculation,noun,/mys.ky.la.sjɔ̃/,"muscle-building, bodybuilding, strength training, resistance training",musculación,肌肉锻炼,Voici la musculation.,Here it is.,Aquí está.,这是肌肉锻炼。,machine-assisted
+552,220,musée,fr:musée:noun:1,musée,noun,/my.ze/,"museum (a building or institution dedicated to the acquisition, conservation, study, exhibition, and educational interpretation of objects having scientific, historical, cultural or artistic value)",museo,博物馆,On parle du musée.,We are talking about it.,Estamos hablando de ello.,我们正在谈论博物馆。,machine-assisted
+553,220,musicien(ne),fr:musicien:noun:1,musicien,noun,/my.zi.sjɛ̃/,musician,músico,音乐家，作曲家，演奏家,On parle du musicien.,We are talking about it.,Estamos hablando de ello.,我们正在谈论音乐家。,machine-assisted
+554,220,musique,fr:musique:noun:1,musique,noun,/my.zik/,music,música,音乐，乐曲,On parle de la musique.,We are talking about it.,Estamos hablando de ello.,我们正在谈论音乐。,machine-assisted
+555,220,nager,fr:nager:verb:1,nager,verb,/na.ʒe/,to swim,nadar,游泳,Elle va nager dans la piscine.,She is going to swim in the pool.,Va a nadar en la piscina.,她要去游泳池里游泳。,machine-assisted
+556,220,natation,fr:natation:noun:1,natation,noun,/na.ta.sjɔ̃/,"swimming, natation",natación,游泳,Voici la natation.,Here it is.,Aquí está.,这是游泳。,machine-assisted
+557,220,nationalité,fr:nationalité:noun:1,nationalité,noun,/na.sjɔ.na.li.te/,nationality,nacionalidad,国籍,Voici la nationalité.,Here it is.,Aquí está.,这是国籍。,machine-assisted
+558,220,nature,fr:nature:noun:1,nature,noun,/na.tyʁ/,nature,naturaleza,自然（界），大自然,On parle de la nature.,We are talking about it.,Estamos hablando de ello.,我们正在谈论自然（界）。,machine-assisted
+559,220,Nice,fr:nice:proper_noun:1,Nice,proper_noun,/nis/,"Nice (a coastal city, the capital of Alpes-Maritimes department in the Provence-Alpes-Côte d'Azur region in southeast France)",Niza,尼斯（法国）,Je connais bien Nice.,I know Nice well.,Conozco bien Niza.,我很了解尼斯。,machine-assisted
+560,220,Nîmes,fr:nîmes:proper_noun:1,Nîmes,proper_noun,/nim/,"Nîmes (a city in Gard department, Occitania, France)",Nimes,尼姆（法国）,Je connais bien Nîmes.,I know Nîmes well.,Conozco bien Nimes.,我很了解尼姆。,machine-assisted
+561,220,Noël,fr:noël:proper_noun:1,Noël,proper_noun,/nɔ.ɛl/,"Christmas, Christmas time",navidad,圣诞节,Je connais bien Noël.,"I know Christmas, Christmas time well.",Conozco bien Navidad.,我很了解圣诞节。,machine-assisted
+562,220,noir(e),fr:noir:adjective:1,noir,adjective,/nwaʁ/,black in colour,negro,黑的，黑色的,C’est quelque chose de noir.,It is something black in colour.,Es algo negro.,这是黑色的东西。,machine-assisted
+563,220,nom,fr:nom:noun:1,nom,noun,/nɔ̃/,name,nombre,姓名；名字,Voici le nom.,Here it is.,Aquí está.,这是姓名。,machine-assisted
+564,220,nombre,fr:nombre:noun:1,nombre,noun,/nɔ̃bʁ/,number,número,数；数目，数量,On parle du nombre.,We are talking about it.,Estamos hablando de ello.,我们正在谈论数。,machine-assisted
+565,220,non,fr:non:adverb:1,non,adverb,/nɔ̃/,no,no,不；不是；没有,"Non, merci.","No, thank you.","No, gracias.",不，谢谢。,seed-reviewed
+566,220,nord,fr:nord:noun:1,nord,noun,/nɔʁ/,north,norte,北，北边，北方,On parle du nord.,We are talking about it.,Estamos hablando de ello.,我们正在谈论北。,machine-assisted
+567,220,Notre-Dame,fr:notre-dame:proper_noun:1,Notre-Dame,proper_noun,/nɔ.tʁə.dam/,Our Lady (the Virgin Mary),Notre-Dame,圣母院,Je connais bien Notre-Dame.,I know Our Lady well.,Conozco bien Notre-Dame.,我很了解巴黎圣母院。,machine-assisted
+568,220,"nouveau(nouvel, nouvelle)",fr:nouveau:adjective:1,nouveau,adjective,/nu.vo/,"new, novel",nuevo,新的,C’est quelque chose de nouveau.,"It is something new, novel.",Es algo nuevo.,这是新事物。,machine-assisted
+569,220,nouvel an,fr:nouvel an:expression:1,nouvel an,expression,/nuvˈɛl ˈɑ̃/,New Year,año nuevo,新年,Nous fêtons le nouvel an en famille.,We celebrate New Year with the family.,Celebramos el Año Nuevo en familia.,我们一家人庆祝新年。,machine-assisted
+570,220,nouvelle,fr:nouvelle:noun:1,nouvelle,noun,/nu.vɛl/,"news, a piece of information",noticia,新闻，消息,Voici la nouvelle.,Here it is.,Aquí está.,这是新闻。,machine-assisted
+571,220,nuage,fr:nuage:noun:1,nuage,noun,/ny.aʒ/,cloud,nube,云,Voici le nuage.,Here it is.,Aquí está.,这是云。,machine-assisted
+572,220,objet,fr:objet:noun:1,objet,noun,/ɔb.ʒɛ/,"thing, object",objeto,物，物体；物品，东西,Voici l’objet.,Here it is.,Aquí está.,这是物。,machine-assisted
+573,220,océan,fr:océan:noun:1,océan,noun,/ɔ.se.ɑ̃/,an ocean (one of the large bodies of water separating the continents),océano,海洋,Voici l’océan.,Here it is.,Aquí está.,这是海洋。,machine-assisted
+574,220,octobre,fr:octobre:noun:1,octobre,noun,/ɔk.tɔbʁ/,October,octubre,十月,Il pleut souvent en octobre.,It often rains in October.,Llueve a menudo en octubre.,十月经常下雨。,machine-assisted
+575,220,œil (yeux),fr:œil:noun:1,œil,noun,/œj/,"eye, organ that is sensitive to light, helping organisms to see",ojo,眼睛,Voici l’œil.,Here it is.,Aquí está.,这是眼睛。,machine-assisted
+576,220,œuf (œufs),fr:œuf:noun:1,œuf,noun,/œf/,egg,huevo,鸡蛋,Voici l’œuf.,Here it is.,Aquí está.,这是鸡蛋。,machine-assisted
+577,220,office,fr:office:noun:1,office,noun,/ɔ.fis/,"charge, task, mandate",oficina,事务所，营业所,Voici l’office.,Here it is.,Aquí está.,这是事务所。,machine-assisted
+578,220,offrir,fr:offrir:verb:1,offrir,verb,/ɔ.fʁiʁ/,to offer; to give,ofrecer,赠送，提供,Je vais offrir des fleurs.,I am going to offer some flowers.,Voy a ofrecer flores.,我会送花。,machine-assisted
+579,220,oh,fr:oh:interjection:1,oh,interjection,/o/,oh,oh,啊！哦！呦！哎呀,"Oh, j’ai oublié mes clés !","Oh, I forgot my keys!","¡Oh, he olvidado las llaves!",哦，我忘记带钥匙了！,machine-assisted
+580,220,opéra,fr:opéra:noun:1,opéra,noun,/ɔ.pe.ʁa/,opera,ópera,歌剧；歌剧院,On parle de l’opéra.,We are talking about it.,Estamos hablando de ello.,我们正在谈论歌剧。,machine-assisted
+581,220,orange,fr:orange:noun:1,orange,noun,/ɔ.ʁɑ̃ʒ/,orange (fruit),naranja; fruta cítrica dividida en gajos,柑，橘，橙,Voici l’orange.,Here it is.,Aquí está.,这是柑。,machine-assisted
+582,220,ordinateur,fr:ordinateur:noun:1,ordinateur,noun,/ɔʁ.di.na.tœʁ/,"a computer, a computing device","ordenador, computadora, computador",电脑,On parle de l’ordinateur.,We are talking about it.,Estamos hablando de ello.,我们正在谈论电脑。,machine-assisted
+583,220,organisé(e),fr:organisé:adjective:1,organisé,adjective,/ɔʁɡanizˈe/,organized,organizado,有组织的；安排好的,C’est quelque chose d’organisé.,It is something organized.,Es algo organizado.,这是有组织的事情。,machine-assisted
+584,220,original(e),fr:original:adjective:1,original,adjective,/ɔ.ʁi.ʒi.nal/,original,original,独到的，新颖的,C’est quelque chose d’original.,It is something original.,Es algo original.,这是原创的。,machine-assisted
+585,220,ou,fr:ou:conjunction:1,ou,conjunction,/u/,or,ou; ou,或，或者，还是（表示选择）,Vous préférez le thé ou le café ?,Do you prefer tea or coffee?,¿Prefiere té o café?,你喜欢茶还是咖啡？,machine-assisted
+586,220,où,fr:où:adverb:1,où,adverb,/u/,where (interrogative),dónde,在哪儿，去哪里,Où habitez-vous ?,Where do you live?,¿Dónde vive usted?,你住在哪里？,machine-assisted
+587,220,ouais,fr:ouais:interjection:1,ouais,interjection,/wɛ/,"synonym of oui; yeah, yep, yup, yes, affirmative expression",¡Guau!,《俗》哦,"Ouais, on peut y aller.","Yeah, we can go.","Sí, podemos ir.",是的，我们可以走了。,machine-assisted
+588,220,ouest,fr:ouest:noun:1,ouest,noun,/wɛst/,west,oeste,西，西边，西方,Voici l’ouest.,Here it is.,Aquí está.,这是西。,machine-assisted
+589,220,oui,fr:oui:adverb:1,oui,adverb,/wi/,yes,sí,对，是的,"Oui, je parle français.","Yes, I speak French.","Sí, hablo francés.",是的，我说法语。,seed-reviewed
+590,220,ouvert(e),fr:ouvert:adjective:1,ouvert,adjective,/u.vɛʁ/,open,abierto,打开的；开放的，开门营业的,C’est quelque chose d’ouvert.,It is something open.,Es algo abierto.,这是一种开放的东西。,machine-assisted
+591,220,ouvrir,fr:ouvrir:verb:1,ouvrir,verb,/u.vʁiʁ/,to open,abrir,开，打开；开办，创立,Je vais ouvrir la fenêtre.,I am going to open the window.,Voy a abrir la ventana.,我要打开窗户。,machine-assisted
+592,220,page,fr:page:noun:1,page,noun,/paʒ/,"page (of a book, etc.)",página,页,On parle de la page.,We are talking about it.,Estamos hablando de ello.,我们正在谈论页。,machine-assisted
+593,220,pain,fr:pain:noun:1,pain,noun,/pɛ̃/,bread,pan,面包,Le pain est sur la table.,The bread is on the table.,El pan está sobre la mesa.,面包在桌子上。,seed-reviewed
+594,220,palais,fr:palais:noun:1,palais,noun,/pa.lɛ/,palace,palacio,宫殿，王宫；高大华丽的建筑物,Voici le palais.,Here it is.,Aquí está.,这是宫殿。,machine-assisted
+595,220,pantalon,fr:pantalon:noun:1,pantalon,noun,/pɑ̃.ta.lɔ̃/,"trousers (UK), pants (US)",pantalón,长裤,On parle du pantalon.,We are talking about it.,Estamos hablando de ello.,我们正在谈论长裤。,machine-assisted
+596,220,papa,fr:papa:noun:1,papa,noun,/pa.pa/,"papa, a child's father; also as form of address: dad, daddy",papá,爸爸,Voici le papa.,Here it is.,Aquí está.,这是爸爸。,machine-assisted
+597,220,par,fr:par:preposition:1,par,preposition,/paʁ/,through,a través de o por,经过，通过，从（表示地点）,Nous passons par Bordeaux.,We are going through Bordeaux.,Pasamos por Burdeos.,我们经过波尔多。,machine-assisted
+598,220,parapluie,fr:parapluie:noun:1,parapluie,noun,/pa.ʁa.plɥi/,umbrella for rain,paraguas,雨伞,On parle du parapluie.,We are talking about it.,Estamos hablando de ello.,我们正在谈论雨伞。,machine-assisted
+599,220,parc,fr:parc:noun:1,parc,noun,/paʁk/,park,parque,公园,Voici le parc.,Here it is.,Aquí está.,这是公园。,machine-assisted
+600,220,parce que,fr:parce que:conjunction:1,parce que,conjunction,/paʁ.s(ə) kə/,because,porque,因为,Je reste ici parce qu’il pleut.,I am staying here because it is raining.,Me quedo aquí porque llueve.,我留在这里是因为下雨了。,machine-assisted
+601,220,pardon,fr:pardon:interjection:1,pardon,interjection,/paʁ.dɔ̃/,excuse me,perdón,原谅，饶恕，宽恕,"Pardon, où est la gare ?","Excuse me, where is the station?","Perdone, ¿dónde está la estación?",抱歉，车站在哪里？,machine-assisted
+602,220,parents,fr:parents:noun:1,parents,noun,/pa.ʁɑ̃/,parents,padres,父母,On parle des parents.,We are talking about it.,Estamos hablando de ello.,我们正在谈论父母。,machine-assisted
+603,220,parfait(e),fr:parfait:adjective:1,parfait,adjective,/paʁ.fɛ/,perfect (exactly right),perfecto,完美的,C’est quelque chose de parfait.,It is something perfect (exactly right).,Es algo perfecto.,这是完美的东西。,machine-assisted
+604,220,parfois,fr:parfois:adverb:1,parfois,adverb,/paʁ.fwa/,sometimes,"a veces, algunas veces",有时,Nous mangeons parfois ici.,We sometimes eat here.,A veces comemos aquí.,我们有时在这里吃饭。,machine-assisted
+605,220,Paris,fr:paris:proper_noun:1,Paris,proper_noun,/pa.ʁi/,Paris (the capital and largest city of France),parís,巴黎（法国）,Je connais bien Paris.,I know Paris well.,Conozco bien París.,我很了解巴黎。,machine-assisted
+606,221,parking,fr:parking:noun:1,parking,noun,/paʁ.kiŋ/,"car park, parking lot",aparcamiento,停车场,Voici le parking.,Here it is.,Aquí está.,这是停车场。,machine-assisted
+607,221,parler,fr:parler:verb:1,parler,verb,/paʁ.le/,to speak; to talk,hablar,说话；讲话；交谈,Tu parles français ?,Do you speak French?,¿Hablas francés?,你会说法语吗？,seed-reviewed
+608,221,parler de qn / qch.,fr:parler de:verb:1,parler de,verb,/paʁ.le/,to talk about,hablar de,谈到某人某事，议论某人某事,Nous parlons de notre voyage.,We are talking about our trip.,Hablamos de nuestro viaje.,我们谈论我们的旅程。,machine-assisted
+609,221,parler à qn,fr:parler à:verb:1,parler à,verb,/paʁ.le/,to talk to,hablar con,对某人说话,Je parle à mon professeur.,I am talking to my teacher.,Hablo con mi profesor.,我和我的老师交谈。,machine-assisted
+610,221,parler de... à qn,fr:parler de:verb:2,parler de,verb,/paʁ.le/,to talk about,hablar de,同某人谈论某人或某事,Nous parlons de notre voyage.,We are talking about our trip.,Hablamos de nuestro viaje.,我们谈论我们的旅程。,machine-assisted
+611,221,particulier(ère),fr:particulier:adjective:1,particulier,adjective,/paʁ.ti.ky.lje/,particular,particular,特殊的；私人的独特的,C’est quelque chose de particulier.,It is something particular.,Es algo particular.,这很特别。,machine-assisted
+612,221,partir,fr:partir:verb:1,partir,verb,/paʁ.tiʁ/,"to go away, leave, depart","partir, marchar, irse",出发，离开,Nous allons partir demain matin.,We are going to leave tomorrow morning.,Vamos a salir mañana por la mañana.,我们明天早上就出发。,machine-assisted
+613,221,passer,fr:passer:verb:1,passer,verb,/pa.se/,to go past,pasar,经过；路过,Je vais passer chez Paul ce soir.,I am going to stop by Paul's place tonight.,Voy a pasar por casa de Paul esta noche.,今晚我要去拜访保罗。,machine-assisted
+614,221,se passer,fr:se passer:verb:1,se passer,verb,/pa.se/,to happen,pasar; suceder,发生，经过（主语多为事件）,Que s’est-il passé hier ?,What happened yesterday?,¿Qué pasó ayer?,昨天发生了什么？,machine-assisted
+615,221,pâtes,fr:pâtes:noun:1,pâtes,noun,/pat/,pasta,pasta,面条,Voici les pâtes.,Here it is.,Aquí está.,这些是面条。,machine-assisted
+616,221,pâtisserie,fr:pâtisserie:noun:1,pâtisserie,noun,/pa.ti.sʁi/,cakeshop,pastelería,糕点店,Voici la pâtisserie.,Here it is.,Aquí está.,这是糕点店。,machine-assisted
+617,221,pause,fr:pause:noun:1,pause,noun,/poz/,"pause, break",pausa,暂停，间断，休息,Voici la pause.,Here it is.,Aquí está.,这是暂停。,machine-assisted
+618,221,pause-café,fr:pause-café:noun:1,pause-café,noun,/poz.ka.fe/,coffee break,pausa para el café,《俗》咖啡休息时间,Voici la pause-café.,Here it is.,Aquí está.,这是咖啡休息时间。,machine-assisted
+619,221,pays,fr:pays:noun:1,pays,noun,/pe.i/,country,país,国家,La France est un pays d’Europe.,France is a country in Europe.,Francia es un país de Europa.,法国是欧洲的一个国家。,seed-reviewed
+620,221,peintre,fr:peintre:noun:1,peintre,noun,/pɛ̃tʁ/,painter (artist),"pintor, pintora (artista)",画家，画师,On parle des peintres.,We are talking about it.,Estamos hablando de ello.,我们正在谈论画家。,machine-assisted
+621,221,peinture,fr:peinture:noun:1,peinture,noun,/pɛ̃.tyʁ/,painting,pintura,绘画；油画；油漆，涂料,Voici la peinture.,Here it is.,Aquí está.,这是绘画。,machine-assisted
+622,221,pendant,fr:pendant:preposition:1,pendant,preposition,/pɑ̃.dɑ̃/,"during, throughout, for the duration of",durante,在期间,Il a plu pendant la nuit.,It rained during the night.,Llovió durante la noche.,夜里下雨了。,machine-assisted
+623,221,pendule,fr:pendule:noun:1,pendule,noun,/pɑ̃.dyl/,pendulum,reloj de pared; péndulo,挂钟，座钟；钟摆,On parle du pendule.,We are talking about it.,Estamos hablando de ello.,我们正在谈论挂钟。,machine-assisted
+624,221,penser,fr:penser:verb:1,penser,verb,/pɑ̃.se/,to think,pensar,想；思考；认为,Je vais penser à mes vacances.,I am going to think about my holiday.,Voy a pensar en mis vacaciones.,我要考虑一下我的假期。,machine-assisted
+625,221,permis(e),fr:permis:noun:1,permis,noun,/pɛʁ.mi/,"permit, licence",permiso,被容许的,Voici le permis.,Here it is.,Aquí está.,这是被容许的。,machine-assisted
+626,221,personne,fr:personne:noun:1,personne,noun,/pɛʁ.sɔn/,person,persona,人,Voici la personne.,Here it is.,Aquí está.,这是人。,machine-assisted
+627,221,petit(e),fr:petit:adjective:1,petit,adjective,/pə.ti/,small; little,pequeño,小的；矮小的,Nous avons une petite maison.,We have a small house.,Tenemos una casa pequeña.,我们有一所小房子。,seed-reviewed
+628,221,petit(-)déjeuner,fr:petit-déjeuner:noun:1,petit-déjeuner,noun,/pətˈideʒønˈe/,breakfast,almuerzo,早餐,On parle du petit-déjeuner.,We are talking about it.,Estamos hablando de ello.,我们正在谈论早餐。,machine-assisted
+629,221,peu,fr:peu:adverb:1,peu,adverb,/pø/,little; not very much/many,pocos,少，不多；不大，不太,Il dort peu en semaine.,He sleeps little during the week.,Duerme poco entre semana.,他平日里睡得很少。,machine-assisted
+630,221,un peu,fr:un peu:adverb:1,un peu,adverb,/œ̃ pø/,"a little, a bit",un poco,一点儿，一下，少许，稍微,Je parle un peu français.,I speak a little French.,Hablo un poco de francés.,我会说一点法语。,machine-assisted
+631,221,peut-être,fr:peut-être:adverb:1,peut-être,adverb,/pø.t‿ɛtʁ/,"maybe, perhaps",tal vez,也许,Peut-être viendra-t-elle demain.,Perhaps she will come tomorrow.,Quizá venga mañana.,也许她明天会来。,machine-assisted
+632,221,photo,fr:photo:noun:1,photo,noun,/fɔ.to/,photo,foto,摄影；照片,Voici la photo.,Here it is.,Aquí está.,这是摄影。,machine-assisted
+633,221,phrase,fr:phrase:noun:1,phrase,noun,/fʁaz/,sentence,frase,句子，词句，语句,On parle de la phrase.,We are talking about it.,Estamos hablando de ello.,我们正在谈论句子。,machine-assisted
+634,221,pièce,fr:pièce:noun:1,pièce,noun,/pjɛs/,"room in a house, etc",pieza,房间,On parle de la pièce.,We are talking about it.,Estamos hablando de ello.,我们正在谈论房间。,machine-assisted
+635,221,pied,fr:pied:noun:1,pied,noun,/pje/,foot,pie,脚，足,Voici le pied.,Here it is.,Aquí está.,这是脚。,machine-assisted
+636,221,piscine,fr:piscine:noun:1,piscine,noun,/pi.sin/,swimming pool,piscina,游泳池,On parle de la piscine.,We are talking about it.,Estamos hablando de ello.,我们正在谈论游泳池。,machine-assisted
+637,221,pizza,fr:pizza:noun:1,pizza,noun,/pid.za/,pizza (Italian dish),pizza,比萨饼,Voici la pizza.,Here it is.,Aquí está.,这是比萨饼。,machine-assisted
+638,221,placard,fr:placard:noun:1,placard,noun,/pla.kaʁ/,"a cupboard, cabinet or closet built against or into a wall",alacena,壁橱,On parle du placard.,We are talking about it.,Estamos hablando de ello.,我们正在谈论壁橱。,machine-assisted
+639,221,place,fr:place:noun:1,place,noun,/plas/,"place, square, plaza, piazza",espacio libre,地方，位置；（演出场地的）座位；广场,On parle de la place.,We are talking about it.,Estamos hablando de ello.,我们正在谈论地方。,machine-assisted
+640,221,sur place,fr:sur place:adverb:1,sur place,adverb,/syʁ plas/,"on site, on the ground",en el lugar,就地，原地，现场,Nous déjeunerons sur place.,We will have lunch there.,Almorzaremos allí mismo.,我们将在那里吃午餐。,machine-assisted
+641,221,plage,fr:plage:noun:1,plage,noun,/plaʒ/,beach,playa,沙滩,On parle de la plage.,We are talking about it.,Estamos hablando de ello.,我们正在谈论沙滩。,machine-assisted
+642,221,plan,fr:plan:noun:1,plan,noun,/plɑ̃/,"map (schematic maps of streets, subways, etc.)",plan,平面图,On parle du plan.,We are talking about it.,Estamos hablando de ello.,我们正在谈论平面图。,machine-assisted
+643,221,plat,fr:plat:adjective:1,plat,adjective,/pla/,flat,"plano, liso",菜肴,C’est quelque chose de plat.,It is something flat.,"Es algo plano, liso.",这是扁平的东西。,machine-assisted
+644,221,pleuvoir,fr:pleuvoir:verb:1,pleuvoir,verb,/plø.vwaʁ/,to rain,llover,下雨,Il va pleuvoir cet après-midi.,It is going to rain this afternoon.,Va a llover esta tarde.,今天下午会下雨。,machine-assisted
+645,221,pluie,fr:pluie:noun:1,pluie,noun,/plɥi/,rain,lluvia,雨,On parle de la pluie.,We are talking about it.,Estamos hablando de ello.,我们正在谈论雨。,machine-assisted
+646,221,plusieurs,fr:plusieurs:determiner:1,plusieurs,determiner,/ply.zjœʁ/,"several, many, a lot",varios,几个，好几个,J’ai plusieurs idées.,I have several ideas.,Tengo varias ideas.,我有几个想法。,machine-assisted
+647,221,poème,fr:poème:noun:1,poème,noun,/pɔ.ɛm/,poem (literary piece written in verse),poema,诗歌,On parle du poème.,We are talking about it.,Estamos hablando de ello.,我们正在谈论诗歌。,machine-assisted
+648,221,poète,fr:poète:noun:1,poète,noun,/pɔ.ɛt/,poet,poeta,诗人,Voici les poètes.,Here it is.,Aquí está.,这些是诗人。,machine-assisted
+649,221,point de vue,fr:point de vue:noun:1,point de vue,noun,/pwɛ̃ d(ə) vy/,point of view,punto de vista,观点，视角,On parle des point de vue.,We are talking about it.,Estamos hablando de ello.,我们正在谈论观点。,machine-assisted
+650,221,poisson,fr:poisson:noun:1,poisson,noun,/pwa.sɔ̃/,fish (marine animal),"pez, pescado",鱼,On parle du poisson.,We are talking about it.,Estamos hablando de ello.,我们正在谈论鱼。,machine-assisted
+651,221,pollution,fr:pollution:noun:1,pollution,noun,/pɔ.ly.sjɔ̃/,pollution,contaminación,污染,Voici la pollution.,Here it is.,Aquí está.,这是污染。,machine-assisted
+652,221,pomme,fr:pomme:noun:1,pomme,noun,/pɔm/,apple (fruit),manzana,苹果,Voici la pomme.,Here it is.,Aquí está.,这是苹果。,machine-assisted
+653,221,pomme de terre,fr:pomme de terre:noun:1,pomme de terre,noun,/pɔm də tɛʁ/,potato (Solanum tuberosum),patata,土豆,On parle des pomme de terre.,We are talking about it.,Estamos hablando de ello.,我们正在谈论土豆。,machine-assisted
+654,221,pont,fr:pont:noun:1,pont,noun,/pɔ̃/,bridge,puente,桥,On parle du pont.,We are talking about it.,Estamos hablando de ello.,我们正在谈论桥。,machine-assisted
+655,221,port,fr:port:noun:1,port,noun,/pɔʁ/,"port, harbour",puerto,港口,On parle du port.,We are talking about it.,Estamos hablando de ello.,我们正在谈论港口。,machine-assisted
+656,221,portable,fr:portable:noun:1,portable,noun,/pɔʁ.tabl/,ellipsis of téléphone portable: mobile phone,portátil,手机；笔记本电脑,On parle du portable.,We are talking about it.,Estamos hablando de ello.,我们正在谈论手机。,machine-assisted
+657,221,porter,fr:porter:verb:1,porter,verb,/pɔʁ.te/,to carry,llevar,穿戴，佩戴,Je vais porter une valise.,I am going to carry a suitcase.,Voy a llevar una maleta.,我会带着一个手提箱。,machine-assisted
+658,221,portrait-robot,fr:portrait-robot:noun:1,portrait-robot,noun,/pɔʁ.tʁɛ.ʁɔ.bo/,"identikit, composite sketch, police sketch, facial composite (sketch of a criminal based on eyewitness account)",retrato robot,（警方综合搜捕对象的特征所制的）模拟画像,Voici le portrait-robot.,Here it is.,Aquí está.,这是（警方综合搜捕对象的特征所制的）模拟画像。,machine-assisted
+659,221,poser,fr:poser:verb:1,poser,verb,/po.ze/,to ask; to put down,hacer; formular,提出（问题）,Je vais poser une question.,I am going to ask a question.,Voy a hacer una pregunta.,我要问一个问题。,machine-assisted
+660,221,possible,fr:possible:adjective:1,possible,adjective,/pɔ.sibl/,possible,posible,可能的,C’est quelque chose de possible.,It is something possible.,Es algo posible.,这是有可能的。,machine-assisted
+661,221,postal(e),fr:postal:adjective:1,postal,adjective,/pɔs.tal/,postal,postal,邮政的，邮务的,C’est quelque chose de postal.,It is something postal.,Es algo postal.,这是邮政的东西。,machine-assisted
+662,221,poste,fr:poste:noun:1,poste,noun,/pɔst/,post office,correos,邮局,On parle de la poste.,We are talking about it.,Estamos hablando de ello.,我们正在谈论邮局。,machine-assisted
+663,221,pour,fr:pour:preposition:1,pour,preposition,/puʁ/,"for (meant for, intended for)",para,给；为了；对于,Ce cadeau est pour toi.,This present is for you.,Este regalo es para ti.,这份礼物是给你的。,machine-assisted
+664,221,pourcentage,fr:pourcentage:noun:1,pourcentage,noun,/puʁ.sɑ̃.taʒ/,percentage,porcentaje,百分比，百分率,On parle du pourcentage.,We are talking about it.,Estamos hablando de ello.,我们正在谈论百分比。,machine-assisted
+665,221,pourquoi,fr:pourquoi:adverb:1,pourquoi,adverb,/puʁ.kwa/,why,por qué,为什么,Pourquoi êtes-vous en retard ?,Why are you late?,¿Por qué llega tarde?,你为什么迟到？,machine-assisted
+666,221,pouvoir,fr:pouvoir:verb:1,pouvoir,verb,/pu.vwaʁ/,can; to be able to,poder,能，会；可以,Je pourrai venir demain.,I will be able to come tomorrow.,Podré venir mañana.,我明天可以来。,machine-assisted
+667,221,pratique,fr:pratique:adjective:1,pratique,adjective,/pʁa.tik/,"practical, applied (concerning action or intervention of human will on the real to change it)",práctico,好用的，方便的,C’est quelque chose de pratique.,"It is something practical, applied (concerning action or intervention of human will on the real to change it).",Es algo práctico.,这是实用的东西。,machine-assisted
+668,221,préféré(e),fr:préféré:adjective:1,préféré,adjective,/pʁe.fe.ʁe/,favourite,favorito,最受人喜爱的,C’est quelque chose de préféré.,It is something favourite.,Es algo favorito.,这是最喜欢的事情。,machine-assisted
+669,221,préférer,fr:préférer:verb:1,préférer,verb,/pʁe.fe.ʁe/,to prefer,preferir,更喜欢，偏爱,Je vais préférer le train.,I am going to prefer the train.,Voy a preferir el tren.,我更喜欢火车。,machine-assisted
+670,221,premier(ère),fr:premier:adjective:1,premier,adjective,/pʁə.mje/,first,primero,第一的,C’est quelque chose de premier.,It is something first.,Es algo primero.,这是主要的事情。,machine-assisted
+671,221,prendre,fr:prendre:verb:1,prendre,verb,/pʁɑ̃dʁ/,to take,tomar; coger,拿；取；乘坐,Je prends le bus.,I take the bus.,Tomo el autobús.,我坐公共汽车。,seed-reviewed
+672,221,prénom,fr:prénom:noun:1,prénom,noun,/pʁe.nɔ̃/,"first name, given name",nombre,名字,On parle du prénom.,We are talking about it.,Estamos hablando de ello.,我们正在谈论名字。,machine-assisted
+673,221,préparer,fr:préparer:verb:1,préparer,verb,/pʁe.pa.ʁe/,to prepare,preparar,准备,Je vais préparer le dîner.,I am going to prepare dinner.,Voy a preparar la cena.,我要去准备晚饭了。,machine-assisted
+674,221,présentation,fr:présentation:noun:1,présentation,noun,/pʁe.zɑ̃.ta.sjɔ̃/,the act of presenting,presentación,外表，仪表,Voici la présentation.,Here it is.,Aquí está.,这是外表。,machine-assisted
+675,221,présenter,fr:présenter:verb:1,présenter,verb,/pʁe.zɑ̃.te/,to present,presentar,展示；介绍,Je vais présenter mon projet.,I am going to present my project.,Voy a presentar mi proyecto.,我将介绍我的项目。,machine-assisted
+676,221,principalement,fr:principalement:adverb:1,principalement,adverb,/pʁɛ̃.si.pal.mɑ̃/,"mainly, principally",principalmente,主要地,Ce quartier est principalement résidentiel.,This district is mainly residential.,Este barrio es principalmente residencial.,这个街区主要是住宅区。,machine-assisted
+677,221,prison,fr:prison:noun:1,prison,noun,/pʁi.zɔ̃/,prison,prisión,监狱,On parle de la prison.,We are talking about it.,Estamos hablando de ello.,我们正在谈论监狱。,machine-assisted
+678,221,privé(e),fr:privé:adjective:1,privé,adjective,/pʁi.ve/,private,privado,私人的,C’est quelque chose de privé.,It is something private.,Es algo privado.,这是私人的事情。,machine-assisted
+679,221,probable,fr:probable:adjective:1,probable,adjective,/pʁɔ.babl/,"likely, probable",probable,很有可能的,C’est quelque chose de probable.,"It is something likely, probable.",Es algo probable.,这是有可能的。,machine-assisted
+680,221,problème,fr:problème:noun:1,problème,noun,/pʁɔ.blɛm/,problem,problema,问题,On parle du problème.,We are talking about it.,Estamos hablando de ello.,我们正在谈论问题。,machine-assisted
+681,222,prochain(e),fr:prochain:adjective:1,prochain,adjective,/pʁɔ.ʃɛ̃/,upcoming,"entrante, próximo, siguiente",下一个的,C’est quelque chose de prochain.,It is something upcoming.,"Es algo entrante, próximo, siguiente.",这是即将到来的事情。,machine-assisted
+682,222,prof,fr:prof:noun:1,prof,noun,/pʁɔf/,"teacher, professor",profe,《俗》教师；教授,On parle des profs.,We are talking about it.,Estamos hablando de ello.,我们正在谈论教师。,machine-assisted
+683,222,professeur,fr:professeur:noun:1,professeur,noun,/pʁɔ.fɛ.sœʁ/,teacher,profesor; profesora,中学教师；大学教授；教员，教练,Notre professeure parle lentement.,Our teacher speaks slowly.,Nuestra profesora habla despacio.,我们的老师说话很慢。,seed-reviewed
+684,222,profession,fr:profession:noun:1,profession,noun,/pʁɔ.fɛ.sjɔ̃/,"profession, public declaration",profesión,职业,Voici la profession.,Here it is.,Aquí está.,这是职业。,machine-assisted
+685,222,projet,fr:projet:noun:1,projet,noun,/pʁɔ.ʒɛ/,project,proyecto,计划,Voici le projet.,Here it is.,Aquí está.,这是计划。,machine-assisted
+686,222,promenade,fr:promenade:noun:1,promenade,noun,/pʁɔm.nad/,walk; stroll (walk for enjoyment),paseo,散步；散步场所，散步大道,On parle de la promenade.,We are talking about it.,Estamos hablando de ello.,我们正在谈论散步。,machine-assisted
+687,222,promener(se),fr:promener:verb:1,promener,verb,/pʁɔm.ne/,"to walk (leisurely), to go for a walk, to stroll",pasear,散步,Je vais promener le chien.,I am going to walk the dog.,Voy a pasear al perro.,我要去遛狗。,machine-assisted
+688,222,publicité,fr:publicité:noun:1,publicité,noun,/py.bli.si.te/,"publicity, advertising",publicidad,广告,On parle de la publicité.,We are talking about it.,Estamos hablando de ello.,我们正在谈论广告。,machine-assisted
+689,222,puis,fr:puis:adverb:1,puis,adverb,/pɥi/,then; after; next,luego,然后,"Prenez cette rue, puis tournez à droite.","Take this street, then turn right.",Tome esta calle y luego gire a la derecha.,走这条街，然后右转。,machine-assisted
+690,222,pull,fr:pull:noun:1,pull,noun,/pyl/,pullover,jersey,《俗》套头毛衣,On parle du pull.,We are talking about it.,Estamos hablando de ello.,我们正在谈论套头毛衣。,machine-assisted
+691,222,quai,fr:quai:noun:1,quai,noun,/ke/,"quay, wharf",andén,站台；堤岸,Voici le quai.,Here it is.,Aquí está.,这是站台。,machine-assisted
+692,222,qualité,fr:qualité:noun:1,qualité,noun,/ka.li.te/,quality,calidad,品质，质量,On parle de la qualité.,We are talking about it.,Estamos hablando de ello.,我们正在谈论品质。,machine-assisted
+693,222,quand,fr:quand:conjunction:1,quand,conjunction,/kɑ̃/,when (at the time that),cuando,什么时候；当……时,Appelez-moi quand vous arrivez.,Call me when you arrive.,Llámeme cuando llegue.,到达后给我打电话。,machine-assisted
+694,222,quartier,fr:quartier:noun:1,quartier,noun,/kaʁ.tje/,"quarter, district (part of town), neighbourhood",barrio,街区,On parle du quartier.,We are talking about it.,Estamos hablando de ello.,我们正在谈论街区。,machine-assisted
+695,222,québécois(e),fr:québécois:adjective:1,québécois,adjective,/ke.be.kwa/,of Quebec,quebequés,魁北克的,C’est quelque chose de québécois.,It is something of Quebec.,Es algo quebequés.,这是魁北克人的东西。,machine-assisted
+696,222,quelque chose (=qch.),fr:quelque chose:pronoun:1,quelque chose,pronoun,/kɛl.k(ə) ʃoz/,something (an indefinite or indeterminate object),algo,某个东西，某物,Je voudrais quelque chose à boire.,I would like something to drink.,Quisiera algo de beber.,我想要喝点东西。,machine-assisted
+697,222,questionnaire,fr:questionnaire:noun:1,questionnaire,noun,/kɛs.tjɔ.nɛʁ/,questionnaire,cuestionario,调查问卷,On parle du questionnaire.,We are talking about it.,Estamos hablando de ello.,我们正在谈论调查问卷。,machine-assisted
+698,222,quitter,fr:quitter:verb:1,quitter,verb,/ki.te/,"to leave, to quit",abandonar,离开,Je vais quitter le bureau.,I am going to leave the office.,Voy a abandonar la oficina.,我要离开办公室了。,machine-assisted
+699,222,raconter,fr:raconter:verb:1,raconter,verb,/ʁa.kɔ̃.te/,to recount; to tell; to narrate,contar,讲述,Je vais raconter une histoire.,I am going to recount a story.,Voy a contar una historia.,我要讲一个故事。,machine-assisted
+700,222,radio,fr:radio:noun:1,radio,noun,/ʁa.djo/,"radio, tuner",radio,无线电广播；无线电广播电台,On parle de la radio.,We are talking about it.,Estamos hablando de ello.,我们正在谈论无线电广播。,machine-assisted
+701,222,raison,fr:raison:noun:1,raison,noun,/ʁɛ.zɔ̃/,reason (cause),razón,理智，理性；道理,Voici la raison.,Here it is.,Aquí está.,这是理智。,machine-assisted
+702,222,avoir raison,fr:avoir raison:verb:1,avoir raison,verb,/a.vwaʁ ʁɛ.zɔ̃/,to be right; to be correct,tener razón,有理，正确,Tu as raison sur ce point.,You are right about that point.,Tienes razón en ese punto.,在这一点上你是对的。,machine-assisted
+703,222,rappeler,fr:rappeler:verb:1,rappeler,verb,/ʁa.ple/,to call again; to call back,recordar,再打电话给某人,Je vais rappeler Marie demain.,I am going to call Marie back tomorrow.,Voy a volver a llamar a Marie mañana.,明天我会再给玛丽打电话。,machine-assisted
+704,222,se rappeler,fr:se rappeler:verb:1,se rappeler,verb,/ʁa.ple/,to remember,recordar,记得；想起,Je me rappelle cette adresse.,I remember this address.,Recuerdo esta dirección.,我记得这个地址。,machine-assisted
+705,222,récent(e),fr:récent:adjective:1,récent,adjective,/ʁe.sɑ̃/,recent,reciente,最近的，新近的,C’est quelque chose de récent.,It is something recent.,Es algo reciente.,这是最近发生的事情。,machine-assisted
+706,222,réception,fr:réception:noun:1,réception,noun,/ʁe.sɛp.sjɔ̃/,reception (action of receiving),recepción,接待处,On parle de la réception.,We are talking about it.,Estamos hablando de ello.,我们正在谈论接待处。,machine-assisted
+707,222,réceptionniste,fr:réceptionniste:noun:1,réceptionniste,noun,/ʁe.sɛp.sjɔ.nist/,receptionist,recepcionista,（旅馆、商店等的）接待员,Voici les réceptionnistes.,Here it is.,Aquí está.,这些是（旅馆、商店等的）接待员。,machine-assisted
+708,222,rechercher,fr:rechercher:verb:1,rechercher,verb,/ʁə.ʃɛʁ.ʃe/,"to search for, seek, to look for",buscar,寻找；搜寻,Je vais rechercher un emploi.,I am going to search for a job.,Voy a buscar un empleo.,我要去找工作。,machine-assisted
+709,222,recommencer,fr:recommencer:verb:1,recommencer,verb,/ʁə.kɔ.mɑ̃.se/,"to restart, start over, start again",recomenzar,重新开始,Nous allons recommencer l’exercice.,We are going to start the exercise again.,Vamos a repetir el ejercicio.,我们要再次开始练习。,machine-assisted
+710,222,regarder,fr:regarder:verb:1,regarder,verb,/ʁə.ɡaʁ.de/,to watch; to look at,"mirar, considerar, concernir",看,Je vais regarder ce film.,I am going to watch this film.,Voy a mirar esta película.,我要看这部电影。,machine-assisted
+711,222,remercier,fr:remercier:verb:1,remercier,verb,/ʁə.mɛʁ.sje/,to thank (someone),agradecer,感谢,Je vais remercier mon professeur.,I am going to thank my teacher.,Voy a agradecer a mi profesor.,我要感谢我的老师。,machine-assisted
+712,222,rencontrer,fr:rencontrer:verb:1,rencontrer,verb,/ʁɑ̃.kɔ̃.tʁe/,to meet,encontrar,碰见，遇见，结识,Je vais rencontrer mes amis.,I am going to meet my friends.,Voy a encontrar a mis amigos.,我要去见我的朋友们。,machine-assisted
+713,222,se rencontrer,fr:se rencontrer:verb:1,se rencontrer,verb,/ʁɑ̃.kɔ̃.tʁe/,to meet each other,encontrarse,相遇,Nous nous rencontrons devant la gare.,We meet in front of the station.,Nos encontramos delante de la estación.,我们在车站前见面。,machine-assisted
+714,222,rendez-vous,fr:rendez-vous:noun:1,rendez-vous,noun,/ʁɑ̃.de.vu/,date,cita,约会，预约,Voici le rendez-vous.,Here it is.,Aquí está.,这是约会。,machine-assisted
+715,222,sur rendez-vous,fr:sur rendez-vous:expression:1,sur rendez-vous,expression,/syʁ ʁɑ̃dˈevˈu/,by appointment,con cita previa,须预约；按预约,Le médecin reçoit sur rendez-vous.,The doctor sees patients by appointment.,El médico atiende con cita previa.,医生按预约接诊。,machine-assisted
+716,222,renseignement,fr:renseignement:noun:1,renseignement,noun,/ʁɑ̃.sɛɲ.mɑ̃/,piece of information,"aviso, reporte, notificación",有关资料，情况，消息,Voici le renseignement.,Here it is.,Aquí está.,这是有关资料。,machine-assisted
+717,222,rentrer,fr:rentrer:verb:1,rentrer,verb,/ʁɑ̃.tʁe/,"to go back, to re-enter",volver a entrar,回来，回到；回家,Elle va rentrer à la maison.,She is going to go home.,Va a volver a casa.,她要回家了。,machine-assisted
+718,222,repas,fr:repas:noun:1,repas,noun,/ʁə.pa/,"meal, repast",comida,餐；进餐,On parle du repas.,We are talking about it.,Estamos hablando de ello.,我们正在谈论餐。,machine-assisted
+719,222,répondre (à),fr:répondre:verb:1,répondre,verb,/ʁe.pɔ̃dʁ/,to answer,responder,回答，答复,Je vais répondre à la question.,I am going to answer the question.,Voy a responder a la pregunta.,我来回答一下这个问题。,machine-assisted
+720,222,réponse,fr:réponse:noun:1,réponse,noun,/ʁe.pɔ̃s/,"response, answer, reply (a communication)",respuesta,回答，答复；回信；答案,Voici la réponse.,Here it is.,Aquí está.,这是回答。,machine-assisted
+721,222,reportage,fr:reportage:noun:1,reportage,noun,/ʁə.pɔʁ.taʒ/,reportage,reportaje,报道,On parle du reportage.,We are talking about it.,Estamos hablando de ello.,我们正在谈论报道。,machine-assisted
+722,222,reposer(se),fr:reposer:verb:1,reposer,verb,/ʁə.po.ze/,to put down again,volver a poner,休息,Je repose le livre sur la table.,I put the book back on the table.,Vuelvo a poner el libro sobre la mesa.,我把书放回桌子上。,machine-assisted
+723,222,reprendre,fr:reprendre:verb:1,reprendre,verb,/ʁə.pʁɑ̃dʁ/,"to take back, recover, regain",retomar,重新从事,Je vais reprendre mon travail.,I am going to take back my work.,Voy a retomar mi trabajo.,我会回去工作。,machine-assisted
+724,222,république,fr:république:noun:1,république,noun,/ʁe.py.blik/,republic,república,共和国,Voici la république.,Here it is.,Aquí está.,这是共和国。,machine-assisted
+725,222,réserver,fr:réserver:verb:1,réserver,verb,/ʁe.zɛʁ.ve/,to book; to reserve,reservar,预订，保留，预留,Je vais réserver une chambre.,I am going to book a room.,Voy a reservar una habitación.,我要订房间。,machine-assisted
+726,222,résidence,fr:résidence:noun:1,résidence,noun,/ʁe.zi.dɑ̃s/,residence (place where one resides),residencia,住所，住处，寓所,Voici la résidence.,Here it is.,Aquí está.,这是住所。,machine-assisted
+727,222,responsable,fr:responsable:adjective:1,responsable,adjective,/ʁɛs.pɔ̃.sabl/,responsible,responsable,负责人,C’est quelque chose de responsable.,It is something responsible.,Es algo responsable.,这是负责任的事情。,machine-assisted
+728,222,restaurant,fr:restaurant:noun:1,restaurant,noun,/ʁɛs.tɔ.ʁɑ̃/,restaurant,restaurante,餐馆；饭店,On parle du restaurant.,We are talking about it.,Estamos hablando de ello.,我们正在谈论餐馆。,machine-assisted
+729,222,reste,fr:reste:noun:1,reste,noun,/ʁɛst/,"rest, remainder","resto, residuo, sobrante",其余部分；其余的人；剩余部分,On parle du reste.,We are talking about it.,Estamos hablando de ello.,我们正在谈论其余部分。,machine-assisted
+730,222,rester,fr:rester:verb:1,rester,verb,/ʁɛs.te/,to stay,quedar,停留，逗留；保持，始终处于（某种姿势、状态）,Je vais rester ici deux jours.,I am going to stay here for two days.,Voy a quedarme aquí dos días.,我会在这里待两天。,machine-assisted
+731,222,résultat,fr:résultat:noun:1,résultat,noun,/ʁe.zyl.ta/,outcome; result,resultado,结果,Voici le résultat.,Here it is.,Aquí está.,这是结果。,machine-assisted
+732,222,retourner,fr:retourner:verb:1,retourner,verb,/ʁə.tuʁ.ne/,to turn over,dar la vuelta a,返回,Je vais retourner la crêpe.,I am going to turn over the crêpe.,Voy a dar la vuelta a la crepe.,我要翻煎饼了。,machine-assisted
+733,222,retraite,fr:retraite:noun:1,retraite,noun,/ʁə.tʁɛt/,retirement,retiro,退休,Voici la retraite.,Here it is.,Aquí está.,这是退休。,machine-assisted
+734,222,retrouver,fr:retrouver:verb:1,retrouver,verb,/ʁə.tʁu.ve/,to find (again); to rediscover,encontrar,找回；再见到,Je vais retrouver mes clés.,I am going to find my keys.,Voy a encontrar mis llaves.,我要去找到我的钥匙。,machine-assisted
+735,222,réunion,fr:réunion:noun:1,réunion,noun,/ʁe.y.njɔ̃/,meeting,reunión,会议,Voici la réunion.,Here it is.,Aquí está.,这是会议。,machine-assisted
+736,222,réussir,fr:réussir:verb:1,réussir,verb,/ʁe.y.siʁ/,to manage to do something,conseguir,成功；做成,Tu vas réussir cet examen.,You are going to pass this exam.,Vas a aprobar este examen.,你将通过这次考试。,machine-assisted
+737,222,revenir,fr:revenir:verb:1,revenir,verb,/ʁə.v(ə).niʁ/,"to come back, to return","regresar, retornar",回来,Il va revenir la semaine prochaine.,He is going to come back next week.,Va a volver la semana que viene.,他将于下周回来。,machine-assisted
+738,222,rêver,fr:rêver:verb:1,rêver,verb,/ʁɛ.ve/,to dream,soñar,做梦,Elle rêve de faire le tour du monde.,She dreams of travelling around the world.,Sueña con dar la vuelta al mundo.,她梦想环游世界。,machine-assisted
+739,222,rez-de-chaussée,fr:rez-de-chaussée:noun:1,rez-de-chaussée,noun,/ʁe.d(ə).ʃo.se/,ground floor,planta baja,（建筑物的）底层，一楼,On parle du rez-de-chaussée.,We are talking about it.,Estamos hablando de ello.,我们正在谈论（建筑物的）底层。,machine-assisted
+740,222,riz,fr:riz:noun:1,riz,noun,/ʁi/,rice,arroz,大米,On parle du riz.,We are talking about it.,Estamos hablando de ello.,我们正在谈论大米。,machine-assisted
+741,222,robe,fr:robe:noun:1,robe,noun,/ʁɔb/,"dress, frock",vestido,（女用）长外衣，连衣裙,Voici la robe.,Here it is.,Aquí está.,这是（女用）长外衣。,machine-assisted
+742,222,Rochelle (La),fr:rochelle:proper_noun:1,Rochelle,proper_noun,/ʁoʃˈɛl/,La Rochelle,Rochelle,拉罗谢尔（法国）,Je connais bien Rochelle.,I know La Rochelle well.,Conozco bien Rochelle.,我很了解罗谢尔。,machine-assisted
+743,222,rollers,fr:rollers:noun:1,rollers,noun,/ʁɔlˈe/,inline skates,patines en línea,轮滑鞋,On parle des rollers.,We are talking about it.,Estamos hablando de ello.,我们正在谈论轮滑鞋。,machine-assisted
+744,222,romantique,fr:romantique:adjective:1,romantique,adjective,/ʁo.mɑ̃.tik/,romantic,romántico,浪漫的，罗曼蒂克的,C’est quelque chose de romantique.,It is something romantic.,Es algo romántico.,这是一件浪漫的事情。,machine-assisted
+745,222,roue,fr:roue:noun:1,roue,noun,/ʁu/,a wheel,rueda,轮子,On parle de la roue.,We are talking about it.,Estamos hablando de ello.,我们正在谈论轮子。,machine-assisted
+746,222,rouge,fr:rouge:adjective:1,rouge,adjective,/ʁuʒ/,red (of a red color),rojo,红色的,C’est quelque chose de rouge.,It is something red (of a red color).,Es algo rojo.,这是红色的东西。,machine-assisted
+747,222,rouler,fr:rouler:verb:1,rouler,verb,/ʁu.le/,to roll,rodar,（车辆等）行驶,Nous allons rouler jusqu’à Bordeaux.,We are going to drive to Bordeaux.,Vamos a conducir hasta Burdeos.,我们要开车去波尔多。,machine-assisted
+748,222,route,fr:route:noun:1,route,noun,/ʁut/,"road (sometimes route like ""Route 66"")",camino,道路，公路，大路,On parle de la route.,We are talking about it.,Estamos hablando de ello.,我们正在谈论道路。,machine-assisted
+749,222,rue,fr:rue:noun:1,rue,noun,/ʁy/,"street, road",calle,街，街道，马路,Voici la rue.,Here it is.,Aquí está.,这是街。,machine-assisted
+750,222,sac,fr:sac:noun:1,sac,noun,/sak/,"bag, sack",bolsa,包,On parle du sac.,We are talking about it.,Estamos hablando de ello.,我们正在谈论包。,machine-assisted
+751,222,Saint-Étienne,fr:saint-étienne:proper_noun:1,Saint-Étienne,proper_noun,/sɛ̃.t‿e.tjɛn/,"Saint-Étienne (a city in Auvergne-Rhône-Alpes, France)",Saint-Étienne,圣艾蒂安（法国）,Je connais bien Saint-Étienne.,I know Saint-Étienne well.,Conozco bien Saint-Étienne.,我很了解圣艾蒂安。,machine-assisted
+752,223,Saint-Valentin (la),fr:saint-valentin:proper_noun:1,Saint-Valentin,proper_noun,/sɛ̃.va.lɑ̃.tɛ̃/,"Valentine's Day (a holiday in remembrance of Saint Valentine, February 14th, celebrated by sending cards or similar tokens of love)",día de San Valentín,情人节,Je connais bien Saint-Valentin.,I know Valentine's Day well.,Conozco bien Día de San Valentín.,我很了解情人节。,machine-assisted
+753,223,salade,fr:salade:noun:1,salade,noun,/sa.lad/,salad (raw vegetables in general),ensalada,凉拌生菜；生菜；沙拉,Voici la salade.,Here it is.,Aquí está.,这是凉拌生菜。,machine-assisted
+754,223,salle,fr:salle:noun:1,salle,noun,/sal/,hall,sala,房间，室,On parle de la salle.,We are talking about it.,Estamos hablando de ello.,我们正在谈论房间。,machine-assisted
+755,223,salle de bains,fr:salle de bains:noun:1,salle de bains,noun,/sal də bɛ̃/,bathroom,cuarto de baño,浴室,On parle des salle de bains.,We are talking about it.,Estamos hablando de ello.,我们正在谈论浴室。,machine-assisted
+756,223,salon,fr:salon:noun:1,salon,noun,/sa.lɔ̃/,living room,salón,客厅,On parle du salon.,We are talking about it.,Estamos hablando de ello.,我们正在谈论客厅。,machine-assisted
+757,223,salut,fr:salut:interjection:1,salut,interjection,/sa.ly/,"hi, hello",hola,《俗》你好；再见,"Salut, comment vas-tu ?","Hi, how are you?","Hola, ¿cómo estás?",你好，你好吗？,machine-assisted
+758,223,samedi,fr:samedi:noun:1,samedi,noun,/sam.di/,Saturday,sábado,周六,Je fais les courses samedi.,I do the shopping on Saturday.,Hago la compra el sábado.,星期六我要去购物。,machine-assisted
+759,223,savoir,fr:savoir:verb:1,savoir,verb,/sa.vwaʁ/,to know (something),saber,知道，会,Je sais nager.,I know how to swim.,Sé nadar.,我会游泳。,machine-assisted
+760,223,sculpteur(trice),fr:sculpteur:noun:1,sculpteur,noun,/skyl.tœʁ/,sculptor,escultor,雕刻家，雕塑家,On parle du sculpteur.,We are talking about it.,Estamos hablando de ello.,我们正在谈论雕刻家。,machine-assisted
+761,223,secondaire,fr:secondaire:adjective:1,secondaire,adjective,/sə.ɡɔ̃.dɛʁ/,secondary,secundario,第二的；次要的,C’est quelque chose de secondaire.,It is something secondary.,Es algo secundario.,这是次要的。,machine-assisted
+762,223,secrétaire,fr:secrétaire:noun:1,secrétaire,noun,/sə.kʁe.tɛʁ/,secretary,secretario,秘书,On parle des secrétaires.,We are talking about it.,Estamos hablando de ello.,我们正在谈论秘书。,machine-assisted
+763,223,semaine,fr:semaine:noun:1,semaine,noun,/sə.mɛn/,week,semana,星期，周,Voici la semaine.,Here it is.,Aquí está.,这是星期。,machine-assisted
+764,223,Sénégal,fr:sénégal:proper_noun:1,Sénégal,proper_noun,/se.ne.ɡal/,Senegal (a country in West Africa),Senegal,塞内加尔,Je connais bien Sénégal.,I know Senegal well.,Conozco bien Senegal.,我很了解塞内加尔。,machine-assisted
+765,223,septembre,fr:septembre:noun:1,septembre,noun,/sɛp.tɑ̃bʁ/,"September (the ninth month of the Gregorian calendar, following August and preceding October, containing the southward equinox)",septiembre,九月,Les cours reprennent en septembre.,Classes start again in September.,Las clases empiezan de nuevo en septiembre.,九月恢复上课。,machine-assisted
+766,223,seul(e),fr:seul:adjective:1,seul,adjective,/sœl/,lonely,solo,单独的，独自的；孤单的,C’est quelque chose de seul.,It is something lonely.,Es algo solo.,它是单独的东西。,machine-assisted
+767,223,"serveur,se",fr:serveur:noun:1,serveur,noun,/sɛʁ.vœʁ/,waiter (in restaurant),servidor,服务生，服务员,Voici le serveur.,Here it is.,Aquí está.,这是服务生。,machine-assisted
+768,223,seulement,fr:seulement:adverb:1,seulement,adverb,/sœl.mɑ̃/,only,solamente; solo,只，仅仅,Je reste seulement deux jours.,I am staying for only two days.,Solo me quedo dos días.,我只待两天。,machine-assisted
+769,223,sexe,fr:sexe:noun:1,sexe,noun,/sɛks/,sex (the biological category),sexo,性别,On parle du sexe.,We are talking about it.,Estamos hablando de ello.,我们正在谈论性别。,machine-assisted
+770,223,shopping,fr:shopping:noun:1,shopping,noun,/ʃɔ.piŋ/,shopping (act of shopping),compras,在商店购物,Voici le shopping.,Here it is.,Aquí está.,这是在商店购物。,machine-assisted
+771,223,Sicile (la),fr:sicile:proper_noun:1,Sicile,proper_noun,/si.sil/,"Sicily (the largest island in the Mediterranean Sea, an autonomous region of Italy, close to Africa and separated from Tunisia and Libya by the Strait of Sicily)",Sicilia,西西里岛（意大利）,Je connais bien Sicile.,I know Sicily well.,Conozco bien Sicilia.,我很了解西西里岛。,machine-assisted
+772,223,s'il vous plaît,fr:s'il vous plaît:expression:1,s'il vous plaît,expression,/s‿il vu plɛ/,"please, if you please",por favor,请，请您，请问,"Un café, s’il vous plaît.","A coffee, please.","Un café, por favor.",请给我一杯咖啡。,machine-assisted
+773,223,simple,fr:simple:adjective:1,simple,adjective,/sɛ̃pl/,single,simple,单一的,C’est quelque chose de simple.,It is something single.,Es algo simple.,这很简单。,machine-assisted
+774,223,ski,fr:ski:noun:1,ski,noun,/ski/,ski,esquí,滑雪,On parle du ski.,We are talking about it.,Estamos hablando de ello.,我们正在谈论滑雪。,machine-assisted
+775,223,slam,fr:slam:noun:1,slam,noun,/slˈam/,poetry slam,poesía slam,诗歌朗诵表演,On parle du slam.,We are talking about it.,Estamos hablando de ello.,我们正在谈论诗歌朗诵表演。,machine-assisted
+776,223,SNCF,fr:sncf:proper_noun:1,SNCF,proper_noun,/ɛ.sɛn.se.ɛf/,initialism of Société nationale des chemins de fer français (the national railway company of France),SNCF,法国国家铁路公司,Je connais bien SNCF.,I know initialism of Société nationale des chemins de fer français well.,Conozco bien SNCF.,我很了解法国国家铁路公司。,machine-assisted
+777,223,société,fr:société:noun:1,société,noun,/sɔ.sje.te/,"company, frequentation",sociedad,公司,Voici la société.,Here it is.,Aquí está.,这是公司。,machine-assisted
+778,223,sœur,fr:sœur:noun:1,sœur,noun,/sœʁ/,sister (a daughter of the same parents as another person; a female sibling),hermana,姐妹,On parle de la sœur.,We are talking about it.,Estamos hablando de ello.,我们正在谈论姐妹。,machine-assisted
+779,223,soir,fr:soir:noun:1,soir,noun,/swaʁ/,evening,tarde,晚上,Elle rentre tard le soir.,She comes home late in the evening.,Vuelve tarde por la noche.,她晚上很晚才回家。,machine-assisted
+780,223,soirée,fr:soirée:noun:1,soirée,noun,/swa.ʁe/,evening,noche,夜晚,On parle de la soirée.,We are talking about it.,Estamos hablando de ello.,我们正在谈论夜晚。,machine-assisted
+781,223,soleil,fr:soleil:noun:1,soleil,noun,/sɔ.lɛj/,sun (star),sol,太阳，阳光,Voici le soleil.,Here it is.,Aquí está.,这是太阳。,machine-assisted
+782,223,sombre,fr:sombre:adjective:1,sombre,adjective,/sɔ̃bʁ/,dark,sombrío,昏暗的，阴暗的,C’est quelque chose de sombre.,It is something dark.,Es algo sombrío.,这是黑暗的东西。,machine-assisted
+783,223,sondage,fr:sondage:noun:1,sondage,noun,/sɔ̃.daʒ/,"poll, survey",sondeo,抽样调查，民意测验,On parle du sondage.,We are talking about it.,Estamos hablando de ello.,我们正在谈论抽样调查。,machine-assisted
+784,223,sortir,fr:sortir:verb:1,sortir,verb,/sɔʁ.tiʁ/,"to exit, go out, come out",salir,出去；出门；外出,Nous allons sortir ce soir.,We are going out tonight.,Vamos a salir esta noche.,我们今晚要出去。,machine-assisted
+785,223,souriant(e),fr:souriant:adjective:1,souriant,adjective,/su.ʁjɑ̃/,smiling (tending to smile a lot),sonriente,面带微笑的,C’est quelque chose de souriant.,It is something smiling (tending to smile a lot).,Es algo sonriente.,这是值得微笑的事情。,machine-assisted
+786,223,sous,fr:sous:preposition:1,sous,preposition,/su/,"below, under",debajo de o bajo,在…下面,Le chat dort sous la chaise.,The cat is sleeping under the chair.,El gato duerme debajo de la silla.,猫睡在椅子下面。,machine-assisted
+787,223,souvenir,fr:souvenir:noun:1,souvenir,noun,/su.v(ə).niʁ/,memory (mental picture),recuerdo,回忆,On parle du souvenir.,We are talking about it.,Estamos hablando de ello.,我们正在谈论回忆。,machine-assisted
+788,223,souvenir(se),fr:se souvenir:verb:1,se souvenir,verb,/su.v(ə).niʁ/,to remember,recordar,记得，忆及，想起；记住，记着,Elle se souvient de ce voyage.,She remembers that trip.,Se acuerda de aquel viaje.,她记得这次旅行。,machine-assisted
+789,223,souvent,fr:souvent:adverb:1,souvent,adverb,/su.vɑ̃/,often,frecuentemente,经常，常常,Elle vient souvent ici.,She often comes here.,Viene aquí a menudo.,她经常来这里。,machine-assisted
+790,223,sport,fr:sport:noun:1,sport,noun,/spɔʁ/,sport,deporte,运动，体育运动，运动项目,Voici le sport.,Here it is.,Aquí está.,这是运动。,machine-assisted
+791,223,sportif(ive),fr:sportif:adjective:1,sportif,adjective,/spɔʁ.tif/,"athletic; enjoying and frequently participating in sports, sporty",deportivo,有关体育的，运动的；从事体育运动的，爱好体育运动的,C’est quelque chose de sportif.,It is something athletic.,Es algo deportivo.,这是一种体育运动。,machine-assisted
+792,223,Strasbourg,fr:strasbourg:proper_noun:1,Strasbourg,proper_noun,/stʁas.buʁ/,"Strasbourg (the capital city of Bas-Rhin department, France; the capital city of the region of Grand Est)",Estrasburgo,斯特拉斯堡（法国阿尔萨斯大区下莱茵省首府，欧洲议会所在地）,Je connais bien Strasbourg.,I know Strasbourg well.,Conozco bien Estrasburgo.,我很了解斯特拉斯堡。,machine-assisted
+793,223,stress,fr:stress:noun:1,stress,noun,/stʁɛs/,stress (emotional pressure),estrés,压力，紧张,Voici le stress.,Here it is.,Aquí está.,这是压力。,machine-assisted
+794,223,sucre,fr:sucre:noun:1,sucre,noun,/sykʁ/,sugar,azúcar,糖,Voici le sucre.,Here it is.,Aquí está.,这是糖。,machine-assisted
+795,223,sud,fr:sud:noun:1,sud,noun,/syd/,south,sur,南，南边，南方,Voici le sud.,Here it is.,Aquí está.,这是南。,machine-assisted
+796,223,Suisse,fr:suisse:proper_noun:1,Suisse,proper_noun,/sɥis/,Switzerland (a country in Western Europe and Central Europe),suiza,瑞士,Je connais bien Suisse.,I know Switzerland well.,Conozco bien Suiza.,我很了解瑞士。,machine-assisted
+797,223,suivre,fr:suivre:verb:1,suivre,verb,/sɥivʁ/,to follow (literal sense),seguir,跟随,Je vais suivre le guide.,I am going to follow the guide.,Voy a seguir al guía.,我要跟着导游走。,machine-assisted
+798,223,super,fr:super:adjective:1,super,adjective,/sy.pɛʁ/,"superb, great",súper,棒极了，最棒的,C’est quelque chose de super.,"It is something superb, great.",Es algo súper.,这是一件伟大的事情。,machine-assisted
+799,223,supermarché,fr:supermarché:noun:1,supermarché,noun,/sy.pɛʁ.maʁ.ʃe/,supermarket,supermercado,超市,On parle du supermarché.,We are talking about it.,Estamos hablando de ello.,我们正在谈论超市。,machine-assisted
+800,223,supprimer,fr:supprimer:verb:1,supprimer,verb,/sy.pʁi.me/,to delete,suprimir,除去，除掉,Je vais supprimer ce fichier.,I am going to delete this file.,Voy a suprimir este archivo.,我将删除这个文件。,machine-assisted
+801,223,sur,fr:sur:preposition:1,sur,preposition,/syʁ/,"on, upon","en, en casa de, sobre, encima de",在…上面；（表示相关）关于，对于,Le livre est sur la table.,The book is on the table.,El libro está sobre la mesa.,这本书在桌子上。,machine-assisted
+802,223,sûr(e),fr:sûr:adjective:1,sûr,adjective,/syʁ/,"sure, certain",seguro,确信的，肯定的；有把握的,C’est quelque chose de sûr.,"It is something sure, certain.",Es algo seguro.,这是肯定的事情。,machine-assisted
+803,223,bien sûr,fr:bien sûr:adverb:1,bien sûr,adverb,/bjɛ̃ syʁ/,of course,por supuesto,当然（语气词）,"Bien sûr, je peux vous aider.","Of course, I can help you.","Claro, puedo ayudarle.",我当然可以帮助你。,machine-assisted
+804,223,surprise,fr:surprise:noun:1,surprise,noun,/syʁ.pʁiz/,surprise (something unexpected),sorpresa,惊喜,On parle de la surprise.,We are talking about it.,Estamos hablando de ello.,我们正在谈论惊喜。,machine-assisted
+805,223,symbole,fr:symbole:noun:1,symbole,noun,/sɛ̃.bɔl/,symbol (all meanings),símbolo,象征，标志，符号,On parle du symbole.,We are talking about it.,Estamos hablando de ello.,我们正在谈论象征。,machine-assisted
+806,223,sympa,fr:sympa:adjective:1,sympa,adjective,/sɛ̃.pa/,nice; likeable,simpático,《俗》讨人喜欢的；友好的,C’est quelque chose de sympa.,It is something nice.,Es algo simpático.,这是一件好事。,machine-assisted
+807,223,table,fr:table:noun:1,table,noun,/tabl/,table (furniture with a top surface to accommodate a variety of uses),mesa,桌子,Voici la table.,Here it is.,Aquí está.,这是桌子。,machine-assisted
+808,223,tableau,fr:tableau:noun:1,tableau,noun,/ta.blo/,painting,cuadro,画,Voici le tableau.,Here it is.,Aquí está.,这是画。,machine-assisted
+809,223,tableau,fr:tableau:noun:2,tableau,noun,/ta.blo/,table (arrangement of rows and columns),tabla; cuadro,表，表格,On parle du tableau.,We are talking about it.,Estamos hablando de ello.,我们正在谈论表。,machine-assisted
+810,223,taille,fr:taille:noun:1,taille,noun,/taj/,"the act of cutting, pruning, trimming","talla, estatura, tamaño",（成衣的）尺码，号码,On parle de la taille.,We are talking about it.,Estamos hablando de ello.,我们正在谈论（成衣的）尺码。,machine-assisted
+811,223,tapis,fr:tapis:noun:1,tapis,noun,/ta.pi/,carpet; mat; rug,alfombra,地毯,On parle du tapis.,We are talking about it.,Estamos hablando de ello.,我们正在谈论地毯。,machine-assisted
+812,223,tard,fr:tard:adverb:1,tard,adverb,/taʁ/,late,tarde,晚,Il rentre tard le soir.,He comes home late in the evening.,Vuelve tarde por la noche.,他晚上很晚才回家。,machine-assisted
+813,223,tarif,fr:tarif:noun:1,tarif,noun,/ta.ʁif/,price (usually of a service),tarifa,定价,Voici le tarif.,Here it is.,Aquí está.,这是定价。,machine-assisted
+814,223,taxi,fr:taxi:noun:1,taxi,noun,/tak.si/,taxi,taxi,出租车,Voici le taxi.,Here it is.,Aquí está.,这是出租车。,machine-assisted
+815,223,tee-shirt,fr:tee-shirt:noun:1,tee-shirt,noun,/ti.ʃɛʁt/,T-shirt,camiseta,T恤衫,On parle du tee-shirt.,We are talking about it.,Estamos hablando de ello.,我们正在谈论T恤衫。,machine-assisted
+816,223,téléphone,fr:téléphone:noun:1,téléphone,noun,/te.le.fɔn/,telephone,teléfono,电话；电话机,Voici le téléphone.,Here it is.,Aquí está.,这是电话。,machine-assisted
+817,223,téléphoner,fr:téléphoner:verb:1,téléphoner,verb,/te.le.fɔ.ne/,"to call, to ring, to telephone",telefonear,打电话,Je vais téléphoner à ma sœur.,I am going to call my sister.,Voy a llamar por teléfono a mi hermana.,我要给我姐姐打电话。,machine-assisted
+818,223,téléphoner à qn,fr:téléphoner à:verb:1,téléphoner à,verb,/te.le.fɔ.ne/,to phone; to call,llamar por teléfono a,给某人打电话,Je téléphone à ma sœur.,I am calling my sister.,Llamo por teléfono a mi hermana.,我给姐姐打电话。,machine-assisted
+819,223,télévision,fr:télévision:noun:1,télévision,noun,/te.le.vi.zjɔ̃/,television,televisión,电视；电视机；电视行业,Voici la télévision.,Here it is.,Aquí está.,这是电视。,machine-assisted
+820,223,témoignage,fr:témoignage:noun:1,témoignage,noun,/te.mwa.ɲaʒ/,testimony,testimonio,见证，证词,Voici le témoignage.,Here it is.,Aquí está.,这是见证。,machine-assisted
+821,223,température,fr:température:noun:1,température,noun,/tɑ̃.pe.ʁa.tyʁ/,temperature,temperatura,温度,Voici la température.,Here it is.,Aquí está.,这是温度。,machine-assisted
+822,223,temps,fr:temps:noun:1,temps,noun,/tɑ̃/,time (in general),tiempo,天气,On parle du temps.,We are talking about it.,Estamos hablando de ello.,我们正在谈论天气。,machine-assisted
+823,223,tenir,fr:tenir:verb:1,tenir,verb,/tə.niʁ/,to hold,sostener,拿着,Je vais tenir le sac.,I am going to hold the bag.,Voy a sostener la bolsa.,我会拿着袋子。,machine-assisted
+824,223,tennis,fr:tennis:noun:1,tennis,noun,/tɛ.nis/,tennis,tenis,网球（运动）,On parle du tennis.,We are talking about it.,Estamos hablando de ello.,我们正在谈论网球（运动）。,machine-assisted
+825,223,terminer(se),fr:terminer:verb:1,terminer,verb,/tɛʁ.mi.ne/,to finish,terminar,结束,Je vais terminer ce travail.,I am going to finish this work.,Voy a terminar este trabajo.,我会完成这项工作。,machine-assisted
+826,223,terrasse,fr:terrasse:noun:1,terrasse,noun,/tɛ.ʁas/,terrace,terraza,露台，晒台，大阳台；（咖啡馆、餐馆设在人行道上的）露天加座,On parle de la terrasse.,We are talking about it.,Estamos hablando de ello.,我们正在谈论露台。,machine-assisted
+827,224,terrible,fr:terrible:adjective:1,terrible,adjective,/tɛ.ʁibl/,terrible,terrible,可怕的，骇人的,C’est quelque chose de terrible.,It is something terrible.,Es algo terrible.,这是一件可怕的事情。,machine-assisted
+828,224,terrifié(e),fr:terrifié:adjective:1,terrifié,adjective,/tɛʁifjˈe/,terrified,aterrorizado,吓坏了的,C’est quelque chose de terrifié.,It is something terrified.,Es algo aterrorizado.,这是受惊吓的。,machine-assisted
+829,224,texte,fr:texte:noun:1,texte,noun,/tɛkst/,text (piece of writing),texto,歌词（与音乐相对）；文本,Voici le texte.,Here it is.,Aquí está.,这是歌词（与音乐相对）。,machine-assisted
+830,224,TGV,fr:tgv:noun:1,TGV,noun,/te.ʒe.ve/,initialism of train à grande vitesse,TGV,法国高速列车,On parle du TGV.,We are talking about it.,Estamos hablando de ello.,我们正在谈论法国高速列车。,machine-assisted
+831,224,thé,fr:thé:noun:1,thé,noun,/te/,tea (especially made from leaves of the tea plant),té,（泡好的）茶；茶叶,On parle du thé.,We are talking about it.,Estamos hablando de ello.,我们正在谈论（泡好的）茶。,machine-assisted
+832,224,théâtre,fr:théâtre:noun:1,théâtre,noun,/te.ɑtʁ/,theatre (venue for performing plays and drama; performing art form),teatro,剧场；戏剧；戏剧艺术,Voici le théâtre.,Here it is.,Aquí está.,这是剧场。,machine-assisted
+833,224,toilette,fr:toilette:noun:1,toilette,noun,/twa.lɛt/,toilet,baño,梳洗，盥洗；梳妆，打扮；卫生间，厕所,Voici la toilette.,Here it is.,Aquí está.,这是梳洗。,machine-assisted
+834,224,tomber,fr:tomber:verb:1,tomber,verb,/tɔ̃.be/,to fall,caer,跌落，落下,La neige va tomber cette nuit.,Snow is going to fall tonight.,Va a nevar esta noche.,今晚会下雪。,machine-assisted
+835,224,tôt,fr:tôt:adverb:1,tôt,adverb,/to/,early,temprano,早,Je me lève tôt.,I get up early.,Me levanto temprano.,我起得很早。,machine-assisted
+836,224,toujours,fr:toujours:adverb:1,toujours,adverb,/tu.ʒuʁ/,always,siempre,一直，总是,Il arrive toujours à l’heure.,He always arrives on time.,Siempre llega a tiempo.,他总是准时到达。,machine-assisted
+837,224,tour,fr:tour:noun:1,tour,noun,/tuʁ/,tower,torre (edificación; pieza de ajedrez),塔，细高建筑物,Voici la tour.,Here it is.,Aquí está.,这是塔。,machine-assisted
+838,224,tourisme,fr:tourisme:noun:1,tourisme,noun,/tu.ʁism/,tourism,turismo,旅游业,Voici le tourisme.,Here it is.,Aquí está.,这是旅游业。,machine-assisted
+839,224,"tout (toute, tous, toutes)",fr:tout:adverb:1,tout,adverb,/tu/,all,totalmente,全部；所有；完全；很,Tout va bien.,Everything is fine.,Todo va bien.,一切都很好。,machine-assisted
+840,224,tout de suite,fr:tout de suite:adverb:1,tout de suite,adverb,/tu də sɥit/,"immediately, right away",seguidamente,立即，马上,J’arrive tout de suite.,I am coming right away.,Voy enseguida.,我马上就到。,machine-assisted
+841,224,train,fr:train:noun:1,train,noun,/tʁɛ̃/,train (rail mounted vehicle),tren,火车,Voici le train.,Here it is.,Aquí está.,这是火车。,machine-assisted
+842,224,tranquille,fr:tranquille:adjective:1,tranquille,adjective,/tʁɑ̃.kil/,"calm, quiet, tranquil, still, peaceful, serene",tranquilo,安静的,C’est quelque chose de tranquille.,"It is something calm, quiet, tranquil, still, peaceful, serene.",Es algo tranquilo.,这是一件平静的事情。,machine-assisted
+843,224,travail (travaux),fr:travail:noun:1,travail,noun,/tʁa.vaj/,work; labor,trabajo,工作；工程,On parle du travail.,We are talking about it.,Estamos hablando de ello.,我们正在谈论工作。,machine-assisted
+844,224,faire des travaux,fr:faire des travaux:verb:1,faire des travaux,verb,/fɛʁ/,to have renovation work done,hacer obras,装修，翻修,Ils font des travaux dans la cuisine.,They are renovating the kitchen.,Están haciendo obras en la cocina.,他们正在翻修厨房。,machine-assisted
+845,224,travailler,fr:travailler:verb:1,travailler,verb,/tʁa.va.je/,to work,trabajar,工作,Elle travaille dans un café.,She works in a café.,Ella trabaja en una cafetería.,她在一家咖啡馆工作。,seed-reviewed
+846,224,traverser,fr:traverser:verb:1,traverser,verb,/tʁa.vɛʁ.se/,"to cross, to go across",atravesar,穿越，穿过,Je vais traverser la rue.,I am going to cross the street.,Voy a atravesar la calle.,我要过马路。,machine-assisted
+847,224,très,fr:très:adverb:1,très,adverb,/tʁɛ/,very,muy,很，极，非常,Ce livre est très facile.,This book is very easy.,Este libro es muy fácil.,这本书非常简单。,seed-reviewed
+848,224,triomphe,fr:triomphe:noun:1,triomphe,noun,/tʁi.jɔ̃f/,triumph,triunfo,胜利，凯旋,Voici le triomphe.,Here it is.,Aquí está.,这是胜利。,machine-assisted
+849,224,troisième,fr:troisième:adjective:1,troisième,adjective,/tʁwa.zjɛm/,third,tercero,第三的,C’est quelque chose de troisième.,It is something third.,Es algo tercero.,这是第三种东西。,machine-assisted
+850,224,trop,fr:trop:adverb:1,trop,adverb,/tʁo/,too; too much,demasiado,过多地,Ce sac est trop lourd.,This bag is too heavy.,Esta bolsa pesa demasiado.,这个包太重了。,machine-assisted
+851,224,trouver,fr:trouver:verb:1,trouver,verb,/tʁu.ve/,"to find; to retrieve something lost, turn up something hidden, or encounter something previously unknown to one","encontrar, hallar (o intencionalmente o accidentalmente)",找到，发现；感到，觉得，认为，以为,Je vais trouver une solution.,I am going to find a solution.,Voy a encontrar una solución.,我会找到解决办法的。,machine-assisted
+852,224,type,fr:type:noun:1,type,noun,/tip/,"type; sort, kind",tipo,类型，型；种,Voici le type.,Here it is.,Aquí está.,这是类型。,machine-assisted
+853,224,utiliser,fr:utiliser:verb:1,utiliser,verb,/y.ti.li.ze/,"to use, to utilize",utilizar,使用,Je vais utiliser ce téléphone.,I am going to use this phone.,Voy a utilizar este teléfono.,我要使用这部电话。,machine-assisted
+854,224,vacances,fr:vacances:noun:1,vacances,noun,/va.kɑ̃s/,holidays; vacation,vacaciones,假期,Voici les vacances.,Here it is.,Aquí está.,这些是假期。,machine-assisted
+855,224,vélo,fr:vélo:noun:1,vélo,noun,/ve.lo/,"bike, bicycle, cycle",bicicleta,自行车,Voici le vélo.,Here it is.,Aquí está.,这是自行车。,machine-assisted
+856,224,Vendôme,fr:vendôme:proper_noun:1,Vendôme,proper_noun,/vɑ̃.dom/,"Vendôme (a town and commune of Loir-et-Cher department, Centre-Val de Loire, France)",Vendôme,旺多姆（法国）,Je connais bien Vendôme.,I know Vendôme well.,Conozco bien Vendôme.,我很了解旺多姆。,machine-assisted
+857,224,vendre,fr:vendre:verb:1,vendre,verb,/vɑ̃dʁ/,to sell,vender,卖；销售,Je vais vendre ma maison.,I am going to sell my house.,Voy a vender mi casa.,我要卖掉我的房子。,machine-assisted
+858,224,vendredi,fr:vendredi:noun:1,vendredi,noun,/vɑ̃.dʁə.di/,Friday,viernes,周五,Nous dînons ensemble vendredi.,We are having dinner together on Friday.,Cenamos juntos el viernes.,星期五我们一起吃晚饭。,machine-assisted
+859,224,venir,fr:venir:verb:1,venir,verb,/və.niʁ/,to come (to move from one place to another that is nearer the speaker),venir,来,Paul va venir avec nous.,Paul is going to come with us.,Paul va a venir con nosotros.,保罗会和我们一起来。,machine-assisted
+860,224,verre,fr:verre:noun:1,verre,noun,/vɛʁ/,glass (substance),"cristal, vidrio",玻璃杯,Voici le verre.,Here it is.,Aquí está.,这是玻璃杯。,machine-assisted
+861,224,vers,fr:vers:preposition:1,vers,preposition,/vɛʁ/,towards,hacia,将近，接近（指时间）；朝，向…（指具体方向）,Nous marchons vers la gare.,We are walking toward the station.,Caminamos hacia la estación.,我们朝车站走去。,machine-assisted
+862,224,vert(e),fr:vert:noun:1,vert,noun,/vɛʁ/,green,"campo, campiña",青的，绿色的,On parle du vert.,We are talking about it.,Estamos hablando de ello.,我们正在谈论青的。,machine-assisted
+863,224,vêtement,fr:vêtement:noun:1,vêtement,noun,/vɛt.mɑ̃/,"garment, item of clothing",indumentaria,衣服，服装，衣裳,On parle du vêtement.,We are talking about it.,Estamos hablando de ello.,我们正在谈论衣服。,machine-assisted
+864,224,viande,fr:viande:noun:1,viande,noun,/vjɑ̃d/,meat,carne,肉,On parle de la viande.,We are talking about it.,Estamos hablando de ello.,我们正在谈论肉。,machine-assisted
+865,224,vie,fr:vie:noun:1,vie,noun,/vi/,"life, the state of organisms (organic beings) prior to death",vida,人生；生活，生活方式；生平,Voici la vie.,Here it is.,Aquí está.,这是人生。,machine-assisted
+866,224,Vienne,fr:vienne:proper_noun:1,Vienne,proper_noun,/vjɛn/,Vienna (the capital and largest city of Austria),Viena,维也纳（奥地利）,Je connais bien Vienne.,I know Vienna well.,Conozco bien Viena.,我很了解维也纳。,machine-assisted
+867,224,viennois(e),fr:viennois:adjective:1,viennois,adjective,/vjɛ.nwa/,"of or relating to Vienna, Austria; Viennese",vienés,维也纳的,C’est quelque chose de viennois.,"It is something of or relating to Vienna, Austria.",Es algo vienés.,这是维也纳的东西。,machine-assisted
+868,224,vieux (vieille),fr:vieux:adjective:1,vieux,adjective,/vjø/,old,viejo,年老的；古老的，旧的,C’est quelque chose de vieux.,It is something old.,Es algo viejo.,这是旧事了。,machine-assisted
+869,224,ville,fr:ville:noun:1,ville,noun,/vil/,town; city,ciudad,城市,Cette ville est très grande.,This city is very large.,Esta ciudad es muy grande.,这个城市很大。,seed-reviewed
+870,224,vin,fr:vin:noun:1,vin,noun,/vɛ̃/,wine,vino,葡萄酒,On parle du vin.,We are talking about it.,Estamos hablando de ello.,我们正在谈论葡萄酒。,machine-assisted
+871,224,visiter,fr:visiter:verb:1,visiter,verb,/vi.zi.te/,to visit (a place),visitar,参观，游览,Je vais visiter le musée.,I am going to visit the museum.,Voy a visitar el museo.,我要去参观博物馆。,machine-assisted
+872,224,vite,fr:vite:adverb:1,vite,adverb,/vit/,quickly,rápidamente,快速地,Le train va très vite.,The train goes very fast.,El tren va muy rápido.,火车开得很快。,machine-assisted
+873,224,vitesse,fr:vitesse:noun:1,vitesse,noun,/vi.tɛs/,speed,velocidad,速度,On parle de la vitesse.,We are talking about it.,Estamos hablando de ello.,我们正在谈论速度。,machine-assisted
+874,224,vivement,fr:vivement:adverb:1,vivement,adverb,/viv.mɑ̃/,"vigorously, sharply",vivamente,快，赶快（用作感叹词，表示命令或愿望）,Elle a vivement réagi.,She reacted strongly.,Reaccionó enérgicamente.,她反应强烈。,machine-assisted
+875,224,vivre,fr:vivre:verb:1,vivre,verb,/vivʁ/,to live,vivir,生活,Ils vont vivre à Lyon.,They are going to live in Lyon.,Van a vivir en Lyon.,他们将住在里昂。,machine-assisted
+876,224,voici,fr:voici:expression:1,voici,expression,/vwa.si/,here (it) is,aquí está,这是，这儿是，这就是,Voici votre chambre.,Here is your room.,Aquí tiene su habitación.,这是你的房间。,machine-assisted
+877,224,voie,fr:voie:noun:1,voie,noun,/vwa/,"way, track","vía, ruta, camino",道路；车道；轨道,On parle de la voie.,We are talking about it.,Estamos hablando de ello.,我们正在谈论道路。,machine-assisted
+878,224,voilà,fr:voilà:expression:1,voilà,expression,/vwa.la/,"there (it) is, there (it) comes",ahí está,那就是，这就是,Voilà le bus !,There is the bus!,¡Ahí está el autobús!,公共汽车来了！,machine-assisted
+879,224,voir,fr:voir:verb:1,voir,verb,/vwaʁ/,to see (visually),ver,看见；看望；细想，思考，考虑,Je vais voir mes amis.,I am going to see my friends.,Voy a ver a mis amigos.,我要去见我的朋友们。,machine-assisted
+880,224,voisin(e),fr:voisin:noun:1,voisin,noun,/vwa.zɛ̃/,"neighbour, neighbor","cercano, próximo",邻居；邻座的人,Voici le voisin.,Here it is.,Aquí está.,这是邻居。,machine-assisted
+881,224,voiture,fr:voiture:noun:1,voiture,noun,/vwa.tyʁ/,car (wagon),"carro, coche, auto",汽车，小轿车；（火车）车厢,Voici la voiture.,Here it is.,Aquí está.,这是汽车。,machine-assisted
+882,224,volley-ball,fr:volley-ball:noun:1,volley-ball,noun,/vɔ.lɛ.bol/,volleyball (sport),voleibol,排球，排球运动,On parle du volley-ball.,We are talking about it.,Estamos hablando de ello.,我们正在谈论排球。,machine-assisted
+883,224,vouloir,fr:vouloir:verb:1,vouloir,verb,/vu.lwaʁ/,to want,querer,想要,Je veux voyager cet été.,I want to travel this summer.,Quiero viajar este verano.,今年夏天我想去旅行。,machine-assisted
+884,224,voyage,fr:voyage:noun:1,voyage,noun,/vwa.jaʒ/,"trip, journey, voyage",viaje,旅行；旅程，旅途,On parle du voyage.,We are talking about it.,Estamos hablando de ello.,我们正在谈论旅行。,machine-assisted
+885,224,agence de voyages,fr:agence de voyages:noun:1,agence de voyages,noun,/a.ʒɑ̃s də vwa.jaʒ/,travel agency,agencia de viajes,旅行社,Voici les agence de voyages.,Here it is.,Aquí está.,这些是旅行社。,machine-assisted
+886,224,voyager,fr:voyager:verb:1,voyager,verb,/vwa.ja.ʒe/,"to travel, to voyage",viajar,旅行,Nous allons voyager en France.,We are going to travel in France.,Vamos a viajar por Francia.,我们要去法国旅行。,machine-assisted
+887,224,vrai,fr:vrai:adjective:1,vrai,adjective,/vʁɛ/,true,"cierto, verdadero",真实的，确实的,C’est quelque chose de vrai.,It is something true.,"Es algo cierto, verdadero.",这是事实。,machine-assisted
+888,224,vraiment,fr:vraiment:adverb:1,vraiment,adverb,/vʁɛ.mɑ̃/,"truly, really, genuinely",verdaderamente,真的，的确（用来加强肯定的语气或表示惊奇等）,C’est vraiment une bonne idée.,It is really a good idea.,Es realmente una buena idea.,这真是个好主意。,machine-assisted
+889,224,waouh,fr:waouh:interjection:1,waouh,interjection,/waw/,"wow (expression of excitement, pleasure, surprise), yay, yippie; yahoo",guau,哇！（表示惊叹、赞美）,"Waouh, quelle belle vue !","Wow, what a beautiful view!","¡Guau, qué vista tan bonita!",哇，好美的景色啊！,machine-assisted
+890,224,week-end,fr:week-end:noun:1,week-end,noun,/wi.kɛnd/,weekend; synonym of fin de semaine,finde semana,周末,Voici le week-end.,Here it is.,Aquí está.,这是周末。,machine-assisted
+891,224,yaourt,fr:yaourt:noun:1,yaourt,noun,/ja.uʁt/,yoghurt,yogur,酸奶,Voici l’yaourt.,Here it is.,Aquí está.,这是酸奶。,machine-assisted

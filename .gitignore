@@ -1,0 +1,92 @@
+# Android / Gradle build state
+.gradle/
+.kotlin/
+**/build/
+out/
+.externalNativeBuild/
+.cxx/
+.navigation/
+captures/
+*.class
+*.dex
+*.hprof
+
+# IDE and machine-local configuration
+.idea/
+.fleet/
+.vscode/
+*.iml
+local.properties
+
+# Signing material and local environment files
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+.env
+.env.*
+!.env.example
+
+# Packaged Android artifacts (publish these as GitHub Releases instead)
+*.apk
+*.aab
+*.apks
+/releases/
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Node/package-manager caches and unpacked third-party references
+node_modules/
+.npm/
+tools/fsrs-reference/package/
+tools/fsrs-reference/*.tgz
+
+# Project-local SDKs, emulators, caches and scratch work
+/.tools/
+/.flelex_artifact/
+/tmp/
+
+# Generated reports and exports. Keep the small canonical textbook CSV inputs.
+/outputs/*
+!/outputs/a1-french-vocabulary/
+/outputs/a1-french-vocabulary/*
+!/outputs/a1-french-vocabulary/*.csv
+!/outputs/a2-b1-b2-french-vocabulary/
+/outputs/a2-b1-b2-french-vocabulary/*
+!/outputs/a2-b1-b2-french-vocabulary/*.csv
+
+# Generated device/build evidence; Markdown reports and screenshots stay versioned.
+*.log
+/docs/qa/**/*.db
+/docs/qa/**/*.xml
+/docs/qa/**/junit/
+/docs/qa/gradle-threads.txt
+
+# SQLite transient files (the checked-in content/test databases remain versioned)
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Local textbook PDFs are source references, not redistributable project sources.
+/*.pdf
+
+# Operating-system and editor noise
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+*.orig

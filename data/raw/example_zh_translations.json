@@ -1,0 +1,3608 @@
+{
+  "source": "Google Translate public web endpoint",
+  "source_language": "fr",
+  "target_language": "zh-CN",
+  "translations": [
+    {
+      "french": "Je vais à Paris.",
+      "chinese": "我要去巴黎。"
+    },
+    {
+      "french": "Le musée ouvre à partir de neuf heures.",
+      "chinese": "博物馆上午 9 点开放。"
+    },
+    {
+      "french": "On parle de l’accident.",
+      "chinese": "我们正在谈论这次事故。"
+    },
+    {
+      "french": "Je vais acheter du pain.",
+      "chinese": "我要去买一些面包。"
+    },
+    {
+      "french": "Voici l’acteur.",
+      "chinese": "这是演员。"
+    },
+    {
+      "french": "On parle de l’activité.",
+      "chinese": "我们正在谈论活动。"
+    },
+    {
+      "french": "C’est quelque chose d’actuel.",
+      "chinese": "这是当前的事情。"
+    },
+    {
+      "french": "Je vais adorer ce film.",
+      "chinese": "我会喜欢这部电影。"
+    },
+    {
+      "french": "On parle de l’adresse.",
+      "chinese": "我们正在谈论地址。"
+    },
+    {
+      "french": "Voici l’aéroport.",
+      "chinese": "这是机场。"
+    },
+    {
+      "french": "Voici l’affiche.",
+      "chinese": "这是海报。"
+    },
+    {
+      "french": "Voici l’âge.",
+      "chinese": "这就是时代。"
+    },
+    {
+      "french": "On parle de l’agence.",
+      "chinese": "我们正在谈论该机构。"
+    },
+    {
+      "french": "Nous cherchons un appartement dans une agence immobilière.",
+      "chinese": "我们正在一家房地产中介公司寻找一套公寓。"
+    },
+    {
+      "french": "Voici l’agenda.",
+      "chinese": "这是议程。"
+    },
+    {
+      "french": "Ah, je comprends maintenant.",
+      "chinese": "啊，我明白了。"
+    },
+    {
+      "french": "J’aime le café.",
+      "chinese": "我喜欢咖啡。"
+    },
+    {
+      "french": "J’aime ma famille.",
+      "chinese": "我爱我的家人。"
+    },
+    {
+      "french": "Voici l’air.",
+      "chinese": "这是空气。"
+    },
+    {
+      "french": "Voici les air conditionné.",
+      "chinese": "这是空调。"
+    },
+    {
+      "french": "Je connais bien Albi.",
+      "chinese": "我很了解阿尔比。"
+    },
+    {
+      "french": "On parle de l’album.",
+      "chinese": "我们正在谈论这张专辑。"
+    },
+    {
+      "french": "Nous allons à l’école.",
+      "chinese": "我们去上学。"
+    },
+    {
+      "french": "Voici l’aller.",
+      "chinese": "这就是方法。"
+    },
+    {
+      "french": "Voici l’aller-retour.",
+      "chinese": "这是往返行程。"
+    },
+    {
+      "french": "Allô, je voudrais parler à Marie.",
+      "chinese": "你好，我想和玛丽通话。"
+    },
+    {
+      "french": "Je vais allumer la lumière.",
+      "chinese": "我要开灯。"
+    },
+    {
+      "french": "Alors, on commence ?",
+      "chinese": "那么，我们开始吧？"
+    },
+    {
+      "french": "Mon amie habite à Paris.",
+      "chinese": "我的朋友住在巴黎。"
+    },
+    {
+      "french": "On parle des petit ami.",
+      "chinese": "我们正在谈论男朋友。"
+    },
+    {
+      "french": "Voici les amours.",
+      "chinese": "这里是爱。"
+    },
+    {
+      "french": "C’est quelque chose d’amoureux.",
+      "chinese": "这是一件充满爱的事情。"
+    },
+    {
+      "french": "Je vais amuser les enfants.",
+      "chinese": "我会招待孩子们。"
+    },
+    {
+      "french": "On parle de l’an.",
+      "chinese": "我们正在谈论年份。"
+    },
+    {
+      "french": "C’est quelque chose d’ancien.",
+      "chinese": "这是旧事了。"
+    },
+    {
+      "french": "On parle de l’année.",
+      "chinese": "我们正在谈论年份。"
+    },
+    {
+      "french": "Bonne année à toute la famille !",
+      "chinese": "祝全家新年快乐！"
+    },
+    {
+      "french": "On parle de l’anniversaire.",
+      "chinese": "我们正在谈论生日。"
+    },
+    {
+      "french": "Voici l’annonce.",
+      "chinese": "这是公告。"
+    },
+    {
+      "french": "On parle des petite annonce.",
+      "chinese": "我们谈论的是分类广告。"
+    },
+    {
+      "french": "Paris est calme en août.",
+      "chinese": "八月的巴黎很平静。"
+    },
+    {
+      "french": "On parle de l’appartement.",
+      "chinese": "我们正在谈论公寓。"
+    },
+    {
+      "french": "Je vais appeler Marie.",
+      "chinese": "我要打电话给玛丽。"
+    },
+    {
+      "french": "Je m’appelle Louise.",
+      "chinese": "我叫路易丝。"
+    },
+    {
+      "french": "Je vais apprendre le français.",
+      "chinese": "我要学法语。"
+    },
+    {
+      "french": "Nous partons après le déjeuner.",
+      "chinese": "午饭后我们出发。"
+    },
+    {
+      "french": "Voici les après-midi.",
+      "chinese": "这是下午的时间。"
+    },
+    {
+      "french": "On parle de l’aquarium.",
+      "chinese": "我们正在谈论水族馆。"
+    },
+    {
+      "french": "Voici l’arc.",
+      "chinese": "这是弧线。"
+    },
+    {
+      "french": "On parle des arc de triomphe.",
+      "chinese": "我们正在谈论凯旋门。"
+    },
+    {
+      "french": "Je connais bien Arcachon.",
+      "chinese": "我很了解阿卡雄。"
+    },
+    {
+      "french": "Voici l’archéologie.",
+      "chinese": "这里是考古学。"
+    },
+    {
+      "french": "On parle de l’argent.",
+      "chinese": "我们正在谈论金钱。"
+    },
+    {
+      "french": "Le bus va s’arrêter devant la gare.",
+      "chinese": "巴士将停在车站前。"
+    },
+    {
+      "french": "Elle essaie d’arrêter de fumer.",
+      "chinese": "她正在努力戒烟。"
+    },
+    {
+      "french": "Voici l’arrivée.",
+      "chinese": "这里是到达。"
+    },
+    {
+      "french": "Le train va arriver à midi.",
+      "chinese": "火车中午到达。"
+    },
+    {
+      "french": "On parle de l’art.",
+      "chinese": "我们正在谈论艺术。"
+    },
+    {
+      "french": "Voici l’article.",
+      "chinese": "这是这篇文章。"
+    },
+    {
+      "french": "Voici les artistes.",
+      "chinese": "这是艺术家。"
+    },
+    {
+      "french": "Cette salle est assez grande.",
+      "chinese": "这个房间相当大。"
+    },
+    {
+      "french": "Voici l’assiette.",
+      "chinese": "这是盘子。"
+    },
+    {
+      "french": "Voici l’assistant.",
+      "chinese": "这是助理。"
+    },
+    {
+      "french": "Voici l’athlétisme.",
+      "chinese": "这就是田径运动。"
+    },
+    {
+      "french": "Je vais attendre le bus.",
+      "chinese": "我要去等公共汽车。"
+    },
+    {
+      "french": "Voici l’attention.",
+      "chinese": "这里是注意。"
+    },
+    {
+      "french": "Faites attention à la circulation.",
+      "chinese": "注意交通。"
+    },
+    {
+      "french": "Le parking est au-dessous de l’immeuble.",
+      "chinese": "停车场位于大楼下方。"
+    },
+    {
+      "french": "La chambre est au-dessus.",
+      "chinese": "卧室在上面。"
+    },
+    {
+      "french": "La lampe est au-dessus de la table.",
+      "chinese": "灯在桌子上方。"
+    },
+    {
+      "french": "Aujourd’hui, je travaille à la maison.",
+      "chinese": "今天，我在家工作。"
+    },
+    {
+      "french": "Marie vient aussi.",
+      "chinese": "玛丽也来了。"
+    },
+    {
+      "french": "Voici l’autoroute.",
+      "chinese": "这里是高速公路。"
+    },
+    {
+      "french": "Nous marchons autour du lac.",
+      "chinese": "我们绕湖散步。"
+    },
+    {
+      "french": "C’est quelque chose d’autre.",
+      "chinese": "这是另一回事。"
+    },
+    {
+      "french": "Je l’ai déjà vu avant.",
+      "chinese": "我以前见过。"
+    },
+    {
+      "french": "On parle de l’avantage.",
+      "chinese": "我们正在谈论优势。"
+    },
+    {
+      "french": "Je viens avec mes amis.",
+      "chinese": "我和朋友们一起来的。"
+    },
+    {
+      "french": "On parle de l’avenir.",
+      "chinese": "我们谈论未来。"
+    },
+    {
+      "french": "Voici l’avenue.",
+      "chinese": "这里是大道。"
+    },
+    {
+      "french": "On parle de l’avion.",
+      "chinese": "我们正在谈论飞机。"
+    },
+    {
+      "french": "J’ai un petit livre.",
+      "chinese": "我有一本小书。"
+    },
+    {
+      "french": "Nous avons parlé français.",
+      "chinese": "我们说法语。"
+    },
+    {
+      "french": "Voici le bac.",
+      "chinese": "这里是渡口。"
+    },
+    {
+      "french": "On parle de la baguette.",
+      "chinese": "我们正在谈论魔杖。"
+    },
+    {
+      "french": "Je vais baigner le bébé.",
+      "chinese": "我要去给宝宝洗澡。"
+    },
+    {
+      "french": "Voici la banque.",
+      "chinese": "这里是银行。"
+    },
+    {
+      "french": "On parle du bar.",
+      "chinese": "我们正在谈论酒吧。"
+    },
+    {
+      "french": "Je connais bien Barcelone.",
+      "chinese": "我很了解巴塞罗那。"
+    },
+    {
+      "french": "Voici le basket.",
+      "chinese": "这就是篮球。"
+    },
+    {
+      "french": "Voici le bateau.",
+      "chinese": "这是船。"
+    },
+    {
+      "french": "C’est quelque chose de beau.",
+      "chinese": "这是美丽的东西。"
+    },
+    {
+      "french": "Elle voyage beaucoup.",
+      "chinese": "她经常旅行。"
+    },
+    {
+      "french": "Voici le bébé.",
+      "chinese": "这是婴儿。"
+    },
+    {
+      "french": "On parle des Belges.",
+      "chinese": "我们谈论的是比利时人。"
+    },
+    {
+      "french": "C’est quelque chose de belge.",
+      "chinese": "这是比利时的东西。"
+    },
+    {
+      "french": "Je connais bien Belgique.",
+      "chinese": "我很了解比利时。"
+    },
+    {
+      "french": "Ben, je ne sais pas.",
+      "chinese": "嗯，我不知道。"
+    },
+    {
+      "french": "On parle du beurre.",
+      "chinese": "我们正在谈论黄油。"
+    },
+    {
+      "french": "Elle parle bien français.",
+      "chinese": "她法语说得很好。"
+    },
+    {
+      "french": "Bien sûr, je peux vous aider.",
+      "chinese": "我当然可以帮助你。"
+    },
+    {
+      "french": "On parle de la bienvenue.",
+      "chinese": "我们谈论欢迎。"
+    },
+    {
+      "french": "Voici le billet.",
+      "chinese": "这是票。"
+    },
+    {
+      "french": "On parle de la bise.",
+      "chinese": "我们正在谈论吻。"
+    },
+    {
+      "french": "Voici le bisou.",
+      "chinese": "这是吻。"
+    },
+    {
+      "french": "C’est quelque chose de blanc.",
+      "chinese": "这是白色的东西。"
+    },
+    {
+      "french": "C’est quelque chose de blessé.",
+      "chinese": "这是一件伤人的事。"
+    },
+    {
+      "french": "C’est quelque chose de bleu.",
+      "chinese": "这是蓝色的东西。"
+    },
+    {
+      "french": "C’est quelque chose de blond.",
+      "chinese": "这是金发碧眼的东西。"
+    },
+    {
+      "french": "Voici le blouson.",
+      "chinese": "这是夹克。"
+    },
+    {
+      "french": "Je vais boire un café.",
+      "chinese": "我要去喝杯咖啡。"
+    },
+    {
+      "french": "Voici la boîte.",
+      "chinese": "这是盒子。"
+    },
+    {
+      "french": "Ce pain est bon.",
+      "chinese": "这个面包很好吃。"
+    },
+    {
+      "french": "On parle du bonjour.",
+      "chinese": "我们谈论你好。"
+    },
+    {
+      "french": "On parle du bord.",
+      "chinese": "我们正在谈论边缘。"
+    },
+    {
+      "french": "Je connais bien Bordeaux.",
+      "chinese": "我很了解波尔多。"
+    },
+    {
+      "french": "Voici la bouche.",
+      "chinese": "这是嘴。"
+    },
+    {
+      "french": "On parle du boulanger.",
+      "chinese": "我们正在谈论面包师。"
+    },
+    {
+      "french": "On parle de la boulangerie.",
+      "chinese": "我们正在谈论面包店。"
+    },
+    {
+      "french": "On parle du boulot.",
+      "chinese": "我们谈论工作。"
+    },
+    {
+      "french": "Voici le bout.",
+      "chinese": "这是底线。"
+    },
+    {
+      "french": "On parle de la bouteille.",
+      "chinese": "我们正在谈论瓶子。"
+    },
+    {
+      "french": "Bravo, tu as réussi !",
+      "chinese": "干得好，你成功了！"
+    },
+    {
+      "french": "C’est quelque chose de bref.",
+      "chinese": "这很简短。"
+    },
+    {
+      "french": "Je connais bien Brest.",
+      "chinese": "我很了解布雷斯特。"
+    },
+    {
+      "french": "Je connais bien Bretagne.",
+      "chinese": "我很了解布列塔尼。"
+    },
+    {
+      "french": "Le soleil brille ce matin.",
+      "chinese": "今天早上，阳光明媚。"
+    },
+    {
+      "french": "C’est quelque chose de brun.",
+      "chinese": "这是棕色的东西。"
+    },
+    {
+      "french": "Je connais bien Bruxelles.",
+      "chinese": "我很了解布鲁塞尔。"
+    },
+    {
+      "french": "C’est quelque chose de bruyant.",
+      "chinese": "有点吵。"
+    },
+    {
+      "french": "Voici le bureau.",
+      "chinese": "这里是办公室。"
+    },
+    {
+      "french": "Voici les bus.",
+      "chinese": "这是公交车。"
+    },
+    {
+      "french": "Ça va très bien.",
+      "chinese": "事情进展得很顺利。"
+    },
+    {
+      "french": "Voici le cabinet.",
+      "chinese": "这是内阁。"
+    },
+    {
+      "french": "On parle du cadeau.",
+      "chinese": "我们谈论礼物。"
+    },
+    {
+      "french": "Je prends un café sans sucre.",
+      "chinese": "我喝了一杯不加糖的咖啡。"
+    },
+    {
+      "french": "Le café est près de la gare.",
+      "chinese": "咖啡馆在车站附近。"
+    },
+    {
+      "french": "C’est quelque chose de calme.",
+      "chinese": "这是平静的事情。"
+    },
+    {
+      "french": "Je vais calmer le bébé.",
+      "chinese": "我会让宝宝平静下来。"
+    },
+    {
+      "french": "Voici le camembert.",
+      "chinese": "这是饼图。"
+    },
+    {
+      "french": "On parle du camion.",
+      "chinese": "我们正在谈论卡车。"
+    },
+    {
+      "french": "Voici la campagne.",
+      "chinese": "这是该活动。"
+    },
+    {
+      "french": "On parle du camping.",
+      "chinese": "我们正在谈论露营。"
+    },
+    {
+      "french": "Nous faisons du camping en été.",
+      "chinese": "夏天我们去露营。"
+    },
+    {
+      "french": "Je connais bien Canada.",
+      "chinese": "我很了解加拿大。"
+    },
+    {
+      "french": "Voici le candidat.",
+      "chinese": "这是候选人。"
+    },
+    {
+      "french": "Je connais bien Cantal.",
+      "chinese": "我很了解康塔尔。"
+    },
+    {
+      "french": "On parle de la carte.",
+      "chinese": "我们正在谈论地图。"
+    },
+    {
+      "french": "On parle des carte postale.",
+      "chinese": "我们正在谈论明信片。"
+    },
+    {
+      "french": "On parle du casting.",
+      "chinese": "我们谈论选角。"
+    },
+    {
+      "french": "Je connais bien Cayenne.",
+      "chinese": "我很了解卡宴。"
+    },
+    {
+      "french": "On parle du CD.",
+      "chinese": "我们正在谈论CD。"
+    },
+    {
+      "french": "C’est quelque chose de célèbre.",
+      "chinese": "这是一件很有名的事情。"
+    },
+    {
+      "french": "On parle du centre.",
+      "chinese": "我们正在谈论中心。"
+    },
+    {
+      "french": "Voici les céréales.",
+      "chinese": "这是谷物。"
+    },
+    {
+      "french": "C’est quelque chose de certain.",
+      "chinese": "这是肯定的事情。"
+    },
+    {
+      "french": "Il viendra certainement demain.",
+      "chinese": "他明天一定会来。"
+    },
+    {
+      "french": "On parle de la chaise.",
+      "chinese": "我们正在谈论椅子。"
+    },
+    {
+      "french": "Voici la chambre.",
+      "chinese": "这是房间。"
+    },
+    {
+      "french": "Voici le champagne.",
+      "chinese": "这是香槟。"
+    },
+    {
+      "french": "On parle du champion.",
+      "chinese": "我们正在谈论冠军。"
+    },
+    {
+      "french": "Voici la chance.",
+      "chinese": "机会来了。"
+    },
+    {
+      "french": "Je connais bien Chandeleur.",
+      "chinese": "我很了解 Chandeleur。"
+    },
+    {
+      "french": "Voici le changement.",
+      "chinese": "这是变化。"
+    },
+    {
+      "french": "Je vais changer de train.",
+      "chinese": "我要换车。"
+    },
+    {
+      "french": "Voici la chanson.",
+      "chinese": "这是这首歌。"
+    },
+    {
+      "french": "On parle du chapeau.",
+      "chinese": "我们正在谈论帽子。"
+    },
+    {
+      "french": "Voici le chat.",
+      "chinese": "这是猫。"
+    },
+    {
+      "french": "Voici le château.",
+      "chinese": "这里是城堡。"
+    },
+    {
+      "french": "On parle du chaton.",
+      "chinese": "我们正在谈论小猫。"
+    },
+    {
+      "french": "C’est quelque chose de chaud.",
+      "chinese": "这是很热的东西。"
+    },
+    {
+      "french": "On parle de la chaussure.",
+      "chinese": "我们正在谈论鞋子。"
+    },
+    {
+      "french": "Voici la cheminée.",
+      "chinese": "这里是烟囱。"
+    },
+    {
+      "french": "Voici la chemise.",
+      "chinese": "这是衬衫。"
+    },
+    {
+      "french": "Voici le cher.",
+      "chinese": "这是亲爱的。"
+    },
+    {
+      "french": "Je vais chercher une adresse.",
+      "chinese": "我要去寻找一个地址。"
+    },
+    {
+      "french": "On parle du cheval.",
+      "chinese": "我们正在谈论马。"
+    },
+    {
+      "french": "Voici les cheveux.",
+      "chinese": "这是头发。"
+    },
+    {
+      "french": "Nous dînons chez Paul.",
+      "chinese": "我们在保罗家吃饭。"
+    },
+    {
+      "french": "On parle du chien.",
+      "chinese": "我们正在谈论狗。"
+    },
+    {
+      "french": "On parle du chiffre.",
+      "chinese": "我们正在谈论数字。"
+    },
+    {
+      "french": "On parle du Chinois.",
+      "chinese": "我们正在谈论中文。"
+    },
+    {
+      "french": "C’est quelque chose de chinois.",
+      "chinese": "这是中国的东西。"
+    },
+    {
+      "french": "On parle du chocolat.",
+      "chinese": "我们正在谈论巧克力。"
+    },
+    {
+      "french": "Je vais choisir un livre.",
+      "chinese": "我要选一本书。"
+    },
+    {
+      "french": "Voici la chose.",
+      "chinese": "事情是这样的。"
+    },
+    {
+      "french": "On parle du cidre.",
+      "chinese": "我们正在谈论苹果酒。"
+    },
+    {
+      "french": "On parle du cinéma.",
+      "chinese": "我们正在谈论电影。"
+    },
+    {
+      "french": "Voici la circonstance.",
+      "chinese": "情况是这样的。"
+    },
+    {
+      "french": "On parle du circuit.",
+      "chinese": "我们正在谈论电路。"
+    },
+    {
+      "french": "C’est quelque chose de clair.",
+      "chinese": "这是很清楚的事情。"
+    },
+    {
+      "french": "On parle de la classe.",
+      "chinese": "我们谈论阶级。"
+    },
+    {
+      "french": "C’est quelque chose de classique.",
+      "chinese": "这是经典的东西。"
+    },
+    {
+      "french": "On parle du client.",
+      "chinese": "我们谈论的是客户。"
+    },
+    {
+      "french": "Voici le club.",
+      "chinese": "这就是俱乐部。"
+    },
+    {
+      "french": "Voici le coca.",
+      "chinese": "这是可乐。"
+    },
+    {
+      "french": "On parle de la coiffure.",
+      "chinese": "我们正在谈论发型。"
+    },
+    {
+      "french": "On parle du coin.",
+      "chinese": "我们正在谈论该地区。"
+    },
+    {
+      "french": "On parle des collègues.",
+      "chinese": "我们谈论同事。"
+    },
+    {
+      "french": "Combien coûte ce livre ?",
+      "chinese": "这本书多少钱？"
+    },
+    {
+      "french": "Elle travaille comme médecin.",
+      "chinese": "她是一名​​医生。"
+    },
+    {
+      "french": "Le cours va commencer à neuf heures.",
+      "chinese": "九点钟开始上课。"
+    },
+    {
+      "french": "Il commence à pleuvoir.",
+      "chinese": "天开始下雨了。"
+    },
+    {
+      "french": "Comment allez-vous ?",
+      "chinese": "你好吗？"
+    },
+    {
+      "french": "On parle du commerce.",
+      "chinese": "我们正在谈论贸易。"
+    },
+    {
+      "french": "C’est quelque chose de complet.",
+      "chinese": "这是一个完整的东西。"
+    },
+    {
+      "french": "Je vais comprendre la question.",
+      "chinese": "我会理解这个问题。"
+    },
+    {
+      "french": "C’est quelque chose de conditionné.",
+      "chinese": "它是有条件的东西。"
+    },
+    {
+      "french": "On parle de la confiture.",
+      "chinese": "我们正在谈论果酱。"
+    },
+    {
+      "french": "Je vais connaître Paris.",
+      "chinese": "我要去了解巴黎。"
+    },
+    {
+      "french": "On parle du conseil.",
+      "chinese": "我们正在谈论理事会。"
+    },
+    {
+      "french": "On parle de la construction.",
+      "chinese": "我们正在谈论建设。"
+    },
+    {
+      "french": "Je vais contacter le propriétaire.",
+      "chinese": "我会联系店主。"
+    },
+    {
+      "french": "C’est quelque chose de contemporain.",
+      "chinese": "这是当代的东西。"
+    },
+    {
+      "french": "Je vais continuer ce travail.",
+      "chinese": "我将继续这项工作。"
+    },
+    {
+      "french": "Le vélo est contre le mur.",
+      "chinese": "自行车靠在墙上。"
+    },
+    {
+      "french": "Voici le copain.",
+      "chinese": "这是朋友。"
+    },
+    {
+      "french": "On parle du coq.",
+      "chinese": "我们正在谈论公鸡。"
+    },
+    {
+      "french": "On parle du corps.",
+      "chinese": "我们正在谈论身体。"
+    },
+    {
+      "french": "Elle répond correctement.",
+      "chinese": "她回答正确。"
+    },
+    {
+      "french": "Voici la correspondance.",
+      "chinese": "这是信件。"
+    },
+    {
+      "french": "Voici le correspondant.",
+      "chinese": "本报通讯员报道。"
+    },
+    {
+      "french": "Je connais bien Corse.",
+      "chinese": "我很了解科西嘉岛。"
+    },
+    {
+      "french": "Voici le côté.",
+      "chinese": "这是侧面。"
+    },
+    {
+      "french": "La pharmacie est juste à côté.",
+      "chinese": "药房就在隔壁。"
+    },
+    {
+      "french": "Je vais coucher le bébé.",
+      "chinese": "我要去哄孩子睡觉了。"
+    },
+    {
+      "french": "On parle de la couleur.",
+      "chinese": "我们正在谈论颜色。"
+    },
+    {
+      "french": "On parle du couloir.",
+      "chinese": "我们正在谈论走廊。"
+    },
+    {
+      "french": "Voici le couple.",
+      "chinese": "这是这对夫妇。"
+    },
+    {
+      "french": "Voici le cours.",
+      "chinese": "这是课程。"
+    },
+    {
+      "french": "On parle de la course.",
+      "chinese": "我们谈论比赛。"
+    },
+    {
+      "french": "Je fais les courses le samedi.",
+      "chinese": "星期六我去购物。"
+    },
+    {
+      "french": "C’est quelque chose de court.",
+      "chinese": "内容很短。"
+    },
+    {
+      "french": "Ce billet coûte dix euros.",
+      "chinese": "这张票要十欧元。"
+    },
+    {
+      "french": "On parle de la couture.",
+      "chinese": "我们正在谈论缝纫。"
+    },
+    {
+      "french": "Voici les haute couture.",
+      "chinese": "这里是高级时装。"
+    },
+    {
+      "french": "Voici le crêpe.",
+      "chinese": "这是绉纱。"
+    },
+    {
+      "french": "Voici la crêperie.",
+      "chinese": "这是薄饼店。"
+    },
+    {
+      "french": "Je vais croire cette histoire.",
+      "chinese": "我会相信这个故事。"
+    },
+    {
+      "french": "Voici le croissant.",
+      "chinese": "这是新月。"
+    },
+    {
+      "french": "Voici la cuisine.",
+      "chinese": "这里是厨房。"
+    },
+    {
+      "french": "C’est quelque chose de culturel.",
+      "chinese": "这是一个文化问题。"
+    },
+    {
+      "french": "D’abord, lisez la question.",
+      "chinese": "首先，读问题。"
+    },
+    {
+      "french": "D’accord, je viens avec toi.",
+      "chinese": "好吧，我跟你一起去。"
+    },
+    {
+      "french": "Je connais bien Dakar.",
+      "chinese": "我很了解达喀尔。"
+    },
+    {
+      "french": "Les clés sont dans le sac.",
+      "chinese": "钥匙在包里。"
+    },
+    {
+      "french": "On parle de la danse.",
+      "chinese": "我们谈论舞蹈。"
+    },
+    {
+      "french": "Je viens de Lyon.",
+      "chinese": "我来自里昂。"
+    },
+    {
+      "french": "On parle du degré.",
+      "chinese": "我们谈论学位。"
+    },
+    {
+      "french": "J’ai déjà terminé.",
+      "chinese": "我已经说完了。"
+    },
+    {
+      "french": "Nous allons déjeuner au café.",
+      "chinese": "我们要去咖啡馆吃午饭。"
+    },
+    {
+      "french": "Je vais demander une information.",
+      "chinese": "我要询问信息。"
+    },
+    {
+      "french": "Je demande à Paul de venir.",
+      "chinese": "我请保罗来。"
+    },
+    {
+      "french": "Voici le départ.",
+      "chinese": "这里是出发点。"
+    },
+    {
+      "french": "Voici la dépense.",
+      "chinese": "这是费用。"
+    },
+    {
+      "french": "C’est quelque chose de dernier.",
+      "chinese": "这是最后的事情。"
+    },
+    {
+      "french": "Je descends à la prochaine station.",
+      "chinese": "我在下一站下车。"
+    },
+    {
+      "french": "C’est quelque chose de désolé.",
+      "chinese": "这是荒凉的事情。"
+    },
+    {
+      "french": "Voici le dessert.",
+      "chinese": "这是甜点。"
+    },
+    {
+      "french": "Voici la destination.",
+      "chinese": "这就是目的地。"
+    },
+    {
+      "french": "Cette musique détend l’atmosphère.",
+      "chinese": "这首音乐放松了气氛。"
+    },
+    {
+      "french": "Je vais détester le bruit.",
+      "chinese": "我会讨厌噪音。"
+    },
+    {
+      "french": "On parle du deux-chevaux.",
+      "chinese": "我们谈论的是两匹马。"
+    },
+    {
+      "french": "C’est quelque chose de deuxième.",
+      "chinese": "这是第二件事。"
+    },
+    {
+      "french": "Le taxi attend devant l’hôtel.",
+      "chinese": "出租车已在酒店门前等候。"
+    },
+    {
+      "french": "Cet exercice est difficile.",
+      "chinese": "这个练习很难。"
+    },
+    {
+      "french": "Nous restons à la maison dimanche.",
+      "chinese": "周日我们待在家里。"
+    },
+    {
+      "french": "Nous allons dîner au restaurant.",
+      "chinese": "我们要去餐厅吃晚饭。"
+    },
+    {
+      "french": "Je vais dire la vérité.",
+      "chinese": "我会说实话。"
+    },
+    {
+      "french": "C’est quelque chose de direct.",
+      "chinese": "这是直接的东西。"
+    },
+    {
+      "french": "On parle du directeur.",
+      "chinese": "我们正在谈论导演。"
+    },
+    {
+      "french": "On parle de la discothèque.",
+      "chinese": "我们正在谈论迪斯科舞厅。"
+    },
+    {
+      "french": "Voici le docteur.",
+      "chinese": "这是医生。"
+    },
+    {
+      "french": "On parle du document.",
+      "chinese": "我们正在谈论该文件。"
+    },
+    {
+      "french": "Il pleut, donc je reste ici.",
+      "chinese": "下雨了，所以我留在这里。"
+    },
+    {
+      "french": "Je vais donner un conseil.",
+      "chinese": "我会给一些建议。"
+    },
+    {
+      "french": "Je vais dormir huit heures.",
+      "chinese": "我会睡八个小时。"
+    },
+    {
+      "french": "Voici la douche.",
+      "chinese": "这里是淋浴间。"
+    },
+    {
+      "french": "Voici le droit.",
+      "chinese": "这是正确的。"
+    },
+    {
+      "french": "On parle de la droite.",
+      "chinese": "我们谈论的是权利。"
+    },
+    {
+      "french": "Tournez à droite après la banque.",
+      "chinese": "经过银行后右转。"
+    },
+    {
+      "french": "C’est quelque chose de dynamique.",
+      "chinese": "这是动态的。"
+    },
+    {
+      "french": "Je voudrais un verre d’eau.",
+      "chinese": "我想要一杯水。"
+    },
+    {
+      "french": "Les enfants sont à l’école.",
+      "chinese": "孩子们正在上学。"
+    },
+    {
+      "french": "Je vais écouter la radio.",
+      "chinese": "我要去听广播。"
+    },
+    {
+      "french": "Je vais écrire un message.",
+      "chinese": "我会写一条消息。"
+    },
+    {
+      "french": "On parle de l’écrivain.",
+      "chinese": "我们正在谈论作家。"
+    },
+    {
+      "french": "On parle de l’e-mail.",
+      "chinese": "我们正在谈论电子邮件。"
+    },
+    {
+      "french": "Je vais embrasser ma mère.",
+      "chinese": "我要吻我妈妈。"
+    },
+    {
+      "french": "On parle de l’employé.",
+      "chinese": "我们谈论的是员工。"
+    },
+    {
+      "french": "Elle habite en France.",
+      "chinese": "她住在法国。"
+    },
+    {
+      "french": "Elle va endormir le bébé.",
+      "chinese": "她要去哄孩子睡觉。"
+    },
+    {
+      "french": "Voici l’enfance.",
+      "chinese": "这就是童年。"
+    },
+    {
+      "french": "Les enfants aiment ce livre.",
+      "chinese": "孩子们很喜欢这本书。"
+    },
+    {
+      "french": "Le bus arrive enfin.",
+      "chinese": "公共汽车终于来了。"
+    },
+    {
+      "french": "Ce bruit ennuie mes voisins.",
+      "chinese": "这种噪音惹恼了我的邻居。"
+    },
+    {
+      "french": "Il est rapide et, en plus, très précis.",
+      "chinese": "它速度快，而且非常精确。"
+    },
+    {
+      "french": "Voici l’enquête.",
+      "chinese": "这是调查。"
+    },
+    {
+      "french": "Nous travaillons ensemble.",
+      "chinese": "我们一起工作。"
+    },
+    {
+      "french": "Ensuite, tournez à gauche.",
+      "chinese": "然后左转。"
+    },
+    {
+      "french": "On parle de l’entraînement.",
+      "chinese": "我们正在谈论培训。"
+    },
+    {
+      "french": "Elle entraîne une équipe de jeunes.",
+      "chinese": "她执教一支青年队。"
+    },
+    {
+      "french": "La poste est entre la banque et le café.",
+      "chinese": "邮局位于银行和咖啡馆之间。"
+    },
+    {
+      "french": "On parle de l’entrée.",
+      "chinese": "我们正在谈论入口。"
+    },
+    {
+      "french": "On parle de l’entreprise.",
+      "chinese": "我们正在谈论公司。"
+    },
+    {
+      "french": "Vous pouvez entrer maintenant.",
+      "chinese": "你现在可以进入了。"
+    },
+    {
+      "french": "Voici l’entretien.",
+      "chinese": "以下是采访内容。"
+    },
+    {
+      "french": "On parle de l’envie.",
+      "chinese": "我们谈论嫉妒。"
+    },
+    {
+      "french": "J’ai envie de voyager.",
+      "chinese": "我想去旅行。"
+    },
+    {
+      "french": "On parle de l’époque.",
+      "chinese": "我们谈论的是时代。"
+    },
+    {
+      "french": "On parle de l’erreur.",
+      "chinese": "我们正在谈论错误。"
+    },
+    {
+      "french": "On parle de l’espace.",
+      "chinese": "我们正在谈论空间。"
+    },
+    {
+      "french": "Les enfants jouent dans cet espace vert.",
+      "chinese": "孩子们在这片绿地里玩耍。"
+    },
+    {
+      "french": "On parle de l’espagnol.",
+      "chinese": "我们正在谈论西班牙语。"
+    },
+    {
+      "french": "Voici l’Espagnol.",
+      "chinese": "这是西班牙人。"
+    },
+    {
+      "french": "C’est quelque chose d’espagnol.",
+      "chinese": "这是西班牙语。"
+    },
+    {
+      "french": "Je vais essayer ce manteau.",
+      "chinese": "我要试试这件外套。"
+    },
+    {
+      "french": "Nous essayons de comprendre.",
+      "chinese": "我们尝试去理解。"
+    },
+    {
+      "french": "Voici l’est.",
+      "chinese": "这里是东方。"
+    },
+    {
+      "french": "Paul et Marie arrivent demain.",
+      "chinese": "保罗和玛丽明天抵达。"
+    },
+    {
+      "french": "Voici l’étage.",
+      "chinese": "这是地板。"
+    },
+    {
+      "french": "Voici l’étagère.",
+      "chinese": "这是架子。"
+    },
+    {
+      "french": "Voici l’été.",
+      "chinese": "夏天来了。"
+    },
+    {
+      "french": "C’est quelque chose d’étranger.",
+      "chinese": "这是外国的东西。"
+    },
+    {
+      "french": "Elle travaille à l’étranger.",
+      "chinese": "她在国外工作。"
+    },
+    {
+      "french": "Voici l’étranger.",
+      "chinese": "这是陌生人。"
+    },
+    {
+      "french": "Je suis à la maison.",
+      "chinese": "我在家。"
+    },
+    {
+      "french": "Voici l’étudiant.",
+      "chinese": "这是学生。"
+    },
+    {
+      "french": "On parle de l’euro.",
+      "chinese": "我们正在谈论欧元。"
+    },
+    {
+      "french": "Je connais bien Europe.",
+      "chinese": "我很了解欧洲。"
+    },
+    {
+      "french": "Je vais éviter un accident.",
+      "chinese": "我会避免发生事故。"
+    },
+    {
+      "french": "C’est exactement ce que je cherche.",
+      "chinese": "这正是我正在寻找的。"
+    },
+    {
+      "french": "C’est quelque chose d’excellent.",
+      "chinese": "这是一件很棒的事情。"
+    },
+    {
+      "french": "Je vais excuser son retard.",
+      "chinese": "我会原谅他的迟到。"
+    },
+    {
+      "french": "Ce service existe encore.",
+      "chinese": "这项服务仍然存在。"
+    },
+    {
+      "french": "Voici l’expérience.",
+      "chinese": "这是经验。"
+    },
+    {
+      "french": "Je vais fabriquer une table.",
+      "chinese": "我要做一张桌子。"
+    },
+    {
+      "french": "Voici la fac.",
+      "chinese": "这就是大学。"
+    },
+    {
+      "french": "On parle de la face.",
+      "chinese": "我们谈论的是脸。"
+    },
+    {
+      "french": "La question est facile.",
+      "chinese": "这个问题很简单。"
+    },
+    {
+      "french": "On trouve facilement cette adresse.",
+      "chinese": "这个地址很容易找到。"
+    },
+    {
+      "french": "Je fais mes devoirs.",
+      "chinese": "我做作业。"
+    },
+    {
+      "french": "Elle fait du pain.",
+      "chinese": "她做面包。"
+    },
+    {
+      "french": "Voici le fait.",
+      "chinese": "这就是事实。"
+    },
+    {
+      "french": "On parle des fait divers.",
+      "chinese": "我们正在谈论新闻。"
+    },
+    {
+      "french": "C’est quelque chose de familier.",
+      "chinese": "这很熟悉。"
+    },
+    {
+      "french": "Ma famille habite ici.",
+      "chinese": "我的家人住在这里。"
+    },
+    {
+      "french": "On parle des fans.",
+      "chinese": "我们正在谈论粉丝。"
+    },
+    {
+      "french": "C’est quelque chose de fantastique.",
+      "chinese": "这真是太棒了。"
+    },
+    {
+      "french": "On parle de la farine.",
+      "chinese": "我们正在谈论面粉。"
+    },
+    {
+      "french": "C’est quelque chose de fatigué.",
+      "chinese": "有点累了。"
+    },
+    {
+      "french": "On parle du fauteuil.",
+      "chinese": "我们正在谈论椅子。"
+    },
+    {
+      "french": "Félicitations pour votre réussite !",
+      "chinese": "恭喜您取得成功！"
+    },
+    {
+      "french": "Cette femme est médecin.",
+      "chinese": "这位女士是一名医生。"
+    },
+    {
+      "french": "Sa femme parle espagnol.",
+      "chinese": "他的妻子会说西班牙语。"
+    },
+    {
+      "french": "Voici la fenêtre.",
+      "chinese": "这是窗口。"
+    },
+    {
+      "french": "On parle de la fête.",
+      "chinese": "我们谈论党。"
+    },
+    {
+      "french": "Je vais fêter mon anniversaire.",
+      "chinese": "我要庆祝我的生日。"
+    },
+    {
+      "french": "Voici le feu.",
+      "chinese": "这里是火。"
+    },
+    {
+      "french": "Voici les feu d'artifice.",
+      "chinese": "这是烟花。"
+    },
+    {
+      "french": "Voici la fille.",
+      "chinese": "这是那个女孩。"
+    },
+    {
+      "french": "Voici le film.",
+      "chinese": "这是电影。"
+    },
+    {
+      "french": "Voici le fils.",
+      "chinese": "这是儿子。"
+    },
+    {
+      "french": "Finalement, nous prenons le train.",
+      "chinese": "最后，我们坐上了火车。"
+    },
+    {
+      "french": "Voici le fini.",
+      "chinese": "到这里就结束了。"
+    },
+    {
+      "french": "Je connais bien Finlande.",
+      "chinese": "我很了解芬兰。"
+    },
+    {
+      "french": "C’est quelque chose de fixe.",
+      "chinese": "这是固定的东西。"
+    },
+    {
+      "french": "Le temps reste au beau fixe.",
+      "chinese": "天气依然晴好。"
+    },
+    {
+      "french": "Voici la fleur.",
+      "chinese": "这是花。"
+    },
+    {
+      "french": "On parle de la fois.",
+      "chinese": "我们谈论时间。"
+    },
+    {
+      "french": "Voici le foot.",
+      "chinese": "这就是足球。"
+    },
+    {
+      "french": "Voici le footing.",
+      "chinese": "慢跑来了。"
+    },
+    {
+      "french": "On parle du français.",
+      "chinese": "我们正在谈论法语。"
+    },
+    {
+      "french": "Voici le Français.",
+      "chinese": "这是法国人。"
+    },
+    {
+      "french": "Elle écoute une chanson française.",
+      "chinese": "她听一首法语歌曲。"
+    },
+    {
+      "french": "Je connais bien France.",
+      "chinese": "我很了解法国。"
+    },
+    {
+      "french": "On parle du fromage.",
+      "chinese": "我们正在谈论奶酪。"
+    },
+    {
+      "french": "Voici le fruit.",
+      "chinese": "这是水果。"
+    },
+    {
+      "french": "Je vais gagner le match.",
+      "chinese": "我会赢得比赛。"
+    },
+    {
+      "french": "Voici le garçon.",
+      "chinese": "这就是那个男孩。"
+    },
+    {
+      "french": "On parle de la gare.",
+      "chinese": "我们正在谈论车站。"
+    },
+    {
+      "french": "Voici le gâteau.",
+      "chinese": "这是蛋糕。"
+    },
+    {
+      "french": "On parle de la gauche.",
+      "chinese": "我们谈论的是左派。"
+    },
+    {
+      "french": "La poste est à gauche.",
+      "chinese": "邮局在左边。"
+    },
+    {
+      "french": "C’est quelque chose de général.",
+      "chinese": "这是一般性的事情。"
+    },
+    {
+      "french": "En général, je me lève tôt.",
+      "chinese": "我通常起得很早。"
+    },
+    {
+      "french": "Je connais bien Genève.",
+      "chinese": "我很了解日内瓦。"
+    },
+    {
+      "french": "On parle du gens.",
+      "chinese": "我们谈论人。"
+    },
+    {
+      "french": "Voici la glace.",
+      "chinese": "这是冰淇淋。"
+    },
+    {
+      "french": "C’est quelque chose de glissant.",
+      "chinese": "这是一件很滑的事情。"
+    },
+    {
+      "french": "Voici le golf.",
+      "chinese": "这就是高尔夫。"
+    },
+    {
+      "french": "On parle du goût.",
+      "chinese": "我们谈论的是品味。"
+    },
+    {
+      "french": "On parle du gramme.",
+      "chinese": "我们正在谈论克。"
+    },
+    {
+      "french": "C’est une grande ville.",
+      "chinese": "这是一座大城市。"
+    },
+    {
+      "french": "Mon frère est grand.",
+      "chinese": "我哥哥很高。"
+    },
+    {
+      "french": "On parle de la grand-mère.",
+      "chinese": "我们正在谈论祖母。"
+    },
+    {
+      "french": "Voici le grand-père.",
+      "chinese": "这是祖父。"
+    },
+    {
+      "french": "C’est quelque chose de gratuit.",
+      "chinese": "这是免费的。"
+    },
+    {
+      "french": "C’est quelque chose de gris.",
+      "chinese": "这是灰色的东西。"
+    },
+    {
+      "french": "Voici le groupe.",
+      "chinese": "这是小组。"
+    },
+    {
+      "french": "Voici la guerre.",
+      "chinese": "这是战争。"
+    },
+    {
+      "french": "On parle de la guitare.",
+      "chinese": "我们正在谈论吉他。"
+    },
+    {
+      "french": "C’est quelque chose de guyanais.",
+      "chinese": "这是圭亚那的东西。"
+    },
+    {
+      "french": "On parle de la gymnastique.",
+      "chinese": "我们正在谈论体操。"
+    },
+    {
+      "french": "Je vais habiller mon enfant.",
+      "chinese": "我会给我的孩子穿衣服。"
+    },
+    {
+      "french": "J’habite dans une petite ville.",
+      "chinese": "我住在一个小镇。"
+    },
+    {
+      "french": "Voici l’habitude.",
+      "chinese": "这是习惯。"
+    },
+    {
+      "french": "C’est quelque chose d’habituel.",
+      "chinese": "这是很平常的事情。"
+    },
+    {
+      "french": "C’est quelque chose d’haut.",
+      "chinese": "这是很高的东西。"
+    },
+    {
+      "french": "On parle de l’hélicoptère.",
+      "chinese": "我们正在谈论直升机。"
+    },
+    {
+      "french": "On parle de l’heure.",
+      "chinese": "我们谈论时间。"
+    },
+    {
+      "french": "La voiture a heurté le mur.",
+      "chinese": "车撞墙了。"
+    },
+    {
+      "french": "C’est quelque chose d’heureux.",
+      "chinese": "这是一件令人高兴的事情。"
+    },
+    {
+      "french": "Je l’ai rencontré hier.",
+      "chinese": "我昨天见过他。"
+    },
+    {
+      "french": "On parle de l’histoire.",
+      "chinese": "我们谈论历史。"
+    },
+    {
+      "french": "Je connais bien Hollande.",
+      "chinese": "我很了解奥朗德。"
+    },
+    {
+      "french": "Cet homme est mon professeur.",
+      "chinese": "这个人是我的老师。"
+    },
+    {
+      "french": "Voici l’horaire.",
+      "chinese": "这是时间表。"
+    },
+    {
+      "french": "On parle de l’hôtel.",
+      "chinese": "我们正在谈论酒店。"
+    },
+    {
+      "french": "Voici les hôtel de ville.",
+      "chinese": "这里是市政厅。"
+    },
+    {
+      "french": "Hum, je ne suis pas sûr.",
+      "chinese": "嗯，我不确定。"
+    },
+    {
+      "french": "Attendez-moi ici.",
+      "chinese": "在这里等我。"
+    },
+    {
+      "french": "On parle de l’idéal.",
+      "chinese": "我们谈论的是理想。"
+    },
+    {
+      "french": "On parle de l’idée.",
+      "chinese": "我们讨论这个想法。"
+    },
+    {
+      "french": "Il faut réserver à l’avance.",
+      "chinese": "您必须提前预订。"
+    },
+    {
+      "french": "Il y a un café près de la gare.",
+      "chinese": "车站附近有一家咖啡馆。"
+    },
+    {
+      "french": "On parle de l’île.",
+      "chinese": "我们谈论这个岛。"
+    },
+    {
+      "french": "Je vais imaginer une solution.",
+      "chinese": "我会想象一个解决方案。"
+    },
+    {
+      "french": "Voici l’immeuble.",
+      "chinese": "这是建筑物。"
+    },
+    {
+      "french": "C’est quelque chose d’immobilier.",
+      "chinese": "这是房地产。"
+    },
+    {
+      "french": "C’est quelque chose d’important.",
+      "chinese": "这很重要。"
+    },
+    {
+      "french": "Voici l’inconvénient.",
+      "chinese": "这是缺点。"
+    },
+    {
+      "french": "C’est quelque chose d’indispensable.",
+      "chinese": "这是至关重要的。"
+    },
+    {
+      "french": "Voici l’informaticien.",
+      "chinese": "这是计算机科学家。"
+    },
+    {
+      "french": "Mon retard va inquiéter mes parents.",
+      "chinese": "我迟到会让父母担心。"
+    },
+    {
+      "french": "Voici l’inspecteur.",
+      "chinese": "这是检查员。"
+    },
+    {
+      "french": "L’inspecteur de police pose des questions.",
+      "chinese": "警务督察提问。"
+    },
+    {
+      "french": "Je vais installer cette application.",
+      "chinese": "我将安装此应用程序。"
+    },
+    {
+      "french": "Voici l’institut.",
+      "chinese": "这里是研究所。"
+    },
+    {
+      "french": "C’est quelque chose d’interdit.",
+      "chinese": "这是被禁止的事情。"
+    },
+    {
+      "french": "C’est quelque chose d’intéressant.",
+      "chinese": "这是一件很有趣的事。"
+    },
+    {
+      "french": "Je connais bien Internet.",
+      "chinese": "我很了解互联网。"
+    },
+    {
+      "french": "On parle des interviews.",
+      "chinese": "我们正在谈论采访。"
+    },
+    {
+      "french": "On parle de l’invité.",
+      "chinese": "我们正在谈论客人。"
+    },
+    {
+      "french": "Je vais inviter mes amis.",
+      "chinese": "我会邀请我的朋友。"
+    },
+    {
+      "french": "Je connais bien Irlande.",
+      "chinese": "我很了解爱尔兰。"
+    },
+    {
+      "french": "Voici l’italien.",
+      "chinese": "这是意大利人。"
+    },
+    {
+      "french": "On parle de l’Italien.",
+      "chinese": "我们正在谈论意大利语。"
+    },
+    {
+      "french": "C’est quelque chose d’italien.",
+      "chinese": "这是意大利的东西。"
+    },
+    {
+      "french": "Nous partons en janvier.",
+      "chinese": "我们一月份就要离开。"
+    },
+    {
+      "french": "Je connais bien Japon.",
+      "chinese": "我很了解日本。"
+    },
+    {
+      "french": "On parle du Japonais.",
+      "chinese": "我们正在谈论日语。"
+    },
+    {
+      "french": "C’est quelque chose de japonais.",
+      "chinese": "这是日本的东西。"
+    },
+    {
+      "french": "Voici le jardin.",
+      "chinese": "这里是花园。"
+    },
+    {
+      "french": "Voici le jean.",
+      "chinese": "这是牛仔裤。"
+    },
+    {
+      "french": "Le train part jeudi matin.",
+      "chinese": "火车周四早上出发。"
+    },
+    {
+      "french": "C’est quelque chose de joli.",
+      "chinese": "这很漂亮。"
+    },
+    {
+      "french": "Je vais jouer au football.",
+      "chinese": "我要去踢足球。"
+    },
+    {
+      "french": "On parle du jouet.",
+      "chinese": "我们正在谈论玩具。"
+    },
+    {
+      "french": "Je travaille cinq jours par semaine.",
+      "chinese": "我每周工作五天。"
+    },
+    {
+      "french": "Je prends le plat du jour.",
+      "chinese": "我有当天的菜肴。"
+    },
+    {
+      "french": "On parle du journal.",
+      "chinese": "我们正在谈论报纸。"
+    },
+    {
+      "french": "Voici les journalistes.",
+      "chinese": "以下是记者。"
+    },
+    {
+      "french": "Voici la journée.",
+      "chinese": "这一天。"
+    },
+    {
+      "french": "Je prends mes vacances en juillet.",
+      "chinese": "我七月要休假。"
+    },
+    {
+      "french": "Il fait chaud en juin.",
+      "chinese": "六月天气炎热。"
+    },
+    {
+      "french": "Voici la jupe.",
+      "chinese": "这是裙子。"
+    },
+    {
+      "french": "Voici le jus.",
+      "chinese": "这是果汁。"
+    },
+    {
+      "french": "Nous marchons jusque chez lui.",
+      "chinese": "我们步行到他家。"
+    },
+    {
+      "french": "C’est quelque chose de juste.",
+      "chinese": "这是公平的事情。"
+    },
+    {
+      "french": "On parle du kilo.",
+      "chinese": "我们正在谈论公斤。"
+    },
+    {
+      "french": "On parle du kilomètre.",
+      "chinese": "我们谈论的是公里。"
+    },
+    {
+      "french": "Posez le sac là.",
+      "chinese": "把袋子放在那里。"
+    },
+    {
+      "french": "Mes amis habitent là-bas.",
+      "chinese": "我的朋友住在那里。"
+    },
+    {
+      "french": "Je vais laisser la porte ouverte.",
+      "chinese": "我会让门开着。"
+    },
+    {
+      "french": "Voici le lait.",
+      "chinese": "这是牛奶。"
+    },
+    {
+      "french": "Voici la langue.",
+      "chinese": "这就是语言。"
+    },
+    {
+      "french": "Je connais bien Lausanne.",
+      "chinese": "我很了解洛桑。"
+    },
+    {
+      "french": "Je vais laver la voiture.",
+      "chinese": "我要去洗车。"
+    },
+    {
+      "french": "Voici la lecture.",
+      "chinese": "这是阅读内容。"
+    },
+    {
+      "french": "Voici les légumes.",
+      "chinese": "这是蔬菜。"
+    },
+    {
+      "french": "Voici la lettre.",
+      "chinese": "这是这封信。"
+    },
+    {
+      "french": "Je vais lever la main.",
+      "chinese": "我举手。"
+    },
+    {
+      "french": "C’est quelque chose de libre.",
+      "chinese": "它是免费的。"
+    },
+    {
+      "french": "On parle du lieu.",
+      "chinese": "我们谈论这个地方。"
+    },
+    {
+      "french": "On parle de la ligne.",
+      "chinese": "我们正在谈论这条线。"
+    },
+    {
+      "french": "Je connais bien Lille.",
+      "chinese": "我很了解里尔。"
+    },
+    {
+      "french": "Je vais lire le journal.",
+      "chinese": "我要去读报纸。"
+    },
+    {
+      "french": "On parle de la liste.",
+      "chinese": "我们正在谈论列表。"
+    },
+    {
+      "french": "On parle du lit.",
+      "chinese": "我们正在谈论床。"
+    },
+    {
+      "french": "Voici le litre.",
+      "chinese": "这是升。"
+    },
+    {
+      "french": "Ce livre est en français.",
+      "chinese": "这本书是法文的。"
+    },
+    {
+      "french": "On parle de la livre.",
+      "chinese": "我们正在谈论英镑。"
+    },
+    {
+      "french": "La gare est loin.",
+      "chinese": "车站很远。"
+    },
+    {
+      "french": "Je connais bien Londres.",
+      "chinese": "我很了解伦敦。"
+    },
+    {
+      "french": "C’est quelque chose de long.",
+      "chinese": "有点长了。"
+    },
+    {
+      "french": "Nous avons attendu longtemps.",
+      "chinese": "我们等了很长时间。"
+    },
+    {
+      "french": "Je vais louer une voiture.",
+      "chinese": "我要租一辆车。"
+    },
+    {
+      "french": "Le musée est fermé lundi.",
+      "chinese": "博物馆周一闭馆。"
+    },
+    {
+      "french": "Voici les lunettes.",
+      "chinese": "这是眼镜。"
+    },
+    {
+      "french": "On parle de la madame.",
+      "chinese": "我们正在谈论夫人。"
+    },
+    {
+      "french": "Voici le magasin.",
+      "chinese": "这里是商店。"
+    },
+    {
+      "french": "Voici le magazine.",
+      "chinese": "这是杂志。"
+    },
+    {
+      "french": "C’est quelque chose de magnifique.",
+      "chinese": "这是一件了不起的事情。"
+    },
+    {
+      "french": "Les examens commencent en mai.",
+      "chinese": "考试五月开始。"
+    },
+    {
+      "french": "Nous pouvons partir maintenant.",
+      "chinese": "我们现在可以走了。"
+    },
+    {
+      "french": "Il est fatigué, mais il continue.",
+      "chinese": "他很累，但他仍在继续。"
+    },
+    {
+      "french": "Notre maison est près de l’école.",
+      "chinese": "我们家离学校很近。"
+    },
+    {
+      "french": "C’est quelque chose de malade.",
+      "chinese": "这真是病态的东西。"
+    },
+    {
+      "french": "Nous mangeons du pain.",
+      "chinese": "我们吃面包。"
+    },
+    {
+      "french": "Voici le marché.",
+      "chinese": "事情是这样的。"
+    },
+    {
+      "french": "Nous allons marcher jusqu’au village.",
+      "chinese": "我们将步行到村庄。"
+    },
+    {
+      "french": "Nous avons cours mardi.",
+      "chinese": "星期二我们有课。"
+    },
+    {
+      "french": "On parle du mari.",
+      "chinese": "我们正在谈论丈夫。"
+    },
+    {
+      "french": "Voici le mariage.",
+      "chinese": "这就是婚姻。"
+    },
+    {
+      "french": "Je connais bien Marianne.",
+      "chinese": "我很了解玛丽安。"
+    },
+    {
+      "french": "Je vais marier ce couple.",
+      "chinese": "我要和这对夫妇结婚。"
+    },
+    {
+      "french": "Je connais bien Maroc.",
+      "chinese": "我很了解摩洛哥。"
+    },
+    {
+      "french": "Je connais bien Marseille.",
+      "chinese": "我很了解马赛。"
+    },
+    {
+      "french": "On parle du match.",
+      "chinese": "我们谈论比赛。"
+    },
+    {
+      "french": "Je prends un café le matin.",
+      "chinese": "我早上喝咖啡。"
+    },
+    {
+      "french": "C’est quelque chose de mauvais.",
+      "chinese": "这是一件坏事。"
+    },
+    {
+      "french": "On parle des médecins.",
+      "chinese": "我们谈论的是医生。"
+    },
+    {
+      "french": "C’est quelque chose de méditerranéen.",
+      "chinese": "这是地中海的东西。"
+    },
+    {
+      "french": "Même Paul connaît la réponse.",
+      "chinese": "甚至保罗也知道答案。"
+    },
+    {
+      "french": "On parle du ménage.",
+      "chinese": "我们正在谈论家务管理。"
+    },
+    {
+      "french": "Elle fait le ménage le matin.",
+      "chinese": "她早上打扫卫生。"
+    },
+    {
+      "french": "Voici la mer.",
+      "chinese": "这里是大海。"
+    },
+    {
+      "french": "Merci pour votre aide.",
+      "chinese": "感谢您的帮助。"
+    },
+    {
+      "french": "Je travaille mercredi.",
+      "chinese": "我星期三工作。"
+    },
+    {
+      "french": "Voici la météo.",
+      "chinese": "这是天气预报。"
+    },
+    {
+      "french": "J’écoute le bulletin météo chaque matin.",
+      "chinese": "我每天早上都会听天气预报。"
+    },
+    {
+      "french": "Voici le mètre.",
+      "chinese": "这是仪表。"
+    },
+    {
+      "french": "On parle des mètre carré.",
+      "chinese": "我们谈论的是平方米。"
+    },
+    {
+      "french": "On parle du métro.",
+      "chinese": "我们正在谈论地铁。"
+    },
+    {
+      "french": "Je vais mettre mon manteau.",
+      "chinese": "我要穿上外套了。"
+    },
+    {
+      "french": "Voici le meuble.",
+      "chinese": "这是一件家​​具。"
+    },
+    {
+      "french": "Nous déjeunons à midi.",
+      "chinese": "中午我们吃午饭。"
+    },
+    {
+      "french": "Voici le minéral.",
+      "chinese": "这是矿物质。"
+    },
+    {
+      "french": "Voici les eau minérale.",
+      "chinese": "这是矿泉水。"
+    },
+    {
+      "french": "On parle du ministère.",
+      "chinese": "我们正在谈论事工。"
+    },
+    {
+      "french": "Voici la minute.",
+      "chinese": "这是会议纪要。"
+    },
+    {
+      "french": "Voici le mois.",
+      "chinese": "这个月。"
+    },
+    {
+      "french": "On parle des mômes.",
+      "chinese": "我们正在谈论孩子。"
+    },
+    {
+      "french": "Voici le moment.",
+      "chinese": "这一刻。"
+    },
+    {
+      "french": "On parle du monde.",
+      "chinese": "我们谈论世界。"
+    },
+    {
+      "french": "Voici le monsieur.",
+      "chinese": "这位先生。"
+    },
+    {
+      "french": "On parle de la montagne.",
+      "chinese": "我们谈论山。"
+    },
+    {
+      "french": "Je monte au troisième étage.",
+      "chinese": "我上三楼。"
+    },
+    {
+      "french": "Je connais bien Montréal.",
+      "chinese": "我很了解蒙特利尔。"
+    },
+    {
+      "french": "Voici le mot.",
+      "chinese": "这是这个词。"
+    },
+    {
+      "french": "On parle de la moto.",
+      "chinese": "我们正在谈论摩托车。"
+    },
+    {
+      "french": "On parle de la moyenne.",
+      "chinese": "我们谈论的是平均值。"
+    },
+    {
+      "french": "Je marche une heure par jour en moyenne.",
+      "chinese": "我平均每天步行一小时。"
+    },
+    {
+      "french": "On parle du muguet.",
+      "chinese": "我们正在谈论鹅口疮。"
+    },
+    {
+      "french": "Voici le mur.",
+      "chinese": "这里是墙。"
+    },
+    {
+      "french": "Voici la musculation.",
+      "chinese": "这就是健美。"
+    },
+    {
+      "french": "On parle du musée.",
+      "chinese": "我们正在谈论博物馆。"
+    },
+    {
+      "french": "On parle du musicien.",
+      "chinese": "我们正在谈论音乐家。"
+    },
+    {
+      "french": "On parle de la musique.",
+      "chinese": "我们谈论音乐。"
+    },
+    {
+      "french": "Elle va nager dans la piscine.",
+      "chinese": "她要去游泳池里游泳。"
+    },
+    {
+      "french": "Voici la natation.",
+      "chinese": "游泳来了。"
+    },
+    {
+      "french": "Voici la nationalité.",
+      "chinese": "这里是国籍。"
+    },
+    {
+      "french": "On parle de la nature.",
+      "chinese": "我们谈论自然。"
+    },
+    {
+      "french": "Je connais bien Nice.",
+      "chinese": "我很了解尼斯。"
+    },
+    {
+      "french": "Je connais bien Nîmes.",
+      "chinese": "我很了解尼姆。"
+    },
+    {
+      "french": "Je connais bien Noël.",
+      "chinese": "我很了解圣诞节。"
+    },
+    {
+      "french": "C’est quelque chose de noir.",
+      "chinese": "这是黑色的东西。"
+    },
+    {
+      "french": "Voici le nom.",
+      "chinese": "这是名字。"
+    },
+    {
+      "french": "On parle du nombre.",
+      "chinese": "我们正在谈论数字。"
+    },
+    {
+      "french": "Non, merci.",
+      "chinese": "不，谢谢。"
+    },
+    {
+      "french": "On parle du nord.",
+      "chinese": "我们谈论的是北方。"
+    },
+    {
+      "french": "Je connais bien Notre-Dame.",
+      "chinese": "我很了解巴黎圣母院。"
+    },
+    {
+      "french": "C’est quelque chose de nouveau.",
+      "chinese": "这是新事物。"
+    },
+    {
+      "french": "Nous fêtons le nouvel an en famille.",
+      "chinese": "我们一家人庆祝新年。"
+    },
+    {
+      "french": "Voici la nouvelle.",
+      "chinese": "这是新闻。"
+    },
+    {
+      "french": "Voici le nuage.",
+      "chinese": "这里是云。"
+    },
+    {
+      "french": "Voici l’objet.",
+      "chinese": "这是对象。"
+    },
+    {
+      "french": "Voici l’océan.",
+      "chinese": "这就是海洋。"
+    },
+    {
+      "french": "Il pleut souvent en octobre.",
+      "chinese": "十月经常下雨。"
+    },
+    {
+      "french": "Voici l’œil.",
+      "chinese": "这里是眼睛。"
+    },
+    {
+      "french": "Voici l’œuf.",
+      "chinese": "这是鸡蛋。"
+    },
+    {
+      "french": "Voici l’office.",
+      "chinese": "这里是办公室。"
+    },
+    {
+      "french": "Je vais offrir des fleurs.",
+      "chinese": "我会送花。"
+    },
+    {
+      "french": "Oh, j’ai oublié mes clés !",
+      "chinese": "哦，我忘记带钥匙了！"
+    },
+    {
+      "french": "On parle de l’opéra.",
+      "chinese": "我们正在谈论歌剧。"
+    },
+    {
+      "french": "Voici l’orange.",
+      "chinese": "这是橙子。"
+    },
+    {
+      "french": "On parle de l’ordinateur.",
+      "chinese": "我们正在谈论计算机。"
+    },
+    {
+      "french": "C’est quelque chose d’organisé.",
+      "chinese": "这是有组织的事情。"
+    },
+    {
+      "french": "C’est quelque chose d’original.",
+      "chinese": "这是原创的。"
+    },
+    {
+      "french": "Vous préférez le thé ou le café ?",
+      "chinese": "你喜欢茶还是咖啡？"
+    },
+    {
+      "french": "Où habitez-vous ?",
+      "chinese": "你住在哪里？"
+    },
+    {
+      "french": "Ouais, on peut y aller.",
+      "chinese": "是的，我们可以走了。"
+    },
+    {
+      "french": "Voici l’ouest.",
+      "chinese": "这是西方。"
+    },
+    {
+      "french": "Oui, je parle français.",
+      "chinese": "是的，我说法语。"
+    },
+    {
+      "french": "C’est quelque chose d’ouvert.",
+      "chinese": "这是一种开放的东西。"
+    },
+    {
+      "french": "Je vais ouvrir la fenêtre.",
+      "chinese": "我要打开窗户。"
+    },
+    {
+      "french": "On parle de la page.",
+      "chinese": "我们正在谈论页面。"
+    },
+    {
+      "french": "Le pain est sur la table.",
+      "chinese": "面包在桌子上。"
+    },
+    {
+      "french": "Voici le palais.",
+      "chinese": "这是宫殿。"
+    },
+    {
+      "french": "On parle du pantalon.",
+      "chinese": "我们正在谈论裤子。"
+    },
+    {
+      "french": "Voici le papa.",
+      "chinese": "这是爸爸。"
+    },
+    {
+      "french": "Nous passons par Bordeaux.",
+      "chinese": "我们经过波尔多。"
+    },
+    {
+      "french": "On parle du parapluie.",
+      "chinese": "我们正在谈论雨伞。"
+    },
+    {
+      "french": "Voici le parc.",
+      "chinese": "这里是公园。"
+    },
+    {
+      "french": "Je reste ici parce qu’il pleut.",
+      "chinese": "我留在这里是因为下雨了。"
+    },
+    {
+      "french": "Pardon, où est la gare ?",
+      "chinese": "抱歉，车站在哪里？"
+    },
+    {
+      "french": "On parle des parents.",
+      "chinese": "我们正在谈论父母。"
+    },
+    {
+      "french": "C’est quelque chose de parfait.",
+      "chinese": "这是完美的东西。"
+    },
+    {
+      "french": "Nous mangeons parfois ici.",
+      "chinese": "我们有时在这里吃饭。"
+    },
+    {
+      "french": "Je connais bien Paris.",
+      "chinese": "我很了解巴黎。"
+    },
+    {
+      "french": "Voici le parking.",
+      "chinese": "这里是停车场。"
+    },
+    {
+      "french": "Tu parles français ?",
+      "chinese": "你会说法语吗？"
+    },
+    {
+      "french": "Nous parlons de notre voyage.",
+      "chinese": "我们谈论我们的旅程。"
+    },
+    {
+      "french": "Je parle à mon professeur.",
+      "chinese": "我和我的老师交谈。"
+    },
+    {
+      "french": "C’est quelque chose de particulier.",
+      "chinese": "这很特别。"
+    },
+    {
+      "french": "Nous allons partir demain matin.",
+      "chinese": "我们明天早上就出发。"
+    },
+    {
+      "french": "Je vais passer chez Paul ce soir.",
+      "chinese": "今晚我要去拜访保罗。"
+    },
+    {
+      "french": "Que s’est-il passé hier ?",
+      "chinese": "昨天发生了什么？"
+    },
+    {
+      "french": "Voici les pâtes.",
+      "chinese": "这是意大利面。"
+    },
+    {
+      "french": "Voici la pâtisserie.",
+      "chinese": "这是糕点。"
+    },
+    {
+      "french": "Voici la pause.",
+      "chinese": "这是中断。"
+    },
+    {
+      "french": "Voici la pause-café.",
+      "chinese": "这是茶歇时间。"
+    },
+    {
+      "french": "La France est un pays d’Europe.",
+      "chinese": "法国是欧洲的一个国家。"
+    },
+    {
+      "french": "On parle des peintres.",
+      "chinese": "我们正在谈论画家。"
+    },
+    {
+      "french": "Voici la peinture.",
+      "chinese": "这是这幅画。"
+    },
+    {
+      "french": "Il a plu pendant la nuit.",
+      "chinese": "夜里下雨了。"
+    },
+    {
+      "french": "On parle du pendule.",
+      "chinese": "我们正在谈论钟摆。"
+    },
+    {
+      "french": "Je vais penser à mes vacances.",
+      "chinese": "我要考虑一下我的假期。"
+    },
+    {
+      "french": "Voici le permis.",
+      "chinese": "这是许可证。"
+    },
+    {
+      "french": "Voici la personne.",
+      "chinese": "就是这个人。"
+    },
+    {
+      "french": "Nous avons une petite maison.",
+      "chinese": "我们有一所小房子。"
+    },
+    {
+      "french": "On parle du petit-déjeuner.",
+      "chinese": "我们正在谈论早餐。"
+    },
+    {
+      "french": "Il dort peu en semaine.",
+      "chinese": "他平日里睡得很少。"
+    },
+    {
+      "french": "Je parle un peu français.",
+      "chinese": "我会说一点法语。"
+    },
+    {
+      "french": "Peut-être viendra-t-elle demain.",
+      "chinese": "也许她明天会来。"
+    },
+    {
+      "french": "Voici la photo.",
+      "chinese": "这是照片。"
+    },
+    {
+      "french": "On parle de la phrase.",
+      "chinese": "我们正在谈论这句话。"
+    },
+    {
+      "french": "On parle de la pièce.",
+      "chinese": "我们谈论这部剧。"
+    },
+    {
+      "french": "Voici le pied.",
+      "chinese": "这是脚。"
+    },
+    {
+      "french": "On parle de la piscine.",
+      "chinese": "我们正在谈论游泳池。"
+    },
+    {
+      "french": "Voici la pizza.",
+      "chinese": "这是披萨。"
+    },
+    {
+      "french": "On parle du placard.",
+      "chinese": "我们正在谈论壁橱。"
+    },
+    {
+      "french": "On parle de la place.",
+      "chinese": "我们谈论这个地方。"
+    },
+    {
+      "french": "Nous déjeunerons sur place.",
+      "chinese": "我们将在那里吃午餐。"
+    },
+    {
+      "french": "On parle de la plage.",
+      "chinese": "我们正在谈论海滩。"
+    },
+    {
+      "french": "On parle du plan.",
+      "chinese": "我们谈论这个计划。"
+    },
+    {
+      "french": "C’est quelque chose de plat.",
+      "chinese": "这是扁平的东西。"
+    },
+    {
+      "french": "Il va pleuvoir cet après-midi.",
+      "chinese": "今天下午会下雨。"
+    },
+    {
+      "french": "On parle de la pluie.",
+      "chinese": "我们正在谈论雨。"
+    },
+    {
+      "french": "J’ai plusieurs idées.",
+      "chinese": "我有几个想法。"
+    },
+    {
+      "french": "On parle du poème.",
+      "chinese": "我们谈论这首诗。"
+    },
+    {
+      "french": "Voici les poètes.",
+      "chinese": "这是诗人。"
+    },
+    {
+      "french": "On parle des point de vue.",
+      "chinese": "我们正在谈论观点。"
+    },
+    {
+      "french": "On parle du poisson.",
+      "chinese": "我们正在谈论鱼。"
+    },
+    {
+      "french": "Voici la pollution.",
+      "chinese": "这里是污染。"
+    },
+    {
+      "french": "Voici la pomme.",
+      "chinese": "这是苹果。"
+    },
+    {
+      "french": "On parle des pomme de terre.",
+      "chinese": "我们正在谈论土豆。"
+    },
+    {
+      "french": "On parle du pont.",
+      "chinese": "我们正在谈论这座桥。"
+    },
+    {
+      "french": "On parle du port.",
+      "chinese": "我们正在谈论港口。"
+    },
+    {
+      "french": "On parle du portable.",
+      "chinese": "我们正在谈论手机。"
+    },
+    {
+      "french": "Je vais porter une valise.",
+      "chinese": "我会带着一个手提箱。"
+    },
+    {
+      "french": "Voici le portrait-robot.",
+      "chinese": "这是身份套件。"
+    },
+    {
+      "french": "Je vais poser une question.",
+      "chinese": "我要问一个问题。"
+    },
+    {
+      "french": "C’est quelque chose de possible.",
+      "chinese": "这是有可能的。"
+    },
+    {
+      "french": "C’est quelque chose de postal.",
+      "chinese": "这是邮政的东西。"
+    },
+    {
+      "french": "On parle de la poste.",
+      "chinese": "我们正在谈论邮局。"
+    },
+    {
+      "french": "Ce cadeau est pour toi.",
+      "chinese": "这份礼物是给你的。"
+    },
+    {
+      "french": "On parle du pourcentage.",
+      "chinese": "我们谈论的是百分比。"
+    },
+    {
+      "french": "Pourquoi êtes-vous en retard ?",
+      "chinese": "你为什么迟到？"
+    },
+    {
+      "french": "Je pourrai venir demain.",
+      "chinese": "我明天可以来。"
+    },
+    {
+      "french": "C’est quelque chose de pratique.",
+      "chinese": "这是实用的东西。"
+    },
+    {
+      "french": "C’est quelque chose de préféré.",
+      "chinese": "这是最喜欢的事情。"
+    },
+    {
+      "french": "Je vais préférer le train.",
+      "chinese": "我更喜欢火车。"
+    },
+    {
+      "french": "C’est quelque chose de premier.",
+      "chinese": "这是主要的事情。"
+    },
+    {
+      "french": "Je prends le bus.",
+      "chinese": "我坐公共汽车。"
+    },
+    {
+      "french": "Vous prenez un café ?",
+      "chinese": "你喝咖啡吗？"
+    },
+    {
+      "french": "On parle du prénom.",
+      "chinese": "我们正在谈论名字。"
+    },
+    {
+      "french": "Je vais préparer le dîner.",
+      "chinese": "我要去准备晚饭了。"
+    },
+    {
+      "french": "Voici la présentation.",
+      "chinese": "这是演示文稿。"
+    },
+    {
+      "french": "Je vais présenter mon projet.",
+      "chinese": "我将介绍我的项目。"
+    },
+    {
+      "french": "Ce quartier est principalement résidentiel.",
+      "chinese": "这个街区主要是住宅区。"
+    },
+    {
+      "french": "On parle de la prison.",
+      "chinese": "我们正在谈论监狱。"
+    },
+    {
+      "french": "C’est quelque chose de privé.",
+      "chinese": "这是私人的事情。"
+    },
+    {
+      "french": "C’est quelque chose de probable.",
+      "chinese": "这是有可能的。"
+    },
+    {
+      "french": "On parle du problème.",
+      "chinese": "我们讨论这个问题。"
+    },
+    {
+      "french": "C’est quelque chose de prochain.",
+      "chinese": "这是即将到来的事情。"
+    },
+    {
+      "french": "On parle des profs.",
+      "chinese": "我们正在谈论教师。"
+    },
+    {
+      "french": "Notre professeure parle lentement.",
+      "chinese": "我们的老师说话很慢。"
+    },
+    {
+      "french": "Voici la profession.",
+      "chinese": "这就是职业。"
+    },
+    {
+      "french": "Voici le projet.",
+      "chinese": "这是该项目。"
+    },
+    {
+      "french": "On parle de la promenade.",
+      "chinese": "我们谈论步行。"
+    },
+    {
+      "french": "Je vais promener le chien.",
+      "chinese": "我要去遛狗。"
+    },
+    {
+      "french": "On parle de la publicité.",
+      "chinese": "我们正在谈论广告。"
+    },
+    {
+      "french": "Prenez cette rue, puis tournez à droite.",
+      "chinese": "走这条街，然后右转。"
+    },
+    {
+      "french": "On parle du pull.",
+      "chinese": "我们正在谈论毛衣。"
+    },
+    {
+      "french": "Voici le quai.",
+      "chinese": "这里是平台。"
+    },
+    {
+      "french": "On parle de la qualité.",
+      "chinese": "我们谈论的是质量。"
+    },
+    {
+      "french": "Appelez-moi quand vous arrivez.",
+      "chinese": "到达后给我打电话。"
+    },
+    {
+      "french": "On parle du quartier.",
+      "chinese": "我们谈论邻居。"
+    },
+    {
+      "french": "C’est quelque chose de québécois.",
+      "chinese": "这是魁北克人的东西。"
+    },
+    {
+      "french": "Je voudrais quelque chose à boire.",
+      "chinese": "我想要喝点东西。"
+    },
+    {
+      "french": "On parle du questionnaire.",
+      "chinese": "我们正在谈论调查问卷。"
+    },
+    {
+      "french": "Je vais quitter le bureau.",
+      "chinese": "我要离开办公室了。"
+    },
+    {
+      "french": "Je vais raconter une histoire.",
+      "chinese": "我要讲一个故事。"
+    },
+    {
+      "french": "On parle de la radio.",
+      "chinese": "我们正在谈论广播。"
+    },
+    {
+      "french": "Voici la raison.",
+      "chinese": "原因如下。"
+    },
+    {
+      "french": "Tu as raison sur ce point.",
+      "chinese": "在这一点上你是对的。"
+    },
+    {
+      "french": "Je vais rappeler Marie demain.",
+      "chinese": "明天我会再给玛丽打电话。"
+    },
+    {
+      "french": "Je me rappelle cette adresse.",
+      "chinese": "我记得这个地址。"
+    },
+    {
+      "french": "C’est quelque chose de récent.",
+      "chinese": "这是最近发生的事情。"
+    },
+    {
+      "french": "On parle de la réception.",
+      "chinese": "我们正在谈论接待。"
+    },
+    {
+      "french": "Voici les réceptionnistes.",
+      "chinese": "这是接待员。"
+    },
+    {
+      "french": "Je vais rechercher un emploi.",
+      "chinese": "我要去找工作。"
+    },
+    {
+      "french": "Nous allons recommencer l’exercice.",
+      "chinese": "我们要再次开始练习。"
+    },
+    {
+      "french": "Je vais regarder ce film.",
+      "chinese": "我要看这部电影。"
+    },
+    {
+      "french": "Je vais remercier mon professeur.",
+      "chinese": "我要感谢我的老师。"
+    },
+    {
+      "french": "Je vais rencontrer mes amis.",
+      "chinese": "我要去见我的朋友们。"
+    },
+    {
+      "french": "Nous nous rencontrons devant la gare.",
+      "chinese": "我们在车站前见面。"
+    },
+    {
+      "french": "Voici le rendez-vous.",
+      "chinese": "这是预约。"
+    },
+    {
+      "french": "Le médecin reçoit sur rendez-vous.",
+      "chinese": "医生按预约接诊。"
+    },
+    {
+      "french": "Voici le renseignement.",
+      "chinese": "这是信息。"
+    },
+    {
+      "french": "Elle va rentrer à la maison.",
+      "chinese": "她要回家了。"
+    },
+    {
+      "french": "On parle du repas.",
+      "chinese": "我们正在谈论吃饭。"
+    },
+    {
+      "french": "Je vais répondre à la question.",
+      "chinese": "我来回答一下这个问题。"
+    },
+    {
+      "french": "Voici la réponse.",
+      "chinese": "答案在这里。"
+    },
+    {
+      "french": "On parle du reportage.",
+      "chinese": "我们正在谈论这份报告。"
+    },
+    {
+      "french": "Je repose le livre sur la table.",
+      "chinese": "我把书放回桌子上。"
+    },
+    {
+      "french": "Je vais reprendre mon travail.",
+      "chinese": "我会回去工作。"
+    },
+    {
+      "french": "Voici la république.",
+      "chinese": "这里是共和国。"
+    },
+    {
+      "french": "Je vais réserver une chambre.",
+      "chinese": "我要订房间。"
+    },
+    {
+      "french": "Voici la résidence.",
+      "chinese": "这里是住所。"
+    },
+    {
+      "french": "C’est quelque chose de responsable.",
+      "chinese": "这是负责任的事情。"
+    },
+    {
+      "french": "On parle du restaurant.",
+      "chinese": "我们正在谈论餐厅。"
+    },
+    {
+      "french": "On parle du reste.",
+      "chinese": "剩下的我们来讨论。"
+    },
+    {
+      "french": "Je vais rester ici deux jours.",
+      "chinese": "我会在这里待两天。"
+    },
+    {
+      "french": "Voici le résultat.",
+      "chinese": "这是结果。"
+    },
+    {
+      "french": "Je vais retourner la crêpe.",
+      "chinese": "我要翻煎饼了。"
+    },
+    {
+      "french": "Voici la retraite.",
+      "chinese": "这里是撤退之处。"
+    },
+    {
+      "french": "Je vais retrouver mes clés.",
+      "chinese": "我要去找到我的钥匙。"
+    },
+    {
+      "french": "Voici la réunion.",
+      "chinese": "这是会议。"
+    },
+    {
+      "french": "Tu vas réussir cet examen.",
+      "chinese": "你将通过这次考试。"
+    },
+    {
+      "french": "Il va revenir la semaine prochaine.",
+      "chinese": "他将于下周回来。"
+    },
+    {
+      "french": "Elle rêve de faire le tour du monde.",
+      "chinese": "她梦想环游世界。"
+    },
+    {
+      "french": "On parle du rez-de-chaussée.",
+      "chinese": "我们正在谈论底层。"
+    },
+    {
+      "french": "On parle du riz.",
+      "chinese": "我们正在谈论大米。"
+    },
+    {
+      "french": "Voici la robe.",
+      "chinese": "这是裙子。"
+    },
+    {
+      "french": "Je connais bien Rochelle.",
+      "chinese": "我很了解罗谢尔。"
+    },
+    {
+      "french": "On parle des rollers.",
+      "chinese": "我们正在谈论旱冰鞋。"
+    },
+    {
+      "french": "C’est quelque chose de romantique.",
+      "chinese": "这是一件浪漫的事情。"
+    },
+    {
+      "french": "On parle de la roue.",
+      "chinese": "我们正在谈论轮子。"
+    },
+    {
+      "french": "C’est quelque chose de rouge.",
+      "chinese": "这是红色的东西。"
+    },
+    {
+      "french": "Nous allons rouler jusqu’à Bordeaux.",
+      "chinese": "我们要开车去波尔多。"
+    },
+    {
+      "french": "On parle de la route.",
+      "chinese": "我们正在谈论道路。"
+    },
+    {
+      "french": "Voici la rue.",
+      "chinese": "这里是街道。"
+    },
+    {
+      "french": "On parle du sac.",
+      "chinese": "我们正在谈论包。"
+    },
+    {
+      "french": "Je connais bien Saint-Étienne.",
+      "chinese": "我很了解圣艾蒂安。"
+    },
+    {
+      "french": "Je connais bien Saint-Valentin.",
+      "chinese": "我很了解圣瓦伦丁。"
+    },
+    {
+      "french": "Voici la salade.",
+      "chinese": "这是沙拉。"
+    },
+    {
+      "french": "On parle de la salle.",
+      "chinese": "我们正在谈论房间。"
+    },
+    {
+      "french": "On parle des salle de bains.",
+      "chinese": "我们正在谈论浴室。"
+    },
+    {
+      "french": "On parle du salon.",
+      "chinese": "我们正在谈论客厅。"
+    },
+    {
+      "french": "Salut, comment vas-tu ?",
+      "chinese": "你好，你好吗？"
+    },
+    {
+      "french": "Je fais les courses samedi.",
+      "chinese": "星期六我要去购物。"
+    },
+    {
+      "french": "Je sais nager.",
+      "chinese": "我会游泳。"
+    },
+    {
+      "french": "On parle du sculpteur.",
+      "chinese": "我们谈论雕塑家。"
+    },
+    {
+      "french": "C’est quelque chose de secondaire.",
+      "chinese": "这是次要的。"
+    },
+    {
+      "french": "On parle des secrétaires.",
+      "chinese": "我们正在谈论秘书。"
+    },
+    {
+      "french": "Voici la semaine.",
+      "chinese": "这是一周。"
+    },
+    {
+      "french": "Je connais bien Sénégal.",
+      "chinese": "我很了解塞内加尔。"
+    },
+    {
+      "french": "Les cours reprennent en septembre.",
+      "chinese": "九月恢复上课。"
+    },
+    {
+      "french": "C’est quelque chose de seul.",
+      "chinese": "它是单独的东西。"
+    },
+    {
+      "french": "Voici le serveur.",
+      "chinese": "这是服务器。"
+    },
+    {
+      "french": "Je reste seulement deux jours.",
+      "chinese": "我只呆了两天。"
+    },
+    {
+      "french": "On parle du sexe.",
+      "chinese": "我们谈论性。"
+    },
+    {
+      "french": "Voici le shopping.",
+      "chinese": "购物来了。"
+    },
+    {
+      "french": "Je connais bien Sicile.",
+      "chinese": "我很了解西西里岛。"
+    },
+    {
+      "french": "Un café, s’il vous plaît.",
+      "chinese": "请喝杯咖啡。"
+    },
+    {
+      "french": "C’est quelque chose de simple.",
+      "chinese": "这很简单。"
+    },
+    {
+      "french": "On parle du ski.",
+      "chinese": "我们正在谈论滑雪。"
+    },
+    {
+      "french": "On parle du slam.",
+      "chinese": "我们正在谈论大满贯。"
+    },
+    {
+      "french": "Je connais bien SNCF.",
+      "chinese": "我很了解SNCF。"
+    },
+    {
+      "french": "Voici la société.",
+      "chinese": "这就是公司。"
+    },
+    {
+      "french": "On parle de la sœur.",
+      "chinese": "我们正在谈论妹妹。"
+    },
+    {
+      "french": "Elle rentre tard le soir.",
+      "chinese": "她晚上很晚才回家。"
+    },
+    {
+      "french": "On parle de la soirée.",
+      "chinese": "我们谈论晚上。"
+    },
+    {
+      "french": "Voici le soleil.",
+      "chinese": "这里是太阳。"
+    },
+    {
+      "french": "C’est quelque chose de sombre.",
+      "chinese": "这是黑暗的东西。"
+    },
+    {
+      "french": "On parle du sondage.",
+      "chinese": "我们正在谈论这项调查。"
+    },
+    {
+      "french": "Nous allons sortir ce soir.",
+      "chinese": "我们今晚要出去。"
+    },
+    {
+      "french": "C’est quelque chose de souriant.",
+      "chinese": "这是值得微笑的事情。"
+    },
+    {
+      "french": "Le chat dort sous la chaise.",
+      "chinese": "猫睡在椅子下面。"
+    },
+    {
+      "french": "On parle du souvenir.",
+      "chinese": "我们谈论记忆。"
+    },
+    {
+      "french": "Elle se souvient de ce voyage.",
+      "chinese": "她记得这次旅行。"
+    },
+    {
+      "french": "Elle vient souvent ici.",
+      "chinese": "她经常来这里。"
+    },
+    {
+      "french": "Voici le sport.",
+      "chinese": "这就是运动。"
+    },
+    {
+      "french": "C’est quelque chose de sportif.",
+      "chinese": "这是一种体育运动。"
+    },
+    {
+      "french": "Je connais bien Strasbourg.",
+      "chinese": "我很了解斯特拉斯堡。"
+    },
+    {
+      "french": "Voici le stress.",
+      "chinese": "压力来了。"
+    },
+    {
+      "french": "Voici le sucre.",
+      "chinese": "这是糖。"
+    },
+    {
+      "french": "Voici le sud.",
+      "chinese": "这里是南方。"
+    },
+    {
+      "french": "Je connais bien Suisse.",
+      "chinese": "我很了解瑞士。"
+    },
+    {
+      "french": "Je vais suivre le guide.",
+      "chinese": "我会遵循指南。"
+    },
+    {
+      "french": "C’est quelque chose de super.",
+      "chinese": "这是一件伟大的事情。"
+    },
+    {
+      "french": "On parle du supermarché.",
+      "chinese": "我们正在谈论超市。"
+    },
+    {
+      "french": "Je vais supprimer ce fichier.",
+      "chinese": "我将删除这个文件。"
+    },
+    {
+      "french": "Le livre est sur la table.",
+      "chinese": "这本书在桌子上。"
+    },
+    {
+      "french": "C’est quelque chose de sûr.",
+      "chinese": "这是肯定的事情。"
+    },
+    {
+      "french": "On parle de la surprise.",
+      "chinese": "我们谈论惊喜。"
+    },
+    {
+      "french": "On parle du symbole.",
+      "chinese": "我们正在谈论符号。"
+    },
+    {
+      "french": "C’est quelque chose de sympa.",
+      "chinese": "这是一件好事。"
+    },
+    {
+      "french": "Voici la table.",
+      "chinese": "这是表格。"
+    },
+    {
+      "french": "Voici le tableau.",
+      "chinese": "这是表格。"
+    },
+    {
+      "french": "On parle du tableau.",
+      "chinese": "我们正在谈论这幅画。"
+    },
+    {
+      "french": "On parle de la taille.",
+      "chinese": "我们正在谈论尺寸。"
+    },
+    {
+      "french": "On parle du tapis.",
+      "chinese": "我们正在谈论地毯。"
+    },
+    {
+      "french": "Il rentre tard le soir.",
+      "chinese": "他晚上很晚才回家。"
+    },
+    {
+      "french": "Voici le tarif.",
+      "chinese": "这是价格。"
+    },
+    {
+      "french": "Voici le taxi.",
+      "chinese": "这里是出租车。"
+    },
+    {
+      "french": "On parle du tee-shirt.",
+      "chinese": "我们正在谈论T恤。"
+    },
+    {
+      "french": "Voici le téléphone.",
+      "chinese": "这是电话。"
+    },
+    {
+      "french": "Je vais téléphoner à ma sœur.",
+      "chinese": "我要给我姐姐打电话。"
+    },
+    {
+      "french": "Je téléphone à ma sœur.",
+      "chinese": "我给姐姐打电话。"
+    },
+    {
+      "french": "Voici la télévision.",
+      "chinese": "这是电视。"
+    },
+    {
+      "french": "Voici le témoignage.",
+      "chinese": "这是证词。"
+    },
+    {
+      "french": "Voici la température.",
+      "chinese": "这是温度。"
+    },
+    {
+      "french": "On parle du temps.",
+      "chinese": "我们谈论时间。"
+    },
+    {
+      "french": "Je vais tenir le sac.",
+      "chinese": "我会拿着袋子。"
+    },
+    {
+      "french": "On parle du tennis.",
+      "chinese": "我们正在谈论网球。"
+    },
+    {
+      "french": "Je vais terminer ce travail.",
+      "chinese": "我会完成这项工作。"
+    },
+    {
+      "french": "On parle de la terrasse.",
+      "chinese": "我们正在谈论露台。"
+    },
+    {
+      "french": "C’est quelque chose de terrible.",
+      "chinese": "这是一件可怕的事情。"
+    },
+    {
+      "french": "C’est quelque chose de terrifié.",
+      "chinese": "这是一件令人恐惧的事情。"
+    },
+    {
+      "french": "Voici le texte.",
+      "chinese": "正文如下。"
+    },
+    {
+      "french": "On parle du TGV.",
+      "chinese": "我们正在谈论TGV。"
+    },
+    {
+      "french": "On parle du thé.",
+      "chinese": "我们正在谈论茶。"
+    },
+    {
+      "french": "Voici le théâtre.",
+      "chinese": "这里是剧院。"
+    },
+    {
+      "french": "Voici la toilette.",
+      "chinese": "这里是厕所。"
+    },
+    {
+      "french": "La neige va tomber cette nuit.",
+      "chinese": "今晚会下雪。"
+    },
+    {
+      "french": "Je me lève tôt.",
+      "chinese": "我起得很早。"
+    },
+    {
+      "french": "Il arrive toujours à l’heure.",
+      "chinese": "他总是准时到达。"
+    },
+    {
+      "french": "Voici la tour.",
+      "chinese": "这里是塔。"
+    },
+    {
+      "french": "Voici le tourisme.",
+      "chinese": "这里是旅游业。"
+    },
+    {
+      "french": "Tout va bien.",
+      "chinese": "一切都很好。"
+    },
+    {
+      "french": "J’arrive tout de suite.",
+      "chinese": "我马上就到。"
+    },
+    {
+      "french": "Voici le train.",
+      "chinese": "这是火车。"
+    },
+    {
+      "french": "C’est quelque chose de tranquille.",
+      "chinese": "这是一件平静的事情。"
+    },
+    {
+      "french": "On parle du travail.",
+      "chinese": "我们谈论工作。"
+    },
+    {
+      "french": "Ils font des travaux dans la cuisine.",
+      "chinese": "他们正在厨房里干活。"
+    },
+    {
+      "french": "Elle travaille dans un café.",
+      "chinese": "她在一家咖啡馆工作。"
+    },
+    {
+      "french": "Je vais traverser la rue.",
+      "chinese": "我要过马路。"
+    },
+    {
+      "french": "Ce livre est très facile.",
+      "chinese": "这本书很简单。"
+    },
+    {
+      "french": "Voici le triomphe.",
+      "chinese": "这就是胜利。"
+    },
+    {
+      "french": "C’est quelque chose de troisième.",
+      "chinese": "这是第三种东西。"
+    },
+    {
+      "french": "Ce sac est trop lourd.",
+      "chinese": "这个包太重了。"
+    },
+    {
+      "french": "Je vais trouver une solution.",
+      "chinese": "我会找到解决办法的。"
+    },
+    {
+      "french": "Voici le type.",
+      "chinese": "这就是那个家伙。"
+    },
+    {
+      "french": "Je vais utiliser ce téléphone.",
+      "chinese": "我要使用这部电话。"
+    },
+    {
+      "french": "Voici les vacances.",
+      "chinese": "这是假期。"
+    },
+    {
+      "french": "Voici le vélo.",
+      "chinese": "这是自行车。"
+    },
+    {
+      "french": "Je connais bien Vendôme.",
+      "chinese": "我很了解旺多姆。"
+    },
+    {
+      "french": "Je vais vendre ma maison.",
+      "chinese": "我要卖掉我的房子。"
+    },
+    {
+      "french": "Nous dînons ensemble vendredi.",
+      "chinese": "星期五我们一起吃晚饭。"
+    },
+    {
+      "french": "Paul va venir avec nous.",
+      "chinese": "保罗会和我们一起去。"
+    },
+    {
+      "french": "Voici le verre.",
+      "chinese": "这是玻璃。"
+    },
+    {
+      "french": "Nous marchons vers la gare.",
+      "chinese": "我们朝车站走去。"
+    },
+    {
+      "french": "On parle du vert.",
+      "chinese": "我们正在谈论绿色。"
+    },
+    {
+      "french": "On parle du vêtement.",
+      "chinese": "我们正在谈论服装。"
+    },
+    {
+      "french": "On parle de la viande.",
+      "chinese": "我们正在谈论肉类。"
+    },
+    {
+      "french": "Voici la vie.",
+      "chinese": "这就是生活。"
+    },
+    {
+      "french": "Je connais bien Vienne.",
+      "chinese": "我很了解维也纳。"
+    },
+    {
+      "french": "C’est quelque chose de viennois.",
+      "chinese": "这是维也纳的东西。"
+    },
+    {
+      "french": "C’est quelque chose de vieux.",
+      "chinese": "这是旧事了。"
+    },
+    {
+      "french": "Cette ville est très grande.",
+      "chinese": "这个城市很大。"
+    },
+    {
+      "french": "On parle du vin.",
+      "chinese": "我们正在谈论葡萄酒。"
+    },
+    {
+      "french": "Je vais visiter le musée.",
+      "chinese": "我要去参观博物馆。"
+    },
+    {
+      "french": "Le train va très vite.",
+      "chinese": "火车开得很快。"
+    },
+    {
+      "french": "On parle de la vitesse.",
+      "chinese": "我们谈论的是速度。"
+    },
+    {
+      "french": "Elle a vivement réagi.",
+      "chinese": "她反应强烈。"
+    },
+    {
+      "french": "Ils vont vivre à Lyon.",
+      "chinese": "他们将住在里昂。"
+    },
+    {
+      "french": "Voici votre chambre.",
+      "chinese": "这是你的房间。"
+    },
+    {
+      "french": "On parle de la voie.",
+      "chinese": "我们谈论的是方式。"
+    },
+    {
+      "french": "Voilà le bus !",
+      "chinese": "公共汽车来了！"
+    },
+    {
+      "french": "Je vais voir mes amis.",
+      "chinese": "我要去见我的朋友们。"
+    },
+    {
+      "french": "Voici le voisin.",
+      "chinese": "这是邻居。"
+    },
+    {
+      "french": "Voici la voiture.",
+      "chinese": "这是车。"
+    },
+    {
+      "french": "On parle du volley-ball.",
+      "chinese": "我们正在谈论排球。"
+    },
+    {
+      "french": "Je veux voyager cet été.",
+      "chinese": "今年夏天我想去旅行。"
+    },
+    {
+      "french": "On parle du voyage.",
+      "chinese": "我们谈论旅行。"
+    },
+    {
+      "french": "Voici les agence de voyages.",
+      "chinese": "这里是旅行社。"
+    },
+    {
+      "french": "Nous allons voyager en France.",
+      "chinese": "我们要去法国旅行。"
+    },
+    {
+      "french": "C’est quelque chose de vrai.",
+      "chinese": "这是事实。"
+    },
+    {
+      "french": "C’est vraiment une bonne idée.",
+      "chinese": "这真是个好主意。"
+    },
+    {
+      "french": "Waouh, quelle belle vue !",
+      "chinese": "哇，好美的景色啊！"
+    },
+    {
+      "french": "Voici le week-end.",
+      "chinese": "现在是周末。"
+    },
+    {
+      "french": "Voici l’yaourt.",
+      "chinese": "这是酸奶。"
+    },
+    {
+      "french": "Elle est contente de son travail.",
+      "chinese": "她对自己的工作很满意。"
+    },
+    {
+      "french": "Mon professeur est jeune.",
+      "chinese": "我的老师很年轻。"
+    },
+    {
+      "french": "Bonjour, madame !",
+      "chinese": "女士，您好！"
+    },
+    {
+      "french": "À demain !",
+      "chinese": "明天见！"
+    }
+  ],
+  "source_content_version": "2026.09.09-a1.2"
+}

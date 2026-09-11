@@ -1,0 +1,12 @@
+* text=auto
+
+# Keep scripts portable across Windows and Unix-like build hosts.
+gradlew text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Binary project assets.
+*.db binary
+*.jar binary
+*.png binary
+*.wav binary
