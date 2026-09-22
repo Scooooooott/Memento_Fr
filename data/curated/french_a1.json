@@ -222,10 +222,10 @@
       ],
       "examples": [
         {
-          "french": "Voici l’acteur.",
-          "english": "Here it is.",
-          "spanish": "Aquí está.",
-          "chinese": "这是演员。"
+          "french": "L’acteur principal a reçu une ovation à la fin du film.",
+          "english": "The lead actor received an ovation at the end of the film.",
+          "spanish": "El actor principal recibió una ovación al final de la película.",
+          "chinese": "电影结束时，主演赢得了热烈掌声。"
         }
       ],
       "source_entries": [
@@ -7572,10 +7572,10 @@
       ],
       "examples": [
         {
-          "french": "Voici le changement.",
-          "english": "Here it is.",
-          "spanish": "Aquí está.",
-          "chinese": "这是变化。"
+          "french": "Le changement de programme a surpris tout le monde.",
+          "english": "The change of plan surprised everyone.",
+          "spanish": "El cambio de planes sorprendió a todo el mundo.",
+          "chinese": "计划的改变让所有人都感到意外。"
         }
       ],
       "source_entries": [
@@ -15855,10 +15855,10 @@
       ],
       "examples": [
         {
-          "french": "Voici l’expérience.",
-          "english": "Here it is.",
-          "spanish": "Aquí está.",
-          "chinese": "这是经验。"
+          "french": "Cette expérience m’a beaucoup appris.",
+          "english": "This experience taught me a lot.",
+          "spanish": "Esta experiencia me enseñó mucho.",
+          "chinese": "这次经历让我学到了很多。"
         }
       ],
       "source_entries": [
@@ -22771,9 +22771,9 @@
       "examples": [
         {
           "french": "On parle de la ligne.",
-          "english": "We are talking about it.",
-          "spanish": "Estamos hablando de ello.",
-          "chinese": "我们正在谈论线。"
+          "english": "I lost the connection; I’ll call him back.",
+          "spanish": "He perdido la conexión; volveré a llamarlo.",
+          "chinese": "电话断了，我再打给他。"
         }
       ],
       "source_entries": [
@@ -23799,7 +23799,7 @@
         {
           "english": "ill, unwell, sick",
           "spanish": "enfermo",
-          "chinese": "生病的"
+          "chinese": "生病的；患病的；不适的"
         }
       ],
       "references": [
@@ -26394,9 +26394,9 @@
       "ipa": "/na.tyʁ/",
       "senses": [
         {
-          "english": "nature",
-          "spanish": "naturaleza",
-          "chinese": "自然（界），大自然"
+          "english": "nature; character; natural disposition",
+          "spanish": "naturaleza; carácter; índole",
+          "chinese": "自然；本性；性格"
         }
       ],
       "references": [
@@ -31801,10 +31801,10 @@
       ],
       "examples": [
         {
-          "french": "On parle du prénom.",
-          "english": "We are talking about it.",
-          "spanish": "Estamos hablando de ello.",
-          "chinese": "我们正在谈论名字。"
+          "french": "César portait le prénom de Caïus.",
+          "english": "Caesar was named after Caius.",
+          "spanish": "César fue nombrado en honor a Caio.",
+          "chinese": "凯撒的名字是以凯乌斯命名的"
         }
       ],
       "source_entries": [
@@ -39021,10 +39021,10 @@
       ],
       "examples": [
         {
-          "french": "Voici le témoignage.",
-          "english": "Here it is.",
-          "spanish": "Aquí está.",
-          "chinese": "这是见证。"
+          "french": "Son témoignage a convaincu le tribunal.",
+          "english": "His testimony convinced the court.",
+          "spanish": "Su testimonio convenció al tribunal.",
+          "chinese": "他的证词说服了法庭。"
         }
       ],
       "source_entries": [
@@ -41577,10 +41577,10 @@
       ],
       "examples": [
         {
-          "french": "On parle de la vitesse.",
-          "english": "We are talking about it.",
-          "spanish": "Estamos hablando de ello.",
-          "chinese": "我们正在谈论速度。"
+          "french": "La vitesse du train augmente à la sortie de la gare.",
+          "english": "The train’s speed increases as it leaves the station.",
+          "spanish": "La velocidad del tren aumenta al salir de la estación.",
+          "chinese": "火车驶出车站时速度加快。"
         }
       ],
       "source_entries": [

@@ -28,6 +28,7 @@ TENSES = ("présent", "passé composé", "imparfait")
 AVOIR = ("ai", "as", "a", "avons", "avez", "ont")
 POS = {"noun", "verb", "adjective", "adverb", "interjection", "preposition",
        "conjunction", "pronoun", "determiner", "proper_noun", "expression", "numeral"}
+EXAMPLE_FIELDS = {"french", "english", "spanish", "chinese"}
 
 
 def require(condition: bool, message: str) -> None:
@@ -52,6 +53,17 @@ def text_value(value: object, context: str) -> None:
 
 def uid_lemma(lemma: str) -> str:
     return unicodedata.normalize("NFC", lemma).replace("’", "'").casefold()
+
+
+def examples_by_sense(word: dict, sense_count: int) -> list[list[dict]]:
+    """Map legacy positional examples and explicit sense_index examples."""
+    groups: list[list[dict]] = [[] for _ in range(sense_count)]
+    for position, example in enumerate(word.get("examples", [])):
+        sense_index = example.get("sense_index", position)
+        require(isinstance(sense_index, int) and 0 <= sense_index < sense_count,
+                f"Example sense_index is out of range: {word.get('uid')} / {sense_index}")
+        groups[sense_index].append(example)
+    return groups
 
 
 def load_source() -> tuple[dict, dict]:
@@ -92,8 +104,8 @@ def validate_source(source: dict, provenance: dict) -> None:
         require(ipa.startswith("/") and ipa.endswith("/") and len(ipa) > 2,
                 f"Missing broad IPA delimiters: {uid}")
         senses, examples = word.get("senses", []), word.get("examples", [])
-        require(1 <= len(senses) <= 2, f"Expected 1–2 core senses: {uid}")
-        require(len(examples) == len(senses), f"Each core sense needs its own example: {uid}")
+        require(len(senses) >= 1, f"Expected at least one core sense: {uid}")
+        seen_senses = set()
         for index, sense in enumerate(senses):
             require(isinstance(sense, dict) and set(sense) == {"english", "spanish", "chinese"},
                     f"Sense EN/ES/ZH object required: {uid}")
@@ -103,20 +115,29 @@ def validate_source(source: dict, provenance: dict) -> None:
                     f"Chinese sense lacks Han text: {uid}")
             require(sense["chinese"] not in (sense["english"], sense["spanish"]),
                     f"Chinese sense duplicates another language: {uid}")
+            identity = tuple(sense[key].casefold() for key in ("english", "spanish", "chinese"))
+            require(identity not in seen_senses, f"Duplicate core sense: {uid} / {index}")
+            seen_senses.add(identity)
         for index, example in enumerate(examples):
-            require(isinstance(example, dict) and set(example) == {"french", "english", "spanish", "chinese"},
+            require(isinstance(example, dict) and set(example) in (EXAMPLE_FIELDS, EXAMPLE_FIELDS | {"sense_index"}),
                     f"Example FR/EN/ES/ZH object required: {uid}")
-            for language, value in example.items():
+            for language in EXAMPLE_FIELDS:
+                value = example[language]
                 text_value(value, f"{uid} example {index} {language}")
             require(re.search(r"[\u3400-\u9fff]", example["chinese"]) is not None,
                     f"Chinese example lacks Han text: {uid}")
             require(example["chinese"] not in (example["french"], example["english"], example["spanish"]),
                     f"Chinese example duplicates another language: {uid}")
-            joined = " ".join(example.values()).casefold()
+            joined = " ".join(example[key] for key in EXAMPLE_FIELDS).casefold()
             require(not any(marker in joined for marker in (
                 "vocabulaire de cette leçon", "lesson's vocabulary", "vocabulario de esta lección",
                 "on utilise souvent cette expression", "this expression is often used",
             )), f"Meta example is not a usage example: {uid}")
+        example_groups = examples_by_sense(word, len(senses))
+        for sense_index, group in enumerate(example_groups):
+            french_examples = [example["french"].casefold() for example in group]
+            require(len(french_examples) == len(set(french_examples)),
+                    f"Duplicate example for sense: {uid} / {sense_index}")
         forms = word.get("forms", [])
         for form in forms:
             require(isinstance(form, list) and len(form) == 2, f"Form label/value required: {uid}")
@@ -197,10 +218,8 @@ def validate_database(db: sqlite3.Connection) -> dict[str, int]:
     require(counts["conjugation_form"] == counts["verb_info"] * 18, "Verb tense coverage is incomplete")
     require(not db.execute("SELECT lexeme_uid FROM conjugation_form GROUP BY lexeme_uid, tense HAVING count(*) != 6").fetchall(),
             "A conjugation tense lacks six distinct persons")
-    require(not db.execute("SELECT l.lexeme_uid FROM lexeme l LEFT JOIN sense s USING(lexeme_uid) GROUP BY l.lexeme_uid HAVING count(s.sense_id) NOT BETWEEN 1 AND 2").fetchall(),
+    require(not db.execute("SELECT l.lexeme_uid FROM lexeme l LEFT JOIN sense s USING(lexeme_uid) GROUP BY l.lexeme_uid HAVING count(s.sense_id) < 1").fetchall(),
             "Core sense coverage is invalid")
-    require(not db.execute("SELECT s.sense_id FROM sense s LEFT JOIN example e USING(sense_id) WHERE e.example_id IS NULL").fetchall(),
-            "A sense lacks an example")
     require(db.execute("SELECT count(*) FROM sense WHERE length(trim(chinese)) > 0").fetchone()[0] == counts["sense"],
             "Chinese sense coverage is incomplete")
     require(db.execute("SELECT count(*) FROM example WHERE length(trim(chinese)) > 0").fetchone()[0] == counts["example"],
@@ -248,19 +267,21 @@ def build(output: Path = DEFAULT_OUTPUT) -> dict[str, int]:
                     word.get("gender", ""), index, json.dumps(refs, ensure_ascii=False, sort_keys=True)
                 ))
                 db.execute("INSERT INTO pronunciation VALUES (?,?,?,?)", (uid, "fr-FR", word["ipa"], None))
-                for order, (sense, example) in enumerate(zip(word["senses"], word["examples"])):
+                example_groups = examples_by_sense(word, len(word["senses"]))
+                for order, sense in enumerate(word["senses"]):
                     sense_id = f"{uid}:sense:{order + 1}"
                     db.execute(
                         "INSERT INTO sense (sense_id,lexeme_uid,sort_order,english,spanish,chinese,is_core) "
                         "VALUES (?,?,?,?,?,?,?)",
                         (sense_id, uid, order, sense["english"], sense["spanish"], sense["chinese"], 1),
                     )
-                    db.execute(
-                        "INSERT INTO example (example_id,sense_id,sort_order,french,english,spanish,chinese) "
-                        "VALUES (?,?,?,?,?,?,?)",
-                        (f"{sense_id}:example:1", sense_id, 0, example["french"], example["english"],
-                         example["spanish"], example["chinese"]),
-                    )
+                    for example_order, example in enumerate(example_groups[order]):
+                        db.execute(
+                            "INSERT INTO example (example_id,sense_id,sort_order,french,english,spanish,chinese) "
+                            "VALUES (?,?,?,?,?,?,?)",
+                            (f"{sense_id}:example:{example_order + 1}", sense_id, example_order,
+                             example["french"], example["english"], example["spanish"], example["chinese"]),
+                        )
                 for order, (label, value) in enumerate(key_forms(word)):
                     db.execute("INSERT INTO word_form VALUES (?,?,?,?)", (uid, order, label, value))
                 db.execute("INSERT INTO book_lexeme VALUES (?,?,?)", ("essential-fr", uid, index))

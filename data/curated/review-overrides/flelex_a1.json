@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "content_version": "2026.09.14-flelex-a1.f4b.1",
+  "review_date": "2026-09-14",
+  "source_file": "data/curated/flelex_a1.json",
+  "batches": [
+    {
+      "batch_id": "0001-0050",
+      "review_date": "2026-09-14",
+      "meanings_file": "docs/content-review/meanings-0001-0050.jsonl",
+      "meanings_sha256": "445a6133dccab7c7ee9ccc5024a1f58f22c7e264e6ca57ba70cfea4b1ccdd785",
+      "examples_file": "docs/content-review/examples-0001-0050.jsonl",
+      "examples_sha256": "dd6c4edf78be01f6a0d65d37349814023ef92e3155b78dced227b5be904926b6",
+      "spot_check_file": "docs/content-review/spot-check-0001-0050.json",
+      "spot_check_sha256": "f96f2dc9cba3700fcfce964dd5bef1a154d5bab25b662a312fd2f1fc14f8bc39"
+    }
+  ]
+}

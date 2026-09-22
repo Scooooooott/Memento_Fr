@@ -1,9 +1,17 @@
 package com.scott.frenchvocab.domain
 
-data class Sense(val english: String, val spanish: String, val chinese: String = "")
 data class Example(val french: String, val english: String, val spanish: String, val chinese: String = "")
+data class Sense(
+    val english: String, val spanish: String, val chinese: String = "",
+    val examples: List<Example> = emptyList(),
+)
 data class WordForm(val label: String, val value: String)
 data class Conjugation(val tense: String, val pronoun: String, val form: String)
+data class LexemePreview(
+    val uid: String, val lemma: String, val partOfSpeech: String, val level: String,
+    val chinese: String = "", val english: String = "", val spanish: String = "",
+)
+data class BrowsePage(val items: List<LexemePreview>, val total: Int, val hasMore: Boolean)
 data class Lexeme(
     val uid: String, val lemma: String, val ipa: String, val partOfSpeech: String,
     val level: String, val gender: String = "", val verbGroup: String = "",
@@ -15,11 +23,13 @@ data class VocabularyBook(val id: String, val title: String, val description: St
 enum class Rating { AGAIN, HARD, GOOD, EASY }
 enum class AutoPlayMode { NEVER, NEW_ONLY, ALL }
 data class UserSettings(
-    val dailyNewLimit: Int = 10, val bookId: String = "essential-fr",
+    val dailyNewLimit: Int = 10, val bookId: String = DEFAULT_BOOK_ID,
     val autoPlay: AutoPlayMode = AutoPlayMode.NEW_ONLY, val ttsFallback: Boolean = true,
     val showIpa: Boolean = true, val showEnglish: Boolean = true, val showSpanish: Boolean = true,
     val showChinese: Boolean = true,
 )
+
+const val DEFAULT_BOOK_ID = "flelex-a1-high-1000"
 data class LearningCard(
     val lexemeUid: String, val stability: Double = 0.0, val difficulty: Double = 0.0,
     val dueAt: Long = 0L, val lastReviewAt: Long? = null, val repetitions: Int = 0,

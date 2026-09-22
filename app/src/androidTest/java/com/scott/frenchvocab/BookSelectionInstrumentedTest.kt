@@ -33,7 +33,10 @@ class BookSelectionInstrumentedTest {
         originalBook = content.books().first { it.id == "essential-fr" }
         otherBook = content.books().last { it.id != originalBook.id }
         StudyRepository(context, content).use { repo ->
-            repo.saveSettings(UserSettings(dailyNewLimit = 1, autoPlay = AutoPlayMode.NEVER, ttsFallback = false))
+            repo.saveSettings(UserSettings(
+                dailyNewLimit = 1, bookId = originalBook.id,
+                autoPlay = AutoPlayMode.NEVER, ttsFallback = false,
+            ))
             val session = repo.startSession().session!!
             val uid = session.current!!.lexemeUid
             repo.reveal(session.id, uid)

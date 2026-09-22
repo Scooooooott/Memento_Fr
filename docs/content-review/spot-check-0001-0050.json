@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "batch_id": "0001-0050",
+  "review_date": "2026-09-14",
+  "population_words": 50,
+  "sample_words": 10,
+  "sample_rate": 0.2,
+  "method": "Python random.Random(seed).sample(reviewed_uids, 10)",
+  "seed": "2026-09-14-f4b-0001-0050",
+  "criteria": [
+    "The sense set covers the common A1 uses appropriate to the UID and part of speech.",
+    "Every example expresses its assigned sense in a normal, concrete context.",
+    "French, English, Spanish and Chinese sentences have aligned meaning.",
+    "No generic discussion or vocabulary-lesson filler sentence is accepted."
+  ],
+  "sample": [
+    {"position": 1, "uid": "fr:le:determiner:1", "result": "fixed", "issue": "The Chinese gloss resembled a demonstrative and overstated direct equivalents.", "repair": "Changed it to 阳性单数定冠词（通常不单独译出）; the contextual example was already valid."},
+    {"position": 2, "uid": "fr:de:preposition:1", "result": "pass"},
+    {"position": 6, "uid": "fr:je:pronoun:1", "result": "pass"},
+    {"position": 10, "uid": "fr:ce:pronoun:1", "result": "pass"},
+    {"position": 13, "uid": "fr:elle:pronoun:1", "result": "pass"},
+    {"position": 17, "uid": "fr:on:pronoun:1", "result": "pass"},
+    {"position": 26, "uid": "fr:avec:preposition:1", "result": "pass"},
+    {"position": 35, "uid": "fr:pouvoir:verb:1", "result": "pass"},
+    {"position": 38, "uid": "fr:petit:adjective:1", "result": "pass"},
+    {"position": 44, "uid": "fr:bien:adverb:1", "result": "pass"}
+  ],
+  "initial_findings": 1,
+  "repairs_applied": 1,
+  "final_failed_words": 0,
+  "filler_examples_found": 0
+}

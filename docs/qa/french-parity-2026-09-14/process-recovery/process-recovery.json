@@ -1,0 +1,21 @@
+{
+  "result": "PASS",
+  "serial": "emulator-5558",
+  "pid_before": "4928",
+  "pid_after": "5129",
+  "active_session_id": 2,
+  "position": 0,
+  "answer_revealed": true,
+  "restart_landed_on_home": true,
+  "continue_restored_answer": true,
+  "tables_unchanged": [
+    "learning_card",
+    "review_log",
+    "study_session",
+    "study_session_item",
+    "settings",
+    "favorites"
+  ],
+  "before_sha256": "7c0ac3171f967af7fcd27be368ddcb202788604468c71fe184c131a8abd2d4f2",
+  "after_sha256": "7c0ac3171f967af7fcd27be368ddcb202788604468c71fe184c131a8abd2d4f2"
+}

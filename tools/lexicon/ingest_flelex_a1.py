@@ -24,6 +24,8 @@ from urllib.parse import quote, unquote
 from urllib.request import Request, urlopen
 import unicodedata
 
+from content_review import apply_review_registry
+
 ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_CSV = ROOT / "outputs/flelex-cefr-sorted/flelex_A1.csv"
 DEFAULT_RAW = ROOT / "data/raw/open_lexicon/flelex_a1_wiktionary.json"
@@ -31,6 +33,7 @@ DEFAULT_CFDICT = ROOT / "data/raw/open_lexicon/cfdict.u8"
 DEFAULT_DB = ROOT / "app/src/main/assets/french_content.db"
 DEFAULT_SOURCE = ROOT / "data/curated/flelex_a1.json"
 DEFAULT_CACHE = ROOT / "tmp/flelex-content/translation_cache.json"
+DEFAULT_REVIEW_REGISTRY = ROOT / "data/curated/review-overrides/flelex_a1.json"
 POS_MAP = {
     "NOUN": "noun", "VERB": "verb", "ADJ": "adjective", "ADV": "adverb",
     "PREP": "preposition", "PREPDET": "preposition", "PRON": "pronoun",
@@ -854,6 +857,12 @@ def make_word(row: dict, page: dict | None, api: dict, cfdict: dict[str, str], a
         gender = gender or old["gender"]
     ipa = ipa_from(block) or (old or {}).get("ipa", "")
     old_example = (old or {}).get("examples", [{}])[0]
+    old_senses = (old or {}).get("senses", [])
+    old_examples = (old or {}).get("examples", [])
+    # Preserve additional aligned meanings from the hand-reviewed source. The
+    # first meaning still follows the current FLELex refresh and override path.
+    additional_senses = [dict(value) for value in old_senses[1:]] if len(old_senses) == len(old_examples) else []
+    additional_examples = [dict(value) for value in old_examples[1:]] if additional_senses else []
     special_key = (marker_base(word).casefold(), pos)
     forced_example = special_key in POS_SPECIAL_EXAMPLES or marker_base(word).casefold() in SPECIAL_EXAMPLES or (pos == "preposition" and marker_base(word).casefold() in PREPOSITION_EXAMPLES)
     french_example = old_example.get("french", "") if not forced_example and is_good_example(old_example.get("french", "")) else ""
@@ -887,7 +896,8 @@ def make_word(row: dict, page: dict | None, api: dict, cfdict: dict[str, str], a
     return {"word": word, "pos": pos, "ipa": ipa, "gender": gender, "english": english,
             "spanish": spanish, "chinese": chinese, "french_example": french_example,
             "example_en": example_en, "example_es": example_es, "example_zh": example_zh,
-            "forms": forms, "verb": verb, "example_generated": example_generated, "row_numbers": row["row_numbers"]}
+            "forms": forms, "verb": verb, "example_generated": example_generated, "row_numbers": row["row_numbers"],
+            "additional_senses": additional_senses, "additional_examples": additional_examples}
 
 
 def finalize_word(item: dict, uid: str, level: str = "A1") -> dict:
@@ -898,9 +908,11 @@ def finalize_word(item: dict, uid: str, level: str = "A1") -> dict:
     example_en = values["example_en"] or ""
     example_es = values["example_es"] or ""
     example_zh = values["example_zh"] or ""
+    senses = [{"english": english, "spanish": spanish, "chinese": chinese}] + values.get("additional_senses", [])
+    examples = [{"french": values["french_example"], "english": example_en, "spanish": example_es, "chinese": example_zh}] + values.get("additional_examples", [])
     return {"uid": uid, "lemma": values["word"], "pos": values["pos"], "level": level, "ipa": values["ipa"],
-            "gender": values["gender"], "senses": [{"english": english, "spanish": spanish, "chinese": chinese}],
-            "examples": [{"french": values["french_example"], "english": example_en, "spanish": example_es, "chinese": example_zh}],
+            "gender": values["gender"], "senses": senses,
+            "examples": examples,
             "forms": values["forms"], "verb": values["verb"], "source_entries": [{"number": n, "page": 1, "display": values["word"]} for n in values["row_numbers"]]}
 
 
@@ -931,11 +943,19 @@ def insert_word(db: sqlite3.Connection, word: dict, uid: str, sort_order: int, r
     if db.execute("SELECT changes()").fetchone()[0] == 0:
         db.execute("INSERT INTO lexeme VALUES (?,?,?,?,?,?,?,?,?)", (uid, "fr-FR", word["lemma"], word["pos"], int(uid.rsplit(":", 1)[1]), level, word["gender"], sort_order, provenance))
     db.execute("INSERT INTO pronunciation VALUES (?,?,?,?)", (uid, "fr-FR", word["ipa"], None))
-    sense_id = f"{uid}:sense:1"
-    sense = word["senses"][0]
-    example = word["examples"][0]
-    db.execute("INSERT INTO sense VALUES (?,?,?,?,?,?,?)", (sense_id, uid, 0, sense["english"], sense["spanish"], sense["chinese"], 1))
-    db.execute("INSERT INTO example VALUES (?,?,?,?,?,?,?)", (f"{sense_id}:example:1", sense_id, 0, example["french"], example["english"], example["spanish"], example["chinese"]))
+    examples_by_sense: dict[int, list[dict]] = {}
+    for position, example in enumerate(word.get("examples", [])):
+        examples_by_sense.setdefault(example.get("sense_index", position), []).append(example)
+    for sense_order, sense in enumerate(word["senses"]):
+        sense_id = f"{uid}:sense:{sense_order + 1}"
+        db.execute("INSERT INTO sense VALUES (?,?,?,?,?,?,?)", (
+            sense_id, uid, sense_order, sense["english"], sense["spanish"], sense["chinese"], 1
+        ))
+        for example_order, example in enumerate(examples_by_sense.get(sense_order, [])):
+            db.execute("INSERT INTO example VALUES (?,?,?,?,?,?,?)", (
+                f"{sense_id}:example:{example_order + 1}", sense_id, example_order,
+                example["french"], example["english"], example["spanish"], example["chinese"]
+            ))
     for index, (label, value) in enumerate(key_forms(word)):
         db.execute("INSERT INTO word_form VALUES (?,?,?,?)", (uid, index, label, value))
     if word["pos"] == "verb":
@@ -975,6 +995,7 @@ def main() -> None:
     parser.add_argument("--kaikki", type=Path, default=ROOT / "data/raw/open_lexicon/kaikki_a1_snapshot.json")
     parser.add_argument("--db", type=Path, default=DEFAULT_DB)
     parser.add_argument("--source-output", type=Path, default=DEFAULT_SOURCE)
+    parser.add_argument("--review-registry", type=Path)
     parser.add_argument("--cache", type=Path, default=DEFAULT_CACHE)
     parser.add_argument("--book-id", default="flelex-a1")
     parser.add_argument("--book-title", default="FLELex_A1全部词汇")
@@ -984,6 +1005,9 @@ def main() -> None:
     parser.add_argument("--source-meta-key", default="flelex_a1_source_sha256")
     parser.add_argument("--allow-network", action="store_true")
     args = parser.parse_args()
+    review_registry = args.review_registry
+    if review_registry is None and args.level == "A1" and DEFAULT_REVIEW_REGISTRY.exists():
+        review_registry = DEFAULT_REVIEW_REGISTRY
 
     with args.csv.open(encoding="utf-8-sig", newline="") as stream:
         grouped: dict[tuple[str, str], dict] = {}
@@ -1060,11 +1084,19 @@ def main() -> None:
     prepared.sort(key=lambda pair: pair[0]["source_entries"][0]["number"])
     existing_uids = {match[0] for match in existing.values()}
     source_words = [word for word, _ in prepared]
-    source_doc = {"content_version": args.content_version, "language": "fr-FR",
+    review_report = None
+    if review_registry is not None:
+        source_words, review_report = apply_review_registry(
+            source_words, review_registry, require_original_hash=False
+        )
+        prepared = [(word, word["uid"]) for word in source_words]
+    source_doc = {"content_version": review_report["content_version"] if review_report else args.content_version, "language": "fr-FR",
                   "scope": f"FLELex {args.level} {len(grouped)} 个唯一词形/词性词条；来源文件 {len(sum((x['source_entries'] for x in source_words), []))} 行。",
-                  "review_date": "2026-09-11", "words": source_words}
+                  "review_date": review_report["review_date"] if review_report else "2026-09-11", "words": source_words}
     args.source_output.parent.mkdir(parents=True, exist_ok=True)
     args.source_output.write_text(json.dumps(source_doc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if review_report:
+        review_report["formal_source_sha256"] = sha256(args.source_output.read_bytes()).hexdigest()
 
     staging = args.db.with_suffix(args.db.suffix + ".flelex-building")
     shutil.copyfile(args.db, staging)
@@ -1099,12 +1131,22 @@ def main() -> None:
                     "editorial-examples": {"checked": "Context-appropriate examples generated by POS-specific templates when no suitable retained example was available; translations are aligned French/English/Spanish/Chinese sentences"},
                 },
             }
+            if review_report:
+                provenance["review_date"] = review_report["review_date"]
+                provenance["review_status"] = "F4b batch reviewed; remaining FLELex entries pending human editorial review"
+                provenance["sources"]["human-content-review"] = {
+                    "artifact": review_report["registry"],
+                    "sha256": review_report["registry_sha256"],
+                    "checked": f"{review_report['reviewed_words']} words, {review_report['reviewed_senses']} senses and {review_report['reviewed_examples']} aligned examples",
+                }
             meta = {
-                "content_version": args.content_version,
+                "content_version": source_doc["content_version"],
                 "scope": source_doc["scope"],
                 args.source_meta_key: sha256(args.csv.read_bytes()).hexdigest(),
                 "provenance_json": json.dumps(provenance, ensure_ascii=False),
             }
+            if review_report:
+                meta["flelex_a1_f4b_review"] = json.dumps(review_report, ensure_ascii=False, sort_keys=True)
             db.executemany("INSERT OR REPLACE INTO content_meta(key,value) VALUES (?,?)", meta.items())
             fk_errors = db.execute("PRAGMA foreign_key_check").fetchall()
             if fk_errors:
@@ -1115,8 +1157,6 @@ def main() -> None:
                 raise RuntimeError("FLELex book membership count mismatch")
             if db.execute("SELECT COUNT(*) FROM lexeme l LEFT JOIN pronunciation p USING(lexeme_uid) WHERE p.lexeme_uid IS NULL").fetchone()[0]:
                 raise RuntimeError("A lexeme lacks pronunciation")
-            if db.execute("SELECT COUNT(*) FROM sense s LEFT JOIN example e USING(sense_id) WHERE e.sense_id IS NULL").fetchone()[0]:
-                raise RuntimeError("A sense lacks example")
             db.commit()
             db.execute("VACUUM")
         db.close()

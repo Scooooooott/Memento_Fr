@@ -1,70 +1,193 @@
 # French Vocab · 法语离线背词
 
-原生 Android 法语学习版本，Kotlin + Jetpack Compose。中文操作界面，学习语言仅 `fr-FR`，支持中文、英语和西班牙语释义与例句译文。具体语言内容由词库提供；无需账户或网络。
+<p align="center">
+  面向中文学习者的原生 Android 法语词汇应用<br>
+  离线词库 · FSRS 间隔复习 · 中英西释义 · 多词书切换与进度
+</p>
 
-## 当前成品
+<p align="center">
+  <strong>当前版本：0.5.0</strong> · 最低 Android 8.0 · 无需账户 · 无需网络
+</p>
 
-- 894 个内容词条：覆盖教材词表 891 条来源记录，并保留 4 个既有精选词条；同形异义词拆分、重复出现的同一固定搭配合并。
-- 145 个动词的现在时、复合过去时、未完成过去时，共 2,610 条六人称变位。
-- 首页真实进度，固定随机学习队列，正面回忆→点击词卡外空白揭示→四档评分→总结。
-- SQLite 保存卡片、日志、队列、答案状态、设置与收藏，退出或进程重启可恢复。
-- 词书浏览、忽略重音的法语/中文/EN/ES 搜索、收藏、已收录词条详情与统计。
-- 每日新词自定，取消 100 上限，默认 10，0 表示只复习；跨轮累计计数。已学习的到期词不受当前词书限制。
-- 自动发音：从不、仅新词、全部；本地录音优先，可回退到设备已安装的离线法国法语 TTS。
+## 界面预览
 
-教材页 213–224 的词表已经进入正式内容源。全部 901 个义项均有中文释义，全部 901 条既有法语例句均有中文译文；中文释义来自教材词表并经过 OCR 对齐清洗，例句译文来自固定离线快照。新增内容由开放词典快照和离线生成器补全，并通过结构与覆盖校验；既有 40 词审校报告不等同于对全部新增词条和中文译文的专业人工审校。未附带真人录音。没有离线法语语音包的设备会收到明确提示，仍可正常学习。
+<p align="center">
+  <img src="docs/qa/book-picker/screenshots/01-home.png" alt="首页与学习进度" width="23%">
+  <img src="docs/qa/0.3.0/screenshots/03-answer.png" alt="学习卡片与答案" width="23%">
+  <img src="docs/qa/book-picker/screenshots/03-book-selection.png" alt="词书选择" width="23%">
+  <img src="docs/qa/book-picker/screenshots/02-settings.png" alt="学习设置" width="23%">
+</p>
 
-## 安装与使用
+<p align="center">
+  首页与进度 · 回忆与评分 · 词书选择 · 学习设置
+</p>
 
-最新交付包见 `releases/french-vocab-0.4.0-book-picker-debug.apk`，最低 Android 8.0（API 26）。这是 debug 签名 APK；允许来自相应文件管理器的安装后打开即可。同签名覆盖安装保留已有进度，无需卸载旧版。
+## 项目简介
 
-在设置中选择词书和每日新词数，保存后在首页开始。每张卡先回想，点击词卡外空白揭示答案，再选择忘记、模糊、记得或很熟。点击词卡、发音、收藏、导航或滑动不会揭示。学习中返回首页会暂停，重新进入继续原队列。配置在开始一轮时冻结，修改后从下一轮生效。把每日新词设为 0 可只做复习。
+French Vocab 是一款使用 Kotlin 与 Jetpack Compose 开发的离线 Android 法语背词应用。界面语言为中文，学习语言固定为法国法语（fr-FR），词库可同时提供中文、英语和西班牙语释义及例句译文。
 
-首页只展示当前词书的学习进度，并提示可在设置页切换。设置页点击「选择词书」进入二级页面，浏览全部词书及各自进度，选中后点击底部「保存词书」即可保存并返回；直接返回会取消未保存的选择。词书独立保存，每日新词数等其他设置的编辑内容会保留，仍需点击「保存设置」生效。
+应用围绕“先回忆、再揭示、后评分”的学习流程设计。复习计划由 FSRS-6 调度，卡片、学习日志、队列、设置、收藏和进度均保存在设备本地。应用本身不需要注册账户，清单中也未申请互联网权限。
 
-设置可独立开关中英西释义，至少保留一种；外部旧词库未收录的中文不会自动翻译或伪造。0.3.0 的正式内置词库已完整提供中文，同时兼容原双语词库；中文对接说明见 `docs/CONTENT_CONTRACT_ZH.md`。旧版未完成轮次保留原语言设置，新中文开关从下一轮生效。
+## 核心功能
 
-调度移植自官方 **ts-fsrs 5.4.2 / FSRS-6 LongTermScheduler**，目标记忆率 90%，关闭随机间隔和分钟级学习步骤。首次四评分对应 1、2、3、8 天；后续间隔由记忆状态计算。“忘记”不会插回当前轮，最早 24 小时后到期。算法来源与数值参考见 `app/src/main/java/com/scott/frenchvocab/domain/fsrs/README.md`，MIT 许可证也随 APK 分发。
+- **科学复习**：使用 FSRS-6 长期调度，根据每次评分计算下一次复习时间。
+- **多词书学习**：可浏览和切换 13 本词书；每本词书展示对应进度，同一词条跨词书共享学习记录。
+- **多语言释义**：中文、英语和西班牙语可分别开关，至少保留一种显示语言。
+- **完整学习流程**：正面回忆、点击卡片外空白揭示、四档评分、单轮总结。
+- **每日学习计划**：每日新词数量可自由设置；设为 0 时只复习到期词。
+- **本地持久化**：退出应用或系统结束进程后，未完成队列和已揭示状态仍可恢复。
+- **词库浏览**：支持法语、中文、英语和西班牙语搜索，并忽略法语重音差异。
+- **收藏与统计**：可收藏词条，查看当前词书进度和最近一轮学习结果。
+- **离线发音**：优先使用本地录音；无录音时可调用设备已安装的离线法国法语 TTS。
 
-## 项目内构建与验收
+## 当前词库
 
-本机工具副本、缓存、临时目录、Android 用户数据与模拟器均在 `.tools/`。下面脚本会设置目录隔离；使用 Android Studio 时应配置同样的 Gradle 用户目录，避免默认写到项目外。`local.properties` 指向项目内 SDK。Gradle 8.9、Android 插件 8.7.3、Kotlin 2.0.21；已有 JDK 21 只读复用，输出 Java 17 字节码。
+当前内置数据库包含：
+
+- 19,465 个唯一词条
+- 19,525 条义项与配套例句
+- 3,015 个动词
+- 54,270 条动词变位
+- 13 本可选词书
+
+动词表覆盖直陈式现在时、复合过去时和未完成过去时，每个时态包含六个人称。高频词书是对应完整 FLELex 词书的子集，因此各词书的词条数不能直接相加作为唯一词条总数。
+
+| 词书类型 | 覆盖范围 |
+| --- | --- |
+| 教材词书 | 《你好！法语 2》A2 词表，866 个词条 |
+| 专项词书 | A2 动词，242 个词条 |
+| FLELex 完整词书 | A1、A2、B1、B2、C1、C2 |
+| FLELex 高频词书 | A1 高频 1000、A2 高频 800、B1 高频 1199、B2 高频 2000、C1 高频 1500 |
+
+词性、IPA、词形、释义和例句来自教材整理、开放词典快照与离线生成流程。内容已经通过结构、覆盖和数据库完整性校验，但机器辅助生成部分仍有待专业人工逐条审校。
+
+## 下载与安装
+
+> **下载地址：** [Memento Fr 0.5.0 Release](https://github.com/Scooooooott/Memento_Fr/releases/tag/v0.5.0) · [直接下载 APK](https://github.com/Scooooooott/Memento_Fr/releases/download/v0.5.0/Memento-Fr-0.5.0-debug.apk)
+>
+> 本次提供使用现有开发签名构建的 Debug APK，校验值随 Release 提供。
+
+当前版本为 0.5.0，最低支持 Android 8.0（API 26）。下载 APK 后，允许对应文件管理器安装未知来源应用，再按系统提示完成安装。
+
+同一签名的新版 APK 可以直接覆盖安装并保留已有学习数据。签名不同的安装包无法直接覆盖；卸载应用会清除设备上的本地学习记录。
+
+## 使用方法
+
+1. 打开设置，选择需要学习的词书。
+2. 设置每日新词数、释义语言和自动发音方式。
+3. 保存设置后回到首页，开始新的学习轮次。
+4. 看到词条后先自行回忆，再点击词卡外的空白区域揭示答案。
+5. 根据实际回忆情况选择“忘记”“模糊”“记得”或“很熟”。
+6. 完成本轮后查看总结；到期卡片会在之后的学习轮次中再次出现。
+
+学习轮次开始后，其词书和显示设置会被冻结到本轮结束。中途返回首页只会暂停学习，再次进入时将继续原队列。已经学习过的到期词不会因为切换当前词书而丢失。
+
+## 调度策略
+
+调度器移植自 Open Spaced Repetition 的 **ts-fsrs 5.4.2**，采用 FSRS-6 LongTermScheduler：
+
+- 目标记忆率为 90%
+- 关闭随机间隔
+- 关闭分钟级学习与重学步骤
+- 新卡四档初始间隔分别为 1、2、3、8 天
+- “忘记”不会重新插入当前轮，最早在 24 小时后到期
+
+Kotlin 移植保留上游的默认参数、八位小数舍入、UTC 日历日计算和间隔边界行为，并使用上游生成的固定样例进行数值一致性测试。算法来源和实现策略见 [FSRS 移植说明](app/src/main/java/com/scott/frenchvocab/domain/fsrs/README.md)。
+
+## 数据与隐私
+
+- 应用不要求账户，也未申请 Android 互联网权限。
+- 用户设置、收藏、复习状态和日志保存在本地 SQLite 数据库中。
+- 内容数据库与用户数据库相互独立，升级词库不会主动清空学习历史。
+- Android 系统是否备份应用数据取决于设备和系统账户的备份设置。
+- 应用不附带真人录音；TTS 是否可用取决于设备是否安装离线 fr-FR 语音。
+
+## 技术栈
+
+| 类别 | 技术 |
+| --- | --- |
+| 应用语言 | Kotlin 2.0.21 |
+| 界面 | Jetpack Compose、Material 3 |
+| 本地存储 | Android SQLite |
+| 复习算法 | FSRS-6 LongTermScheduler |
+| 构建系统 | Gradle 8.9、Android Gradle Plugin 8.7.3 |
+| Android 版本 | minSdk 26、targetSdk 35、compileSdk 35 |
+| Java 字节码 | Java 17 |
+| 内容工具 | Python 3.10+、SQLite |
+
+## 本地构建
+
+准备以下环境：
+
+- JDK 17 或更高版本
+- Android SDK 35
+- 可用的 `local.properties`，其中配置本机 Android SDK 路径
+
+Windows：
 
 ```powershell
-# 在 L:\Words 执行
-.\tools\build.ps1
-
-# 生成/验证内容（Python 标准库，无网络）
-. .\tools\project-env.ps1
-python -B tools/lexicon/build_content.py
-python -B -m unittest discover -s tools/lexicon -p 'test_*.py' -v
-
-# 生成仅用于内容升级验收的测试资产
-python -B tools/prepare-test-content.py
-
-# 没有启动项目模拟器时执行一次
-.\tools\start-emulator.ps1
-.\tools\verify-device.ps1
-
-# 强制结束进程并核对恢复
-python -B tools/verify-process-recovery.py
+.\gradlew.bat assembleDebug testDebugUnitTest lintDebug
 ```
 
-模拟器为项目专用 `WordsApi35` / `emulator-5556`。设备验收会重置该 App 的测试数据，勿对真实使用设备运行测试脚本。Android 35 镜像已安装在项目内。停止模拟器：加载 `project-env.ps1` 后执行 `adb -s emulator-5556 emu kill`。
+macOS 或 Linux：
 
-## 结构与后续内容更新
+```bash
+./gradlew assembleDebug testDebugUnitTest lintDebug
+```
 
-| 位置 | 职责 |
+Debug APK 生成在 `app/build/outputs/apk/debug/`。项目维护环境也提供 `tools/build.ps1`，用于在项目内隔离 Gradle、Android 和临时目录；使用前需按本机环境配置 `tools/project-env.ps1`。
+
+词库生成与校验工具位于 `tools/lexicon/`。正式内容源、固定快照和来源信息分别保存在 `data/curated/` 与 `data/raw/`。
+
+## 项目结构
+
+| 位置 | 说明 |
 | --- | --- |
-| `domain/Models.kt` | UI、内容与学习仓储共同契约 |
-| `data/content/ContentRepository.kt` | 独立版本的只读内容数据库 |
-| `data/user/StudyRepository.kt` | 用户数据、事务、恢复、设置与统计 |
-| `domain/fsrs/`、`domain/audio/` | 调度与发音 |
-| `feature/` | Compose 页面、导航、状态与 IO |
-| `data/curated/`、`tools/lexicon/` | 词库源、出处、构建与强校验 |
-| `app/src/androidTest/` | 数据库、界面、音频与内容升级验收 |
-| `docs/qa/` | 审校、构建日志、设备日志、截图 |
+| `app/src/main/java/` | Android 应用源码 |
+| `app/src/main/assets/` | 正式内容数据库与第三方内容声明 |
+| `app/src/test/` | JVM 单元测试与 FSRS 数值样例 |
+| `app/src/androidTest/` | 数据库、界面、音频和升级验收测试 |
+| `data/curated/` | 整理后的正式词库源与出处信息 |
+| `data/raw/` | 离线构建使用的固定原始快照 |
+| `tools/lexicon/` | 词库抓取、整理、生成和校验脚本 |
+| `docs/` | 开发记录、内容契约和验收材料 |
+| `docs/qa/` | 验收报告与界面截图 |
 
-上表的 Kotlin 路径位于 `app/src/main/java/com/scott/frenchvocab/` 下。完整内容源是 `data/curated/french_a1.json`；刷新教材派生内容时先运行 `tools/lexicon/build_a1_source.py`，再运行 `build_content.py`。`french_dev.json` 保留原始 40 词审校种子。内容库按 SHA256 独立安装；学习历史保存在单独的 `french_user.db`，不会因词库更新被清空。
+主要 Kotlin 代码位于 `app/src/main/java/com/scott/frenchvocab/`：
 
-最新功能与验收见 `docs/CHANGELOG_0.3.0.md`，中文对接见 `docs/CONTENT_CONTRACT_ZH.md`。原开发目标与分工见 `docs/DEVELOPMENT_PLAN.md`；0.2.0 阶段验收见 `docs/ACCEPTANCE_REPORT.md`；教材词表覆盖见 `docs/qa/A1_CONTENT_COVERAGE.md`；40 词种子的语言审校见 `docs/qa/CONTENT_REVIEW.md`。
+- `data/content/`：只读内容数据库
+- `data/user/`：学习记录、队列、事务、设置和统计
+- `domain/fsrs/`：FSRS 调度器
+- `domain/audio/`：本地录音与 TTS 播放
+- `feature/`：Compose 页面、导航和界面状态
+
+## 内容来源与审校边界
+
+词库使用或参考了 Wiktionary、Kaikki.org、WiktApi、Apertium、CFDICT、FLELex 与 eSpeak NG 等资源。各条目的来源信息保存在内容数据库和 `data/curated/provenance*.json` 中，第三方内容说明见 [THIRD_PARTY_CONTENT.md](app/src/main/assets/THIRD_PARTY_CONTENT.md)。
+
+需要注意：
+
+- 开放词典提供的是词性、IPA、词形、简短释义和例句等词典事实。
+- 部分缺失释义、译文与例句由机器辅助流程补全。
+- 自动校验只能确认结构、覆盖、引用和数据库约束，不能替代专业语言审校。
+- 当前未收录真人录音，也不覆盖所有多义义项、时态、语气和地区发音变体。
+
+## 相关文档
+
+- [中文内容契约](docs/CONTENT_CONTRACT_ZH.md)
+- [A1 教材内容覆盖报告](docs/qa/A1_CONTENT_COVERAGE.md)
+- [40 词种子内容审校报告](docs/qa/CONTENT_REVIEW.md)
+- [词书选择功能验收](docs/qa/book-picker/ACCEPTANCE.md)
+- [0.3.0 开发记录](docs/CHANGELOG_0.3.0.md)
+- [早期开发目标与分工](docs/DEVELOPMENT_PLAN.md)
+
+## 当前限制
+
+- 仅提供 Android 客户端和中文操作界面。
+- 当前提供 Debug APK；尚未提供使用生产签名的 Release 构建。
+- 当前内容包含机器辅助生成部分，尚未完成专业人工逐条审校。
+- 发音依赖设备本地 TTS，未安装法语语音包时仍可学习，但无法自动朗读。
+
+## 许可证
+
+<!-- 待补充 -->

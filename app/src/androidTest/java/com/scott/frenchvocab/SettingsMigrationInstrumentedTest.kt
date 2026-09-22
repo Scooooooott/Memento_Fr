@@ -67,7 +67,7 @@ class SettingsMigrationInstrumentedTest {
         assertEquals(legacySettings(), migrated.latestCompletedSession!!.settings)
 
         // This also proves the old <=100 CHECK has really been removed from the persisted schema.
-        val nextSettings = UserSettings(dailyNewLimit = Int.MAX_VALUE, autoPlay = AutoPlayMode.NEVER,
+        val nextSettings = UserSettings(dailyNewLimit = Int.MAX_VALUE, bookId = "essential-fr", autoPlay = AutoPlayMode.NEVER,
             ttsFallback = false, showIpa = false, showEnglish = false, showSpanish = false, showChinese = true)
         assertEquals(nextSettings, repo.saveSettings(nextSettings).settings)
         repository!!.close()
@@ -97,7 +97,10 @@ class SettingsMigrationInstrumentedTest {
         val repo = openRepository()
         assertTrue(repo.snapshot(noon).settings.showChinese)
         for (limit in listOf(101, 150, Int.MAX_VALUE)) {
-            val desired = UserSettings(dailyNewLimit = limit, showChinese = true, showEnglish = false, showSpanish = false)
+            val desired = UserSettings(
+                dailyNewLimit = limit, bookId = "essential-fr",
+                showChinese = true, showEnglish = false, showSpanish = false,
+            )
             assertEquals(desired, repo.saveSettings(desired).settings)
         }
         repo.close()
@@ -155,7 +158,7 @@ class SettingsMigrationInstrumentedTest {
         }
     }
 
-    private fun legacySettings() = UserSettings(dailyNewLimit = 2, autoPlay = AutoPlayMode.NEW_ONLY,
+    private fun legacySettings() = UserSettings(dailyNewLimit = 2, bookId = "essential-fr", autoPlay = AutoPlayMode.NEW_ONLY,
         ttsFallback = true, showIpa = true, showEnglish = true, showSpanish = false, showChinese = false)
 
     private fun createVersionOneFixture(now: Long) {

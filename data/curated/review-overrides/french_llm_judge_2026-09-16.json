@@ -1,0 +1,4113 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-16",
+  "scope": "llm-as-judge-high-confidence-partial",
+  "source_reports": [
+    "judge_a1_a2.jsonl",
+    "judge_a1_a2_resume.jsonl",
+    "judge_b1_b2.jsonl",
+    "judge_b1_b2_resume.jsonl",
+    "judge_b1_b2_resume_semantic.jsonl",
+    "judge_b1_full.jsonl",
+    "judge_b2_full.jsonl",
+    "judge_c1_c2.jsonl",
+    "judge_c1_c2_resume.jsonl"
+  ],
+  "candidate_rows": 3524,
+  "applied_uids": 453,
+  "overrides": {
+    "fr:abonner:verb:1": {
+      "sense": {},
+      "example": {
+        "chinese": "他鼓励我准备考试，带我接触电影，给我订阅了《世界报》，还在我21岁时送我一辆二手雪铁龙。"
+      }
+    },
+    "fr:accepter:verb:1": {
+      "sense": {
+        "chinese": "接受；同意；承认"
+      },
+      "example": {}
+    },
+    "fr:accueil:noun:1": {
+      "sense": {
+        "chinese": "欢迎；接待；接待处"
+      },
+      "example": {}
+    },
+    "fr:accueillir:verb:1": {
+      "sense": {
+        "chinese": "欢迎；接待；收容"
+      },
+      "example": {}
+    },
+    "fr:achat:noun:1": {
+      "sense": {
+        "chinese": "购买；购置"
+      },
+      "example": {}
+    },
+    "fr:aide:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "J’ai besoin d’aide.",
+        "english": "I need help.",
+        "spanish": "Necesito ayuda.",
+        "chinese": "我需要帮助。"
+      }
+    },
+    "fr:aider:verb:1": {
+      "sense": {
+        "chinese": "帮助；援助；协助"
+      },
+      "example": {}
+    },
+    "fr:alimentation:noun:1": {
+      "sense": {
+        "chinese": "食物；营养；喂养"
+      },
+      "example": {}
+    },
+    "fr:apparaître:verb:1": {
+      "sense": {
+        "chinese": "出现；显现"
+      },
+      "example": {}
+    },
+    "fr:association:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "与苜蓿×雀麦组合相比，苜蓿×鸭茅组合每公顷产奶更多，但每头奶牛产奶更少。"
+      }
+    },
+    "fr:automne:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "处于人生的秋天，也就是晚年。"
+      }
+    },
+    "fr:autre:adjective:1": {
+      "sense": {},
+      "example": {
+        "english": "It’s something else."
+      }
+    },
+    "fr:bonheur:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "拥有令人难以置信的好运。"
+      }
+    },
+    "fr:bureau:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "Here is the desk.",
+        "chinese": "这就是书桌。"
+      }
+    },
+    "fr:chance:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "Here is the chance.",
+        "spanish": "Aquí está la oportunidad.",
+        "chinese": "这就是机会。"
+      }
+    },
+    "fr:capitale:noun:1": {
+      "sense": {
+        "chinese": "首都；资本；大写字母"
+      },
+      "example": {}
+    },
+    "fr:cas:noun:1": {
+      "sense": {
+        "chinese": "情况；案例；格（语法）"
+      },
+      "example": {}
+    },
+    "fr:carte:noun:1": {
+      "sense": {
+        "chinese": "地图；卡片；菜单"
+      },
+      "example": {}
+    },
+    "fr:citer:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "The bullfighter taunts the bull with the muleta.",
+        "chinese": "斗牛士用红布挑逗公牛。"
+      }
+    },
+    "fr:code:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "She is studying the code.",
+        "chinese": "她正在学习这套法规/代码。"
+      }
+    },
+    "fr:compter:verb:1": {
+      "sense": {
+        "chinese": "数；计算；指望；算入"
+      },
+      "example": {}
+    },
+    "fr:déménager:verb:1": {
+      "sense": {},
+      "example": {
+        "chinese": "波迪克（滨海阿摩尔省，22号省）。"
+      }
+    },
+    "fr:différence:noun:1": {
+      "sense": {
+        "chinese": "差异；区别；差额"
+      },
+      "example": {}
+    },
+    "fr:droite:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "Shut up before I punch you!",
+        "chinese": "闭嘴，不然我就揍你！"
+      }
+    },
+    "fr:drôle:noun:1": {
+      "sense": {
+        "chinese": "好笑的；奇怪的；古怪的"
+      },
+      "example": {}
+    },
+    "fr:ado:noun:1": {
+      "sense": {
+        "spanish": "adolescente; chico/a adolescente"
+      },
+      "example": {}
+    },
+    "fr:adolescence:noun:1": {
+      "sense": {
+        "chinese": "青春期；青少年时期"
+      },
+      "example": {}
+    },
+    "fr:agrandir:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Cette photo agrandit visuellement la pièce.",
+        "english": "This photo makes the room look bigger.",
+        "spanish": "Esta foto hace que la habitación parezca más grande.",
+        "chinese": "这张照片让房间看起来更大。"
+      }
+    },
+    "fr:allemande:noun:1": {
+      "sense": {
+        "english": "German woman; allemande (dance/dance music)",
+        "spanish": "alemana; alemanda (danza)",
+        "chinese": "德国女性；阿勒曼德舞/德国舞曲"
+      },
+      "example": {
+        "french": "Le groupe a appris une allemande pour le spectacle.",
+        "english": "The group learned an allemande for the show.",
+        "spanish": "El grupo aprendió una alemanda para el espectáculo.",
+        "chinese": "这个小组为演出学了一支阿勒曼德舞。"
+      }
+    },
+    "fr:appartenance:noun:1": {
+      "sense": {
+        "chinese": "归属；成员身份；隶属关系"
+      },
+      "example": {
+        "french": "Son appartenance à cette association lui permet de participer aux réunions.",
+        "english": "Her membership in this association allows her to attend the meetings.",
+        "spanish": "Su pertenencia a esta asociación le permite participar en las reuniones.",
+        "chinese": "她是该协会的成员，因此可以参加会议。"
+      }
+    },
+    "fr:attente:noun:1": {
+      "sense": {
+        "chinese": "等待；期待；预期"
+      },
+      "example": {}
+    },
+    "fr:attirer:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Son comportement lui a attiré de nombreuses critiques.",
+        "english": "His behavior attracted a lot of criticism.",
+        "spanish": "Su comportamiento le atrajo muchas críticas.",
+        "chinese": "他的行为招致了许多批评。"
+      }
+    },
+    "fr:augmenter:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Le prix des cigarettes a beaucoup augmenté.",
+        "english": "The price of cigarettes has gone up a lot.",
+        "spanish": "El precio de los cigarrillos ha subido mucho.",
+        "chinese": "香烟的价格涨了很多。"
+      }
+    },
+    "fr:britannique:adjective:1": {
+      "sense": {
+        "chinese": "英国的；英式的"
+      },
+      "example": {}
+    },
+    "fr:but:noun:1": {
+      "sense": {
+        "chinese": "目标；目的；（足球等的）进球；球门"
+      },
+      "example": {}
+    },
+    "fr:circuit:noun:1": {
+      "sense": {
+        "chinese": "电路；路线；环行线路；巡回路线"
+      },
+      "example": {}
+    },
+    "fr:comité:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "The Reds were in a panic. They had gathered as a small committee in the café owner's kitchen.",
+        "spanish": "Los Rojos estaban muy alterados. Se habían reunido en un comité reducido en la cocina del dueño del café.",
+        "chinese": "红军惊慌不已。他们聚在咖啡馆老板的厨房里召开小范围委员会会议。"
+      }
+    },
+    "fr:commune:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "La commune organise une fête sur la place centrale.",
+        "english": "The town is organizing a party in the main square.",
+        "spanish": "El municipio organiza una fiesta en la plaza central.",
+        "chinese": "市镇在中央广场举办庆祝活动。"
+      }
+    },
+    "fr:dépenser:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Après cela, tout notre argent était dépensé en toilettes et en fantaisies inutiles.",
+        "english": "After that, all our money was spent on clothes and useless frills.",
+        "spanish": "Después de eso, todo nuestro dinero se gastaba en ropa y adornos inútiles.",
+        "chinese": "那以后，我们所有的钱都花在衣服和无用的装饰上。"
+      }
+    },
+    "fr:diplôme:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "后来，那些凭文凭证明自己才智的人会严肃地谈论预谋，仿佛这与他的情况有任何关系。"
+      }
+    },
+    "fr:disparition:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "Exposure on a sunny south-facing slope causes the permafrost to disappear; it shrinks and becomes thinner.",
+        "spanish": "La exposición en una ladera soleada orientada al sur provoca la desaparición del permafrost, que se reduce y se adelgaza.",
+        "chinese": "向阳的南坡坡向会导致永久冻土消失；永久冻土会缩小并变薄。"
+      }
+    },
+    "fr:dommage:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "You didn't come. What a shame!",
+        "spanish": "No viniste. ¡Qué lástima!",
+        "chinese": "你没来。真遗憾！"
+      }
+    },
+    "fr:don:noun:1": {
+      "sense": {
+        "spanish": "regalo; donación; talento/dote",
+        "chinese": "礼物；赠品；捐赠；天赋；才干"
+      },
+      "example": {}
+    },
+    "fr:doubler:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Elle double le rôle principal dans la version française du film.",
+        "english": "She provides the voice for the lead role in the French version of the film.",
+        "spanish": "Ella dobla al personaje principal en la versión francesa de la película.",
+        "chinese": "她为这部电影的法语版主角配音。"
+      }
+    },
+    "fr:éducation:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "The rearing of silkworms varies according to the climate.",
+        "spanish": "La cría de gusanos de seda varía según el clima.",
+        "chinese": "养蚕因气候而异。"
+      }
+    },
+    "fr:empêcher:verb:1": {
+      "sense": {},
+      "example": {
+        "chinese": "每扇门前都有一捆稻草，用来防止冷空气从门缝下钻进来。"
+      }
+    },
+    "fr:entretien:noun:1": {
+      "sense": {
+        "chinese": "谈话；面谈/面试；维护；保养"
+      },
+      "example": {
+        "french": "L’entretien d’embauche aura lieu lundi matin.",
+        "english": "The job interview will take place on Monday morning.",
+        "spanish": "La entrevista de trabajo tendrá lugar el lunes por la mañana.",
+        "chinese": "工作面试将在周一上午进行。"
+      }
+    },
+    "fr:équivalent:adjective:1": {
+      "sense": {},
+      "example": {
+        "english": "Near 0, the function x ↦ eˣ − 1 is equivalent to x.",
+        "spanish": "Cerca de 0, la función x ↦ eˣ − 1 es equivalente a x.",
+        "chinese": "在0附近，函数 x ↦ eˣ − 1 与 x 等价。"
+      }
+    },
+    "fr:ferme:noun:1": {
+      "sense": {
+        "english": "farm; firm (business)",
+        "spanish": "granja; empresa; firma",
+        "chinese": "农场；农庄；公司/商号"
+      },
+      "example": {
+        "french": "La ferme familiale produit du lait et du fromage.",
+        "english": "The family farm produces milk and cheese.",
+        "spanish": "La granja familiar produce leche y queso.",
+        "chinese": "这家家庭农场生产牛奶和奶酪。"
+      }
+    },
+    "fr:file:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "À l’approche du péage, les voitures commencent à serrer les files.",
+        "english": "As they approach the toll plaza, the cars begin to bunch up in the lanes.",
+        "spanish": "Al acercarse al peaje, los coches empiezan a apiñarse en los carriles.",
+        "chinese": "接近收费站时，车辆开始在车道上挤成一团。"
+      }
+    },
+    "fr:inciter:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Pour inciter à un changement révolutionnaire, nous devons transformer la conscience humaine.",
+        "english": "To encourage revolutionary change, we must transform human consciousness.",
+        "spanish": "Para impulsar un cambio revolucionario, debemos transformar la conciencia humana.",
+        "chinese": "为了推动革命性的变革，我们必须改变人类意识。"
+      }
+    },
+    "fr:jamais:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Jamais Ménélas ne coucherait avec vous.",
+        "english": "Menelaus would never sleep with you.",
+        "spanish": "Menelao nunca se acostaría contigo.",
+        "chinese": "墨涅拉俄斯绝不会和你上床。"
+      }
+    },
+    "fr:lieue:noun:1": {
+      "sense": {
+        "chinese": "里格（旧长度单位，约4公里）；法里"
+      },
+      "example": {
+        "chinese": "真见鬼！海军上将一定是死灵法师，竟能知道三四十里格以外发生的事！"
+      }
+    },
+    "fr:luminosité:noun:1": {
+      "sense": {},
+      "example": {
+        "spanish": "Los parámetros digitales de revelado RAW (brillo, factor de contraste, saturación de los tonos, nitidez, realce, filtros, etc.) se probaron comparativamente antes de su selección definitiva.",
+        "chinese": "最终确定前，人们对数字 RAW 显影参数（亮度、对比度因子、色彩饱和度、锐度、增强、滤镜等）进行了对比测试。"
+      }
+    },
+    "fr:marathon:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "一段时间后，外科医生给我回了电话。他向我解释这场马拉松式手术的细节：从供体取出移植物，直到将其植入患者体内。"
+      }
+    },
+    "fr:messagerie:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Les jeunes aiment communiquer par messagerie instantanée."
+      }
+    },
+    "fr:objectif:adjective:1": {
+      "sense": {
+        "english": "objective; objective lens; goal",
+        "spanish": "objetivo",
+        "chinese": "客观的；物镜；目标"
+      },
+      "example": {
+        "french": "Nous devons rester objectifs malgré les critiques.",
+        "english": "We must remain objective despite the criticism.",
+        "spanish": "Debemos mantenernos objetivos a pesar de las críticas.",
+        "chinese": "尽管受到批评，我们仍必须保持客观。"
+      }
+    },
+    "fr:star:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "只有德隆被舞台调度赋予了情色意味，呈现得比那位以魅力著称的女明星更有吸引力。"
+      }
+    },
+    "fr:surfer:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Once in the water, nothing resembles a surfer more than another surfer.",
+        "spanish": "Una vez en el agua, nada se parece más a un surfista que otro surfista.",
+        "chinese": "一旦下水，没有什么比另一个冲浪者更像冲浪者。"
+      }
+    },
+    "fr:temple:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Les temples de cette ville attirent de nombreux visiteurs.",
+        "english": "The temples in this city attract many visitors.",
+        "spanish": "Los templos de esta ciudad atraen a muchos visitantes.",
+        "chinese": "这座城市的寺庙吸引了许多游客。"
+      }
+    },
+    "fr:tramway:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "And we have a good quarrel on the tram to warm up our voices.",
+        "spanish": "Y nos peleamos a gusto en el tranvía para calentar la voz.",
+        "chinese": "我们在电车上痛痛快快地吵了一架，正好把嗓子活动开。"
+      }
+    },
+    "fr:truc:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Il connaît un truc pour réparer rapidement son vélo.",
+        "english": "He knows a trick for repairing his bicycle quickly.",
+        "spanish": "Conoce un truco para reparar rápidamente su bicicleta.",
+        "chinese": "他知道一个能快速修好自行车的诀窍。"
+      }
+    },
+    "fr:univers:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "La grande Limagne ! N’est-elle pas l’une des plaines les plus fécondes de l’univers ?"
+      }
+    },
+    "fr:utilisation:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "The use of peas in the Fertile Crescent is attested by archaeological data dating back to 8000 BC.",
+        "spanish": "El uso de guisantes en el Creciente Fértil está atestiguado por datos arqueológicos que se remontan al 8000 a. C.",
+        "chinese": "考古数据证明，公元前8000年新月沃地已经有人食用豌豆。"
+      }
+    },
+    "fr:vague:adjective:1": {
+      "sense": {
+        "chinese": "模糊的；含糊的；不明确的"
+      },
+      "example": {}
+    },
+    "fr:vestimentaire:adjective:1": {
+      "sense": {
+        "chinese": "服饰的；衣着的"
+      },
+      "example": {}
+    },
+    "fr:volant:adjective:1": {
+      "sense": {},
+      "example": {
+        "english": "A movable partition.",
+        "spanish": "Un tabique móvil.",
+        "chinese": "可移动的隔断。"
+      }
+    },
+    "fr:mouvement:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "To have a bout of fever.",
+        "spanish": "Tener un acceso de fiebre.",
+        "chinese": "出现一阵发热。"
+      }
+    },
+    "fr:remettre:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Je vais remettre le livre à sa place.",
+        "english": "I’m going to put the book back in its place.",
+        "spanish": "Voy a devolver el libro a su sitio.",
+        "chinese": "我要把书放回原处。"
+      }
+    },
+    "fr:état:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le comptable doit dresser l’état des dépenses du mois.",
+        "english": "The accountant must draw up a statement of the month’s expenses.",
+        "spanish": "El contable debe elaborar el estado de los gastos del mes.",
+        "chinese": "会计必须编制本月的支出明细表。"
+      }
+    },
+    "fr:foule:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Une foule compacte attendait devant le stade.",
+        "english": "A dense crowd was waiting outside the stadium.",
+        "spanish": "Una multitud compacta esperaba delante del estadio.",
+        "chinese": "体育场外有一大群人正在等候。"
+      }
+    },
+    "fr:rapport:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "Go and report to your superior.",
+        "spanish": "Ve a informar a tu superior.",
+        "chinese": "去向上级汇报。"
+      }
+    },
+    "fr:réagir:verb:1": {
+      "sense": {},
+      "example": {
+        "chinese": "这个社会存在着。它想要生存。因此它会作出反应。"
+      }
+    },
+    "fr:redonner:verb:1": {
+      "sense": {
+        "spanish": "volver a dar; devolver",
+        "chinese": "再次给予；归还；重新给"
+      },
+      "example": {}
+    },
+    "fr:résolution:noun:1": {
+      "sense": {
+        "chinese": "决心；决议；解决；分辨率"
+      },
+      "example": {
+        "chinese": "你的决心可能会随着人类舆论躁动而反复无常；我的决心则扎根于几个世纪不变的磐石上。"
+      }
+    },
+    "fr:médaille:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "他有几枚奖章挂在自己的念珠上。"
+      }
+    },
+    "fr:plupart:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "La plupart des gens préfèrent voyager en été.",
+        "english": "Most people prefer to travel in summer.",
+        "spanish": "La mayoría de la gente prefiere viajar en verano.",
+        "chinese": "大多数人喜欢在夏天旅行。"
+      }
+    },
+    "fr:adresser:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Vous pouvez adresser votre demande au service compétent.",
+        "english": "You can send your request to the appropriate department.",
+        "spanish": "Puede dirigir su solicitud al departamento competente.",
+        "chinese": "您可以将申请提交给主管部门。"
+      }
+    },
+    "fr:importer:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Import an industry and a manufacturing method. — Adopt foreign words and customs.",
+        "spanish": "Importar una industria y un método de fabricación. — Adoptar palabras y costumbres extranjeras.",
+        "chinese": "引进一种工业和一种制造方法；采用外来词和外国习俗。"
+      }
+    },
+    "fr:pouvoir:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "当局声称自己已经摆脱了初期的傲慢。"
+      }
+    },
+    "fr:obtenir:verb:1": {
+      "sense": {},
+      "example": {
+        "chinese": "几名顽固的债权人取得了对我不利的判决，我在哈谢特的账户也被冻结了。"
+      }
+    },
+    "fr:d'ailleurs:adverb:1": {
+      "sense": {
+        "spanish": "además; por otra parte"
+      },
+      "example": {
+        "english": "Besides, she accepted her team's proposal.",
+        "spanish": "Además, aceptó la propuesta de su equipo.",
+        "chinese": "此外，她还接受了团队的提议。"
+      }
+    },
+    "fr:charger:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Beat a man repeatedly.",
+        "spanish": "Golpear a un hombre repetidamente.",
+        "chinese": "狠狠地殴打一名男子。"
+      }
+    },
+    "fr:professionnel:adjective:1": {
+      "sense": {},
+      "example": {
+        "english": "The priest, usually not very talkative, went into detail about his professional career.",
+        "chinese": "这位平时不太健谈的神父详细讲述了自己的职业经历。"
+      }
+    },
+    "fr:cesser:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "If only Teresa had remained silent too! She would not stop shouting.",
+        "spanish": "¡Ojalá Teresa también se hubiera quedado callada! No dejaba de gritar.",
+        "chinese": "但愿特蕾莎也保持沉默！她却不停地喊叫。"
+      }
+    },
+    "fr:estimer:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Regular rectal palpations were performed to estimate the development of the heifers’ reproductive organs.",
+        "spanish": "Se realizaron palpaciones rectales periódicas para estimar el desarrollo de los órganos reproductores de las novillas.",
+        "chinese": "人们定期进行直肠触诊，以评估小母牛生殖器官的发育情况。"
+      }
+    },
+    "fr:étrange:adjective:1": {
+      "sense": {},
+      "example": {
+        "chinese": "我觉得你做这件事很奇怪。——这是个非常奇怪的人。"
+      }
+    },
+    "fr:intérêt:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "To keep one's interests in mind.",
+        "spanish": "Tener en cuenta los propios intereses.",
+        "chinese": "考虑自己的利益。"
+      }
+    },
+    "fr:entourer:verb:1": {
+      "sense": {},
+      "example": {
+        "spanish": "Rodear a alguien de cuidados.",
+        "chinese": "给予某人无微不至的照顾。"
+      }
+    },
+    "fr:ligne:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "I lost the connection; I’ll call him back.",
+        "spanish": "He perdido la conexión; volveré a llamarlo.",
+        "chinese": "电话断了，我再打给他。"
+      }
+    },
+    "fr:mort:adjective:1": {
+      "sense": {},
+      "example": {
+        "english": "I’m dead tired.",
+        "spanish": "Estoy muerto de cansancio.",
+        "chinese": "我累得要命。"
+      }
+    },
+    "fr:acteur:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "L’acteur principal a reçu une ovation à la fin du film.",
+        "english": "The lead actor received an ovation at the end of the film.",
+        "spanish": "El actor principal recibió una ovación al final de la película.",
+        "chinese": "电影结束时，主演赢得了热烈掌声。"
+      }
+    },
+    "fr:souffrir:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "To suffer from the cold or the heat.",
+        "spanish": "Sufrir por el frío o por el calor.",
+        "chinese": "忍受寒冷或炎热。"
+      }
+    },
+    "fr:serrer:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Shake someone’s hand.",
+        "spanish": "Dar la mano a alguien.",
+        "chinese": "与某人握手。"
+      }
+    },
+    "fr:esprit:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "We must take the spirit of the law into account, rather than cling to its letter.",
+        "spanish": "Debemos tener en cuenta el espíritu de la ley y no atenernos a su letra.",
+        "chinese": "我们必须考虑法律的精神，而不是拘泥于字面。"
+      }
+    },
+    "fr:complètement:adverb:1": {
+      "sense": {},
+      "example": {
+        "french": "La collection est complètement épuisée.",
+        "english": "The collection is completely sold out.",
+        "spanish": "La colección está completamente agotada.",
+        "chinese": "这套藏品已经全部售罄。"
+      }
+    },
+    "fr:changement:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le changement de programme a surpris tout le monde.",
+        "english": "The change of plan surprised everyone.",
+        "spanish": "El cambio de planes sorprendió a todo el mundo.",
+        "chinese": "计划的改变让所有人都感到意外。"
+      }
+    },
+    "fr:lac:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le vent frais du sud-ouest rendit la mer agitée comme un grand lac.",
+        "english": "The fresh southwesterly wind made the sea choppy, like a great lake.",
+        "spanish": "El fresco viento del suroeste hizo que el mar estuviera agitado, como un gran lago.",
+        "chinese": "西南方向吹来的凉风使海面像大湖一样波涛起伏。"
+      }
+    },
+    "fr:apprécier:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Un expert sait apprécier la valeur de ces meubles.",
+        "english": "An expert knows how to assess the value of this furniture.",
+        "spanish": "Un experto sabe valorar el valor de estos muebles.",
+        "chinese": "专家懂得评估这些家具的价值。"
+      }
+    },
+    "fr:emporter:verb:1": {
+      "sense": {},
+      "example": {
+        "chinese": "任由复仇心支配自己。"
+      }
+    },
+    "fr:cent:determiner:1": {
+      "sense": {},
+      "example": {
+        "english": "He has been there a hundred times.",
+        "spanish": "Ha estado allí cien veces.",
+        "chinese": "他去过那里一百次。"
+      }
+    },
+    "fr:faible:adjective:1": {
+      "sense": {
+        "chinese": "弱的；虚弱的；微弱的；低的"
+      },
+      "example": {}
+    },
+    "fr:franc:noun:1": {
+      "sense": {
+        "chinese": "法郎；坦率的；免费的；免税的"
+      },
+      "example": {}
+    },
+    "fr:révéler:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "I did not receive those European ladies who thought only of chatting or sharing beauty secrets and hairdressers’ addresses.",
+        "spanish": "No recibía a esas damas europeas que solo pensaban en charlar o revelarse secretos de belleza y direcciones de peluquerías.",
+        "chinese": "我不接待那些只想着闲聊、互相透露美容秘诀和美发店地址的欧洲女士。"
+      }
+    },
+    "fr:lier:verb:1": {
+      "sense": {},
+      "example": {
+        "spanish": "La harina sirve para espesar las salsas.",
+        "chinese": "面粉可以用来使酱汁变稠。"
+      }
+    },
+    "fr:affirmer:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Stop asserting things, and I will stop denying them.",
+        "chinese": "你停止断言，我就停止否认。"
+      }
+    },
+    "fr:livrer:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Let the sails fill with wind.",
+        "spanish": "Dejar que las velas se llenen de viento.",
+        "chinese": "让帆迎风鼓起。"
+      }
+    },
+    "fr:épaule:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "A long kiss sealed their pact. Aïssa, languid with longing, had tilted her head onto her lover’s shoulder.",
+        "spanish": "Un largo beso selló su pacto. Aïssa, lánguida de deseo, había apoyado la cabeza en el hombro de su amante.",
+        "chinese": "一个长吻重新巩固了他们的约定。艾萨带着慵懒的情意，把头靠在情人的肩上。"
+      }
+    },
+    "fr:tiers:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "The principle of the excluded middle.",
+        "spanish": "El principio del tercero excluido.",
+        "chinese": "排中律。"
+      }
+    },
+    "fr:expérience:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Cette expérience m’a beaucoup appris.",
+        "english": "This experience taught me a lot.",
+        "spanish": "Esta experiencia me enseñó mucho.",
+        "chinese": "这次经历让我学到了很多。"
+      }
+    },
+    "fr:émouvoir:verb:1": {
+      "sense": {},
+      "example": {
+        "chinese": "令人遗憾的是，只有热情的人才能打动民众，因为热情的人几乎总是傻瓜。"
+      }
+    },
+    "fr:objectif:noun:1": {
+      "sense": {
+        "chinese": "目标；目的；物镜"
+      },
+      "example": {}
+    },
+    "fr:établir:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "To establish oneself successfully in a city or a community.",
+        "spanish": "Establecerse bien en una ciudad o en un entorno.",
+        "chinese": "在一座城市或一个环境中安顿下来。"
+      }
+    },
+    "fr:manteau:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "J’ai oublié mon manteau dans le vestiaire.",
+        "english": "I left my coat in the cloakroom.",
+        "spanish": "Me dejé el abrigo en el guardarropa.",
+        "chinese": "我把大衣忘在衣帽间了。"
+      }
+    },
+    "fr:signifier:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "To serve an order or a judgment.",
+        "spanish": "Notificar una orden o una sentencia.",
+        "chinese": "送达命令或判决。"
+      }
+    },
+    "fr:habitation:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Cette habitation est insalubre.",
+        "english": "This dwelling is unsanitary.",
+        "spanish": "Esta vivienda es insalubre.",
+        "chinese": "这所住宅不卫生，不宜居住。"
+      }
+    },
+    "fr:conflit:noun:1": {
+      "sense": {
+        "chinese": "冲突；矛盾；对抗"
+      },
+      "example": {}
+    },
+    "fr:importance:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "To adopt a self-important tone.",
+        "spanish": "Adoptar un tono de importancia.",
+        "chinese": "摆出自命不凡的口吻。"
+      }
+    },
+    "fr:augmentation:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Les salariés ont obtenu une augmentation de salaire.",
+        "english": "The employees received a pay raise.",
+        "spanish": "Los empleados recibieron un aumento de sueldo.",
+        "chinese": "员工获得了加薪。"
+      }
+    },
+    "fr:transmettre:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "To transfer a right.",
+        "spanish": "Transferir un derecho.",
+        "chinese": "转让一项权利。"
+      }
+    },
+    "fr:dizaine:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "584的十位数字是8。"
+      }
+    },
+    "fr:couler:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Pour or let milk and broth flow.",
+        "spanish": "Verter leche y caldo.",
+        "chinese": "倒出牛奶和肉汤。"
+      }
+    },
+    "fr:manger:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "He lost all appetite for food and drink.",
+        "spanish": "Perdió las ganas de comer y beber.",
+        "chinese": "他失去了饮食的欲望。"
+      }
+    },
+    "fr:atmosphère:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "风刮得很大，但空气并没有因此变凉，因为风是从南方吹来的。"
+      }
+    },
+    "fr:atteindre:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "The dog could not catch the hare.",
+        "spanish": "El perro no pudo alcanzar a la liebre.",
+        "chinese": "这只狗没能追上野兔。"
+      }
+    },
+    "fr:est-à-dire:adverb:1": {
+      "sense": {},
+      "example": {
+        "french": "Elle a accepté la proposition de son équipe, c’est-à-dire le nouveau plan.",
+        "english": "She accepted her team’s proposal, that is, the new plan.",
+        "spanish": "Aceptó la propuesta de su equipo, es decir, el nuevo plan.",
+        "chinese": "她接受了团队的提议，也就是那项新计划。"
+      }
+    },
+    "fr:front:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "From the occiput to the forehead, the head appears shaved.",
+        "spanish": "Desde el occipucio hasta la frente, la cabeza parece afeitada.",
+        "chinese": "从后脑勺到额头，头部似乎都剃光了。"
+      }
+    },
+    "fr:quant:preposition:1": {
+      "sense": {},
+      "example": {
+        "french": "Quant à la chaise, elle sera livrée demain.",
+        "english": "As for the chair, it will be delivered tomorrow.",
+        "spanish": "En cuanto a la silla, se entregará mañana.",
+        "chinese": "至于那把椅子，它明天送达。"
+      }
+    },
+    "fr:pâle:adjective:1": {
+      "sense": {},
+      "example": {
+        "english": "The pale glow of the lightning.",
+        "spanish": "El resplandor pálido de los relámpagos.",
+        "chinese": "闪电的苍白光芒。"
+      }
+    },
+    "fr:écriture:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "The whole piece of writing is rubbish.",
+        "spanish": "Todo el texto es una basura.",
+        "chinese": "这篇文章写得一塌糊涂。"
+      }
+    },
+    "fr:traiter:verb:1": {
+      "sense": {},
+      "example": {
+        "chinese": "无论选择哪种方法处理家具，之后都必须填补蛀虫留下的虫眼。"
+      }
+    },
+    "fr:curé:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le curé de la paroisse a célébré la messe dimanche.",
+        "english": "The parish priest celebrated Mass on Sunday.",
+        "spanish": "El párroco celebró la misa el domingo.",
+        "chinese": "教区牧师周日主持了弥撒。"
+      }
+    },
+    "fr:pensée:noun:1": {
+      "sense": {
+        "chinese": "思想；想法；思考；三色堇"
+      },
+      "example": {}
+    },
+    "fr:tandis:conjunction:1": {
+      "sense": {},
+      "example": {
+        "chinese": "连词 tandis 在这个句子中连接两个分句。"
+      }
+    },
+    "fr:pencher:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Men who have more important things to do than dwell on their intimate tremors.",
+        "spanish": "Hombres que tienen cosas más importantes que hacer que detenerse en sus temblores íntimos.",
+        "chinese": "有更重要的事要做、无暇顾及内心悸动的男人。"
+      }
+    },
+    "fr:expression:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "It is beyond description.",
+        "spanish": "Está más allá de toda expresión.",
+        "chinese": "这难以言表。"
+      }
+    },
+    "fr:ordonner:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Organize a party, a ceremony, or a banquet.",
+        "spanish": "Organizar una fiesta, una ceremonia o un banquete.",
+        "chinese": "筹办聚会、仪式或宴会。"
+      }
+    },
+    "fr:ennemi:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "Put the enemy to flight.",
+        "spanish": "Poner al enemigo en fuga.",
+        "chinese": "击退敌人，使其逃跑。"
+      }
+    },
+    "fr:consommateur:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "The consumer is a little impulsive creature.",
+        "spanish": "El consumidor es un pequeño ser impulsivo.",
+        "chinese": "消费者是个容易冲动的小生物。"
+      }
+    },
+    "fr:effectuer:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Regular rectal palpations were carried out to assess the development of the heifers’ reproductive organs.",
+        "spanish": "Se realizaron palpaciones rectales periódicas para evaluar el desarrollo de los órganos reproductores de las novillas.",
+        "chinese": "人们定期对小母牛进行直肠触诊，以评估其生殖器官的发育。"
+      }
+    },
+    "fr:furieux:adjective:1": {
+      "sense": {},
+      "example": {
+        "english": "He is a voracious eater and a terrible liar.",
+        "spanish": "Es un comedor voraz y un mentiroso empedernido.",
+        "chinese": "他是个贪吃的人，也是个十足的骗子。"
+      }
+    },
+    "fr:demeurer:verb:1": {
+      "sense": {},
+      "example": {
+        "chinese": "这座凯旋门并不是为了永久保存而建的。"
+      }
+    },
+    "fr:parfaitement:adverb:1": {
+      "sense": {},
+      "example": {
+        "chinese": "——这个提议适合您吗？——非常合适。"
+      }
+    },
+    "fr:bague:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "The bayonet is attached to the rifle barrel by means of a ring.",
+        "chinese": "刺刀通过一个套环固定在步枪枪管上。"
+      }
+    },
+    "fr:refaire:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Everything he has done needs to be redone.",
+        "spanish": "Hay que rehacer todo lo que ha hecho.",
+        "chinese": "他做的一切都必须重做。"
+      }
+    },
+    "fr:colocation:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "Many obstacles to shared housing still need to be removed.",
+        "spanish": "Todavía hay muchos obstáculos para la vivienda compartida que conviene eliminar.",
+        "chinese": "合租仍有许多需要消除的障碍。"
+      }
+    },
+    "fr:chasser:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "The torpor paralyzing his brain felt so pleasant that he did not try to drive it away.",
+        "spanish": "El sopor que paralizaba su cerebro le resultaba tan agradable que no intentó disiparlo.",
+        "chinese": "麻痹他大脑的昏沉感太令人舒适，以至于他没有试图驱散它。"
+      }
+    },
+    "fr:creuser:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "This old tree is beginning to become hollow.",
+        "spanish": "Este árbol viejo empieza a ahuecarse.",
+        "chinese": "这棵老树开始变得中空。"
+      }
+    },
+    "fr:chaleur:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "Soon he heard his servants return, arguing heatedly.",
+        "spanish": "Pronto oyó regresar a sus criados, que discutían acaloradamente.",
+        "chinese": "不久，他听见仆人们回来时正在激烈争吵。"
+      }
+    },
+    "fr:écraser:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Crush gooseberries and verjuice.",
+        "spanish": "Machacar grosellas y agraz.",
+        "chinese": "捣碎醋栗和未熟葡萄汁。"
+      }
+    },
+    "fr:risquer:verb:1": {
+      "sense": {},
+      "example": {
+        "chinese": "你知道，大家很可能都已经睡下了……"
+      }
+    },
+    "fr:fortement:adverb:1": {
+      "sense": {},
+      "example": {
+        "english": "It is firmly attached to the wall.",
+        "spanish": "Está firmemente sujeto a la pared.",
+        "chinese": "它牢牢地固定在墙上。"
+      }
+    },
+    "fr:troubler:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "This wine tends to become cloudy.",
+        "spanish": "Este vino tiende a enturbiarse.",
+        "chinese": "这种酒容易变浑浊。"
+      }
+    },
+    "fr:méfier:verb:1": {
+      "sense": {
+        "english": "distrust; be wary of",
+        "spanish": "desconfiar de; tener cuidado con",
+        "chinese": "提防；对……保持警惕"
+      },
+      "example": {
+        "french": "Le médecin doit se méfier des symptômes trompeurs.",
+        "english": "The doctor must beware of misleading symptoms.",
+        "spanish": "El médico debe desconfiar de los síntomas engañosos.",
+        "chinese": "医生必须提防误导性的症状。"
+      }
+    },
+    "fr:bataille:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "This is our first battle, but instinctively we are sketching all the gestures and thoughts we will have once we become warriors.",
+        "spanish": "Esta es nuestra primera batalla, pero esbozamos instintivamente todos los gestos y pensamientos que tendremos cuando seamos guerreros.",
+        "chinese": "这是我们的第一场战斗，但我们本能地勾勒着成为战士后会有的各种动作和思想。"
+      }
+    },
+    "fr:témoignage:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Son témoignage a convaincu le tribunal.",
+        "english": "His testimony convinced the court.",
+        "spanish": "Su testimonio convenció al tribunal.",
+        "chinese": "他的证词说服了法庭。"
+      }
+    },
+    "fr:maintenir:verb:1": {
+      "sense": {},
+      "example": {
+        "chinese": "他的单片眼镜似乎只是用来维持他的傲慢。"
+      }
+    },
+    "fr:domicile:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Nous restons à notre domicile pendant les vacances.",
+        "english": "We stay at home during the holidays.",
+        "spanish": "Nos quedamos en nuestro domicilio durante las vacaciones.",
+        "chinese": "假期里我们待在家中。"
+      }
+    },
+    "fr:courant:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le courant de la rivière est très fort.",
+        "english": "The river’s current is very strong.",
+        "spanish": "La corriente del río es muy fuerte.",
+        "chinese": "河水的水流很急。"
+      }
+    },
+    "fr:déplacement:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le déplacement jusqu’au village prend deux heures.",
+        "english": "The journey to the village takes two hours.",
+        "spanish": "El desplazamiento hasta el pueblo dura dos horas.",
+        "chinese": "前往村子的路程需要两小时。"
+      }
+    },
+    "fr:traduire:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "I was training my ear to interpret countless tiny sounds: the scurrying of mice and the creaking of wood.",
+        "spanish": "Adiestraba el oído para interpretar innumerables sonidos diminutos: las carreras de los ratones y el crujido de la madera.",
+        "chinese": "我训练自己的耳朵去辨认无数细小的声音：老鼠奔跑的声音和木头的吱嘎声。"
+      }
+    },
+    "fr:pousse:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "平菇是少数可以控制其生长的蘑菇之一。"
+      }
+    },
+    "fr:mal:adjective:1": {
+      "sense": {},
+      "example": {
+        "english": "It’s not so bad; it could be worse.",
+        "spanish": "No es tan grave; podría ser peor.",
+        "chinese": "没那么糟，还不算严重。"
+      }
+    },
+    "fr:somme:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le mulet est une bête de somme.",
+        "english": "The mule is a beast of burden.",
+        "spanish": "La mula es una bestia de carga.",
+        "chinese": "骡子是驮兽。"
+      }
+    },
+    "fr:centaine:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "百位列中有一个错误。"
+      }
+    },
+    "fr:créateur:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "一位造物主上帝的力量。"
+      }
+    },
+    "fr:majeur:adjective:1": {
+      "sense": {},
+      "example": {
+        "chinese": "三段论的大项。"
+      }
+    },
+    "fr:débarrasser:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "He kept his eyes on the suspect. He saw him set the table under the arbor, sit down, eat lunch, and then clear away his dishes.",
+        "spanish": "No apartaba los ojos del sospechoso. Lo vio preparar la mesa bajo la pérgola, sentarse, almorzar y luego retirar los cubiertos.",
+        "chinese": "他一直盯着嫌疑人。他看见对方在凉亭下摆好桌子，坐下吃午饭，然后收拾餐具。"
+      }
+    },
+    "fr:goutte:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "这是一滴水。"
+      }
+    },
+    "fr:formule:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "La formule chimique empirique du méthane est CH₄.",
+        "english": "The empirical chemical formula of methane is CH₄.",
+        "spanish": "La fórmula química empírica del metano es CH₄.",
+        "chinese": "甲烷的实验化学式是 CH₄。"
+      }
+    },
+    "fr:sacré:adjective:1": {
+      "sense": {},
+      "example": {
+        "english": "He’s a real rascal!",
+        "spanish": "¡Es un auténtico bribón!",
+        "chinese": "他真是个十足的无赖！"
+      }
+    },
+    "fr:envahir:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "The Bank, originally called Banco, is one of the oldest card games played in France before spreading across Europe.",
+        "chinese": "‘银行’牌戏原名 Banco，是法国最古老的纸牌游戏之一，后来传遍了欧洲。"
+      }
+    },
+    "fr:mine:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "Do we really have to make such faces and fuss?",
+        "spanish": "¿Tenemos que hacer tantos gestos y remilgos?",
+        "chinese": "有必要这样做鬼脸、摆姿态吗？"
+      }
+    },
+    "fr:accrocher:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "He wore a belt with loose ends and took care not to catch it on the brambles.",
+        "spanish": "Llevaba un cinturón con los extremos sueltos y procuraba que no se enganchara en las zarzas.",
+        "chinese": "他系着一条垂着带头的腰带，小心不让它挂在荆棘上。"
+      }
+    },
+    "fr:attribuer:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "At first glance, one would attribute this masterpiece to Flamboyant Gothic, but its scrolls and ornaments soon reveal the rich imagination of the Renaissance.",
+        "spanish": "A primera vista, se atribuiría esta obra maestra al gótico flamígero, pero sus volutas y ornamentos pronto revelan la rica imaginación del Renacimiento.",
+        "chinese": "乍看之下，人们会把这件杰作归于火焰式哥特风格，但其中的涡卷和装饰很快显露出文艺复兴的丰富想象力。"
+      }
+    },
+    "fr:électronique:adjective:1": {
+      "sense": {},
+      "example": {
+        "english": "Advocates of electronics predict that textbooks will disappear in favor of multimedia.",
+        "spanish": "Los defensores de la electrónica predicen que los libros de texto desaparecerán en favor de los medios multimedia.",
+        "chinese": "电子技术的鼓吹者预言，教科书将被多媒体取代。"
+      }
+    },
+    "fr:correspondre:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "We stopped corresponding.",
+        "spanish": "Dejamos de escribirnos.",
+        "chinese": "我们停止通信了。"
+      }
+    },
+    "fr:lent:adjective:1": {
+      "sense": {},
+      "example": {
+        "english": "A slow walk, a slow speech. — To proceed at a slow pace.",
+        "spanish": "Un paso lento, un habla lenta. — Avanzar a paso lento.",
+        "chinese": "缓慢的步伐，缓慢的讲话。——慢慢前行。"
+      }
+    },
+    "fr:dossier:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "Sitting in a small armchair with a low back, Dad was working.",
+        "spanish": "Sentado en un pequeño sillón de respaldo bajo, papá trabajaba.",
+        "chinese": "爸爸坐在一把靠背较低的小扶手椅上工作。"
+      }
+    },
+    "fr:encourager:verb:1": {
+      "sense": {},
+      "example": {
+        "chinese": "鼓励种植亚麻和烟草；鼓励科学与艺术。"
+      }
+    },
+    "fr:résister:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "You work too hard; your health won’t withstand it.",
+        "spanish": "Trabajas demasiado; tu salud no podrá soportarlo.",
+        "chinese": "你工作太辛苦了，身体会吃不消的。"
+      }
+    },
+    "fr:propriété:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "To speak and express oneself accurately.",
+        "spanish": "Hablar y expresarse con propiedad.",
+        "chinese": "说话和表达都准确得体。"
+      }
+    },
+    "fr:propos:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "To have a firm resolve to reform.",
+        "spanish": "Tener la firme intención de enmendarse.",
+        "chinese": "下定决心改过自新。"
+      }
+    },
+    "fr:gêner:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Hinder trade and industry.",
+        "spanish": "Obstaculizar el comercio y la industria.",
+        "chinese": "妨碍商业和工业。"
+      }
+    },
+    "fr:interrompre:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "A dam and a cofferdam were built to interrupt the river’s flow.",
+        "spanish": "Se construyeron un dique y una ataguía para interrumpir el curso del río.",
+        "chinese": "人们修筑堤坝和围堰，以截断河流。"
+      }
+    },
+    "fr:patte:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "Eat a lobster claw.",
+        "spanish": "Comer una pinza de langosta.",
+        "chinese": "吃龙虾钳。"
+      }
+    },
+    "fr:enterrer:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "To celebrate a bachelor party.",
+        "spanish": "Celebrar una despedida de soltero.",
+        "chinese": "举办告别单身派对。"
+      }
+    },
+    "fr:enrichir:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Adorn a watch, a frame, and so on with precious stones.",
+        "spanish": "Adornar un reloj, un marco, etc., con piedras preciosas.",
+        "chinese": "用宝石装饰手表、画框等。"
+      }
+    },
+    "fr:multiplier:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Despite its abundant flowering, it rarely produces seeds, so it must be propagated by cuttings and layering.",
+        "spanish": "A pesar de su abundante floración, rara vez produce semillas, por lo que hay que multiplicarla mediante esquejes y acodos.",
+        "chinese": "尽管花开繁茂，它很少结籽，因此只能通过扦插和压条繁殖。"
+      }
+    },
+    "fr:pareil:adjective:1": {
+      "sense": {},
+      "example": {
+        "english": "He treats his equals badly.",
+        "spanish": "Trata mal a sus semejantes.",
+        "chinese": "他待同类很不好。"
+      }
+    },
+    "fr:consister:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "What do you consider wisdom to consist in?",
+        "spanish": "¿En qué considera usted que consiste la sabiduría?",
+        "chinese": "您认为智慧由什么构成？"
+      }
+    },
+    "fr:naturellement:adverb:1": {
+      "sense": {},
+      "example": {
+        "english": "He imitates people very naturally.",
+        "spanish": "Imita a la gente con mucha naturalidad.",
+        "chinese": "他模仿别人非常自然。"
+      }
+    },
+    "fr:figurer:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "You will not have a say; you will only be there for show.",
+        "spanish": "No tendrás nada que decir; solo estarás allí de adorno.",
+        "chinese": "你没有发言权，只是到场充数。"
+      }
+    },
+    "fr:langage:noun:1": {
+      "sense": {},
+      "example": {
+        "spanish": "Brainfuck es mi lenguaje favorito.",
+        "chinese": "Brainfuck 是我最喜欢的编程语言。"
+      }
+    },
+    "fr:vitesse:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "La vitesse du train augmente à la sortie de la gare.",
+        "english": "The train’s speed increases as it leaves the station.",
+        "spanish": "La velocidad del tren aumenta al salir de la estación.",
+        "chinese": "火车驶出车站时速度加快。"
+      }
+    },
+    "fr:parcourir:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "A shiver ran through his body.",
+        "spanish": "Un escalofrío recorrió su cuerpo.",
+        "chinese": "一阵战栗传遍了他的身体。"
+      }
+    },
+    "fr:jugement:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "He lacks judgment.",
+        "spanish": "Carece de criterio.",
+        "chinese": "他缺乏判断力。"
+      }
+    },
+    "fr:peser:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Email attachments must not exceed 8 megabytes in size.",
+        "spanish": "Los archivos adjuntos no deben superar los 8 megabytes.",
+        "chinese": "邮件附件大小不得超过8兆字节。"
+      }
+    },
+    "fr:siffler:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "If you make that proposal, people will boo you.",
+        "spanish": "Si haces esa propuesta, te abuchearán.",
+        "chinese": "如果你提出这个提议，人们会嘘你。"
+      }
+    },
+    "fr:durant:preposition:1": {
+      "sense": {},
+      "example": {
+        "french": "Il a travaillé durant toute la nuit.",
+        "english": "He worked throughout the night.",
+        "spanish": "Trabajó durante toda la noche.",
+        "chinese": "他工作了一整夜。"
+      }
+    },
+    "fr:enjeu:noun:1": {
+      "sense": {},
+      "example": {
+        "spanish": "Cada jugador puso su apuesta sobre la mesa."
+      }
+    },
+    "fr:rideau:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "为了掩护撤退，他在敌人面前留下一支部队作为屏障。"
+      }
+    },
+    "fr:people:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "We know David Beckham’s escapades, whose love life was long splashed across the celebrity press.",
+        "spanish": "Conocemos las extravagancias de David Beckham, cuya vida amorosa apareció durante mucho tiempo en la prensa del corazón.",
+        "chinese": "我们知道大卫·贝克汉姆的荒唐轶事，他的爱情生活长期登上名人八卦媒体。"
+      }
+    },
+    "fr:ceinture:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "他们从头到腰部都是裸体的，连王子们也一样。"
+      }
+    },
+    "fr:par-dessus:adverb:1": {
+      "sense": {},
+      "example": {
+        "english": "Put the haddock fillets in a deep dish, pour the milk over them, and leave them to soak for 30 minutes.",
+        "spanish": "Ponga los filetes de eglefino en una fuente honda, vierta la leche por encima y déjelos en remojo durante 30 minutos.",
+        "chinese": "把黑线鳕鱼片放入深盘，倒上牛奶，浸泡30分钟。"
+      }
+    },
+    "fr:traîner:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Drag a man to prison.",
+        "spanish": "Arrastrar a un hombre a la cárcel.",
+        "chinese": "把一个人拖进监狱。"
+      }
+    },
+    "fr:codes:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Je cherche des informations sur les codes.",
+        "english": "I’m looking for information about the codes.",
+        "spanish": "Busco información sobre los códigos.",
+        "chinese": "我正在查找有关这些代码的信息。"
+      }
+    },
+    "fr:rayon:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "车轮的辐条。"
+      }
+    },
+    "fr:deviner:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "The art of guessing is a chimera.",
+        "spanish": "El arte de adivinar es una quimera.",
+        "chinese": "猜测的艺术只是一种幻想。"
+      }
+    },
+    "fr:veille:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "It’s your turn to stand watch.",
+        "spanish": "Te toca hacer guardia.",
+        "chinese": "轮到你值班了。"
+      }
+    },
+    "fr:améliorer:verb:1": {
+      "sense": {},
+      "example": {
+        "chinese": "不管怎样，我看不出自己如何能在一个智性恋者眼中提升声誉。"
+      }
+    },
+    "fr:savoir - faire:noun:1": {
+      "sense": {
+        "chinese": "技能；专门本领；诀窍"
+      },
+      "example": {
+        "chinese": "他没有真正的天赋，只有专门本领。"
+      }
+    },
+    "fr:cracher:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Spit blood.",
+        "spanish": "Escupir sangre.",
+        "chinese": "吐血。"
+      }
+    },
+    "fr:profondément:adverb:1": {
+      "sense": {},
+      "example": {
+        "english": "This intriguing and deeply cunning man…",
+        "spanish": "Este hombre intrigante y profundamente astuto…",
+        "chinese": "这个耐人寻味而且极其狡猾的人……"
+      }
+    },
+    "fr:miracle:noun:1": {
+      "sense": {},
+      "example": {
+        "chinese": "这个奇迹在17世纪当地神职人员中不为人知，无疑是某些圣徒传记学家的想象产物。"
+      }
+    },
+    "fr:vache:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "It’s a case of tough love.",
+        "spanish": "Es una forma de amor duro.",
+        "chinese": "这是一种带着刻薄意味的严厉之爱。"
+      }
+    },
+    "fr:habit:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "It was dangerous not to wear patriotic badges on the lapel of one’s coat.",
+        "spanish": "Era peligroso no llevar insignias patrióticas en la solapa del abrigo.",
+        "chinese": "不在外套翻领上佩戴爱国徽章是很危险的。"
+      }
+    },
+    "fr:condamner:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Although Durandus pleaded ignorance, he was not released until he had been fined.",
+        "spanish": "Aunque Durandus alegó ignorancia, no fue liberado hasta que le impusieron una multa.",
+        "chinese": "杜朗迪斯虽以不知情为由辩解，仍在被罚款后才获释。"
+      }
+    },
+    "fr:col:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "The neck of a bottle or a flask.",
+        "spanish": "El cuello de una botella o de un matraz.",
+        "chinese": "瓶子或烧瓶的瓶颈。"
+      }
+    },
+    "fr:ménagère:noun:1": {
+      "sense": {
+        "english": "tableware set; housewife/home-maker",
+        "spanish": "juego de cubiertos; ama de casa",
+        "chinese": "餐具套装；家庭主妇"
+      },
+      "example": {
+        "english": "A silver or stainless-steel tableware set.",
+        "spanish": "Un juego de cubiertos de plata o de acero inoxidable.",
+        "chinese": "银制或不锈钢餐具套装。"
+      }
+    },
+    "fr:sous le nom de:preposition:1": {
+      "sense": {},
+      "example": {
+        "french": "La réservation est sous le nom de Martin.",
+        "english": "The reservation is under Martin’s name.",
+        "spanish": "La reserva está a nombre de Martin.",
+        "chinese": "预订登记在马丁名下。"
+      }
+    },
+    "fr:gai:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Les enfants sont gais après la fête.",
+        "english": "The children are cheerful after the party.",
+        "spanish": "Los niños están alegres después de la fiesta.",
+        "chinese": "孩子们在聚会后都很开心。"
+      }
+    },
+    "fr:constamment:adverb:1": {
+      "sense": {},
+      "example": {
+        "french": "Il pense constamment à sa famille.",
+        "english": "He constantly thinks about his family.",
+        "spanish": "Piensa constantemente en su familia.",
+        "chinese": "他一直想着自己的家人。"
+      }
+    },
+    "fr:refermer:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Close a wound again.",
+        "spanish": "Volver a cerrar una herida.",
+        "chinese": "使伤口重新闭合。"
+      }
+    },
+    "fr:personnel:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le personnel de l’hôtel est très serviable.",
+        "english": "The hotel staff are very helpful.",
+        "spanish": "El personal del hotel es muy servicial.",
+        "chinese": "这家酒店的员工非常热心。"
+      }
+    },
+    "fr:équiper:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Can we equip ourselves in this way?",
+        "spanish": "¿Podemos equiparnos de esta manera?",
+        "chinese": "我们可以这样装备自己吗？"
+      }
+    },
+    "fr:envers:preposition:1": {
+      "sense": {},
+      "example": {
+        "french": "Il est toujours courtois envers ses collègues.",
+        "english": "He is always courteous toward his colleagues.",
+        "spanish": "Siempre es cortés con sus colegas.",
+        "chinese": "他对同事总是很有礼貌。"
+      }
+    },
+    "fr:tarder:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "“I won’t be long,” said Romain as he prepared to leave.",
+        "spanish": "«No tardaré», dijo Romain mientras se disponía a marcharse.",
+        "chinese": "“我马上就走。”罗曼准备离开时说道。"
+      }
+    },
+    "fr:déchirer:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Ruin an honest man’s reputation.",
+        "spanish": "Destruir la reputación de un hombre honrado.",
+        "chinese": "毁掉一个诚实人的名声。"
+      }
+    },
+    "fr:intention:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "The most respected Slavists immediately sensed the Magyar translator’s secret intentions.",
+        "spanish": "Los eslavistas más autorizados detectaron de inmediato las intenciones secretas del traductor magiar.",
+        "chinese": "最权威的斯拉夫学者立即察觉了匈牙利译者的秘密意图。"
+      }
+    },
+    "fr:commissaire:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "The commissioner went to the scene.",
+        "spanish": "El comisario se trasladó al lugar de los hechos.",
+        "chinese": "专员亲自赶到了现场。"
+      }
+    },
+    "fr:catholique:adjective:1": {
+      "sense": {},
+      "example": {
+        "english": "That’s not quite proper.",
+        "spanish": "Eso no es del todo correcto.",
+        "chinese": "这事不太正当。"
+      }
+    },
+    "fr:agent:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "The agent and the patient.",
+        "spanish": "El agente y el paciente.",
+        "chinese": "施事者和受事者。"
+      }
+    },
+    "fr:toutefois:adverb:1": {
+      "sense": {},
+      "example": {
+        "english": "Frogs are said to be delicious, especially their legs, but I have never tasted them; this amphibian has never tempted me as food.",
+        "spanish": "Se dice que las ranas son exquisitas, sobre todo sus ancas, pero nunca las he probado; este batracio nunca me ha tentado como alimento.",
+        "chinese": "据说青蛙是美味佳肴，尤其是蛙腿；但我从未尝过，这种两栖动物从未让我想把它当作食物。"
+      }
+    },
+    "fr:cachette:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Les enfants ont trouvé une cachette derrière la bibliothèque.",
+        "english": "The children found a hiding place behind the bookcase.",
+        "spanish": "Los niños encontraron un escondite detrás de la estantería.",
+        "chinese": "孩子们在书架后面找到了一个藏身处。"
+      }
+    },
+    "fr:bâton:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "Beat someone with a stick.",
+        "spanish": "Dar golpes con un palo.",
+        "chinese": "用棍棒击打。"
+      }
+    },
+    "fr:venger:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "Take revenge on one’s enemies.",
+        "spanish": "Vengarse de sus enemigos.",
+        "chinese": "向敌人复仇。"
+      }
+    },
+    "fr:jungle:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "De nombreux tigres vivent dans la jungle.",
+        "english": "Many tigers live in the jungle.",
+        "spanish": "Muchos tigres viven en la selva.",
+        "chinese": "丛林中生活着许多老虎。"
+      }
+    },
+    "fr:lance:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le chevalier brandissait sa lance avant le combat.",
+        "english": "The knight brandished his lance before the battle.",
+        "spanish": "El caballero blandía su lanza antes de la batalla.",
+        "chinese": "骑士在战斗前挥舞着长矛。"
+      }
+    },
+    "fr:habituer:verb:1": {
+      "sense": {},
+      "example": {
+        "english": "I want to get used to living in the city.",
+        "spanish": "Quiero acostumbrarme a vivir en la ciudad.",
+        "chinese": "我想习惯城市生活。"
+      }
+    },
+    "fr:plafond:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "I lay on my back, eyes wide open, staring at the ceiling.",
+        "spanish": "Me quedé tumbado boca arriba, con los ojos muy abiertos, mirando fijamente el techo.",
+        "chinese": "我仰面躺着，睁大眼睛盯着天花板。"
+      }
+    },
+    "fr:à force de:preposition:1": {
+      "sense": {},
+      "example": {
+        "french": "À force de travailler, elle a réussi son examen.",
+        "english": "By working so hard, she passed her exam.",
+        "spanish": "A fuerza de trabajar, aprobó el examen.",
+        "chinese": "她靠不断努力通过了考试。"
+      }
+    },
+    "fr:travers:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "This pork rib was delicious.",
+        "spanish": "Esta costilla de cerdo estaba deliciosa.",
+        "chinese": "这块猪排很好吃。"
+      }
+    },
+    "fr:stress:noun:1": {
+      "sense": {},
+      "example": {
+        "english": "Here is the stress.",
+        "spanish": "Aquí está el estrés.",
+        "chinese": "这就是压力。"
+      }
+    },
+    "fr:affirmation:noun:1": {
+      "sense": {
+        "english": "affirmation; assertion; statement",
+        "spanish": "afirmación; declaración",
+        "chinese": "肯定；断言；声明"
+      },
+      "example": {
+        "french": "Son affirmation a été confirmée par plusieurs témoins.",
+        "english": "His assertion was confirmed by several witnesses.",
+        "spanish": "Varios testigos confirmaron su afirmación.",
+        "chinese": "多名证人证实了他的断言。"
+      }
+    },
+    "fr:clocher:verb:1": {
+      "sense": {
+        "english": "to limp; to be wrong; to be faulty",
+        "spanish": "cojear; estar mal; tener un defecto",
+        "chinese": "跛行；有问题；不对劲"
+      },
+      "example": {
+        "french": "Depuis son accident, il cloche légèrement de la jambe droite.",
+        "english": "Since his accident, he has been limping slightly on his right leg.",
+        "spanish": "Desde el accidente, cojea ligeramente de la pierna derecha.",
+        "chinese": "自从事故后，他的右腿有些跛。"
+      }
+    },
+    "fr:cliquer:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Cliquez sur le lien pour ouvrir le formulaire.",
+        "english": "Click on the link to open the form.",
+        "spanish": "Haz clic en el enlace para abrir el formulario.",
+        "chinese": "点击链接以打开表格。"
+      }
+    },
+    "fr:environ:noun:1": {
+      "sense": {
+        "english": "around; about; approximately",
+        "spanish": "alrededor de; aproximadamente",
+        "chinese": "大约；约莫"
+      },
+      "example": {}
+    },
+    "fr:swatch:noun:1": {
+      "sense": {
+        "english": "swatch; sample",
+        "spanish": "muestra; muestrario",
+        "chinese": "样品；色样；小样"
+      },
+      "example": {
+        "french": "La décoratrice a comparé plusieurs échantillons de tissu avant de choisir cette couleur.",
+        "english": "The decorator compared several fabric swatches before choosing this color.",
+        "spanish": "La decoradora comparó varias muestras de tela antes de elegir este color.",
+        "chinese": "设计师比较了几块布料色样后才选定这种颜色。"
+      }
+    },
+    "fr:anesthésiste:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "L'anesthésiste a vérifié les constantes du patient avant l'opération.",
+        "english": "The anesthetist checked the patient's vital signs before the operation.",
+        "spanish": "El anestesista comprobó las constantes del paciente antes de la operación.",
+        "chinese": "手术前，麻醉师检查了患者的生命体征。"
+      }
+    },
+    "fr:nerfs:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le stress lui a mis les nerfs à vif toute la journée.",
+        "english": "Stress kept his nerves on edge all day.",
+        "spanish": "El estrés le puso los nervios de punta todo el día.",
+        "chinese": "压力让他一整天都神经紧绷。"
+      }
+    },
+    "fr:élevé:adjective:1": {
+      "sense": {
+        "english": "high; elevated; raised; well-brought-up",
+        "spanish": "elevado; alto; educado",
+        "chinese": "高的；高贵的；受过良好教养的"
+      },
+      "example": {
+        "french": "Les loyers sont trop élevés dans ce quartier.",
+        "english": "Rents are too high in this neighborhood.",
+        "spanish": "Los alquileres son demasiado altos en este barrio.",
+        "chinese": "这个街区的房租太高了。"
+      }
+    },
+    "fr:illustré:adjective:1": {
+      "sense": {
+        "english": "illustrated; famous; renowned",
+        "spanish": "ilustrado; famoso; célebre",
+        "chinese": "有插图的；著名的"
+      },
+      "example": {
+        "french": "J'ai acheté un livre illustré pour mon neveu.",
+        "english": "I bought an illustrated book for my nephew.",
+        "spanish": "Compré un libro ilustrado para mi sobrino.",
+        "chinese": "我给侄子买了一本有插图的书。"
+      }
+    },
+    "fr:ciblé:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "La campagne publicitaire est ciblée sur les jeunes adultes.",
+        "english": "The advertising campaign targets young adults.",
+        "spanish": "La campaña publicitaria está dirigida a los jóvenes adultos.",
+        "chinese": "这场广告宣传针对年轻人。"
+      }
+    },
+    "fr:fermé:adjective:1": {
+      "sense": {
+        "english": "closed; shut; enclosed; reserved",
+        "spanish": "cerrado; clausurado; reservado",
+        "chinese": "关闭的；封闭的；内向的"
+      },
+      "example": {
+        "french": "Le musée est fermé le lundi.",
+        "english": "The museum is closed on Mondays.",
+        "spanish": "El museo está cerrado los lunes.",
+        "chinese": "博物馆周一闭馆。"
+      }
+    },
+    "fr:ne point:adverb:1": {
+      "sense": {
+        "english": "not; do not (formal/literary)",
+        "spanish": "no; no ... (forma literaria)",
+        "chinese": "不；未（正式/文学用语）"
+      },
+      "example": {
+        "french": "Elle n'a point accepté la proposition de son équipe.",
+        "english": "She did not accept her team's proposal.",
+        "spanish": "No aceptó la propuesta de su equipo.",
+        "chinese": "她没有接受团队的提议。"
+      }
+    },
+    "fr:de l' ordre de:preposition:1": {
+      "sense": {
+        "english": "on the order of; approximately",
+        "spanish": "del orden de; aproximadamente",
+        "chinese": "大约；约为"
+      },
+      "example": {
+        "french": "Les travaux coûteront de l'ordre de dix mille euros.",
+        "english": "The work will cost on the order of ten thousand euros.",
+        "spanish": "Las obras costarán aproximadamente diez mil euros.",
+        "chinese": "工程费用约为一万欧元。"
+      }
+    },
+    "fr:ondes:noun:1": {
+      "sense": {
+        "english": "waves; wave signals",
+        "spanish": "ondas; señales de onda",
+        "chinese": "波；波信号"
+      },
+      "example": {
+        "french": "Les ondes radio traversent l'atmosphère sans difficulté.",
+        "english": "Radio waves travel through the atmosphere without difficulty.",
+        "spanish": "Las ondas de radio atraviesan la atmósfera sin dificultad.",
+        "chinese": "无线电波可以毫无困难地穿过大气层。"
+      }
+    },
+    "fr:addiction:noun:1": {
+      "sense": {
+        "english": "addiction; dependence",
+        "spanish": "adicción; dependencia",
+        "chinese": "成瘾；依赖"
+      },
+      "example": {
+        "french": "Son addiction aux jeux vidéo l'empêche de dormir suffisamment.",
+        "english": "His addiction to video games keeps him from getting enough sleep.",
+        "spanish": "Su adicción a los videojuegos le impide dormir lo suficiente.",
+        "chinese": "他对电子游戏的沉迷让他无法获得充足睡眠。"
+      }
+    },
+    "fr:biocarburant:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le biocarburant réduit les émissions de certains véhicules.",
+        "english": "Biofuel reduces emissions from some vehicles.",
+        "spanish": "Los biocombustibles reducen las emisiones de algunos vehículos.",
+        "chinese": "生物燃料可以减少一些车辆的排放。"
+      }
+    },
+    "fr:annulaire:noun:1": {
+      "sense": {
+        "english": "ring finger; annular",
+        "spanish": "dedo anular; anular",
+        "chinese": "无名指；环形的"
+      },
+      "example": {
+        "french": "Elle porte une bague en argent à l'annulaire gauche.",
+        "english": "She wears a silver ring on her left ring finger.",
+        "spanish": "Lleva un anillo de plata en el dedo anular izquierdo.",
+        "chinese": "她左手无名指上戴着一枚银戒指。"
+      }
+    },
+    "fr:biométrie:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "La biométrie permet de vérifier l'identité d'une personne à partir de ses caractéristiques physiques.",
+        "english": "Biometrics makes it possible to verify a person's identity from their physical characteristics.",
+        "spanish": "La biometría permite verificar la identidad de una persona a partir de sus características físicas.",
+        "chinese": "生物识别技术可以根据一个人的身体特征核实其身份。"
+      }
+    },
+    "fr:expérimentateur:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "L'expérimentateur a expliqué le protocole aux participants avant de commencer.",
+        "english": "The experimenter explained the procedure to the participants before starting.",
+        "spanish": "El experimentador explicó el procedimiento a los participantes antes de empezar.",
+        "chinese": "实验开始前，实验人员向参与者说明了流程。"
+      }
+    },
+    "fr:neutron:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le noyau de deutérium est composé d'un proton et d'un neutron.",
+        "english": "The deuterium nucleus is composed of a proton and a neutron.",
+        "spanish": "El núcleo de deuterio está compuesto por un protón y un neutrón.",
+        "chinese": "氘原子核由一个质子和一个中子组成。"
+      }
+    },
+    "fr:supraconductivité:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "La supraconductivité à haute température reste un défi majeur pour les physiciens.",
+        "english": "High-temperature superconductivity remains a major challenge for physicists.",
+        "spanish": "La superconductividad de alta temperatura sigue siendo un gran desafío para los físicos.",
+        "chinese": "高温超导性仍是物理学家面临的一项重大挑战。"
+      }
+    },
+    "fr:à terme:adverb:1": {
+      "sense": {
+        "english": "in the long term; at maturity; eventually",
+        "spanish": "a largo plazo; al vencimiento; finalmente",
+        "chinese": "从长远看；到期；最终"
+      },
+      "example": {
+        "french": "À terme, cette décision devrait améliorer la situation.",
+        "english": "In the long term, this decision should improve the situation.",
+        "spanish": "A largo plazo, esta decisión debería mejorar la situación.",
+        "chinese": "从长远看，这项决定应该会改善情况。"
+      }
+    },
+    "fr:au point:adverb:1": {
+      "sense": {
+        "english": "ready; perfected; to the point",
+        "spanish": "listo; perfeccionado; al punto",
+        "chinese": "准备好的；完善的；切中要点的"
+      },
+      "example": {
+        "french": "Le rapport est enfin au point et peut être envoyé au client.",
+        "english": "The report is finally ready and can be sent to the client.",
+        "spanish": "El informe por fin está listo y se puede enviar al cliente.",
+        "chinese": "报告终于准备好了，可以发给客户。"
+      }
+    },
+    "fr:détecteur:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le détecteur de fumée a déclenché l'alarme dès qu'il a repéré la moindre particule.",
+        "english": "The smoke detector triggered the alarm as soon as it detected the slightest particle.",
+        "spanish": "El detector de humo activó la alarma en cuanto detectó la más mínima partícula.",
+        "chinese": "烟雾探测器一检测到哪怕一丁点颗粒就触发了警报。"
+      }
+    },
+    "fr:réversible:adjective:1": {
+      "sense": {
+        "english": "reversible; transferable to a surviving spouse/child (pension)",
+        "spanish": "reversible; transferible al cónyuge o hijo superviviente",
+        "chinese": "可逆的；可转给遗属的（养老金）"
+      },
+      "example": {
+        "french": "Cette pension est réversible au profit de sa veuve.",
+        "english": "This pension can be transferred to his widow after his death.",
+        "spanish": "Esta pensión puede transferirse a su viuda tras su fallecimiento.",
+        "chinese": "他去世后，这笔养老金可以转给他的遗孀。"
+      }
+    },
+    "fr:irréparable:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "La perte de confiance a causé des dégâts irréparables dans leur relation.",
+        "english": "The loss of trust caused irreparable damage to their relationship.",
+        "spanish": "La pérdida de confianza causó daños irreparables en su relación.",
+        "chinese": "信任的丧失给他们的关系造成了无法挽回的伤害。"
+      }
+    },
+    "fr:spectre:noun:1": {
+      "sense": {
+        "english": "spectrum; specter; ghost",
+        "spanish": "espectro; fantasma",
+        "chinese": "光谱；幽灵；鬼魂"
+      },
+      "example": {
+        "french": "Le spectre d'une nouvelle crise hante les marchés financiers.",
+        "english": "The specter of a new crisis is haunting the financial markets.",
+        "spanish": "El espectro de una nueva crisis acecha a los mercados financieros.",
+        "chinese": "新危机的阴影笼罩着金融市场。"
+      }
+    },
+    "fr:réflexe:adjective:1": {
+      "sense": {
+        "english": "reflex; reflexive",
+        "spanish": "reflejo; reflejo/automático",
+        "chinese": "反射；反射性的"
+      },
+      "example": {
+        "french": "Il a eu le réflexe de retenir la porte.",
+        "english": "He instinctively held the door open.",
+        "spanish": "Tuvo el reflejo de sujetar la puerta.",
+        "chinese": "他下意识地扶住了门。"
+      }
+    },
+    "fr:culpabilité:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Elle ressentait une profonde culpabilité après avoir menti à ses parents.",
+        "english": "She felt deep guilt after lying to her parents.",
+        "spanish": "Sentía una profunda culpa después de mentir a sus padres.",
+        "chinese": "她对父母撒谎后深感内疚。"
+      }
+    },
+    "fr:blanchiment:noun:1": {
+      "sense": {
+        "english": "bleaching; whitening; money laundering",
+        "spanish": "blanqueamiento; blanqueo de dinero",
+        "chinese": "漂白；洗钱"
+      },
+      "example": {
+        "french": "La police enquête sur une affaire de blanchiment d'argent.",
+        "english": "The police are investigating a money-laundering case.",
+        "spanish": "La policía investiga un caso de blanqueo de dinero.",
+        "chinese": "警方正在调查一起洗钱案。"
+      }
+    },
+    "fr:cyber - criminalité:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "La police a renforcé ses moyens de lutte contre la cybercriminalité.",
+        "english": "The police have strengthened their efforts to combat cybercrime.",
+        "spanish": "La policía ha reforzado sus medidas para combatir la ciberdelincuencia.",
+        "chinese": "警方加强了打击网络犯罪的力量。"
+      }
+    },
+    "fr:effraction:noun:1": {
+      "sense": {
+        "english": "break-in; forced entry; rupture/breakage (technical)",
+        "spanish": "allanamiento; entrada forzada; rotura (técnico)",
+        "chinese": "破门而入；强行进入；破裂（技术用语）"
+      },
+      "example": {
+        "french": "La police a constaté une effraction dans la porte arrière du magasin.",
+        "english": "The police found signs of a break-in in the shop's back door.",
+        "spanish": "La policía constató que habían forzado la puerta trasera de la tienda.",
+        "chinese": "警方发现商店后门有被撬开的痕迹。"
+      }
+    },
+    "fr:fraude:noun:1": {
+      "sense": {
+        "english": "fraud; deceit; cheating",
+        "spanish": "fraude; engaño; trampa",
+        "chinese": "欺诈；诈骗；作弊"
+      },
+      "example": {
+        "french": "L'entreprise est soupçonnée de fraude fiscale.",
+        "english": "The company is suspected of tax fraud.",
+        "spanish": "La empresa es sospechosa de fraude fiscal.",
+        "chinese": "这家公司涉嫌税务欺诈。"
+      }
+    },
+    "fr:hertzien:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "La télévision hertzienne reste accessible sans abonnement à Internet.",
+        "english": "Terrestrial television remains available without an Internet subscription.",
+        "spanish": "La televisión terrestre sigue siendo accesible sin suscripción a Internet.",
+        "chinese": "即使没有网络订阅，也仍可收看地面电视。"
+      }
+    },
+    "fr:internationaliser:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "L'entreprise veut internationaliser sa plateforme dès l'année prochaine.",
+        "english": "The company wants to internationalize its platform next year.",
+        "spanish": "La empresa quiere internacionalizar su plataforma el año que viene.",
+        "chinese": "公司希望明年把平台推向国际市场。"
+      }
+    },
+    "fr:perpétuité:noun:1": {
+      "sense": {
+        "english": "perpetuity; eternity; life imprisonment (in à perpétuité)",
+        "spanish": "perpetuidad; eternidad; cadena perpetua (en à perpétuité)",
+        "chinese": "永久；永恒；无期徒刑（用于 à perpétuité）"
+      },
+      "example": {
+        "french": "Il a été condamné à la prison à perpétuité pour ce crime.",
+        "english": "He was sentenced to life in prison for this crime.",
+        "spanish": "Fue condenado a cadena perpetua por este delito.",
+        "chinese": "他因这项罪行被判处无期徒刑。"
+      }
+    },
+    "fr:stylet:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le technicien utilise un stylet pour dessiner sur l'écran tactile.",
+        "english": "The technician uses a stylus to draw on the touchscreen.",
+        "spanish": "El técnico utiliza un lápiz óptico para dibujar en la pantalla táctil.",
+        "chinese": "技术人员用触控笔在触摸屏上绘图。"
+      }
+    },
+    "fr:submerger:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "La crue a submergé les rues du village en quelques heures.",
+        "english": "The flood submerged the village streets within a few hours.",
+        "spanish": "La crecida inundó las calles del pueblo en pocas horas.",
+        "chinese": "洪水在几小时内淹没了村里的街道。"
+      }
+    },
+    "fr:faute de quoi:adverb:1": {
+      "sense": {},
+      "example": {
+        "french": "Dépêchez-vous, faute de quoi vous raterez le train.",
+        "english": "Hurry up, otherwise you will miss the train.",
+        "spanish": "Date prisa, de lo contrario perderás el tren.",
+        "chinese": "快点，否则你会错过火车。"
+      }
+    },
+    "fr:ironiser:verb:1": {
+      "sense": {
+        "english": "to be ironic; to mock sarcastically",
+        "spanish": "ironizar; burlarse con ironía",
+        "chinese": "讽刺；挖苦"
+      },
+      "example": {
+        "french": "Il ironisait sur les promesses irréalistes du candidat.",
+        "english": "He was being ironic about the candidate's unrealistic promises.",
+        "spanish": "Ironizaba sobre las promesas poco realistas del candidato.",
+        "chinese": "他在讽刺候选人那些不切实际的承诺。"
+      }
+    },
+    "fr:aliénation:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le travail répétitif peut provoquer un sentiment d'aliénation.",
+        "english": "Repetitive work can cause a feeling of alienation.",
+        "spanish": "El trabajo repetitivo puede provocar una sensación de alienación.",
+        "chinese": "重复性的工作可能让人产生疏离感。"
+      }
+    },
+    "fr:antimondialisation:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Le mouvement antimondialisation a organisé une manifestation contre l'accord commercial.",
+        "english": "The anti-globalization movement organized a protest against the trade agreement.",
+        "spanish": "El movimiento antiglobalización organizó una protesta contra el acuerdo comercial.",
+        "chinese": "反全球化运动组织了一场反对该贸易协定的示威。"
+      }
+    },
+    "fr:surpêche:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "La surpêche menace les populations de poissons dans cette région.",
+        "english": "Overfishing threatens fish populations in this region.",
+        "spanish": "La sobrepesca amenaza a las poblaciones de peces de esta región.",
+        "chinese": "过度捕捞威胁着该地区的鱼类种群。"
+      }
+    },
+    "fr:transpercer:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Une flèche a transpercé le bouclier.",
+        "english": "An arrow pierced the shield.",
+        "spanish": "Una flecha atravesó el escudo.",
+        "chinese": "一支箭射穿了盾牌。"
+      }
+    },
+    "fr:argile:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Cette poterie est fabriquée à partir d'une argile locale.",
+        "english": "This pottery is made from local clay.",
+        "spanish": "Esta cerámica está hecha de arcilla local.",
+        "chinese": "这件陶器由当地黏土制成。"
+      }
+    },
+    "fr:auréoler:verb:1": {
+      "sense": {
+        "english": "to halo; to surround with an aura",
+        "spanish": "rodear de un halo; aureolar",
+        "chinese": "使笼罩光环；给……增添光环"
+      },
+      "example": {
+        "french": "Sa victoire l'a auréolé d'une nouvelle réputation.",
+        "english": "His victory gave him a new aura of prestige.",
+        "spanish": "Su victoria le otorgó un nuevo prestigio.",
+        "chinese": "这场胜利为他增添了新的声望光环。"
+      }
+    },
+    "fr:authentification:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "L'authentification à deux facteurs protège mieux votre compte.",
+        "english": "Two-factor authentication provides better protection for your account.",
+        "spanish": "La autenticación de dos factores protege mejor tu cuenta.",
+        "chinese": "双重身份验证能更好地保护你的账户。"
+      }
+    },
+    "fr:autorisé:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Les experts les plus autorisés ont confirmé cette interprétation.",
+        "english": "The most authoritative experts confirmed this interpretation.",
+        "spanish": "Los expertos más autorizados confirmaron esta interpretación.",
+        "chinese": "最权威的专家证实了这一解读。"
+      }
+    },
+    "fr:charpentier:adjective:1": {
+      "sense": {
+        "english": "carpenter; shipwright",
+        "spanish": "carpintero; carpintera",
+        "chinese": "木匠；造船木工"
+      },
+      "example": {
+        "french": "Le charpentier a réparé la charpente de la maison.",
+        "english": "The carpenter repaired the wooden frame of the house.",
+        "spanish": "El carpintero reparó la estructura de madera de la casa.",
+        "chinese": "木匠修好了房屋的木结构。"
+      }
+    },
+    "fr:couleuvre:noun:1": {
+      "sense": {
+        "english": "colubrid; grass snake; non-venomous snake",
+        "spanish": "culebra; serpiente no venenosa",
+        "chinese": "游蛇科蛇；无毒蛇"
+      },
+      "example": {
+        "french": "Les couleuvres ne sont généralement pas venimeuses, contrairement aux vipères.",
+        "english": "Grass snakes are generally not venomous, unlike vipers.",
+        "spanish": "Las culebras generalmente no son venenosas, a diferencia de las víboras.",
+        "chinese": "游蛇通常无毒，不同于蝰蛇。"
+      }
+    },
+    "fr:craquelé:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "La vieille peinture est craquelée par endroits.",
+        "english": "The old paint is cracked in places.",
+        "spanish": "La pintura vieja está agrietada en algunos lugares.",
+        "chinese": "旧油漆有些地方已经龟裂。"
+      }
+    },
+    "fr:dans le cas de:preposition:1": {
+      "sense": {},
+      "example": {
+        "french": "Dans le cas d'une urgence, appelez immédiatement ce numéro.",
+        "english": "In the event of an emergency, call this number immediately.",
+        "spanish": "En caso de emergencia, llama inmediatamente a este número.",
+        "chinese": "如遇紧急情况，请立即拨打这个号码。"
+      }
+    },
+    "fr:de proche en proche:adverb:1": {
+      "sense": {},
+      "example": {
+        "french": "De proche en proche, la rumeur s'est répandue dans tout le village.",
+        "english": "Little by little, the rumor spread throughout the village.",
+        "spanish": "Poco a poco, el rumor se extendió por todo el pueblo.",
+        "chinese": "谣言逐渐传遍了整个村子。"
+      }
+    },
+    "fr:debout là - bas:adverb:1": {
+      "sense": {},
+      "example": {
+        "french": "Il est resté debout là-bas pendant toute la cérémonie.",
+        "english": "He remained standing over there throughout the ceremony.",
+        "spanish": "Se quedó de pie allí durante toda la ceremonia.",
+        "chinese": "整个仪式期间，他一直站在那边。"
+      }
+    },
+    "fr:divinatoire:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Elle consulte un guide divinatoire avant de prendre sa décision.",
+        "english": "She consults a divination guide before making her decision.",
+        "spanish": "Consulta una guía de adivinación antes de tomar una decisión.",
+        "chinese": "她在作决定前会查阅占卜指南。"
+      }
+    },
+    "fr:décharné:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Un chien décharné errait près de la gare.",
+        "english": "A scrawny dog was wandering near the station.",
+        "spanish": "Un perro demacrado vagaba cerca de la estación.",
+        "chinese": "一只骨瘦如柴的狗在车站附近徘徊。"
+      }
+    },
+    "fr:déployer:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "L'armée a déployé des forces supplémentaires à la frontière.",
+        "english": "The army deployed additional forces along the border.",
+        "spanish": "El ejército desplegó fuerzas adicionales en la frontera.",
+        "chinese": "军队在边境部署了增援部队。"
+      }
+    },
+    "fr:dérélictueuse:adjective:1": {
+      "sense": {
+        "english": "derelict; abandoned; neglected",
+        "spanish": "abandonado; descuidado",
+        "chinese": "荒废的；被遗弃的；无人照管的"
+      },
+      "example": {
+        "french": "Le bâtiment dérélictueux menace de s'effondrer.",
+        "english": "The derelict building is in danger of collapsing.",
+        "spanish": "El edificio abandonado corre peligro de derrumbarse.",
+        "chinese": "那座荒废的建筑有倒塌的危险。"
+      }
+    },
+    "fr:embouteiller:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "L'accident a embouteillé la circulation pendant deux heures.",
+        "english": "The accident caused a two-hour traffic jam.",
+        "spanish": "El accidente provocó un atasco de dos horas.",
+        "chinese": "这起事故造成了两个小时的交通堵塞。"
+      }
+    },
+    "fr:froissant:adjective:1": {
+      "sense": {
+        "english": "offensive; hurtful; crumpling",
+        "spanish": "ofensivo; hiriente; que arruga",
+        "chinese": "冒犯的；伤人的；起皱的"
+      },
+      "example": {
+        "french": "Ses paroles froissantes ont blessé plusieurs collègues.",
+        "english": "His hurtful words offended several colleagues.",
+        "spanish": "Sus palabras hirientes ofendieron a varios colegas.",
+        "chinese": "他伤人的话冒犯了几位同事。"
+      }
+    },
+    "fr:furtif:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Il lui a lancé un regard furtif avant de sortir.",
+        "english": "He gave her a furtive glance before leaving.",
+        "spanish": "Le lanzó una mirada furtiva antes de salir.",
+        "chinese": "离开前，他偷偷瞥了她一眼。"
+      }
+    },
+    "fr:intercéder:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Elle a intercédé auprès du directeur en faveur de son collègue.",
+        "english": "She pleaded with the director on behalf of her colleague.",
+        "spanish": "Intercedió ante el director en favor de su colega.",
+        "chinese": "她向主管求情，请他帮助自己的同事。"
+      }
+    },
+    "fr:mousson:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "La mousson a provoqué de fortes inondations dans la région.",
+        "english": "The monsoon caused severe flooding in the region.",
+        "spanish": "El monzón provocó graves inundaciones en la región.",
+        "chinese": "季风给该地区带来了严重洪灾。"
+      }
+    },
+    "fr:numériser:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Nous allons numériser les anciennes photos de famille pour les conserver.",
+        "english": "We are going to digitize the old family photos to preserve them.",
+        "spanish": "Vamos a digitalizar las fotos familiares antiguas para conservarlas.",
+        "chinese": "我们要把老家的庭照片数字化，以便保存。"
+      }
+    },
+    "fr:oestrogène:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le médecin a prescrit un traitement à base d'œstrogènes.",
+        "english": "The doctor prescribed an estrogen-based treatment.",
+        "spanish": "El médico recetó un tratamiento a base de estrógenos.",
+        "chinese": "医生开了一种以雌激素为基础的治疗方案。"
+      }
+    },
+    "fr:ombreux:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Nous avons trouvé un coin ombreux pour pique-niquer à l'abri du soleil.",
+        "english": "We found a shady spot for a picnic, sheltered from the sun.",
+        "spanish": "Encontramos un lugar sombreado para hacer un pícnic, protegido del sol.",
+        "chinese": "我们找到了一处阴凉地，可以在那里野餐并躲避阳光。"
+      }
+    },
+    "fr:par bouffées:adverb:1": {
+      "sense": {},
+      "example": {
+        "french": "La fumée entrait par bouffées dans la pièce.",
+        "english": "Smoke came into the room in puffs.",
+        "spanish": "El humo entraba en la habitación a bocanadas.",
+        "chinese": "烟一阵阵地飘进房间。"
+      }
+    },
+    "fr:plancher:verb:1": {
+      "sense": {
+        "english": "to work hard on; to rack one's brains over; to sit an exam (informal)",
+        "spanish": "trabajar intensamente en; devanarse los sesos con",
+        "chinese": "认真钻研；绞尽脑汁解决"
+      },
+      "example": {
+        "french": "Les étudiants planchent sur leur projet depuis plusieurs semaines.",
+        "english": "The students have been working hard on their project for several weeks.",
+        "spanish": "Los estudiantes llevan varias semanas trabajando intensamente en su proyecto.",
+        "chinese": "学生们已经为项目努力钻研了几个星期。"
+      }
+    },
+    "fr:pochoir:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "L'artiste a peint un pochoir coloré sur le mur abandonné.",
+        "english": "The artist painted a colorful stencil on the abandoned wall.",
+        "spanish": "El artista pintó una plantilla colorida en el muro abandonado.",
+        "chinese": "艺术家在废弃的墙上画了一个彩色模板。"
+      }
+    },
+    "fr:scanner:noun:1": {
+      "sense": {
+        "english": "scanner; scan (medical imaging)",
+        "spanish": "escáner; tomografía",
+        "chinese": "扫描仪；扫描检查（医学）"
+      },
+      "example": {
+        "french": "Le médecin a prescrit un scanner de la poitrine.",
+        "english": "The doctor ordered a chest CT scan.",
+        "spanish": "El médico pidió un escáner de tórax.",
+        "chinese": "医生安排了一次胸部CT扫描。"
+      }
+    },
+    "fr:subsistance:noun:1": {
+      "sense": {
+        "english": "livelihood; subsistence; means of living",
+        "spanish": "subsistencia; medios de vida",
+        "chinese": "生计；生活来源"
+      },
+      "example": {
+        "french": "Il a perdu son seul moyen de subsistance après la fermeture de l'usine.",
+        "english": "He lost his only means of livelihood after the factory closed.",
+        "spanish": "Perdió su único medio de subsistencia tras el cierre de la fábrica.",
+        "chinese": "工厂关闭后，他失去了唯一的生活来源。"
+      }
+    },
+    "fr:transposer:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Il faut transposer les termes avant de résoudre l'équation.",
+        "english": "The terms must be transposed before solving the equation.",
+        "spanish": "Hay que transponer los términos antes de resolver la ecuación.",
+        "chinese": "解方程前必须移项。"
+      }
+    },
+    "fr:varangue:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Nous avons pris le petit-déjeuner sur la varangue face à la mer.",
+        "english": "We had breakfast on the veranda overlooking the sea.",
+        "spanish": "Desayunamos en la veranda con vistas al mar.",
+        "chinese": "我们在面向大海的廊台上吃了早餐。"
+      }
+    },
+    "fr:vertèbre:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le médecin a détecté une fracture d'une vertèbre cervicale.",
+        "english": "The doctor detected a fracture in a cervical vertebra.",
+        "spanish": "El médico detectó una fractura en una vértebra cervical.",
+        "chinese": "医生发现一节颈椎骨骨折。"
+      }
+    },
+    "fr:vibration:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "La vibration du téléphone m'a réveillé.",
+        "english": "The vibration of the phone woke me up.",
+        "spanish": "La vibración del teléfono me despertó.",
+        "chinese": "手机的震动把我吵醒了。"
+      }
+    },
+    "fr:vélo:adjective:1": {
+      "sense": {
+        "english": "bicycle; bike",
+        "spanish": "bicicleta; bici",
+        "chinese": "自行车；单车"
+      },
+      "example": {
+        "french": "Je vais au travail à vélo quand il fait beau.",
+        "english": "I cycle to work when the weather is nice.",
+        "spanish": "Voy al trabajo en bici cuando hace buen tiempo.",
+        "chinese": "天气好的时候我骑自行车上班。"
+      }
+    },
+    "fr:éthéreuse:adjective:1": {
+      "sense": {
+        "english": "ethereal; airy; delicate",
+        "spanish": "etéreo; vaporoso; delicado",
+        "chinese": "空灵的；轻盈的；飘渺的"
+      },
+      "example": {
+        "french": "La lumière éthérée donnait à la scène une atmosphère irréelle.",
+        "english": "The ethereal light gave the scene an unreal atmosphere.",
+        "spanish": "La luz etérea daba a la escena una atmósfera irreal.",
+        "chinese": "空灵的光线给场景增添了不真实的氛围。"
+      }
+    },
+    "fr:contre - modèle:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Cet échec constitue un contre-modèle pour les réformes futures.",
+        "english": "This failure serves as a negative model for future reforms.",
+        "spanish": "Este fracaso constituye un contraejemplo para futuras reformas.",
+        "chinese": "这次失败为未来的改革提供了反面教材。"
+      }
+    },
+    "fr:effondrement:noun:1": {
+      "sense": {
+        "english": "collapse; breakdown; downfall",
+        "spanish": "colapso; derrumbe; hundimiento",
+        "chinese": "崩溃；倒塌；垮台"
+      },
+      "example": {}
+    },
+    "fr:finances:noun:1": {
+      "sense": {
+        "english": "finances; financial affairs; public finance",
+        "spanish": "finanzas; asuntos financieros",
+        "chinese": "财务；财政；金融事务"
+      },
+      "example": {
+        "french": "Elle gère soigneusement les finances de l'entreprise.",
+        "english": "She manages the company's finances carefully.",
+        "spanish": "Gestiona cuidadosamente las finanzas de la empresa.",
+        "chinese": "她谨慎地管理公司的财务。"
+      }
+    },
+    "fr:calculateur:noun:1": {
+      "sense": {
+        "english": "computer; computing unit; calculator (depending context)",
+        "spanish": "computadora; unidad de control; calculadora",
+        "chinese": "计算机；控制单元；计算器"
+      },
+      "example": {
+        "french": "L'injection est contrôlée par un calculateur électronique.",
+        "english": "The fuel injection is controlled by an electronic control unit.",
+        "spanish": "La inyección está controlada por una unidad electrónica de control.",
+        "chinese": "燃油喷射由电子控制单元控制。"
+      }
+    },
+    "fr:uniforme:adjective:1": {
+      "sense": {
+        "english": "uniform; uniform, consistent",
+        "spanish": "uniforme; uniforme, homogéneo",
+        "chinese": "制服；统一的；一致的"
+      },
+      "example": {
+        "french": "Les soldats ont reçu un nouvel uniforme.",
+        "english": "The soldiers received a new uniform.",
+        "spanish": "Los soldados recibieron un uniforme nuevo.",
+        "chinese": "士兵们领到了一套新制服。"
+      }
+    },
+    "fr:vétérinaire:adjective:1": {
+      "sense": {
+        "english": "veterinarian; veterinary",
+        "spanish": "veterinario/a; veterinario",
+        "chinese": "兽医；兽医的"
+      },
+      "example": {
+        "french": "La vétérinaire a examiné le chien malade.",
+        "english": "The veterinarian examined the sick dog.",
+        "spanish": "La veterinaria examinó al perro enfermo.",
+        "chinese": "女兽医检查了那只生病的狗。"
+      }
+    },
+    "fr:lésion:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "L'IRM a révélé une lésion au genou.",
+        "english": "The MRI revealed a lesion in the knee.",
+        "spanish": "La resonancia magnética reveló una lesión en la rodilla.",
+        "chinese": "核磁共振显示膝盖有一处损伤。"
+      }
+    },
+    "fr:superstition:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Par superstition, elle évite de passer sous une échelle.",
+        "english": "Out of superstition, she avoids walking under a ladder.",
+        "spanish": "Por superstición, evita pasar por debajo de una escalera.",
+        "chinese": "出于迷信，她避免从梯子下面走过。"
+      }
+    },
+    "fr:avare:noun:1": {
+      "sense": {
+        "english": "miser; miserly; stingy; greedy",
+        "spanish": "avaro; tacaño; codicioso",
+        "chinese": "吝啬鬼；吝啬的；贪婪的"
+      },
+      "example": {
+        "french": "Il est avare de son temps et refuse souvent d'aider ses collègues.",
+        "english": "He is stingy with his time and often refuses to help his colleagues.",
+        "spanish": "Es tacaño con su tiempo y a menudo se niega a ayudar a sus colegas.",
+        "chinese": "他对时间很吝啬，经常拒绝帮助同事。"
+      }
+    },
+    "fr:authentifier:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Le système demande d'authentifier votre identité avant l'accès au compte.",
+        "english": "The system asks you to authenticate your identity before accessing the account.",
+        "spanish": "El sistema pide autenticar tu identidad antes de acceder a la cuenta.",
+        "chinese": "系统要求你在访问账户前验证身份。"
+      }
+    },
+    "fr:flexible:adjective:1": {
+      "sense": {
+        "english": "flexible; pliable; adaptable",
+        "spanish": "flexible; maleable; adaptable",
+        "chinese": "柔韧的；灵活的；可变通的"
+      },
+      "example": {}
+    },
+    "fr:naissant:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Une entreprise naissante cherche encore son modèle économique.",
+        "english": "A fledgling company is still looking for its business model.",
+        "spanish": "Una empresa naciente todavía busca su modelo de negocio.",
+        "chinese": "一家新兴企业仍在寻找自己的商业模式。"
+      }
+    },
+    "fr:périphérique:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Les électrons périphériques sont plus éloignés du noyau.",
+        "english": "Peripheral electrons are farther from the nucleus.",
+        "spanish": "Los electrones periféricos están más alejados del núcleo.",
+        "chinese": "外围电子距离原子核更远。"
+      }
+    },
+    "fr:accouchement:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "L'accouchement s'est déroulé sans complication.",
+        "english": "The childbirth went smoothly without complications.",
+        "spanish": "El parto transcurrió sin complicaciones.",
+        "chinese": "分娩过程顺利，没有出现并发症。"
+      }
+    },
+    "fr:analgésie:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "L'analgésie permet de réduire la douleur après l'opération.",
+        "english": "Analgesia helps reduce pain after the operation.",
+        "spanish": "La analgesia ayuda a reducir el dolor después de la operación.",
+        "chinese": "镇痛有助于减轻手术后的疼痛。"
+      }
+    },
+    "fr:analogique:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Cet appareil enregistre encore le signal analogique d'une ancienne caméra.",
+        "english": "This device still records the analog signal from an old camera.",
+        "spanish": "Este dispositivo todavía graba la señal analógica de una cámara antigua.",
+        "chinese": "这台设备仍能记录老式摄像机的模拟信号。"
+      }
+    },
+    "fr:antalgique:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Le médecin lui a prescrit un traitement antalgique après l'intervention.",
+        "english": "The doctor prescribed pain-relieving treatment after the procedure.",
+        "spanish": "El médico le recetó un tratamiento analgésico después de la intervención.",
+        "chinese": "手术后，医生给他开了止痛治疗。"
+      }
+    },
+    "fr:arbitraire:noun:1": {
+      "sense": {
+        "english": "arbitrary; arbitrariness",
+        "spanish": "arbitrario; arbitrariedad",
+        "chinese": "任意的；武断的；任意性"
+      },
+      "example": {
+        "french": "Cette décision paraît totalement arbitraire.",
+        "english": "This decision seems completely arbitrary.",
+        "spanish": "Esta decisión parece totalmente arbitraria.",
+        "chinese": "这项决定似乎完全是武断的。"
+      }
+    },
+    "fr:assommer:verb:1": {
+      "sense": {
+        "english": "to stun; to knock out; to overwhelm",
+        "spanish": "aturdir; dejar inconsciente; abrumar",
+        "chinese": "击昏；打晕；使不堪重负"
+      },
+      "example": {
+        "french": "Le boxeur a assommé son adversaire au troisième round.",
+        "english": "The boxer knocked out his opponent in the third round.",
+        "spanish": "El boxeador dejó inconsciente a su oponente en el tercer asalto.",
+        "chinese": "拳击手在第三回合击倒了对手。"
+      }
+    },
+    "fr:autobiographique:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Elle a écrit un récit autobiographique sur son enfance.",
+        "english": "She wrote an autobiographical account of her childhood.",
+        "spanish": "Escribió un relato autobiográfico sobre su infancia.",
+        "chinese": "她写了一部关于自己童年的自传体作品。"
+      }
+    },
+    "fr:baseball:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le morceau de débris avait à peu près la taille d'une balle de baseball.",
+        "english": "The piece of debris was about the size of a baseball.",
+        "spanish": "El fragmento de escombros tenía aproximadamente el tamaño de una pelota de béisbol.",
+        "chinese": "那块碎片大约有一个棒球那么大。"
+      }
+    },
+    "fr:birman:adjective:1": {
+      "sense": {
+        "english": "Burmese; Burmese language",
+        "spanish": "birmano; lengua birmana",
+        "chinese": "缅甸的；缅甸语"
+      },
+      "example": {
+        "french": "Le birman s'écrit de gauche à droite, sans séparation entre les mots.",
+        "english": "Burmese is written from left to right, without spaces between words.",
+        "spanish": "El birmano se escribe de izquierda a derecha, sin separar las palabras.",
+        "chinese": "缅甸语从左向右书写，词语之间不分隔。"
+      }
+    },
+    "fr:cavale:noun:1": {
+      "sense": {
+        "english": "flight; escape; time on the run",
+        "spanish": "fuga; huida; tiempo a la fuga",
+        "chinese": "逃亡；潜逃；逃跑期间"
+      },
+      "example": {
+        "french": "Il s'est fait arrêter après trois mois de cavale.",
+        "english": "He was arrested after three months on the run.",
+        "spanish": "Lo detuvieron después de tres meses a la fuga.",
+        "chinese": "他潜逃三个月后被捕。"
+      }
+    },
+    "fr:chardonneret:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Un chardonneret s'est posé sur la branche du jardin.",
+        "english": "A goldfinch landed on the branch in the garden.",
+        "spanish": "Un jilguero se posó en la rama del jardín.",
+        "chinese": "一只金翅雀落在花园的树枝上。"
+      }
+    },
+    "fr:confinement:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le confinement a réduit la circulation dans les rues.",
+        "english": "The lockdown reduced traffic in the streets.",
+        "spanish": "El confinamiento redujo el tráfico en las calles.",
+        "chinese": "封控期间，街道上的交通减少了。"
+      }
+    },
+    "fr:contresens:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Cette traduction contient un contresens important.",
+        "english": "This translation contains a serious mistranslation.",
+        "spanish": "Esta traducción contiene un contrasentido importante.",
+        "chinese": "这份译文有一处严重的误译。"
+      }
+    },
+    "fr:courbe:adjective:1": {
+      "sense": {
+        "english": "curved; curve",
+        "spanish": "curvo; curva",
+        "chinese": "弯曲的；曲线"
+      },
+      "example": {
+        "french": "La route courbe longe la rivière.",
+        "english": "The curved road runs along the river.",
+        "spanish": "La carretera curva bordea el río.",
+        "chinese": "弯曲的道路沿着河流延伸。"
+      }
+    },
+    "fr:cutané:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Cette crème soulage les irritations cutanées.",
+        "english": "This cream relieves skin irritations.",
+        "spanish": "Esta crema alivia las irritaciones cutáneas.",
+        "chinese": "这款乳霜可以缓解皮肤刺激。"
+      }
+    },
+    "fr:cygne:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Un cygne blanc nageait paisiblement sur le lac.",
+        "english": "A white swan was swimming peacefully on the lake.",
+        "spanish": "Un cisne blanco nadaba tranquilamente en el lago.",
+        "chinese": "一只白天鹅在湖面上平静地游泳。"
+      }
+    },
+    "fr:restructurer:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Le groupe restructure quatre filiales situées à Liège.",
+        "english": "The group is restructuring four subsidiaries located in Liège.",
+        "spanish": "El grupo está reestructurando cuatro filiales situadas en Lieja.",
+        "chinese": "该集团正在重组位于列日的四家子公司。"
+      }
+    },
+    "fr:rouge - gorge:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Un rouge-gorge chante dans le jardin chaque matin.",
+        "english": "A robin sings in the garden every morning.",
+        "spanish": "Un petirrojo canta en el jardín cada mañana.",
+        "chinese": "每天早晨，一只知更鸟在花园里歌唱。"
+      }
+    },
+    "fr:suturer:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Le chirurgien a suturé la plaie après l'opération.",
+        "english": "The surgeon sutured the wound after the operation.",
+        "spanish": "El cirujano suturó la herida después de la operación.",
+        "chinese": "手术后，外科医生缝合了伤口。"
+      }
+    },
+    "fr:tournesol:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le tournesol est originaire d'Amérique du Nord.",
+        "english": "The sunflower is native to North America.",
+        "spanish": "El girasol es originario de América del Norte.",
+        "chinese": "向日葵原产于北美。"
+      }
+    },
+    "fr:tram:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Nous avons pris le tram pour aller au centre-ville.",
+        "english": "We took the tram to go downtown.",
+        "spanish": "Tomamos el tranvía para ir al centro.",
+        "chinese": "我们乘电车去市中心。"
+      }
+    },
+    "fr:tubulaire:noun:1": {
+      "sense": {
+        "english": "tubular",
+        "spanish": "tubular",
+        "chinese": "管状的"
+      },
+      "example": {
+        "french": "Cette chaudière tubulaire fonctionne au gaz.",
+        "english": "This tubular boiler runs on gas.",
+        "spanish": "Esta caldera tubular funciona con gas.",
+        "chinese": "这台管式锅炉以燃气运行。"
+      }
+    },
+    "fr:verbaliser:verb:1": {
+      "sense": {
+        "english": "to put into words; to verbalize; to issue a ticket/fine",
+        "spanish": "verbalizar; expresar con palabras; multar",
+        "chinese": "用语言表达；开罚单"
+      },
+      "example": {
+        "french": "Elle a du mal à verbaliser ce qu'elle ressent.",
+        "english": "She finds it difficult to put her feelings into words.",
+        "spanish": "Le cuesta verbalizar lo que siente.",
+        "chinese": "她很难用语言表达自己的感受。"
+      }
+    },
+    "fr:à tout hasard:adverb:1": {
+      "sense": {},
+      "example": {
+        "french": "Prends un parapluie à tout hasard, le ciel est couvert.",
+        "english": "Take an umbrella just in case; the sky is overcast.",
+        "spanish": "Lleva un paraguas por si acaso; el cielo está cubierto.",
+        "chinese": "带把伞以防万一，天上乌云密布。"
+      }
+    },
+    "fr:à vélo:adverb:1": {
+      "sense": {},
+      "example": {
+        "french": "Je vais au marché à vélo le samedi matin.",
+        "english": "I go to the market by bike on Saturday mornings.",
+        "spanish": "Voy al mercado en bicicleta los sábados por la mañana.",
+        "chinese": "我星期六早上骑自行车去市场。"
+      }
+    },
+    "fr:écarlate:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Ses joues sont devenues écarlates après l'effort.",
+        "english": "Her cheeks turned scarlet after the exertion.",
+        "spanish": "Sus mejillas se volvieron escarlatas después del esfuerzo.",
+        "chinese": "运动后，她的双颊变得绯红。"
+      }
+    },
+    "fr:épidémiologiste:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "L'épidémiologiste a étudié la propagation du virus dans la région.",
+        "english": "The epidemiologist studied how the virus spread in the region.",
+        "spanish": "El epidemiólogo estudió la propagación del virus en la región.",
+        "chinese": "流行病学家研究了病毒在该地区的传播。"
+      }
+    },
+    "fr:associé:adjective:1": {
+      "sense": {
+        "english": "associated; partner; associate",
+        "spanish": "asociado; socio",
+        "chinese": "相关的；合作伙伴；合伙人"
+      },
+      "example": {
+        "french": "Les associés ont approuvé le nouveau plan de l'entreprise.",
+        "english": "The partners approved the company's new plan.",
+        "spanish": "Los socios aprobaron el nuevo plan de la empresa.",
+        "chinese": "合伙人批准了公司的新计划。"
+      }
+    },
+    "fr:certifier:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Le notaire a certifié l'authenticité de la signature.",
+        "english": "The notary certified the authenticity of the signature.",
+        "spanish": "El notario certificó la autenticidad de la firma.",
+        "chinese": "公证人证明了签名的真实性。"
+      }
+    },
+    "fr:compte tenu de:preposition:1": {
+      "sense": {},
+      "example": {
+        "french": "Compte tenu de la météo, nous reporterons la randonnée.",
+        "english": "Given the weather, we will postpone the hike.",
+        "spanish": "Dadas las condiciones meteorológicas, aplazaremos la excursión.",
+        "chinese": "考虑到天气情况，我们将推迟徒步旅行。"
+      }
+    },
+    "fr:grenoblois:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Un journal grenoblois a publié un article sur les transports locaux.",
+        "english": "A Grenoble newspaper published an article about local transport.",
+        "spanish": "Un periódico de Grenoble publicó un artículo sobre el transporte local.",
+        "chinese": "一家格勒诺布尔报纸发表了一篇关于当地交通的文章。"
+      }
+    },
+    "fr:géo:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "J'ai un contrôle de géo demain matin.",
+        "english": "I have a geography test tomorrow morning.",
+        "spanish": "Mañana por la mañana tengo un examen de geografía.",
+        "chinese": "我明天早上有一场地理考试。"
+      }
+    },
+    "fr:jongler:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Elle jongle entre plusieurs projets au travail.",
+        "english": "She juggles several projects at work.",
+        "spanish": "Compagina varios proyectos en el trabajo.",
+        "chinese": "她在工作中同时处理多个项目。"
+      }
+    },
+    "fr:phytoplancton:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le phytoplancton produit une grande partie de l'oxygène de l'océan.",
+        "english": "Phytoplankton produces a large part of the ocean's oxygen.",
+        "spanish": "El fitoplancton produce gran parte del oxígeno del océano.",
+        "chinese": "浮游植物产生了海洋中很大一部分氧气。"
+      }
+    },
+    "fr:résurgence:noun:1": {
+      "sense": {
+        "english": "resurgence; reappearance; revival",
+        "spanish": "resurgimiento; reaparición; resurgencia",
+        "chinese": "复苏；再现；重新抬头"
+      },
+      "example": {
+        "french": "La résurgence de la maladie inquiète les autorités.",
+        "english": "The resurgence of the disease worries the authorities.",
+        "spanish": "El resurgimiento de la enfermedad preocupa a las autoridades.",
+        "chinese": "这种疾病再次抬头令当局担忧。"
+      }
+    },
+    "fr:gravé:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Son nom est gravé sur la plaque commémorative.",
+        "english": "His name is engraved on the commemorative plaque.",
+        "spanish": "Su nombre está grabado en la placa conmemorativa.",
+        "chinese": "他的名字刻在纪念牌上。"
+      }
+    },
+    "fr:ras-le-bol:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "J'en ai ras-le-bol de ces retards répétés.",
+        "english": "I'm fed up with these repeated delays.",
+        "spanish": "Estoy harto de estos retrasos constantes.",
+        "chinese": "我受够了这些一再发生的延误。"
+      }
+    },
+    "fr:dépassement:noun:1": {
+      "sense": {
+        "english": "exceeding; overflow; overrun; overtaking",
+        "spanish": "superación; exceso; adelantamiento",
+        "chinese": "超过；超限；超车"
+      },
+      "example": {
+        "french": "Le dépassement de la limite de vitesse peut entraîner une amende.",
+        "english": "Exceeding the speed limit can result in a fine.",
+        "spanish": "Superar el límite de velocidad puede acarrear una multa.",
+        "chinese": "超速可能会被罚款。"
+      }
+    },
+    "fr:dédramatiser:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Le médecin a essayé de dédramatiser la situation pour rassurer le patient.",
+        "english": "The doctor tried to play down the situation to reassure the patient.",
+        "spanish": "El médico intentó quitar dramatismo a la situación para tranquilizar al paciente.",
+        "chinese": "医生试图淡化事态，以安抚患者。"
+      }
+    },
+    "fr:marteler:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Le ministre a martelé son message pendant toute la campagne.",
+        "english": "The minister hammered home his message throughout the campaign.",
+        "spanish": "El ministro repitió insistentemente su mensaje durante toda la campaña.",
+        "chinese": "整个竞选期间，部长反复强调自己的主张。"
+      }
+    },
+    "fr:miner:verb:1": {
+      "sense": {
+        "english": "to mine; to undermine; to weaken",
+        "spanish": "minar; socavar",
+        "chinese": "布雷；暗中破坏；削弱"
+      },
+      "example": {
+        "french": "Les soldats ont miné le pont avant de se retirer.",
+        "english": "The soldiers mined the bridge before withdrawing.",
+        "spanish": "Los soldados minaron el puente antes de retirarse.",
+        "chinese": "士兵撤退前在桥上埋了地雷。"
+      }
+    },
+    "fr:occulter:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Un rideau épais peut occulter la lumière du soleil.",
+        "english": "A thick curtain can block out the sunlight.",
+        "spanish": "Una cortina gruesa puede ocultar la luz del sol.",
+        "chinese": "厚窗帘可以遮挡阳光。"
+      }
+    },
+    "fr:en raison du:preposition:1": {
+      "sense": {},
+      "example": {
+        "french": "Le vol a été retardé en raison du mauvais temps.",
+        "english": "The flight was delayed because of the bad weather.",
+        "spanish": "El vuelo se retrasó debido al mal tiempo.",
+        "chinese": "航班因天气恶劣而延误。"
+      }
+    },
+    "fr:en profondeur:adverb:1": {
+      "sense": {},
+      "example": {
+        "french": "Nous avons étudié le problème en profondeur.",
+        "english": "We studied the problem in depth.",
+        "spanish": "Estudiamos el problema en profundidad.",
+        "chinese": "我们深入研究了这个问题。"
+      }
+    },
+    "fr:à titre de:preposition:1": {
+      "sense": {},
+      "example": {
+        "french": "Il a participé à la réunion à titre de conseiller juridique.",
+        "english": "He attended the meeting in his capacity as legal adviser.",
+        "spanish": "Participó en la reunión en calidad de asesor jurídico.",
+        "chinese": "他以法律顾问的身份参加了会议。"
+      }
+    },
+    "fr:de nature à:preposition:1": {
+      "sense": {
+        "english": "likely to; capable of; of such a nature as to",
+        "spanish": "capaz de; susceptible de; que puede",
+        "chinese": "可能会；足以；能够"
+      },
+      "example": {
+        "french": "Cette décision est de nature à provoquer de vives réactions.",
+        "english": "This decision is likely to provoke strong reactions.",
+        "spanish": "Esta decisión puede provocar reacciones intensas.",
+        "chinese": "这项决定可能引发强烈反应。"
+      }
+    },
+    "fr:chaos:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Depuis le déménagement, c'est le chaos dans la maison.",
+        "english": "Ever since the move, the house has been in chaos.",
+        "spanish": "Desde la mudanza, la casa es un caos.",
+        "chinese": "自从搬家后，家里一直乱成一团。"
+      }
+    },
+    "fr:quadrichromie:noun:1": {
+      "sense": {
+        "english": "four-color printing; four-colour process",
+        "spanish": "cuatricromía; impresión a cuatro colores",
+        "chinese": "四色印刷；四色工艺"
+      },
+      "example": {
+        "french": "La quadrichromie permet d'imprimer des images avec quatre couleurs de base.",
+        "english": "Four-color printing makes it possible to print images using four basic colors.",
+        "spanish": "La cuatricromía permite imprimir imágenes con cuatro colores básicos.",
+        "chinese": "四色印刷可以用四种基本颜色印制图像。"
+      }
+    },
+    "fr:standard:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Les chambres sont standard et assez dépouillées.",
+        "english": "The rooms are standard and rather sparsely furnished.",
+        "spanish": "Las habitaciones son estándar y están bastante austeras.",
+        "chinese": "这些房间很普通，陈设也相当简朴。"
+      }
+    },
+    "fr:tireur:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le tireur a visé la cible avec beaucoup de précision.",
+        "english": "The shooter aimed at the target with great precision.",
+        "spanish": "El tirador apuntó al blanco con gran precisión.",
+        "chinese": "射手非常准确地瞄准了目标。"
+      }
+    },
+    "fr:ventiler:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Il faut ventiler la cale avant d'y entrer.",
+        "english": "The hold must be ventilated before entering it.",
+        "spanish": "Hay que ventilar la bodega antes de entrar.",
+        "chinese": "进入船舱前必须先通风。"
+      }
+    },
+    "fr:résonance:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Cette affaire a eu une grande résonance dans l'opinion publique.",
+        "english": "This case had a major impact on public opinion.",
+        "spanish": "Este caso tuvo una gran repercusión en la opinión pública.",
+        "chinese": "这起事件在公众舆论中引起了很大反响。"
+      }
+    },
+    "fr:méli - mélo:noun:1": {
+      "sense": {
+        "english": "jumble; hodgepodge; mishmash",
+        "spanish": "mezcolanza; revoltijo",
+        "chinese": "杂乱混合；大杂烩"
+      },
+      "example": {
+        "french": "Le dossier est un méli-mélo de chiffres contradictoires.",
+        "english": "The file is a jumble of contradictory figures.",
+        "spanish": "El expediente es una mezcolanza de cifras contradictorias.",
+        "chinese": "这份档案里充斥着相互矛盾的数字，杂乱不堪。"
+      }
+    },
+    "fr:batailler:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Ils n'ont cessé de batailler pendant deux heures pour obtenir un accord.",
+        "english": "They battled for two hours to reach an agreement.",
+        "spanish": "Lucharon durante dos horas para llegar a un acuerdo.",
+        "chinese": "他们为达成协议争论了两个小时。"
+      }
+    },
+    "fr:mastère:noun:1": {
+      "sense": {
+        "english": "master's degree; master's programme",
+        "spanish": "máster; maestría",
+        "chinese": "硕士学位；硕士课程"
+      },
+      "example": {
+        "french": "Elle prépare un mastère en ingénierie informatique.",
+        "english": "She is studying for a master's degree in computer engineering.",
+        "spanish": "Está cursando un máster en ingeniería informática.",
+        "chinese": "她正在攻读计算机工程硕士学位。"
+      }
+    },
+    "fr:enclore:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Le propriétaire a fait enclore le jardin d'une haute clôture.",
+        "english": "The owner had the garden enclosed by a high fence.",
+        "spanish": "El propietario hizo cercar el jardín con una valla alta.",
+        "chinese": "房主让人用高栅栏把花园围了起来。"
+      }
+    },
+    "fr:flèche:noun:1": {
+      "sense": {
+        "english": "arrow; spire; arrow-shaped pointer; clever person (idiom)",
+        "spanish": "flecha; aguja; persona muy capaz (coloquial)",
+        "chinese": "箭；尖塔；聪明能干的人（习语）"
+      },
+      "example": {
+        "french": "Cette élève est une vraie flèche en mathématiques.",
+        "english": "This student is exceptionally good at mathematics.",
+        "spanish": "Esta alumna es muy brillante en matemáticas.",
+        "chinese": "这个学生数学特别好。"
+      }
+    },
+    "fr:adosser:verb:1": {
+      "sense": {
+        "english": "to lean against; to back; to base on",
+        "spanish": "apoyar contra; respaldar; basar en",
+        "chinese": "使靠在；以……为依据"
+      },
+      "example": {
+        "french": "La maison est adossée à la colline.",
+        "english": "The house is built against the hillside.",
+        "spanish": "La casa está apoyada contra la ladera.",
+        "chinese": "这栋房子依山而建。"
+      }
+    },
+    "fr:appuie - tête:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Réglez l'appuie-tête pour qu'il soutienne correctement votre nuque.",
+        "english": "Adjust the headrest so that it properly supports your neck.",
+        "spanish": "Ajusta el reposacabezas para que sostenga correctamente el cuello.",
+        "chinese": "请调节头枕，使其正确支撑颈部。"
+      }
+    },
+    "fr:arroger:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Il s'arroge le droit de décider à la place des autres.",
+        "english": "He arrogates to himself the right to decide for others.",
+        "spanish": "Se arroga el derecho de decidir por los demás.",
+        "chinese": "他擅自把替别人作决定的权利据为己有。"
+      }
+    },
+    "fr:bigarrer:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "L'auteur bigarre son texte de citations anciennes.",
+        "english": "The author variegates his text with old quotations.",
+        "spanish": "El autor adorna su texto con citas antiguas.",
+        "chinese": "作者在文章中穿插了古老的引文。"
+      }
+    },
+    "fr:bio - ingénierie:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "La bio-ingénierie permet de concevoir des tissus artificiels.",
+        "english": "Bioengineering makes it possible to design artificial tissues.",
+        "spanish": "La bioingeniería permite diseñar tejidos artificiales.",
+        "chinese": "生物工程可以用来设计人工组织。"
+      }
+    },
+    "fr:blet:adjective:1": {
+      "sense": {
+        "english": "overripe; over-soft (fruit)",
+        "spanish": "pasado; demasiado maduro",
+        "chinese": "过熟的；熟过头的（水果）"
+      },
+      "example": {
+        "french": "La poire est blette, il vaut mieux ne pas la manger.",
+        "english": "The pear is overripe; it is better not to eat it.",
+        "spanish": "La pera está pasada; es mejor no comerla.",
+        "chinese": "梨已经熟过头了，最好别吃。"
+      }
+    },
+    "fr:brandon:noun:1": {
+      "sense": {
+        "english": "firebrand; burning ember; torch",
+        "spanish": "tizón; tea; brasa",
+        "chinese": "火把；燃烧的木块；火星"
+      },
+      "example": {
+        "french": "Le vent emportait des brandons de l'incendie.",
+        "english": "The wind carried burning embers from the fire.",
+        "spanish": "El viento arrastraba tizones del incendio.",
+        "chinese": "风把火灾中的燃烧木块吹得到处都是。"
+      }
+    },
+    "fr:cannibale:adjective:1": {
+      "sense": {
+        "english": "cannibal; cannibalistic",
+        "spanish": "caníbal; canibalístico",
+        "chinese": "食人的；食人者"
+      },
+      "example": {
+        "french": "Le film raconte une tribu cannibale vivant dans la jungle.",
+        "english": "The film tells the story of a cannibal tribe living in the jungle.",
+        "spanish": "La película cuenta la historia de una tribu caníbal que vive en la selva.",
+        "chinese": "这部电影讲述了一个生活在丛林中的食人族部落。"
+      }
+    },
+    "fr:claquement:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le claquement des sabots résonnait dans la rue.",
+        "english": "The clatter of hooves echoed through the street.",
+        "spanish": "El golpeteo de los cascos resonaba en la calle.",
+        "chinese": "马蹄的哒哒声在街道上回荡。"
+      }
+    },
+    "fr:condensé:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Ajoutez les tomates écrasées ou le concentré de tomate dilué dans l'eau.",
+        "english": "Add the crushed tomatoes or the tomato paste diluted in water.",
+        "spanish": "Añade los tomates triturados o el concentrado de tomate diluido en agua.",
+        "chinese": "加入捣碎的西红柿，或用水稀释的番茄酱。"
+      }
+    },
+    "fr:contaminer:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Même une faible quantité de plutonium pourrait contaminer l'environnement.",
+        "english": "Even a small amount of plutonium could contaminate the environment.",
+        "spanish": "Incluso una pequeña cantidad de plutonio podría contaminar el medio ambiente.",
+        "chinese": "即使少量钚也可能污染环境。"
+      }
+    },
+    "fr:coquetterie:noun:1": {
+      "sense": {
+        "english": "coquetry; coquettish gesture; affectation",
+        "spanish": "coquetería; gesto coqueto",
+        "chinese": "卖弄风情；矫饰；故作姿态"
+      },
+      "example": {
+        "french": "Par coquetterie, elle a choisi une robe très élégante pour la cérémonie.",
+        "english": "Out of coquetry, she chose a very elegant dress for the ceremony.",
+        "spanish": "Por coquetería, eligió un vestido muy elegante para la ceremonia.",
+        "chinese": "出于爱美，她为仪式挑选了一条非常优雅的裙子。"
+      }
+    },
+    "fr:depuis lors:adverb:1": {
+      "sense": {},
+      "example": {
+        "french": "Depuis lors, il n'a plus jamais repris contact avec nous.",
+        "english": "Since then, he has never contacted us again.",
+        "spanish": "Desde entonces, nunca volvió a ponerse en contacto con nosotros.",
+        "chinese": "从那以后，他再也没有联系我们。"
+      }
+    },
+    "fr:distillation:noun:1": {
+      "sense": {
+        "english": "distillation; distilling",
+        "spanish": "destilación",
+        "chinese": "蒸馏；蒸馏过程"
+      },
+      "example": {
+        "french": "La distillation sépare les composants d'un mélange selon leur point d'ébullition.",
+        "english": "Distillation separates the components of a mixture according to their boiling points.",
+        "spanish": "La destilación separa los componentes de una mezcla según sus puntos de ebullición.",
+        "chinese": "蒸馏根据混合物各成分的沸点将其分离。"
+      }
+    },
+    "fr:empêtrer:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Il s'est empêtré dans une explication compliquée.",
+        "english": "He got entangled in a complicated explanation.",
+        "spanish": "Se enredó en una explicación complicada.",
+        "chinese": "他陷入了复杂的解释之中。"
+      }
+    },
+    "fr:encablure:noun:1": {
+      "sense": {
+        "english": "cable length; short distance; stone's throw",
+        "spanish": "distancia corta; a poca distancia",
+        "chinese": "一缆之距；不远处"
+      },
+      "example": {
+        "french": "Le village se trouve à quelques encablures de la côte.",
+        "english": "The village is a short distance from the coast.",
+        "spanish": "El pueblo está a poca distancia de la costa.",
+        "chinese": "这个村庄离海岸不远。"
+      }
+    },
+    "fr:enchevêtrement:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "L'enchevêtrement des câbles rendait toute réparation difficile.",
+        "english": "The tangle of cables made any repair difficult.",
+        "spanish": "El enredo de cables dificultaba cualquier reparación.",
+        "chinese": "电缆缠成一团，维修变得十分困难。"
+      }
+    },
+    "fr:encyclopédique:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Elle possède une culture encyclopédique dans le domaine de l'histoire.",
+        "english": "She has encyclopedic knowledge of history.",
+        "spanish": "Posee una cultura enciclopédica en el campo de la historia.",
+        "chinese": "她在历史领域拥有百科全书式的知识。"
+      }
+    },
+    "fr:entrecroiser:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Les branches s'entrecroisent au-dessus du sentier.",
+        "english": "The branches cross over one another above the path.",
+        "spanish": "Las ramas se entrecruzan sobre el sendero.",
+        "chinese": "树枝在小路上方交错。"
+      }
+    },
+    "fr:filage:noun:1": {
+      "sense": {
+        "english": "run-through; rehearsal; spinning",
+        "spanish": "ensayo; pasada; hilado",
+        "chinese": "彩排；试演；纺纱"
+      },
+      "example": {
+        "french": "Après le dernier filage, les acteurs ont encore corrigé quelques répliques.",
+        "english": "After the final run-through, the actors corrected a few lines.",
+        "spanish": "Después del último ensayo, los actores corrigieron algunas réplicas.",
+        "chinese": "最后一次彩排后，演员们又修改了几句台词。"
+      }
+    },
+    "fr:firmament:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Les étoiles semblaient innombrables dans le firmament nocturne.",
+        "english": "The stars seemed countless in the night sky.",
+        "spanish": "Las estrellas parecían innumerables en el firmamento nocturno.",
+        "chinese": "夜空中繁星密布，仿佛数也数不清。"
+      }
+    },
+    "fr:homme - enfant:noun:1": {
+      "sense": {
+        "english": "man-child; adult with childlike traits",
+        "spanish": "hombre-niño; adulto con rasgos infantiles",
+        "chinese": "孩子气的成年人；男孩般的男人"
+      },
+      "example": {
+        "french": "Cet homme-enfant refuse encore d'assumer ses responsabilités.",
+        "english": "This man-child still refuses to take responsibility.",
+        "spanish": "Este hombre-niño todavía se niega a asumir sus responsabilidades.",
+        "chinese": "这个孩子气的成年人仍不愿承担责任。"
+      }
+    },
+    "fr:intercommunal:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "La crèche municipale deviendra intercommunale l'année prochaine.",
+        "english": "The municipal nursery will become an intermunicipal service next year.",
+        "spanish": "La guardería municipal se convertirá en un servicio intermunicipal el año que viene.",
+        "chinese": "市立托儿所明年将成为跨市服务。"
+      }
+    },
+    "fr:interrupteur:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Appuyez sur l'interrupteur pour allumer la lumière.",
+        "english": "Press the switch to turn on the light.",
+        "spanish": "Pulsa el interruptor para encender la luz.",
+        "chinese": "按下开关打开灯。"
+      }
+    },
+    "fr:junior:adjective:1": {
+      "sense": {
+        "english": "junior; junior-level; junior player",
+        "spanish": "júnior; juvenil; de categoría inferior",
+        "chinese": "初级的；青少年的；青年运动员"
+      },
+      "example": {
+        "french": "Les juniors du club se sont entraînés ce matin.",
+        "english": "The club's junior players trained this morning.",
+        "spanish": "Los jugadores júnior del club entrenaron esta mañana.",
+        "chinese": "俱乐部的青年队员今天早上进行了训练。"
+      }
+    },
+    "fr:kyrielle:noun:1": {
+      "sense": {
+        "english": "long list; endless series; string",
+        "spanish": "retahíla; larga serie",
+        "chinese": "一长串；没完没了的一系列"
+      },
+      "example": {
+        "french": "Il a reçu une kyrielle de plaintes en une seule journée.",
+        "english": "He received a long string of complaints in a single day.",
+        "spanish": "Recibió una larga lista de quejas en un solo día.",
+        "chinese": "他一天之内就收到了一长串投诉。"
+      }
+    },
+    "fr:laqué:noun:1": {
+      "sense": {
+        "english": "lacquered; lacquer",
+        "spanish": "lacado; laca",
+        "chinese": "上漆的；漆；漆器"
+      },
+      "example": {
+        "french": "La porte laquée brillait sous la lumière.",
+        "english": "The lacquered door gleamed in the light.",
+        "spanish": "La puerta lacada brillaba bajo la luz.",
+        "chinese": "上漆的门在灯光下闪闪发亮。"
+      }
+    },
+    "fr:limousine:noun:1": {
+      "sense": {
+        "english": "limousine; Limousin cattle/sheep",
+        "spanish": "limusina; ganado/oveja limusina",
+        "chinese": "豪华轿车；利穆赞牛/羊"
+      },
+      "example": {
+        "french": "Les éleveurs présentent leurs moutons limousins au marché.",
+        "english": "The farmers bring their Limousin sheep to the market.",
+        "spanish": "Los ganaderos llevan sus ovejas limusinas al mercado.",
+        "chinese": "养殖户把利穆赞羊带到市场上。"
+      }
+    },
+    "fr:mûr:adjective:1": {
+      "sense": {
+        "english": "ripe; mature; adult; ready",
+        "spanish": "maduro; en su punto; adulto",
+        "chinese": "成熟的；熟透的；准备好的"
+      },
+      "example": {
+        "french": "Ces pêches sont mûres et prêtes à être mangées.",
+        "english": "These peaches are ripe and ready to eat.",
+        "spanish": "Estos melocotones están maduros y listos para comer.",
+        "chinese": "这些桃子熟透了，可以吃了。"
+      }
+    },
+    "fr:nicher:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Le village est niché au fond de la vallée.",
+        "english": "The village is nestled at the bottom of the valley.",
+        "spanish": "El pueblo está enclavado en el fondo del valle.",
+        "chinese": "村庄坐落在山谷深处。"
+      }
+    },
+    "fr:non content:adverb:1": {
+      "sense": {
+        "english": "not content; dissatisfied; not only ... but also",
+        "spanish": "no contento; insatisfecho; no solo... sino también",
+        "chinese": "不满足的；不满意的；不仅……而且"
+      },
+      "example": {
+        "french": "Non content d'être arrivé en retard, il a oublié ses clés.",
+        "english": "Not content with arriving late, he forgot his keys.",
+        "spanish": "No contento con llegar tarde, se olvidó de las llaves.",
+        "chinese": "他迟到还不算，竟然还忘了钥匙。"
+      }
+    },
+    "fr:nucléation:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "La nucléation est la première étape de la formation des cristaux.",
+        "english": "Nucleation is the first stage in crystal formation.",
+        "spanish": "La nucleación es la primera etapa de la formación de cristales.",
+        "chinese": "成核是晶体形成的第一阶段。"
+      }
+    },
+    "fr:néophyte:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "En tant que néophyte, elle a besoin d'une introduction aux règles du jeu.",
+        "english": "As a newcomer, she needs an introduction to the rules of the game.",
+        "spanish": "Como novata, necesita una introducción a las reglas del juego.",
+        "chinese": "作为新手，她需要先了解游戏规则。"
+      }
+    },
+    "fr:omettre:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "N'oubliez pas d'omettre les informations confidentielles du rapport public.",
+        "english": "Do not forget to omit confidential information from the public report.",
+        "spanish": "No olvides omitir la información confidencial del informe público.",
+        "chinese": "别忘了从公开报告中删去机密信息。"
+      }
+    },
+    "fr:paramétrer:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "J'ai paramétré mon téléphone pour qu'il sonne dans deux heures.",
+        "english": "I set my phone to ring in two hours.",
+        "spanish": "Configuré el teléfono para que sonara dentro de dos horas.",
+        "chinese": "我把手机设定为两小时后响铃。"
+      }
+    },
+    "fr:pigment:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "La chlorophylle est le pigment vert des feuilles.",
+        "english": "Chlorophyll is the green pigment in leaves.",
+        "spanish": "La clorofila es el pigmento verde de las hojas.",
+        "chinese": "叶绿素是叶片中的绿色色素。"
+      }
+    },
+    "fr:quantique:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "La physique quantique étudie le comportement des particules à très petite échelle.",
+        "english": "Quantum physics studies the behavior of particles at a very small scale.",
+        "spanish": "La física cuántica estudia el comportamiento de las partículas a escalas muy pequeñas.",
+        "chinese": "量子物理学研究微观尺度上粒子的行为。"
+      }
+    },
+    "fr:rhéologique:adjective:1": {
+      "sense": {
+        "english": "rheological; relating to flow/deformation of matter",
+        "spanish": "reológico; relativo al flujo de la materia",
+        "chinese": "流变学的；与物质流动和变形有关的"
+      },
+      "example": {
+        "french": "Les propriétés rhéologiques de la pâte dépendent de sa température.",
+        "english": "The dough's rheological properties depend on its temperature.",
+        "spanish": "Las propiedades reológicas de la masa dependen de su temperatura.",
+        "chinese": "面团的流变性质取决于温度。"
+      }
+    },
+    "fr:réseau wi - fi:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le réseau Wi-Fi de l'hôtel est accessible gratuitement.",
+        "english": "The hotel's Wi-Fi network is available free of charge.",
+        "spanish": "La red Wi-Fi del hotel está disponible gratis.",
+        "chinese": "酒店的无线网络可以免费使用。"
+      }
+    },
+    "fr:résine:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "La résine de pin collait aux doigts.",
+        "english": "The pine resin stuck to our fingers.",
+        "spanish": "La resina de pino se pegaba a los dedos.",
+        "chinese": "松树的树脂粘在手指上。"
+      }
+    },
+    "fr:scarifier:verb:1": {
+      "sense": {
+        "english": "to scarify; to make shallow cuts",
+        "spanish": "escarificar; hacer incisiones superficiales",
+        "chinese": "划痕；浅割"
+      },
+      "example": {
+        "french": "Le médecin a scarifié la peau avant d'appliquer le traitement.",
+        "english": "The doctor scarified the skin before applying the treatment.",
+        "spanish": "El médico escarificó la piel antes de aplicar el tratamiento.",
+        "chinese": "医生在施治前先在皮肤上做了浅划痕。"
+      }
+    },
+    "fr:smart:noun:1": {
+      "sense": {
+        "english": "smart; clever; stylish (adjective, informal)",
+        "spanish": "inteligente; listo; elegante (coloquial)",
+        "chinese": "聪明的；时髦的（口语）"
+      },
+      "example": {
+        "french": "Cette étudiante est très smart et apprend vite.",
+        "english": "This student is very smart and learns quickly.",
+        "spanish": "Esta estudiante es muy inteligente y aprende rápido.",
+        "chinese": "这个学生很聪明，学得很快。"
+      }
+    },
+    "fr:soul:adjective:1": {
+      "sense": {
+        "english": "soul music; soul",
+        "spanish": "soul; música soul",
+        "chinese": "灵魂乐；灵魂音乐"
+      },
+      "example": {
+        "french": "J'écoute souvent de la soul en travaillant.",
+        "english": "I often listen to soul music while working.",
+        "spanish": "A menudo escucho música soul mientras trabajo.",
+        "chinese": "我工作时经常听灵魂乐。"
+      }
+    },
+    "fr:stabiliser:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Le traitement a stabilisé l'état du patient.",
+        "english": "The treatment stabilized the patient's condition.",
+        "spanish": "El tratamiento estabilizó el estado del paciente.",
+        "chinese": "治疗稳定了患者的病情。"
+      }
+    },
+    "fr:stopper:verb:1": {
+      "sense": {},
+      "example": {
+        "french": "Le technicien a stoppé la fuite avant qu'elle n'endommage la machine.",
+        "english": "The technician stopped the leak before it damaged the machine.",
+        "spanish": "El técnico detuvo la fuga antes de que dañara la máquina.",
+        "chinese": "技术人员在泄漏损坏机器前将其止住了。"
+      }
+    },
+    "fr:stressant:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Les examens peuvent être très stressants pour les étudiants.",
+        "english": "Exams can be very stressful for students.",
+        "spanish": "Los exámenes pueden ser muy estresantes para los estudiantes.",
+        "chinese": "考试可能会让学生感到非常紧张。"
+      }
+    },
+    "fr:supraconducteur:noun:1": {
+      "sense": {
+        "english": "superconductor; superconducting",
+        "spanish": "superconductor; superconductivo",
+        "chinese": "超导体；超导的"
+      },
+      "example": {
+        "french": "Le mercure devient supraconducteur en dessous de 4,15 K.",
+        "english": "Mercury becomes superconducting below 4.15 K.",
+        "spanish": "El mercurio se vuelve superconductor por debajo de 4,15 K.",
+        "chinese": "汞在低于 4.15 K 时会变成超导体。"
+      }
+    },
+    "fr:tennistique:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "La joueuse tennistique a remporté le championnat régional.",
+        "english": "The tennis player won the regional championship.",
+        "spanish": "La tenista ganó el campeonato regional.",
+        "chinese": "这名网球运动员赢得了地区锦标赛。"
+      }
+    },
+    "fr:typhus:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "Le patient présentait une forte fièvre et des taches rouges caractéristiques du typhus.",
+        "english": "The patient had a high fever and red spots characteristic of typhus.",
+        "spanish": "El paciente tenía fiebre alta y manchas rojas características del tifus.",
+        "chinese": "患者高烧不退，并出现斑疹伤寒特有的红斑。"
+      }
+    },
+    "fr:verticale:noun:1": {
+      "sense": {
+        "english": "vertical; vertical line",
+        "spanish": "vertical; línea vertical",
+        "chinese": "垂直线；竖直方向"
+      },
+      "example": {
+        "french": "Les points sont alignés sur la verticale.",
+        "english": "The points are aligned along the vertical line.",
+        "spanish": "Los puntos están alineados en la vertical.",
+        "chinese": "这些点沿着竖直线排列。"
+      }
+    },
+    "fr:élasticité:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "L'élasticité de la demande varie selon le prix.",
+        "english": "The elasticity of demand varies with price.",
+        "spanish": "La elasticidad de la demanda varía según el precio.",
+        "chinese": "需求的价格弹性会随价格变化。"
+      }
+    },
+    "fr:express:noun:1": {
+      "sense": {
+        "english": "express; espresso; express train",
+        "spanish": "exprés; expreso; tren expreso",
+        "chinese": "特快列车；浓缩咖啡"
+      },
+      "example": {
+        "french": "Nous avons pris l'express de sept heures pour Paris.",
+        "english": "We took the seven-o'clock express to Paris.",
+        "spanish": "Tomamos el expreso de las siete a París.",
+        "chinese": "我们乘坐七点开往巴黎的特快列车。"
+      }
+    },
+    "fr:constance:noun:1": {
+      "sense": {
+        "english": "constancy; perseverance; steadfastness",
+        "spanish": "constancia; perseverancia; firmeza",
+        "chinese": "坚持；恒心；坚定不移"
+      },
+      "example": {
+        "french": "Grâce à sa constance, elle a terminé son projet à temps.",
+        "english": "Thanks to her perseverance, she finished her project on time.",
+        "spanish": "Gracias a su constancia, terminó su proyecto a tiempo.",
+        "chinese": "凭借坚持不懈，她按时完成了项目。"
+      }
+    },
+    "fr:modéré:adjective:1": {
+      "sense": {},
+      "example": {
+        "french": "Un vent modéré soufflait sur la côte.",
+        "english": "A moderate wind was blowing along the coast.",
+        "spanish": "Soplaba un viento moderado en la costa.",
+        "chinese": "海岸上吹着和缓的风。"
+      }
+    },
+    "fr:déprime:noun:1": {
+      "sense": {
+        "english": "depression; low spirits; gloom (informal)",
+        "spanish": "depresión; bajón; desánimo (coloquial)",
+        "chinese": "抑郁；情绪低落；郁闷（口语）"
+      },
+      "example": {
+        "french": "Après plusieurs semaines de stress, il a traversé une période de déprime.",
+        "english": "After several weeks of stress, he went through a period of low spirits.",
+        "spanish": "Tras varias semanas de estrés, pasó por un periodo de desánimo.",
+        "chinese": "连续数周的压力后，他经历了一段情绪低落期。"
+      }
+    },
+    "fr:altermondialisation:noun:1": {
+      "sense": {
+        "english": "alter-globalization; alternative globalization",
+        "spanish": "altermundialismo; globalización alternativa",
+        "chinese": "另类全球化；全球化替代运动"
+      },
+      "example": {
+        "french": "L'altermondialisation critique les effets sociaux de la mondialisation.",
+        "english": "Alter-globalization criticizes the social effects of globalization.",
+        "spanish": "El altermundialismo critica los efectos sociales de la globalización.",
+        "chinese": "另类全球化运动批评全球化带来的社会影响。"
+      }
+    },
+    "fr:américanisation:noun:1": {
+      "sense": {},
+      "example": {
+        "french": "L'américanisation de la culture locale se manifeste dans la publicité et la musique.",
+        "english": "The Americanization of local culture can be seen in advertising and music.",
+        "spanish": "La americanización de la cultura local se observa en la publicidad y la música.",
+        "chinese": "当地文化的美国化体现在广告和音乐中。"
+      }
+    },
+    "fr:assigner:verb:1": {
+      "sense": {
+        "english": "to assign; to attribute; to summon (legal)",
+        "spanish": "asignar; atribuir; citar (jurídico)",
+        "chinese": "分配；归因于；传唤（法律）"
+      },
+      "example": {
+        "french": "On ne peut pas toujours assigner une cause unique à un événement complexe.",
+        "english": "One cannot always attribute a complex event to a single cause.",
+        "spanish": "No siempre se puede atribuir un acontecimiento complejo a una sola causa.",
+        "chinese": "复杂事件未必总能归因于单一原因。"
+      }
+    },
+    "fr:bactérien:adjective:1": {
+      "sense": {
+        "english": "bacterial; fire blight (in feu bactérien)",
+        "spanish": "bacteriano; fuego bacteriano",
+        "chinese": "细菌的；火疫病（植物病害）"
+      },
+      "example": {
+        "french": "Le feu bactérien menace les vergers de pommiers et de poiriers.",
+        "english": "Fire blight threatens apple and pear orchards.",
+        "spanish": "El fuego bacteriano amenaza los huertos de manzanos y perales.",
+        "chinese": "火疫病威胁着苹果树和梨树果园。"
+      }
+    },
+    "fr:créolisation:noun:1": {
+      "sense": {
+        "english": "creolization; creolisation",
+        "spanish": "criollización",
+        "chinese": "克里奥尔化"
+      },
+      "example": {
+        "french": "La créolisation décrit le mélange de langues et de cultures dans les sociétés créoles.",
+        "english": "Creolization describes the mixing of languages and cultures in Creole societies.",
+        "spanish": "La criollización describe la mezcla de lenguas y culturas en las sociedades criollas.",
+        "chinese": "克里奥尔化描述了克里奥尔社会中语言和文化的融合。"
+      }
+    },
+    "fr:discrédit:noun:1": {
+      "sense": {
+        "english": "disrepute; discredit; loss of credibility",
+        "spanish": "descrédito; pérdida de credibilidad",
+        "chinese": "声誉扫地；失去信誉；不受信任"
+      },
+      "example": {
+        "french": "Le scandale a jeté le discrédit sur l'organisation.",
+        "english": "The scandal brought disrepute on the organization.",
+        "spanish": "El escándalo desacreditó a la organización.",
+        "chinese": "这起丑闻使该组织声名狼藉。"
+      }
+    },
+    "fr:dramatiser:verb:1": {
+      "sense": {
+        "english": "to dramatize; to exaggerate; to make dramatic",
+        "spanish": "dramatizar; exagerar",
+        "chinese": "夸大；小题大做；使戏剧化"
+      },
+      "example": {
+        "french": "Ne dramatise pas la situation, nous trouverons une solution.",
+        "english": "Don't dramatize the situation; we'll find a solution.",
+        "spanish": "No dramatices la situación; encontraremos una solución.",
+        "chinese": "别把事情想得太严重，我们会找到解决办法的。"
+      }
+    }
+  }
+}

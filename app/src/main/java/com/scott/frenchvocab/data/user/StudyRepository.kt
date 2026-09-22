@@ -30,7 +30,7 @@ class StudyRepository(context: Context, private val content: ContentRepository) 
             val cards = readCards()
             val book = content.books().firstOrNull { it.id == settings.bookId }
             val items = SessionPlanner.plan(
-                allUids = content.allWords().map { it.uid },
+                allUids = content.allUids(),
                 bookUids = book?.lexemeUids.orEmpty(), cards = cards,
                 dailyNewLimit = settings.dailyNewLimit, todayNew = countNew(day(now)), now = now,
                 random = Random.Default,
@@ -94,7 +94,7 @@ class StudyRepository(context: Context, private val content: ContentRepository) 
     @Synchronized
     fun saveSettings(settings: UserSettings): AppSnapshot = transaction {
         val bookId = settings.bookId.takeIf { id -> content.books().any { it.id == id } }
-            ?: content.books().firstOrNull()?.id ?: "essential-fr"
+            ?: content.defaultBookId()
         val safe = settings.copy(dailyNewLimit = settings.dailyNewLimit.coerceAtLeast(0), bookId = bookId,
             showChinese = settings.showChinese || (!settings.showEnglish && !settings.showSpanish))
         check(db.insertWithOnConflict("settings", null, ContentValues().apply {
@@ -108,7 +108,7 @@ class StudyRepository(context: Context, private val content: ContentRepository) 
 
     @Synchronized
     fun toggleFavorite(uid: String): AppSnapshot = transaction {
-        require(content.find(uid) != null) { "词条不存在：$uid" }
+        require(content.contains(uid)) { "词条不存在：$uid" }
         if (db.delete("favorites", "lexeme_uid=?", arrayOf(uid)) == 0) {
             db.insertOrThrow("favorites", null, ContentValues().apply { put("lexeme_uid", uid) })
         }
@@ -127,7 +127,7 @@ class StudyRepository(context: Context, private val content: ContentRepository) 
             while (cursor.moveToNext()) counts[cursor.getString(0)] = cursor.getInt(1)
         }
         val todayNew = countNew(today)
-        val validUids = content.allWords().map { it.uid }.toSet()
+        val validUids = content.allUids().toSet()
         val bookUids = content.books().firstOrNull { it.id == settings.bookId }?.lexemeUids.orEmpty().toSet()
         val favorites = mutableSetOf<String>()
         db.rawQuery("SELECT lexeme_uid FROM favorites", null).use { cursor ->
@@ -145,12 +145,13 @@ class StudyRepository(context: Context, private val content: ContentRepository) 
     }
 
     private fun readSettings(): UserSettings = db.rawQuery("SELECT * FROM settings WHERE id=1", null).use { cursor ->
-        if (!cursor.moveToFirst()) UserSettings() else UserSettings(
+        val stored = if (!cursor.moveToFirst()) UserSettings() else UserSettings(
             dailyNewLimit = cursor.int("daily_new_limit"), bookId = cursor.string("book_id"),
             autoPlay = AutoPlayMode.valueOf(cursor.string("auto_play")), ttsFallback = cursor.int("tts_fallback") != 0,
             showIpa = cursor.int("show_ipa") != 0, showEnglish = cursor.int("show_english") != 0,
             showSpanish = cursor.int("show_spanish") != 0, showChinese = cursor.int("show_chinese") != 0,
         )
+        stored.copy(bookId = stored.bookId.takeIf(content::containsBook) ?: content.defaultBookId())
     }
 
     private fun readCards(): Map<String, LearningCard> = buildMap {
@@ -227,7 +228,7 @@ internal class UserDatabase(context: Context) : SQLiteOpenHelper(context, "frenc
         createSettingsTable(db, "settings")
         db.execSQL("""INSERT INTO settings
             (id,daily_new_limit,book_id,auto_play,tts_fallback,show_ipa,show_english,show_spanish,show_chinese)
-            VALUES(1,10,'essential-fr','NEW_ONLY',1,1,1,1,1)""")
+            VALUES(1,10,'$DEFAULT_BOOK_ID','NEW_ONLY',1,1,1,1,1)""")
         db.execSQL("""CREATE TABLE learning_card (
             lexeme_uid TEXT PRIMARY KEY NOT NULL, stability REAL NOT NULL, difficulty REAL NOT NULL,
             due_at INTEGER NOT NULL, last_review_at INTEGER, repetitions INTEGER NOT NULL,

@@ -6,6 +6,7 @@ import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.selection.toggleable
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -27,21 +28,26 @@ import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.unit.dp
 import com.scott.frenchvocab.domain.*
 import com.scott.frenchvocab.ui.theme.*
-import java.text.Normalizer
-
-private fun String.searchKey(): String = Normalizer.normalize(lowercase(), Normalizer.Form.NFD).replace(Regex("\\p{M}+"), "")
 
 @Composable
-fun BrowseScreen(words: List<Lexeme>, books: List<VocabularyBook>, snapshot: AppSnapshot, selectedBook: String, onBook: (String) -> Unit, onDetail: (Lexeme) -> Unit) {
+fun BrowseScreen(
+    state: BrowseState,
+    books: List<VocabularyBook>,
+    snapshot: AppSnapshot,
+    selectedBook: String,
+    onBook: (String) -> Unit,
+    onCriteria: (String, String, Boolean, Set<String>) -> Unit,
+    onLoadMore: () -> Unit,
+    onDetail: (String) -> Unit,
+) {
     var query by rememberSaveable { mutableStateOf("") }
     var favoritesOnly by rememberSaveable { mutableStateOf(false) }
-    val members = books.find { it.id == selectedBook }?.lexemeUids?.toSet()
-    val filtered = remember(query, words, members, favoritesOnly, snapshot.favorites) {
-        val search = query.trim().searchKey()
-        words.filter { word ->
-            (members == null || word.uid in members) && (!favoritesOnly || word.uid in snapshot.favorites) &&
-                (search.isEmpty() || word.lemma.searchKey().contains(search) || word.senses.any { it.chinese.searchKey().contains(search) || it.english.searchKey().contains(search) || it.spanish.searchKey().contains(search) })
-        }.sortedBy { it.lemma.searchKey() }
+    val listState = rememberLazyListState()
+    LaunchedEffect(query, selectedBook, favoritesOnly, snapshot.favorites) {
+        onCriteria(selectedBook, query, favoritesOnly, snapshot.favorites)
+    }
+    LaunchedEffect(query, selectedBook, favoritesOnly) {
+        listState.scrollToItem(0)
     }
     Column(Modifier.fillMaxSize()) {
         OutlinedTextField(query, { query = it }, modifier = Modifier.fillMaxWidth().padding(horizontal = 20.dp, vertical = 10.dp).testTag("word_search"), label = { Text("搜索法语 / 中文 / EN / ES") }, singleLine = true, trailingIcon = {
@@ -52,13 +58,22 @@ fun BrowseScreen(words: List<Lexeme>, books: List<VocabularyBook>, snapshot: App
             books.forEach { book -> FilterChip(selectedBook == book.id, { onBook(book.id) }, label = { Text(book.title) }) }
         }
         Row(Modifier.fillMaxWidth().padding(horizontal = 20.dp), verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.SpaceBetween) {
-            Text("${filtered.size} 个词条", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
+            Text("${state.total} 个词条", style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             FilterChip(favoritesOnly, { favoritesOnly = !favoritesOnly }, label = { Text("只看收藏") }, modifier = Modifier.testTag("favorites_filter"))
         }
-        if (filtered.isEmpty()) EmptyState("没有符合条件的词条", "试试其他拼写，或调整词书与收藏筛选。")
-        else LazyColumn(Modifier.weight(1f), contentPadding = PaddingValues(horizontal = 20.dp, vertical = 8.dp)) {
-            items(filtered, key = { it.uid }) { word ->
-                Column(Modifier.fillMaxWidth().clickable { onDetail(word) }.testTag("word_${word.uid}").padding(vertical = 14.dp)) {
+        if (state.items.isEmpty() && state.loading) {
+            Box(Modifier.fillMaxWidth().weight(1f), contentAlignment = Alignment.Center) {
+                CircularProgressIndicator(Modifier.testTag("browse_loading"))
+            }
+        } else if (state.items.isEmpty()) {
+            EmptyState("没有符合条件的词条", "试试其他拼写，或调整词书与收藏筛选。")
+        } else LazyColumn(
+            modifier = Modifier.weight(1f).testTag("browse_list_${state.criteria.query}"),
+            state = listState,
+            contentPadding = PaddingValues(horizontal = 20.dp, vertical = 8.dp),
+        ) {
+            items(state.items, key = { it.uid }) { word ->
+                Column(Modifier.fillMaxWidth().clickable { onDetail(word.uid) }.testTag("word_${word.uid}").padding(vertical = 14.dp)) {
                     Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
                         Text(word.lemma, Modifier.weight(1f), style = MaterialTheme.typography.titleMedium)
                         if (word.uid in snapshot.favorites) Text("★", color = AccentDark, modifier = Modifier.padding(end = 8.dp))
@@ -67,13 +82,24 @@ fun BrowseScreen(words: List<Lexeme>, books: List<VocabularyBook>, snapshot: App
                     Text("${word.partOfSpeech} · ${word.level}", Modifier.padding(top = 4.dp), style = MaterialTheme.typography.labelSmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     val preview = selectedTranslations(
                         settings = snapshot.settings,
-                        chinese = word.senses.firstOrNull { it.chinese.isNotBlank() }?.chinese.orEmpty(),
-                        english = word.senses.firstOrNull { it.english.isNotBlank() }?.english.orEmpty(),
-                        spanish = word.senses.firstOrNull { it.spanish.isNotBlank() }?.spanish.orEmpty(),
+                        chinese = word.chinese,
+                        english = word.english,
+                        spanish = word.spanish,
                     ).firstOrNull()
                     Text(preview?.let { "${it.label}  ${it.text}" } ?: "所选语言的释义暂未收录", Modifier.padding(top = 6.dp).testTag("browse_meaning_${word.uid}"), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
                 HorizontalDivider(color = Line)
+            }
+            if (state.hasMore) {
+                item(key = "browse_load_more") {
+                    LaunchedEffect(state.items.size, state.criteria) { onLoadMore() }
+                    Box(
+                        Modifier.fillMaxWidth().padding(20.dp).testTag("browse_load_more"),
+                        contentAlignment = Alignment.Center,
+                    ) {
+                        CircularProgressIndicator(Modifier.size(26.dp))
+                    }
+                }
             }
         }
     }

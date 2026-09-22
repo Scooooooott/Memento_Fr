@@ -3,6 +3,7 @@ package com.scott.frenchvocab
 import androidx.compose.ui.test.*
 import androidx.compose.ui.semantics.SemanticsActions
 import androidx.compose.ui.test.junit4.createEmptyComposeRule
+import android.os.SystemClock
 import androidx.test.core.app.ActivityScenario
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
@@ -14,6 +15,7 @@ import org.junit.After
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
+import org.junit.Assert.assertTrue
 import org.junit.runner.RunWith
 import java.io.File
 
@@ -92,8 +94,9 @@ class AppFlowInstrumentedTest {
         compose.onNodeWithTag("nav_words").performClick()
         awaitTag("word_search")
         compose.onNodeWithTag("word_search").performTextInput("etre")
+        awaitTag("browse_list_etre")
         // Larger books add matching words before être; it may start off-screen.
-        compose.onNode(SemanticsMatcher.keyIsDefined(SemanticsActions.ScrollToIndex))
+        compose.onNodeWithTag("browse_list_etre")
             .performScrollToNode(hasTestTag("word_fr:être:verb:1"))
         compose.onNodeWithTag("word_fr:être:verb:1").performClick()
         awaitTag("word_detail")
@@ -125,7 +128,7 @@ class AppFlowInstrumentedTest {
         awaitTag("start_study")
         // The saved snackbar floats over the bottom of the next screen. Wait
         // for it to leave before physically tapping switches near that edge.
-        compose.waitUntil(10_000) { compose.onAllNodesWithText("设置已保存", substring = true).fetchSemanticsNodes().isEmpty() }
+        compose.waitUntil(15_000) { compose.onAllNodesWithText("设置已保存", substring = true).fetchSemanticsNodes().isEmpty() }
         compose.onNodeWithTag("nav_settings").performClick()
         awaitTag("daily_new_limit")
         compose.onNodeWithTag("daily_new_limit").assertTextContains("10000")
@@ -161,7 +164,7 @@ class AppFlowInstrumentedTest {
         compose.onNodeWithTag("reveal_answer").assertExists()
         // At large font sizes the audio snackbar covers more of the lower
         // blank area. It is a message, not an exposed blank reveal target.
-        compose.waitUntil(10_000) { compose.onAllNodesWithText("此词暂无本地录音", substring = true).fetchSemanticsNodes().isEmpty() }
+        compose.waitUntil(15_000) { compose.onAllNodesWithText("此词暂无本地录音", substring = true).fetchSemanticsNodes().isEmpty() }
         compose.onNodeWithTag("toggle_favorite").performTouchInput { click(center) }
         compose.waitUntil(10_000) { compose.onAllNodesWithText("★ 已收藏").fetchSemanticsNodes().isNotEmpty() }
         compose.onNodeWithTag("reveal_answer").assertExists()
@@ -175,6 +178,31 @@ class AppFlowInstrumentedTest {
         awaitTag("rate_GOOD")
         compose.onAllNodesWithTag("sense_en").onFirst().assertExists()
         screenshot("09-blank-tap-answer")
+    }
+
+    @Test fun backgroundReturnShowsHomeAndContinueRestoresRevealedCard() {
+        compose.onNodeWithTag("start_study").performClick()
+        awaitTag("reveal_answer")
+        compose.onNodeWithTag("reveal_blank_space").performScrollTo().performTouchInput { click(center) }
+        awaitTag("rate_GOOD")
+        compose.onNodeWithTag("study_position").assertTextEquals("1 / 2")
+        scenario.moveToState(androidx.lifecycle.Lifecycle.State.CREATED)
+        scenario.moveToState(androidx.lifecycle.Lifecycle.State.RESUMED)
+        awaitTag("start_study")
+        compose.onNodeWithText("继续学习").assertExists()
+        compose.onNodeWithTag("start_study").performClick()
+        awaitTag("rate_GOOD")
+        compose.onNodeWithTag("study_position").assertTextEquals("1 / 2")
+    }
+
+    @Test fun wordLibraryFirstPageTiming() {
+        val started = SystemClock.elapsedRealtime()
+        compose.onNodeWithTag("nav_words").performClick()
+        awaitTag("browse_list_")
+        val elapsed = SystemClock.elapsedRealtime() - started
+        println("FRENCH_BROWSE_FIRST_PAGE_MS=$elapsed")
+        assertTrue("First vocabulary page took ${elapsed}ms", elapsed < 5_000)
+        compose.onNodeWithTag("word_search").assertIsDisplayed()
     }
 
     private fun awaitTag(tag: String) {

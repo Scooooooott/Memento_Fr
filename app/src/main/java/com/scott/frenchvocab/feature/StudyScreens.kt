@@ -1,7 +1,9 @@
 package com.scott.frenchvocab.feature
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.border
 import androidx.compose.foundation.gestures.detectTapGestures
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -90,9 +92,10 @@ fun StudyScreen(word: Lexeme, session: StudySession, favorite: Boolean, busy: Bo
         }
         if (revealed) {
             Column(Modifier.testTag("study_answer"), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                word.senses.take(2).forEachIndexed { index, sense -> SenseBlock(index + 1, sense, session.settings, compact = true) }
+                word.senses.forEachIndexed { index, sense ->
+                    SenseWithExamples(index + 1, sense, session.settings, compact = true)
+                }
                 if (word.senses.isEmpty()) Text("所选语言的释义暂未收录", modifier = Modifier.testTag("sense_missing"), color = MaterialTheme.colorScheme.onSurfaceVariant)
-                word.examples.firstOrNull()?.let { ExampleBlock(it, session.settings, compact = true) }
                 if (word.forms.isNotEmpty()) {
                     Column {
                         Text("关键形式", style = MaterialTheme.typography.titleSmall, modifier = Modifier.padding(bottom = 4.dp))
@@ -155,6 +158,24 @@ private fun ExampleBlock(example: Example, settings: UserSettings, compact: Bool
 }
 
 @Composable
+private fun SenseWithExamples(number: Int, sense: Sense, settings: UserSettings, compact: Boolean = false) {
+    Column(
+        Modifier.fillMaxWidth().testTag("sense_group_$number"),
+        verticalArrangement = Arrangement.spacedBy(if (compact) 3.dp else 6.dp),
+    ) {
+        SenseBlock(number, sense, settings, compact)
+        sense.examples.forEach { ExampleBlock(it, settings, compact) }
+        if (sense.examples.isEmpty() && !compact) {
+            Text(
+                "此义项尚无可信例句。",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+        }
+    }
+}
+
+@Composable
 private fun FormRow(label: String, value: String, compact: Boolean = false) {
     Row(Modifier.fillMaxWidth().padding(vertical = if (compact) 3.dp else 6.dp), horizontalArrangement = Arrangement.spacedBy(12.dp)) {
         Text(label, Modifier.weight(0.4f), style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
@@ -184,11 +205,10 @@ fun WordDetailScreen(word: Lexeme, settings: UserSettings, favorite: Boolean, bu
             Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(20.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
                 when (tab) {
                     0 -> {
-                        word.senses.forEachIndexed { index, sense -> SenseBlock(index + 1, sense, settings) }
+                        word.senses.forEachIndexed { index, sense ->
+                            SenseWithExamples(index + 1, sense, settings)
+                        }
                         if (word.senses.isEmpty()) Text("所选语言的释义暂未收录", modifier = Modifier.testTag("sense_missing"), color = MaterialTheme.colorScheme.onSurfaceVariant)
-                        SectionTitle("例句 · Exemples")
-                        if (word.examples.isEmpty()) Text("此词条尚未收录例句。")
-                        word.examples.forEach { ExampleBlock(it, settings) }
                     }
                     1 -> {
                         if (word.auxiliary.isNotBlank()) FormRow("助动词", word.auxiliary)
@@ -197,14 +217,7 @@ fun WordDetailScreen(word: Lexeme, settings: UserSettings, favorite: Boolean, bu
                     }
                     2 -> {
                         if (word.conjugations.isEmpty()) Text("此词条没有已收录的动词变位。", color = MaterialTheme.colorScheme.onSurfaceVariant)
-                        word.conjugations.groupBy { it.tense }.forEach { (tense, entries) ->
-                            SectionTitle(tense)
-                            entries.forEach { entry ->
-                                val phrase = entry.pronoun + (if (entry.pronoun.endsWith("’") || entry.pronoun.endsWith("'")) "" else " ") + entry.form
-                                Text(phrase, Modifier.fillMaxWidth().padding(vertical = 7.dp))
-                                HorizontalDivider(color = Line)
-                            }
-                        }
+                        if (word.conjugations.isNotEmpty()) ConjugationTable(word.conjugations)
                     }
                 }
             }
@@ -213,7 +226,54 @@ fun WordDetailScreen(word: Lexeme, settings: UserSettings, favorite: Boolean, bu
 }
 
 @Composable
-fun SummaryScreen(session: StudySession?, words: List<Lexeme>, onHome: () -> Unit, onDetail: (Lexeme) -> Unit) {
+private fun ConjugationTable(conjugations: List<Conjugation>) {
+    val scroll = rememberScrollState()
+    val groups = conjugations.groupBy(Conjugation::tense)
+    val headers = listOf("je / j’", "tu", "il / elle / on", "nous", "vous", "ils / elles")
+    Column(
+        Modifier.fillMaxWidth().horizontalScroll(scroll).testTag("conjugation_table"),
+        verticalArrangement = Arrangement.spacedBy(0.dp),
+    ) {
+        Row(Modifier.height(IntrinsicSize.Min)) {
+            ConjugationCell("时态", 128.dp, header = true, tag = "conjugation_tense_header")
+            headers.forEachIndexed { index, header ->
+                ConjugationCell(header, 150.dp, header = true, tag = "conjugation_header_$index")
+            }
+        }
+        groups.forEach { (tense, entries) ->
+            Row(Modifier.height(IntrinsicSize.Min).testTag("conjugation_row_$tense")) {
+                ConjugationCell(tense, 128.dp, header = true)
+                repeat(headers.size) { index ->
+                    val entry = entries.getOrNull(index)
+                    val phrase = entry?.let {
+                        it.pronoun + (if (it.pronoun.endsWith("’") || it.pronoun.endsWith("'")) "" else " ") + it.form
+                    }.orEmpty()
+                    ConjugationCell(phrase, 150.dp, tag = "conjugation_cell_${tense}_$index")
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun ConjugationCell(text: String, width: androidx.compose.ui.unit.Dp, header: Boolean = false, tag: String? = null) {
+    Box(
+        Modifier.width(width).fillMaxHeight().heightIn(min = 72.dp)
+            .border(0.5.dp, Line)
+            .then(if (tag == null) Modifier else Modifier.testTag(tag))
+            .padding(horizontal = 10.dp, vertical = 12.dp),
+        contentAlignment = Alignment.CenterStart,
+    ) {
+        Text(
+            text,
+            style = if (header) MaterialTheme.typography.labelLarge else MaterialTheme.typography.bodyMedium,
+            fontWeight = if (header) FontWeight.SemiBold else FontWeight.Normal,
+        )
+    }
+}
+
+@Composable
+fun SummaryScreen(session: StudySession?, words: List<LexemePreview>, onHome: () -> Unit, onDetail: (String) -> Unit) {
     if (session == null) { EmptyState("还没有完成的学习记录", "完成一轮学习后，在这里查看总结。"); return }
     val scored = session.items.filter { it.rating != null }
     val focus = scored.filter { it.rating == Rating.AGAIN || it.rating == Rating.HARD }
@@ -232,7 +292,7 @@ fun SummaryScreen(session: StudySession?, words: List<Lexeme>, onHome: () -> Uni
         SectionTitle("重点复习", "本轮标记为「忘记」或「模糊」的词条")
         if (focus.isEmpty()) Text("本轮没有重点复习词。继续保持！", color = AccentDark)
         focus.forEach { item -> words.find { it.uid == item.lexemeUid }?.let { word ->
-            OutlinedButton(onClick = { onDetail(word) }, modifier = Modifier.fillMaxWidth()) {
+            OutlinedButton(onClick = { onDetail(word.uid) }, modifier = Modifier.fillMaxWidth()) {
                 Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) { Text(word.lemma); Text(item.rating!!.label()) }
             }
         } }

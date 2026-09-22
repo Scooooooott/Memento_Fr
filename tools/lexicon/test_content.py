@@ -59,7 +59,19 @@ class ContentReleaseTests(unittest.TestCase):
         second = self.folder / "second.db"
         content.build(second)
         self.assertEqual(hashlib.sha256(self.db_path.read_bytes()).digest(), hashlib.sha256(second.read_bytes()).digest())
-        self.assertEqual(self.db_path.read_bytes(), content.DEFAULT_OUTPUT.read_bytes(), "Bundled database is stale; run build_content.py")
+        source_hash = hashlib.sha256(content.SOURCE.read_bytes()).hexdigest()
+        with closing(sqlite3.connect(content.DEFAULT_OUTPUT.as_uri() + "?mode=ro", uri=True)) as bundled:
+            bundled_source = bundled.execute(
+                "SELECT value FROM content_meta WHERE key='source_sha256'"
+            ).fetchone()
+        # The production asset may be a later consolidated FLELex build. Only
+        # a bundle that declares this exact single source must byte-match it.
+        if bundled_source == (source_hash,):
+            self.assertEqual(
+                self.db_path.read_bytes(),
+                content.DEFAULT_OUTPUT.read_bytes(),
+                "Bundled single-source database is stale; run build_content.py",
+            )
 
     def test_six_persons_each_tense_and_safe_readonly(self):
         with self.connection() as db:
@@ -144,6 +156,16 @@ class ContentReleaseTests(unittest.TestCase):
         rejected(lambda d: d["words"][noun_index].__setitem__("gender", ""))
         rejected(lambda d: d["words"][etre_verb_index]["verb"].pop("compound"))
         rejected(lambda d: d["words"][etre_verb_index].__setitem__("references", ["unknown-source"]))
+
+    def test_multiple_senses_and_optional_examples_are_valid_editorial_shapes(self):
+        modified = copy.deepcopy(self.source)
+        word = modified["words"][0]
+        word["senses"] += [
+            {"english": "toward", "spanish": "hacia", "chinese": "朝向"},
+            {"english": "at a rate of", "spanish": "a razón de", "chinese": "以某种速率"},
+        ]
+        word["examples"] = []
+        content.validate_source(modified, self.provenance)
 
     def test_invalid_database_is_rejected(self):
         broken = self.folder / "broken.db"

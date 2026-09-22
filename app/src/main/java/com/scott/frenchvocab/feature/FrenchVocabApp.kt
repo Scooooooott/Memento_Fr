@@ -42,24 +42,33 @@ fun FrenchVocabApp() {
                 FrenchVocabViewModel(activity.applicationContext) as T
         })[FrenchVocabViewModel::class.java]
     }
-    val player = remember(context) { PronunciationPlayer(context.applicationContext) }
-    DisposableEffect(player) { onDispose { player.close() } }
-    DisposableEffect(activity, model, player) {
-        val observer = LifecycleEventObserver { _, event ->
-            if (event == Lifecycle.Event.ON_RESUME && model.snapshot != null) model.refresh()
-            if (event == Lifecycle.Event.ON_STOP) player.stop()
-        }
-        activity.lifecycle.addObserver(observer)
-        onDispose { activity.lifecycle.removeObserver(observer) }
-    }
-
     var route by rememberSaveable { mutableStateOf("loading") }
     var detailUid by rememberSaveable { mutableStateOf("") }
     var detailFrom by rememberSaveable { mutableStateOf("words") }
     var settingsFrom by rememberSaveable { mutableStateOf("home") }
     val settingsStateHolder = rememberSaveableStateHolder()
+    val browseStateHolder = rememberSaveableStateHolder()
     var browseBook by rememberSaveable { mutableStateOf("") }
     var autoPlayedKey by rememberSaveable { mutableStateOf("") }
+    val firstUiAttachment = remember(model) { model.claimUiAttachment() }
+    var coldRouteResolved by remember { mutableStateOf(!firstUiAttachment) }
+    val player = remember(context) { PronunciationPlayer(context.applicationContext) }
+    DisposableEffect(player) { onDispose { player.close() } }
+    DisposableEffect(activity, model, player) {
+        val observer = LifecycleEventObserver { _, event ->
+            if (event == Lifecycle.Event.ON_RESUME && model.snapshot != null) model.refresh()
+            if (event == Lifecycle.Event.ON_STOP) {
+                player.stop()
+                if (!activity.isChangingConfigurations) {
+                    route = "home"
+                    detailUid = ""
+                }
+            }
+        }
+        activity.lifecycle.addObserver(observer)
+        onDispose { activity.lifecycle.removeObserver(observer) }
+    }
+
     val snapshot = model.snapshot
     val session = snapshot?.session
     val snackbar = remember { SnackbarHostState() }
@@ -71,14 +80,15 @@ fun FrenchVocabApp() {
         }
     }
     LaunchedEffect(snapshot, route) {
-        if (snapshot != null && route == "loading") {
-            route = if (snapshot.session?.current != null && !snapshot.session.completed) "study" else "home"
+        if (snapshot != null && (!coldRouteResolved || route == "loading")) {
+            route = "home"
+            coldRouteResolved = true
         }
         if (snapshot != null && route == "study" && (session == null || session.completed)) {
             route = if (snapshot.latestCompletedSession != null || session?.completed == true) "summary" else "home"
         }
     }
-    val currentWord = model.words.find { it.uid == session?.current?.lexemeUid }
+    val currentWord = model.currentWord
     DisposableEffect(player, route, currentWord?.uid) {
         onDispose { player.stop() }
     }
@@ -98,9 +108,10 @@ fun FrenchVocabApp() {
         }
     }
 
-    fun openDetail(word: Lexeme) {
+    fun openDetail(uid: String) {
         detailFrom = route
-        detailUid = word.uid
+        detailUid = uid
+        model.loadDetail(uid)
         route = "detail"
     }
     fun goBack() {
@@ -117,6 +128,10 @@ fun FrenchVocabApp() {
         settingsStateHolder.removeState("settings")
         settingsFrom = route
         route = "settings"
+    }
+    fun canNavigate(): Boolean = activity.lifecycle.currentState.isAtLeast(Lifecycle.State.RESUMED)
+    LaunchedEffect(route, detailUid) {
+        if (route == "detail" && detailUid.isNotBlank()) model.loadDetail(detailUid)
     }
     BackHandler(enabled = route != "home" && route != "loading") { goBack() }
 
@@ -186,7 +201,7 @@ fun FrenchVocabApp() {
                 "home" -> HomeScreen(
                     snapshot, model.books, model.busy,
                     onStart = { model.start { updated ->
-                        if (updated.session?.current != null) route = "study"
+                        if (updated.session?.current != null && canNavigate()) route = "study"
                         else model.notify("今天的任务已完成。可以浏览词库，或明天继续。")
                     } },
                     onBook = { browseBook = it; route = "words" },
@@ -197,36 +212,56 @@ fun FrenchVocabApp() {
                         currentWord, session, snapshot.favorites.contains(currentWord.uid), model.busy,
                         onPlay = { play(currentWord, session.settings) },
                         onFavorite = { model.favorite(currentWord.uid) },
-                        onDetail = { openDetail(currentWord) },
+                        onDetail = { openDetail(currentWord.uid) },
                         onReveal = { model.reveal(session.id, currentWord.uid) },
                     )
                 } else EmptyState("当前没有待学习词条", "返回首页查看今日任务")
-                "words" -> BrowseScreen(model.words, model.books, snapshot, browseBook, { browseBook = it }, ::openDetail)
-                "stats" -> StatisticsScreen(snapshot, model.words.size)
+                "words" -> browseStateHolder.SaveableStateProvider("words") {
+                    BrowseScreen(
+                        state = model.browseState,
+                        books = model.books,
+                        snapshot = snapshot,
+                        selectedBook = browseBook,
+                        onBook = { browseBook = it },
+                        onCriteria = model::requestBrowse,
+                        onLoadMore = model::loadMoreBrowse,
+                        onDetail = ::openDetail,
+                    )
+                }
+                "stats" -> StatisticsScreen(snapshot, model.wordCount)
                 "settings" -> settingsStateHolder.SaveableStateProvider("settings") {
                     SettingsScreen(snapshot, model.books, model.busy, session != null && !session.completed,
                         onChooseBook = { route = "book_selection" },
                         onSave = { settings ->
-                            model.save(settings) { model.notify("设置已保存${if (session != null && !session.completed) "，从下一轮生效" else ""}"); goBack() }
+                            model.save(settings) {
+                                model.notify("设置已保存${if (session != null && !session.completed) "，从下一轮生效" else ""}")
+                                if (canNavigate()) goBack()
+                            }
                         },
                     )
                 }
                 "book_selection" -> BookSelectionScreen(snapshot, model.books, model.busy, session != null && !session.completed) { bookId ->
                     model.save(snapshot.settings.copy(bookId = bookId)) {
-                        route = "settings"
+                        if (canNavigate()) route = "settings"
                         model.notify("词书已保存${if (session != null && !session.completed) "，从下一轮生效" else ""}")
                     }
                 }
                 "detail" -> {
-                    val word = model.words.find { it.uid == detailUid }
+                    val word = model.detailWord?.takeIf { it.uid == detailUid }
                     if (word != null) {
                         val config = if (detailFrom == "study") session?.settings ?: snapshot.settings else snapshot.settings
                         WordDetailScreen(word, config, snapshot.favorites.contains(word.uid), model.busy,
                             { model.favorite(word.uid) }, { play(word, config) })
+                    } else if (model.detailLoading) {
+                        Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                            CircularProgressIndicator(Modifier.testTag("detail_loading"))
+                        }
                     } else EmptyState("未找到词条", "返回词库重新选择")
                 }
                 "summary" -> SummaryScreen(
-                    snapshot.latestCompletedSession ?: session?.takeIf { it.completed }, model.words,
+                    snapshot.latestCompletedSession ?: session?.takeIf { it.completed },
+                    (snapshot.latestCompletedSession ?: session?.takeIf { it.completed })?.items
+                        ?.mapNotNull { model.preview(it.lexemeUid) }.orEmpty(),
                     { route = "home" }, ::openDetail,
                 )
             }

@@ -176,6 +176,14 @@ class RepositoryInstrumentedTest {
         assertTrue(repo.toggleFavorite(uid).favorites.isEmpty())
     }
 
+    @Test fun missingFrequencyBookFallsBackExplicitlyWithoutResettingUserData() {
+        val snapshot = repo.snapshot(noon)
+        assertEquals("essential-fr", snapshot.settings.bookId)
+        val uid = content.allUids().first()
+        repo.toggleFavorite(uid)
+        assertTrue(uid in repo.snapshot(noon).favorites)
+    }
+
     @Test fun contentUpgradeKeepsCardsLogsFavoritesAndUnfinishedSession() {
         val first = repo.startSession(noon).session!!
         val uid = first.current!!.lexemeUid

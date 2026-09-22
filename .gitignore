@@ -1,3 +1,5 @@
+# Keep Gradle Wrapper JARs, source data, and bundled/test databases versioned.
+
 # Android / Gradle build state
 .gradle/
 .kotlin/
@@ -20,9 +22,13 @@ local.properties
 
 # Signing material and local environment files
 keystore.properties
+signing.properties
+key.properties
 *.jks
 *.keystore
 *.p12
+*.pfx
+*.key
 *.pem
 .env
 .env.*
@@ -30,6 +36,7 @@ keystore.properties
 
 # Packaged Android artifacts (publish these as GitHub Releases instead)
 *.apk
+*.apk.idsig
 *.aab
 *.apks
 /releases/
@@ -55,10 +62,15 @@ tools/fsrs-reference/*.tgz
 
 # Project-local SDKs, emulators, caches and scratch work
 /.tools/
-/.flelex_artifact/
+/.task-backups/
 /tmp/
 
-# Generated reports and exports. Keep the small canonical textbook CSV inputs.
+# FLELex workbook builders are source; their local dependencies stay ignored.
+/.flelex_artifact/*
+!/.flelex_artifact/build_flelex_workbook.mjs
+!/.flelex_artifact/build_flelex_selection_workbook.mjs
+
+# Generated reports and exports. Keep textbook, CEFR, and frequency-book CSV inputs.
 /outputs/*
 !/outputs/a1-french-vocabulary/
 /outputs/a1-french-vocabulary/*
@@ -66,6 +78,12 @@ tools/fsrs-reference/*.tgz
 !/outputs/a2-b1-b2-french-vocabulary/
 /outputs/a2-b1-b2-french-vocabulary/*
 !/outputs/a2-b1-b2-french-vocabulary/*.csv
+!/outputs/flelex-cefr-sorted/
+/outputs/flelex-cefr-sorted/*
+!/outputs/flelex-cefr-sorted/*.csv
+!/outputs/flelex-frequency-selection/
+/outputs/flelex-frequency-selection/*
+!/outputs/flelex-frequency-selection/*.csv
 
 # Generated device/build evidence; Markdown reports and screenshots stay versioned.
 *.log
@@ -79,6 +97,11 @@ tools/fsrs-reference/*.tgz
 *.db-shm
 *.db-wal
 
+# Atomic content-generation staging files
+*.db.building*
+*.db.*-building*
+*.json.*-building
+
 # Local textbook PDFs are source references, not redistributable project sources.
 /*.pdf
 
@@ -90,3 +113,5 @@ Desktop.ini
 *.swo
 *~
 *.orig
+*.bak
+*.tmp

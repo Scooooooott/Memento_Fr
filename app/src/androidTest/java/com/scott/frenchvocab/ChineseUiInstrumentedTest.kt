@@ -29,17 +29,17 @@ class ChineseUiInstrumentedTest {
     ).use { it.find("fr:être:verb:1")!! }
     private val chineseOnly = UserSettings(showChinese = true, showEnglish = false, showSpanish = false)
 
-    @Test fun chineseAnswerUsesSelectedLanguageAndKeepsCoreSenseLimit() {
+    @Test fun chineseAnswerUsesSelectedLanguageAndShowsAllCoreSenses() {
         val base = word()
         val expanded = base.copy(senses = base.senses + Sense("second", "segundo", "第二义项") + Sense("third", "tercero", "第三义项"))
         val session = StudySession(1, listOf(SessionItem(base.uid, true)), 0, true, 1, settings = chineseOnly)
         compose.setContent { FrenchVocabTheme { Surface(Modifier.fillMaxSize().systemBarsPadding()) {
             StudyScreen(expanded, session, false, false, {}, {}, {}, {})
         } } }
-        compose.onAllNodesWithTag("sense_zh").assertCountEquals(2)
+        compose.onAllNodesWithTag("sense_zh").assertCountEquals(3)
         compose.onAllNodesWithTag("sense_en").assertCountEquals(0)
         compose.onAllNodesWithTag("sense_es").assertCountEquals(0)
-        compose.onNodeWithText("第三义项", substring = true).assertDoesNotExist()
+        compose.onNodeWithText("第三义项", substring = true).assertExists()
         compose.onNodeWithTag("example_zh").assertTextContains("我在家。", substring = true)
         compose.onAllNodesWithTag("example_en").assertCountEquals(0)
         screenshot("10-chinese-answer")
@@ -81,8 +81,23 @@ class ChineseUiInstrumentedTest {
         val chinese = word()
         val other = chinese.copy(uid = "qa:other", lemma = "avoir", senses = listOf(Sense("to have", "tener", "有")))
         val snapshot = AppSnapshot(chineseOnly, null, StudyStats())
+        val preview = LexemePreview(
+            chinese.uid, chinese.lemma, chinese.partOfSpeech, chinese.level,
+            chinese = chinese.senses.first().chinese,
+            english = chinese.senses.first().english,
+            spanish = chinese.senses.first().spanish,
+        )
         compose.setContent { FrenchVocabTheme { Surface(Modifier.fillMaxSize().systemBarsPadding()) {
-            BrowseScreen(listOf(chinese, other), emptyList(), snapshot, "", {}, {})
+            BrowseScreen(
+                state = com.scott.frenchvocab.feature.BrowseState(items = listOf(preview), total = 1),
+                books = emptyList(),
+                snapshot = snapshot,
+                selectedBook = "",
+                onBook = {},
+                onCriteria = { _, _, _, _ -> },
+                onLoadMore = {},
+                onDetail = {},
+            )
         } } }
         compose.onNodeWithTag("word_search").performTextInput("处于")
         compose.onNodeWithTag("word_${chinese.uid}").assertExists()

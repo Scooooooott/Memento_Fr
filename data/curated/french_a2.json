@@ -228,7 +228,7 @@
         {
           "english": "accept",
           "spanish": "aceptar",
-          "chinese": "接受"
+          "chinese": "接受；同意；承认"
         }
       ],
       "references": [
@@ -381,7 +381,7 @@
         {
           "english": "welcome; reception; acceptance",
           "spanish": "recepción; acogida; aceptación",
-          "chinese": "迎接; 接待; 接待处"
+          "chinese": "欢迎；接待；接待处"
         }
       ],
       "references": [
@@ -424,7 +424,7 @@
         {
           "english": "welcome; host; take in",
           "spanish": "acoger",
-          "chinese": "善行"
+          "chinese": "欢迎；接待；收容"
         }
       ],
       "references": [
@@ -479,7 +479,7 @@
         {
           "english": "purchase; acquisition; buy",
           "spanish": "adquisición; compra",
-          "chinese": "购买；购物"
+          "chinese": "购买；购置"
         }
       ],
       "references": [
@@ -520,9 +520,9 @@
       "ipa": "/faire des achats/",
       "senses": [
         {
-          "english": "Getting Started Shopping",
-          "spanish": "Para hacer compras",
-          "chinese": "进行购买"
+          "english": "go shopping; do the shopping",
+          "spanish": "ir de compras; hacer las compras",
+          "chinese": "购物；买东西"
         }
       ],
       "references": [
@@ -578,7 +578,7 @@
         {
           "english": "active; busy; asset",
           "spanish": "activo",
-          "chinese": "积极的；活跃的"
+          "chinese": "积极的；活跃的；忙碌的"
         }
       ],
       "references": [
@@ -722,10 +722,10 @@
       ],
       "examples": [
         {
-          "french": "Vous à qui je parle et de qui il s’agit actuellement entre vous et moi.",
-          "english": "You who I am talking to and who it is currently between you and me.",
-          "spanish": "Tú con quien hablo y de quien se trata en este momento entre tú y yo.",
-          "chinese": "我正在与你交谈，你和我之间目前是谁。"
+          "french": "Le musée est actuellement fermé pour travaux.",
+          "english": "The museum is currently closed for renovations.",
+          "spanish": "El museo está cerrado actualmente por obras.",
+          "chinese": "博物馆目前因装修而关闭。"
         }
       ],
       "source_entries": [
@@ -759,7 +759,7 @@
         {
           "english": "adapted; adaptee",
           "spanish": "adecuado",
-          "chinese": "按比例调节"
+          "chinese": "适合的；适应的；改编的"
         }
       ],
       "references": [
@@ -768,10 +768,10 @@
       ],
       "examples": [
         {
-          "french": "L’adaptateur d’objet contient une instance de l’adapté.",
-          "english": "The object adapter contains an instance of the adapter.",
-          "spanish": "El adaptador de objeto contiene una instancia de la adaptada.",
-          "chinese": "对象适配器包含适配器的实例。"
+          "french": "Ce programme est adapté aux débutants.",
+          "english": "This programme is suitable for beginners.",
+          "spanish": "Este programa es adecuado para principiantes.",
+          "chinese": "这个课程适合初学者。"
         }
       ],
       "source_entries": [
@@ -860,7 +860,7 @@
       "senses": [
         {
           "english": "teen",
-          "spanish": "ADO",
+          "spanish": "adolescente; chico/a adolescente",
           "chinese": "青少年"
         }
       ],
@@ -904,7 +904,7 @@
         {
           "english": "adolescence; puberty",
           "spanish": "adolescencia",
-          "chinese": "青少年"
+          "chinese": "青春期；青少年时期"
         }
       ],
       "references": [
@@ -988,9 +988,9 @@
       "ipa": "/a.fiʁ.ma.sjɔ̃/",
       "senses": [
         {
-          "english": "affirmation",
-          "spanish": "afirmación",
-          "chinese": "在回答你"
+          "english": "affirmation; assertion; statement",
+          "spanish": "afirmación; declaración",
+          "chinese": "肯定；断言；声明"
         }
       ],
       "references": [
@@ -999,10 +999,10 @@
       ],
       "examples": [
         {
-          "french": "Affirmation de compte.",
-          "english": "Account Affirmation.",
-          "spanish": "Afirmación de cuenta.",
-          "chinese": "账号确认。"
+          "french": "Son affirmation a été confirmée par plusieurs témoins.",
+          "english": "His assertion was confirmed by several witnesses.",
+          "spanish": "Varios testigos confirmaron su afirmación.",
+          "chinese": "多名证人证实了他的断言。"
         }
       ],
       "source_entries": [
@@ -1077,9 +1077,9 @@
       "ipa": "/agir de/",
       "senses": [
         {
-          "english": "act from",
-          "spanish": "actuar de",
-          "chinese": "采取行动，从"
+          "english": "be about; concern; be a matter of",
+          "spanish": "tratarse de; ser cuestión de",
+          "chinese": "涉及；是……的问题"
         }
       ],
       "references": [
@@ -1143,10 +1143,10 @@
       ],
       "examples": [
         {
-          "french": "Il agrandit volontiers.",
-          "english": "It gladly enlarges.",
-          "spanish": "Con mucho gusto se agranda.",
-          "chinese": "它很乐意放大。"
+          "french": "Cette photo agrandit visuellement la pièce.",
+          "english": "This photo makes the room look bigger.",
+          "spanish": "Esta foto hace que la habitación parezca más grande.",
+          "chinese": "这张照片让房间看起来更大。"
         }
       ],
       "source_entries": [
@@ -1244,10 +1244,10 @@
       ],
       "examples": [
         {
-          "french": "Pour le genng。",
-          "english": "For the genng",
-          "spanish": "Para el genng",
-          "chinese": "对于genng"
+          "french": "J’ai besoin d’aide.",
+          "english": "I need help.",
+          "spanish": "Necesito ayuda.",
+          "chinese": "我需要帮助。"
         }
       ],
       "source_entries": [
@@ -1276,7 +1276,7 @@
       "ipa": "/à l'aide de/",
       "senses": [
         {
-          "english": "from",
+          "english": "with the help of; using",
           "spanish": "Con la ayuda:",
           "chinese": "用这个"
         }
@@ -1354,7 +1354,7 @@
         {
           "english": "help; aid; assist",
           "spanish": "ayudar; auxiliar; asistir",
-          "chinese": "帮助"
+          "chinese": "帮助；援助；协助"
         }
       ],
       "references": [
@@ -1450,9 +1450,9 @@
       "ipa": "/d ailleurs/",
       "senses": [
         {
-          "english": "D",
-          "spanish": "d además",
-          "chinese": "马可维茨"
+          "english": "besides; moreover; in any case",
+          "spanish": "además; por otra parte",
+          "chinese": "此外；而且"
         }
       ],
       "references": [
@@ -1673,7 +1673,7 @@
         {
           "english": "food; feeding; nourishment",
           "spanish": "alimentación",
-          "chinese": "电源; 供电"
+          "chinese": "食物；营养；喂养"
         }
       ],
       "references": [
@@ -1795,9 +1795,9 @@
       "ipa": "/al.mɑ̃d/",
       "senses": [
         {
-          "english": "German",
-          "spanish": "alemana; alemanda",
-          "chinese": "德国的；德国人"
+          "english": "German woman; allemande (dance/dance music)",
+          "spanish": "alemana; alemanda (danza)",
+          "chinese": "德国女性；阿勒曼德舞/德国舞曲"
         }
       ],
       "references": [
@@ -1806,10 +1806,10 @@
       ],
       "examples": [
         {
-          "french": "Recueil d’allemandes.",
-          "english": "Collection of German women.",
-          "spanish": "Recopilación de alemanas.",
-          "chinese": "德国女性收藏。"
+          "french": "Le groupe a appris une allemande pour le spectacle.",
+          "english": "The group learned an allemande for the show.",
+          "spanish": "El grupo aprendió una alemanda para el espectáculo.",
+          "chinese": "这个小组为演出学了一支阿勒曼德舞。"
         }
       ],
       "source_entries": [
@@ -1921,7 +1921,7 @@
           "french": "Puis elle me dit avec le sourire : C’est de l’américain. Ce n’est pas de l’anglais.",
           "english": "Then she said to me with a smile: It's American. It's not English.",
           "spanish": "Luego me dijo con una sonrisa: Es americano. No es inglés.",
-          "chinese": "然后她笑着对我说：这是美国的。这不是英语。"
+          "chinese": "这是美式英语，不是英式英语。"
         }
       ],
       "source_entries": [
@@ -1955,7 +1955,7 @@
         {
           "english": "ancient; old; longstanding",
           "spanish": "anciano; antiguo; anciana",
-          "chinese": "前"
+          "chinese": "古老的；旧的；以前的"
         }
       ],
       "references": [
@@ -2053,7 +2053,7 @@
         {
           "english": "English",
           "spanish": "ingles",
-          "chinese": "Active Power Inc 公司"
+          "chinese": "英国的；英语的"
         }
       ],
       "references": [
@@ -2154,7 +2154,7 @@
         {
           "english": "host; hostess; animator",
           "spanish": "animador",
-          "chinese": "主持人："
+          "chinese": "主持人；动画师；带动气氛的人"
         }
       ],
       "references": [
@@ -2200,7 +2200,7 @@
         {
           "english": "appear",
           "spanish": "aparecer",
-          "chinese": "出现"
+          "chinese": "出现；显现"
         }
       ],
       "references": [
@@ -2255,7 +2255,7 @@
         {
           "english": "belonging; membership; affiliations",
           "spanish": "pertenencia",
-          "chinese": "所有关系"
+          "chinese": "归属；成员身份；隶属关系"
         }
       ],
       "references": [
@@ -2264,10 +2264,10 @@
       ],
       "examples": [
         {
-          "french": "Les appartenances de la selle.",
-          "english": "Belongings of the saddle.",
-          "spanish": "Las pertenencias del sillín.",
-          "chinese": "马鞍上的物品。"
+          "french": "Son appartenance à cette association lui permet de participer aux réunions.",
+          "english": "Her membership in this association allows her to attend the meetings.",
+          "spanish": "Su pertenencia a esta asociación le permite participar en las reuniones.",
+          "chinese": "她是该协会的成员，因此可以参加会议。"
         }
       ],
       "source_entries": [
@@ -2339,9 +2339,9 @@
       "ipa": "/apprendre à/",
       "senses": [
         {
-          "english": "get to",
+          "english": "learn to",
           "spanish": "aprender a",
-          "chinese": "学会"
+          "chinese": "学会；学习做……"
         }
       ],
       "references": [
@@ -2397,7 +2397,7 @@
         {
           "english": "fiery; burning; ardent",
           "spanish": "ardiente",
-          "chinese": "热烈的；热心的"
+          "chinese": "炽热的；热烈的；热心的"
         }
       ],
       "references": [
@@ -2406,10 +2406,10 @@
       ],
       "examples": [
         {
-          "french": "Les ardents.",
-          "english": "The ardent.",
-          "spanish": "Los ardientes.",
-          "chinese": "中文释义待补"
+          "french": "Son discours ardent a convaincu le public.",
+          "english": "His ardent speech convinced the public.",
+          "spanish": "Su ardiente discurso convenció al público.",
+          "chinese": "他的热情演说说服了公众"
         }
       ],
       "source_entries": [
@@ -2442,8 +2442,8 @@
       "senses": [
         {
           "english": "ordinance; bylaw; decree",
-          "spanish": "decreto",
-          "chinese": "决定；逮捕；停止"
+          "spanish": "decreto; ordenanza; reglamento",
+          "chinese": "法令；条例；行政命令"
         }
       ],
       "references": [
@@ -2452,10 +2452,10 @@
       ],
       "examples": [
         {
-          "french": "peinture fr。",
-          "english": "paint fr",
-          "spanish": "pintura es",
-          "chinese": "中文释义待补"
+          "french": "Un arrêté municipal fixe les horaires du marché.",
+          "english": "A municipal decree sets the time limits for the market.",
+          "spanish": "Un decreto municipal fija los plazos para el mercado.",
+          "chinese": "一项市政法令规定了市场的时限。"
         }
       ],
       "source_entries": [
@@ -2484,9 +2484,9 @@
       "ipa": "/arrêter/",
       "senses": [
         {
-          "english": "shut down",
-          "spanish": "parar:",
-          "chinese": "「 关机"
+          "english": "stop; shut down; arrest",
+          "spanish": "parar; apagar; detener",
+          "chinese": "停止；关闭；逮捕"
         }
       ],
       "references": [
@@ -2614,7 +2614,7 @@
         {
           "english": "district; borough; arondissement",
           "spanish": "Distrito",
-          "chinese": "去佔"
+          "chinese": "区；行政区；市辖区"
         }
       ],
       "references": [
@@ -2672,7 +2672,7 @@
           "french": "Une association luzerne x dactyle produit plus de lait par hectare, mais moins de lait par vache, qu'une association luzerne x brome.",
           "english": "An alfalfa x dactyl association produces more milk per hectare, but less milk per cow, than an alfalfa x bromine association.",
           "spanish": "Una asociación alfalfa x dáctilo produce más leche por hectárea, pero menos leche por vaca, que una asociación alfalfa x bromo.",
-          "chinese": "与苜蓿x溴组合相比，苜蓿x指状组合每公顷产生更多的乳汁，但每头奶牛产生的乳汁更少。"
+          "chinese": "与苜蓿×雀麦组合相比，苜蓿×鸭茅组合每公顷产奶更多，但每头奶牛产奶更少。"
         }
       ],
       "source_entries": [
@@ -2814,7 +2814,7 @@
         {
           "english": "wait; expectation; anticipation",
           "spanish": "espera",
-          "chinese": "“ 跳过 候补 名单 ”"
+          "chinese": "等待；期待；预期"
         }
       ],
       "references": [
@@ -2866,10 +2866,10 @@
       ],
       "examples": [
         {
-          "french": "S’attirer un refus.",
-          "english": "Obtain a refusal.",
-          "spanish": "Atraer un rechazo.",
-          "chinese": "获得拒绝。"
+          "french": "Son comportement lui a attiré de nombreuses critiques.",
+          "english": "His behavior attracted a lot of criticism.",
+          "spanish": "Su comportamiento le atrajo muchas críticas.",
+          "chinese": "他的行为招致了许多批评。"
         }
       ],
       "source_entries": [
@@ -2921,10 +2921,10 @@
       ],
       "examples": [
         {
-          "french": "Les cigarettes ont beaucoup augmenté.",
-          "english": "Cigarettes have increased a lot.",
-          "spanish": "Los cigarrillos han aumentado mucho.",
-          "chinese": "香烟增加了很多。"
+          "french": "Le prix des cigarettes a beaucoup augmenté.",
+          "english": "The price of cigarettes has gone up a lot.",
+          "spanish": "El precio de los cigarrillos ha subido mucho.",
+          "chinese": "香烟的价格涨了很多。"
         }
       ],
       "source_entries": [
@@ -3060,7 +3060,7 @@
           "french": "Être dans son automne.",
           "english": "Being in your fall.",
           "spanish": "Estar en su otoño.",
-          "chinese": "身处堕落之中。"
+          "chinese": "处于人生的秋天，也就是晚年。"
         }
       ],
       "source_entries": [
@@ -3315,7 +3315,7 @@
       "examples": [
         {
           "french": "C’est quelque chose d’autre.",
-          "english": "It is something other.",
+          "english": "It’s something else.",
           "spanish": "Es algo otro.",
           "chinese": "这是另一回事。"
         }
@@ -3337,7 +3337,7 @@
         {
           "english": "other people",
           "spanish": "los demas.",
-          "chinese": "- 谁要来？"
+          "chinese": "其他人；其他事物（复数）"
         }
       ],
       "references": [
@@ -3712,7 +3712,7 @@
         {
           "english": "banal; commonplace; everyday",
           "spanish": "banal; trivial",
-          "chinese": "- 沉闷?"
+          "chinese": "平庸的；司空见惯的；日常的"
         }
       ],
       "references": [
@@ -4426,7 +4426,7 @@
           "french": "Avoir un bonheur insolent.",
           "english": "Have insolent happiness.",
           "spanish": "Ten una felicidad insolente.",
-          "chinese": "拥有张狂的幸福。"
+          "chinese": "拥有令人难以置信的好运。"
         }
       ],
       "source_entries": [
@@ -4558,7 +4558,7 @@
         {
           "english": "British",
           "spanish": "británico",
-          "chinese": "英国人"
+          "chinese": "英国的；英式的"
         }
       ],
       "references": [
@@ -4604,7 +4604,7 @@
         {
           "english": "bronzed; tanned; dark-skinned",
           "spanish": "bronce",
-          "chinese": "青铜"
+          "chinese": "晒黑的；古铜色的；黝黑的"
         }
       ],
       "references": [
@@ -4828,9 +4828,9 @@
       "examples": [
         {
           "french": "Voici le bureau.",
-          "english": "Here it is.",
+          "english": "Here is the desk.",
           "spanish": "Aquí está.",
-          "chinese": "这是办公桌。"
+          "chinese": "这就是书桌。"
         }
       ],
       "source_entries": [
@@ -4850,7 +4850,7 @@
         {
           "english": "goal; aim; purpose",
           "spanish": "objetivo; objeto; propósito",
-          "chinese": "目的"
+          "chinese": "目标；目的；（足球等的）进球；球门"
         }
       ],
       "references": [
@@ -4891,9 +4891,9 @@
       "ipa": "/klɔ.ʃe/",
       "senses": [
         {
-          "english": "bell tower; belltower; steeple",
-          "spanish": "campanario; cojear",
-          "chinese": "钟楼"
+          "english": "to limp; to be wrong; to be faulty",
+          "spanish": "cojear; estar mal; tener un defecto",
+          "chinese": "跛行；有问题；不对劲"
         }
       ],
       "references": [
@@ -4902,10 +4902,10 @@
       ],
       "examples": [
         {
-          "french": "Querelles de clochers.",
-          "english": "Quarrels between bell towers.",
-          "spanish": "Peleas entre campanarios.",
-          "chinese": "钟楼之间的争吵。"
+          "french": "Depuis son accident, il cloche légèrement de la jambe droite.",
+          "english": "Since his accident, he has been limping slightly on his right leg.",
+          "spanish": "Desde el accidente, cojea ligeramente de la pierna derecha.",
+          "chinese": "自从事故后，他的右腿有些跛。"
         }
       ],
       "source_entries": [
@@ -5175,9 +5175,9 @@
       "examples": [
         {
           "french": "J’ai eu la chance de trouver un appartement près de mon travail.",
-          "english": "I was lucky to find an apartment near my workplace.",
-          "spanish": "Tuve la suerte de encontrar un piso cerca de mi trabajo.",
-          "chinese": "我很幸运，在工作地点附近找到了公寓。"
+          "english": "Here is the chance.",
+          "spanish": "Aquí está la oportunidad.",
+          "chinese": "这就是机会。"
         }
       ],
       "source_entries": [
@@ -5208,7 +5208,7 @@
         {
           "english": "capital; capital city; upper case",
           "spanish": "ciudad capital; capital; mayúscula",
-          "chinese": "首都"
+          "chinese": "首都；资本；大写字母"
         }
       ],
       "references": [
@@ -5251,7 +5251,7 @@
         {
           "english": "case; grammatical case",
           "spanish": "caso",
-          "chinese": "格"
+          "chinese": "情况；案例；格（语法）"
         }
       ],
       "references": [
@@ -5440,7 +5440,7 @@
         {
           "english": "card",
           "spanish": "carta₂ o naipe",
-          "chinese": "地图；卡片，明信片"
+          "chinese": "地图；卡片；菜单"
         }
       ],
       "references": [
@@ -5707,9 +5707,9 @@
       "ipa": "/sɛʁ.tɛ̃/",
       "senses": [
         {
-          "english": "some",
+          "english": "some; certain; sure",
           "spanish": "cierto; seguro; fijo",
-          "chinese": "肯定"
+          "chinese": "某些的；确定的；确信的"
         }
       ],
       "references": [
@@ -6535,7 +6535,7 @@
         {
           "english": "circuit",
           "spanish": "circuito",
-          "chinese": "旅游线路"
+          "chinese": "电路；路线；环行线路；巡回路线"
         }
       ],
       "references": [
@@ -6727,9 +6727,9 @@
       "examples": [
         {
           "french": "Le toréador cite le taureau avec la muleta.",
-          "english": "The bullfighter cites the bull with the muleta.",
+          "english": "The bullfighter taunts the bull with the muleta.",
           "spanish": "El torero cita al toro con la muleta.",
-          "chinese": "斗牛士用穆莱塔引用公牛。"
+          "chinese": "斗牛士用红布挑逗公牛。"
         }
       ],
       "source_entries": [
@@ -6874,10 +6874,10 @@
       ],
       "examples": [
         {
-          "french": "Et les cigales cliqueront sur les roses.",
-          "english": "And the cicadas will click on the roses.",
-          "spanish": "Y las cigarras harán clic en las rosas.",
-          "chinese": "蝉会点击玫瑰。"
+          "french": "Cliquez sur le lien pour ouvrir le formulaire.",
+          "english": "Click on the link to open the form.",
+          "spanish": "Haz clic en el enlace para abrir el formulario.",
+          "chinese": "点击链接以打开表格。"
         }
       ],
       "source_entries": [
@@ -6930,9 +6930,9 @@
       "examples": [
         {
           "french": "Cette femme étudiait le code.",
-          "english": "This woman was studying coding.",
+          "english": "She is studying the code.",
           "spanish": "Esta mujer estaba estudiando codificación.",
-          "chinese": "这位女士正在学习编码。"
+          "chinese": "她正在学习这套法规/代码。"
         }
       ],
       "source_entries": [
@@ -7059,9 +7059,9 @@
       "examples": [
         {
           "french": "Les rouges étaient aux cent coups. Ils s'étaient réunis en comité restreint dans la cuisine du cafetier. Autour de la toile cirée, le bureau de la Libre-Pensée cogitait ferme.",
-          "english": "The Reds were on fire. They met as a small committee in the cafeteria's kitchen. Around the oilcloth, the Free Thought office was thinking hard.",
-          "spanish": "Los Rojos estaban en llamas. Se reunieron como un pequeño comité en la cocina de la cafetería. Alrededor del hule, la oficina del Libre Pensamiento pensaba mucho.",
-          "chinese": "红军火力全开。他们作为一个小委员会在自助餐厅的厨房里开会。自由思想办公室围着油布，认真思考。"
+          "english": "The Reds were in a panic. They had gathered as a small committee in the café owner's kitchen.",
+          "spanish": "Los Rojos estaban muy alterados. Se habían reunido en un comité reducido en la cocina del dueño del café.",
+          "chinese": "红军惊慌不已。他们聚在咖啡馆老板的厨房里召开小范围委员会会议。"
         }
       ],
       "source_entries": [
@@ -7195,9 +7195,9 @@
       "examples": [
         {
           "french": "J'irai nous chercher une collation pendant les commerciaux.",
-          "english": "I'll go get us a snack during the sales.",
-          "spanish": "Iré a buscarnos un refrigerio durante las rebajas.",
-          "chinese": "我会在促销期间去给我们买点零食。"
+          "english": "during the commercials",
+          "spanish": "durante los anuncios",
+          "chinese": "在广告时段"
         }
       ],
       "source_entries": [
@@ -7240,10 +7240,10 @@
       ],
       "examples": [
         {
-          "french": "Faire chambre commune.",
-          "english": "Make a common room.",
-          "spanish": "Haz una sala común.",
-          "chinese": "建一个公共休息室。"
+          "french": "La commune organise une fête sur la place centrale.",
+          "english": "The town is organizing a party in the main square.",
+          "spanish": "El municipio organiza una fiesta en la plaza central.",
+          "chinese": "市镇在中央广场举办庆祝活动。"
         }
       ],
       "source_entries": [
@@ -7579,7 +7579,7 @@
         {
           "english": "calculate; count; figure",
           "spanish": "contar; calcular; computar",
-          "chinese": "数数"
+          "chinese": "数；计算；指望；算入"
         }
       ],
       "references": [
@@ -7899,9 +7899,9 @@
       "ipa": "/kɔ̃.dyk.tœʁ/",
       "senses": [
         {
-          "english": "driver; foreman; score",
+          "english": "driver; conductor; conductive",
           "spanish": "conductor",
-          "chinese": "司机"
+          "chinese": "驾驶员；导体；导电的"
         }
       ],
       "references": [
@@ -8402,7 +8402,7 @@
         {
           "english": "contrarily; unlike; against",
           "spanish": "contrario a",
-          "chinese": "与"
+          "chinese": "相反地；与……不同"
         }
       ],
       "references": [
@@ -8448,7 +8448,7 @@
         {
           "english": "contrary to",
           "spanish": "contrario a",
-          "chinese": "与"
+          "chinese": "与……相反；不同于……"
         }
       ],
       "references": [
@@ -9324,9 +9324,9 @@
       "ipa": "/se.ve/",
       "senses": [
         {
-          "english": "resume",
-          "spanish": "reanudar",
-          "chinese": "恢复"
+          "english": "CV; resume",
+          "spanish": "currículum; currículum vitae",
+          "chinese": "简历"
         }
       ],
       "references": [
@@ -9407,7 +9407,7 @@
         {
           "english": "cycleable",
           "spanish": "ciclable",
-          "chinese": "可循环的"
+          "chinese": "适合骑行的；可骑自行车通行的"
         }
       ],
       "references": [
@@ -9416,10 +9416,10 @@
       ],
       "examples": [
         {
-          "french": "Le nouveau projet est cyclable.",
-          "english": "The new project is cycle-friendly.",
+          "french": "Cette route est cyclable.",
+          "english": "This road is suitable for cycling.",
           "spanish": "El nuevo proyecto es apto para ciclistas.",
-          "chinese": "新项目是循环友好的。"
+          "chinese": "这条路适合骑自行车通行。"
         }
       ],
       "source_entries": [
@@ -10195,7 +10195,7 @@
           "french": "Sa famille avait ensuite déménagé à Pordic (22).",
           "english": "His family then moved to Pordic (22).",
           "spanish": "Luego su familia se mudó a Pordic (22).",
-          "chinese": "随后他的家人搬到了波迪奇（22 岁）。"
+          "chinese": "波迪克（滨海阿摩尔省，22号省）。"
         }
       ],
       "source_entries": [
@@ -10396,10 +10396,10 @@
       ],
       "examples": [
         {
-          "french": "Ai-je besoin de vous dire, après cela, que tout notre argent était dépensé en fantaisies inutiles de toilettes? Octave Mirbeau, A. Laurent, 1886。",
-          "english": "Need I tell you, after that, that all our money was spent on useless toilet fantasies? Octave Mirbeau, A. Laurent, 1886",
-          "spanish": "¿Necesito decirte, después de eso, que todo nuestro dinero lo gastamos en fantasías inútiles sobre el baño? Octave Mirbeau, A. Laurent, 1886",
-          "chinese": "需要我告诉你，在那之后，我们所有的钱都花在了无用的厕所幻想上吗？奥克塔夫·米尔博，A. 洛朗，1886"
+          "french": "Après cela, tout notre argent était dépensé en toilettes et en fantaisies inutiles.",
+          "english": "After that, all our money was spent on clothes and useless frills.",
+          "spanish": "Después de eso, todo nuestro dinero se gastaba en ropa y adornos inútiles.",
+          "chinese": "那以后，我们所有的钱都花在衣服和无用的装饰上。"
         }
       ],
       "source_entries": [
@@ -11158,7 +11158,7 @@
         {
           "english": "difference; dissimilarity",
           "spanish": "diferencia; resta",
-          "chinese": "差"
+          "chinese": "差异；区别；差额"
         }
       ],
       "references": [
@@ -11259,7 +11259,7 @@
           "french": "Plus tard, des gens d'une intelligence garantie par des diplômes parleraient gravement de préméditation, comme si cela pouvait avoir un rapport quelconque avec son cas.",
           "english": "Later, people of intelligence guaranteed by diplomas would speak seriously of premeditation, as if that could have any connection with his case.",
           "spanish": "Más tarde, gente de inteligencia avalada por diplomas hablaría seriamente de premeditación, como si eso pudiera tener alguna relación con su caso.",
-          "chinese": "后来，有文凭保证的情报人员会严肃地说起预谋，好像这和他的案子有什么关系。"
+          "chinese": "后来，那些凭文凭证明自己才智的人会严肃地谈论预谋，仿佛这与他的情况有任何关系。"
         }
       ],
       "source_entries": [
@@ -11592,9 +11592,9 @@
       "examples": [
         {
           "french": "L'exposition en adret provoque la disparition du pergélisol et celui-ci s'y réduit comme une peau de chagrin et s'amincit.",
-          "english": "Exposure to the right causes the permafrost to disappear and it shrinks and becomes thinner.",
-          "spanish": "La exposición a la derecha hace que el permafrost desaparezca y se encoja y se vuelva más delgado.",
-          "chinese": "暴露在右侧会导致永久冻土消失并缩小并变薄。"
+          "english": "Exposure on a sunny south-facing slope causes the permafrost to disappear; it shrinks and becomes thinner.",
+          "spanish": "La exposición en una ladera soleada orientada al sur provoca la desaparición del permafrost, que se reduce y se adelgaza.",
+          "chinese": "向阳的南坡坡向会导致永久冻土消失；永久冻土会缩小并变薄。"
         }
       ],
       "source_entries": [
@@ -11711,7 +11711,7 @@
         {
           "english": "divorcé; divorcee; divorced",
           "spanish": "divorciado",
-          "chinese": "离婚"
+          "chinese": "离婚的；离异者"
         }
       ],
       "references": [
@@ -11767,9 +11767,9 @@
       "examples": [
         {
           "french": "Tu n'es pas venu. Dommage!",
-          "english": "You didn't come. Damage!",
-          "spanish": "No viniste. ¡Daño!",
-          "chinese": "你没有来。损害！"
+          "english": "You didn't come. What a shame!",
+          "spanish": "No viniste. ¡Qué lástima!",
+          "chinese": "你没来。真遗憾！"
         }
       ],
       "source_entries": [
@@ -11799,8 +11799,8 @@
       "senses": [
         {
           "english": "present; gift",
-          "spanish": "Don",
-          "chinese": "大学教师"
+          "spanish": "regalo; donación; talento/dote",
+          "chinese": "礼物；赠品；捐赠；天赋；才干"
         }
       ],
       "references": [
@@ -11852,10 +11852,10 @@
       ],
       "examples": [
         {
-          "french": "Doubler un rôle, un acteur.",
-          "english": "Doubling a role, an actor.",
-          "spanish": "Duplicando un papel, un actor.",
-          "chinese": "双重角色，演员。"
+          "french": "Elle double le rôle principal dans la version française du film.",
+          "english": "She provides the voice for the lead role in the French version of the film.",
+          "spanish": "Ella dobla al personaje principal en la versión francesa de la película.",
+          "chinese": "她为这部电影的法语版主角配音。"
         }
       ],
       "source_entries": [
@@ -11923,9 +11923,9 @@
       "examples": [
         {
           "french": "On parle de la droite.",
-          "english": "We are talking about it.",
+          "english": "Shut up before I punch you!",
           "spanish": "Estamos hablando de ello.",
-          "chinese": "我们正在谈论右面。"
+          "chinese": "闭嘴，不然我就揍你！"
         }
       ],
       "source_entries": [
@@ -11945,7 +11945,7 @@
         {
           "english": "funny; strange; odd",
           "spanish": "gracioso; chistoso; chusco",
-          "chinese": "好笑"
+          "chinese": "好笑的；奇怪的；古怪的"
         }
       ],
       "references": [
@@ -12211,9 +12211,9 @@
       "examples": [
         {
           "french": "L’ éducation des vers à soie diffère suivant les climats.",
-          "english": "The education of silkworms differs depending on the climate.",
-          "spanish": "La educación de los gusanos de seda difiere según el clima.",
-          "chinese": "蚕的教育因气候而异。"
+          "english": "The rearing of silkworms varies according to the climate.",
+          "spanish": "La cría de gusanos de seda varía según el clima.",
+          "chinese": "养蚕因气候而异。"
         }
       ],
       "source_entries": [
@@ -12869,7 +12869,7 @@
           "french": "Devant chaque porte se trouvait une botte de paille, pour empêcher le froid de passer dessous.",
           "english": "In front of each door was a bale of straw, to prevent the cold from getting under it.",
           "spanish": "Delante de cada puerta había un fardo de paja, para evitar que el frío entrara por debajo.",
-          "chinese": "每扇门前都放着一捆稻草，以防止寒冷从稻草下面侵入。"
+          "chinese": "每扇门前都有一捆稻草，用来防止冷空气从门缝下钻进来。"
         }
       ],
       "source_entries": [
@@ -13845,7 +13845,7 @@
         {
           "english": "upkeep (maintenance)",
           "spanish": "entrevista",
-          "chinese": "面试，会面"
+          "chinese": "谈话；面谈/面试；维护；保养"
         }
       ],
       "references": [
@@ -13869,10 +13869,10 @@
       ],
       "examples": [
         {
-          "french": "Voici l’entretien.",
-          "english": "Here it is.",
-          "spanish": "Aquí está.",
-          "chinese": "这是面试。"
+          "french": "L’entretien d’embauche aura lieu lundi matin.",
+          "english": "The job interview will take place on Monday morning.",
+          "spanish": "La entrevista de trabajo tendrá lugar el lunes por la mañana.",
+          "chinese": "工作面试将在周一上午进行。"
         }
       ],
       "source_entries": [
@@ -13891,8 +13891,8 @@
       "senses": [
         {
           "english": "around; about; approximately",
-          "spanish": "acerca de; a eso de; aproximadamente",
-          "chinese": "差不多"
+          "spanish": "alrededor de; aproximadamente",
+          "chinese": "大约；约莫"
         }
       ],
       "references": [
@@ -14127,9 +14127,9 @@
       "examples": [
         {
           "french": "La fonction x \\mapsto e^x-1 admet x \\mapsto x pour équivalent en 0.",
-          "english": "The function x \\mapsto e^x-1 admits x \\mapsto x as equivalent to 0.",
-          "spanish": "La función x \\mapsto e^x-1 admite x \\mapsto x como equivalente a 0.",
-          "chinese": "函数 x \\mapsto e^x-1 承认 x \\mapsto x 等于 0。"
+          "english": "Near 0, the function x ↦ eˣ − 1 is equivalent to x.",
+          "spanish": "Cerca de 0, la función x ↦ eˣ − 1 es equivalente a x.",
+          "chinese": "在0附近，函数 x ↦ eˣ − 1 与 x 等价。"
         }
       ],
       "source_entries": [
@@ -15932,9 +15932,9 @@
       "ipa": "/fɛʁm/",
       "senses": [
         {
-          "english": "firm; hard; solid",
-          "spanish": "firme; resistente; sólido",
-          "chinese": "農場; 农场"
+          "english": "farm; firm (business)",
+          "spanish": "granja; empresa; firma",
+          "chinese": "农场；农庄；公司/商号"
         }
       ],
       "references": [
@@ -15943,10 +15943,10 @@
       ],
       "examples": [
         {
-          "french": "Ferme! Continuez à ne vous pas entendre.",
-          "english": "Farm! Continue to not hear each other.",
-          "spanish": "¡Granja! Continúen sin escucharse.",
-          "chinese": "农场！继续互相听不到对方的声音。"
+          "french": "La ferme familiale produit du lait et du fromage.",
+          "english": "The family farm produces milk and cheese.",
+          "spanish": "La granja familiar produce leche y queso.",
+          "chinese": "这家家庭农场生产牛奶和奶酪。"
         }
       ],
       "source_entries": [
@@ -16215,10 +16215,10 @@
       ],
       "examples": [
         {
-          "french": "Serrer les files.",
-          "english": "Tighten the files.",
-          "spanish": "Apriete las limas.",
-          "chinese": "拧紧文件。"
+          "french": "À l’approche du péage, les voitures commencent à serrer les files.",
+          "english": "As they approach the toll plaza, the cars begin to bunch up in the lanes.",
+          "spanish": "Al acercarse al peaje, los coches empiezan a apiñarse en los carriles.",
+          "chinese": "接近收费站时，车辆开始在车道上挤成一团。"
         }
       ],
       "source_entries": [
@@ -18238,10 +18238,10 @@
       ],
       "examples": [
         {
-          "french": "Pour inciter un changement révolutionnaire, nous devons transformer la conscience humaine.",
-          "english": "To incite revolutionary change, we must transform human consciousness.",
-          "spanish": "Para incitar al cambio revolucionario, debemos transformar la conciencia humana.",
-          "chinese": "为了引发革命性变革，我们必须转变人类意识。"
+          "french": "Pour inciter à un changement révolutionnaire, nous devons transformer la conscience humaine.",
+          "english": "To encourage revolutionary change, we must transform human consciousness.",
+          "spanish": "Para impulsar un cambio revolucionario, debemos transformar la conciencia humana.",
+          "chinese": "为了推动革命性的变革，我们必须改变人类意识。"
         }
       ],
       "source_entries": [
@@ -19433,10 +19433,10 @@
       ],
       "examples": [
         {
-          "french": "Jamais menelaus avec Vous ne coucherait。",
-          "english": "Menelaus would never sleep with you",
-          "spanish": "Menelao nunca se acostaría contigo",
-          "chinese": "墨涅拉俄斯永远不会和你睡觉"
+          "french": "Jamais Ménélas ne coucherait avec vous.",
+          "english": "Menelaus would never sleep with you.",
+          "spanish": "Menelao nunca se acostaría contigo.",
+          "chinese": "墨涅拉俄斯绝不会和你上床。"
         }
       ],
       "source_entries": [
@@ -20647,7 +20647,7 @@
         {
           "english": "league",
           "spanish": "legua",
-          "chinese": "联盟"
+          "chinese": "里格（旧长度单位，约4公里）；法里"
         }
       ],
       "references": [
@@ -20659,7 +20659,7 @@
           "french": "Peste! monsieur l’amiral est donc nécromant, pour savoir ainsi ce qui se fait à trente ou quarante lieues de distance!",
           "english": "Plague! The admiral is therefore a necromancer, to know what is happening thirty or forty leagues away!",
           "spanish": "¡Plaga! ¡El almirante es, pues, un nigromante, para saber lo que sucede a treinta o cuarenta leguas de distancia!",
-          "chinese": "瘟疫！因此，海军上将是一名死灵法师，他知道三十或四十里之外发生的事情！"
+          "chinese": "真见鬼！海军上将一定是死灵法师，竟能知道三四十里格以外发生的事！"
         }
       ],
       "source_entries": [
@@ -21219,8 +21219,8 @@
         {
           "french": "Les paramètres numériques de dérawtisation (luminosité, facteur de contraste, saturation des teintes, netteté, accentuation, filtres, etc.) ont été testés comparativement, avant leur sélection définitive.",
           "english": "The digital derawtization parameters (brightness, contrast factor, color saturation, sharpness, emphasis, filters, etc.) were tested comparatively before their final selection.",
-          "spanish": "Los parámetros de desratización digital (brillo, factor de contraste, saturación de color, nitidez, énfasis, filtros, etc.) se probaron comparativamente antes de su selección final.",
-          "chinese": "在最终选择之前，对数字去拉特化参数（亮度、对比度、色彩饱和度、锐度、强调、滤镜等）进行了比较测试。"
+          "spanish": "Los parámetros digitales de revelado RAW (brillo, factor de contraste, saturación de los tonos, nitidez, realce, filtros, etc.) se probaron comparativamente antes de su selección definitiva.",
+          "chinese": "最终确定前，人们对数字 RAW 显影参数（亮度、对比度因子、色彩饱和度、锐度、增强、滤镜等）进行了对比测试。"
         }
       ],
       "source_entries": [
@@ -22000,7 +22000,7 @@
           "french": "Quelques temps plus tard, le chirurgien me rappelle. Il m’explique les détails de cette opération marathon, entre le prélèvement du greffon chez le donneur jusqu’à sa mise en place sur son patient。",
           "english": "Some time later, the surgeon calls me back. He explains to me the details of this marathon operation, from taking the graft from the donor to its placement on his patient.",
           "spanish": "Algún tiempo después, el cirujano me vuelve a llamar. Me explica los detalles de esta operación maratónica, desde la toma del injerto del donante hasta su colocación en su paciente.",
-          "chinese": "一段时间后，外科医生给我回电话。他向我解释了这场马拉松式手术的细节，从从捐赠者身上取出移植物到将其植入患者身上。"
+          "chinese": "一段时间后，外科医生给我回了电话。他向我解释这场马拉松式手术的细节：从供体取出移植物，直到将其植入患者体内。"
         }
       ],
       "source_entries": [
@@ -22188,10 +22188,10 @@
       ],
       "examples": [
         {
-          "french": "Ce mot est un masculin.",
-          "english": "This word is masculine.",
-          "spanish": "Esta palabra es masculina.",
-          "chinese": "这个词是阳性的。"
+          "french": "Cousin est masculin et cousine féminin.",
+          "english": "Cousin is a male and a female cousin.",
+          "spanish": "El primo es un hombre y una prima.",
+          "chinese": "表哥是男的,表妹是女的。"
         }
       ],
       "source_entries": [
@@ -22867,7 +22867,7 @@
       ],
       "examples": [
         {
-          "french": "Les jeunes aiment communiquer par messagerie instantinée.",
+          "french": "Les jeunes aiment communiquer par messagerie instantanée.",
           "english": "Young people like to communicate via instant messaging.",
           "spanish": "A los jóvenes les gusta comunicarse a través de mensajería instantánea.",
           "chinese": "年轻人喜欢通过即时消息进行交流。"
@@ -24070,7 +24070,7 @@
         {
           "english": "navigator; browse; browser",
           "spanish": "navegador",
-          "chinese": "航海者"
+          "chinese": "导航的；浏览网页的"
         }
       ],
       "references": [
@@ -24491,9 +24491,9 @@
       "ipa": "/nyl/",
       "senses": [
         {
-          "english": "null; nil; void",
-          "spanish": "nadie",
-          "chinese": "无效的"
+          "english": "null; worthless; useless",
+          "spanish": "nulo; inútil; pésimo",
+          "chinese": "无效的；无用的；糟糕的"
         }
       ],
       "references": [
@@ -24711,7 +24711,7 @@
         {
           "english": "objective; objective lens; goal",
           "spanish": "objetivo",
-          "chinese": "客观的"
+          "chinese": "客观的；物镜；目标"
         }
       ],
       "references": [
@@ -24720,10 +24720,10 @@
       ],
       "examples": [
         {
-          "french": "Verre objectif.",
-          "english": "Objective glass.",
-          "spanish": "Vidrio objetivo.",
-          "chinese": "物镜玻璃。"
+          "french": "Nous devons rester objectifs malgré les critiques.",
+          "english": "We must remain objective despite the criticism.",
+          "spanish": "Debemos mantenernos objetivos a pesar de las críticas.",
+          "chinese": "尽管受到批评，我们仍必须保持客观。"
         }
       ],
       "source_entries": [
@@ -30167,10 +30167,10 @@
       ],
       "examples": [
         {
-          "french": "Produit w:Produit_scalaire scalaire。",
-          "english": "Product w:Scalar_dot_product",
-          "spanish": "Producto con: Scalar_dot_product",
-          "chinese": "产品 w：Scalar_dot_product"
+          "french": "Ce produit est fabriqué localement.",
+          "english": "This product is made locally.",
+          "spanish": "Este producto se fabrica localmente.",
+          "chinese": "这种产品是本地生产的。"
         }
       ],
       "source_entries": [
@@ -31585,9 +31585,9 @@
       "examples": [
         {
           "french": "Aller au rapport.",
-          "english": "Go to report.",
-          "spanish": "Ir a informar.",
-          "chinese": "去报道吧。"
+          "english": "Go and report to your superior.",
+          "spanish": "Ve a informar a tu superior.",
+          "chinese": "去向上级汇报。"
         }
       ],
       "source_entries": [
@@ -31719,7 +31719,7 @@
           "french": "La société existe. Elle veut vivre. Donc elle réagit. Supposez qu’elle ne se défende pas : elle serait en quelques heures la proie d’innombrables fripouilles... Tout s'écroulerait.",
           "english": "The company exists. She wants to live. So she reacts. Suppose she didn't defend herself: in a few hours she would be the prey of countless scoundrels... Everything would collapse.",
           "spanish": "La empresa existe. Ella quiere vivir. Entonces ella reacciona. Supongamos que no se defendiera: en unas horas sería presa de innumerables sinvergüenzas... Todo se derrumbaría.",
-          "chinese": "公司存在。她想活下去。所以她才反应过来。假设她不为自己辩护：几个小时后，她就会成为无数恶棍的猎物……一切都会崩溃。"
+          "chinese": "这个社会存在着。它想要生存。因此它会作出反应。"
         }
       ],
       "source_entries": [
@@ -32139,8 +32139,8 @@
       "senses": [
         {
           "english": "give again; give back",
-          "spanish": "devolver",
-          "chinese": "回馈"
+          "spanish": "volver a dar; devolver",
+          "chinese": "再次给予；归还；重新给"
         }
       ],
       "references": [
@@ -33339,7 +33339,7 @@
         {
           "english": "motion; resolution; decision",
           "spanish": "resolución; decisión; acuerdo",
-          "chinese": "解决"
+          "chinese": "决心；决议；解决；分辨率"
         }
       ],
       "references": [
@@ -33351,7 +33351,7 @@
           "french": "Votre résolution peut varier au gré des vagues agitées et capricieuses de l’opinion humaine; la mienne est ancrée sur le rocher immuable des siècles.",
           "english": "Your resolve may vary with the restless and capricious waves of human opinion; mine is anchored on the immutable rock of centuries.",
           "spanish": "Tu resolución puede variar con las inquietas y caprichosas olas de la opinión humana; la mía está anclada en la roca inmutable de los siglos.",
-          "chinese": "你的决心可能会随着人类观点的躁动和反复无常的波动而变化。我的矿井锚定在几个世纪以来不变的岩石上。"
+          "chinese": "你的决心可能会随着人类舆论躁动而反复无常；我的决心则扎根于几个世纪不变的磐石上。"
         }
       ],
       "source_entries": [
@@ -34536,7 +34536,7 @@
         {
           "english": "RnB",
           "spanish": "RnB",
-          "chinese": "硼酸"
+          "chinese": "节奏布鲁斯；R&B"
         }
       ],
       "references": [
@@ -36735,7 +36735,7 @@
           "french": "Seul Delon est érotisé par la mise en scène qui le présente comme plus attractif que la star féminine pourtant réputée pour son glamour.",
           "english": "Only Delon is eroticized by the staging which presents him as more attractive than the female star who is nevertheless renowned for her glamor.",
           "spanish": "Sólo Delon se ve erotizado por la puesta en escena que lo presenta como más atractivo que la estrella femenina que, sin embargo, es famosa por su glamour.",
-          "chinese": "只有德隆被舞台表演所吸引，这使他比那位以魅力而闻名的女明星更具吸引力。"
+          "chinese": "只有德隆被舞台调度赋予了情色意味，呈现得比那位以魅力著称的女明星更有吸引力。"
         }
       ],
       "source_entries": [
@@ -37323,9 +37323,9 @@
       "examples": [
         {
           "french": "Une fois dans l’eau, rien ne ressemble autant à un surfer qu’un autre surfer.",
-          "english": "Once in the water, nothing feels like a surfer like another surfer.",
-          "spanish": "Una vez en el agua, nada se siente más surfista que otro surfista.",
-          "chinese": "一旦进入水中，没有什么比其他冲浪者感觉像冲浪者了。"
+          "english": "Once in the water, nothing resembles a surfer more than another surfer.",
+          "spanish": "Una vez en el agua, nada se parece más a un surfista que otro surfista.",
+          "chinese": "一旦下水，没有什么比另一个冲浪者更像冲浪者。"
         }
       ],
       "source_entries": [
@@ -37972,10 +37972,10 @@
       ],
       "examples": [
         {
-          "french": "Les temples ou templus.",
-          "english": "The temples or templus.",
-          "spanish": "Los templos o templus.",
-          "chinese": "寺庙或庙宇。"
+          "french": "Les temples de cette ville attirent de nombreux visiteurs.",
+          "english": "The temples in this city attract many visitors.",
+          "spanish": "Los templos de esta ciudad atraen a muchos visitantes.",
+          "chinese": "这座城市的寺庙吸引了许多游客。"
         }
       ],
       "source_entries": [
@@ -38696,9 +38696,9 @@
       "examples": [
         {
           "french": "Et on s’engueule dans le tramway déjà un bon coup pour se faire la bouche.",
-          "english": "And we argue on the tram already a good time to make each other's mouths.",
-          "spanish": "Y discutimos en el tranvía, ya es un buen momento para hacernos la boca.",
-          "chinese": "我们在电车上争论已经是一个互相张嘴的好时机了。"
+          "english": "And we have a good quarrel on the tram to warm up our voices.",
+          "spanish": "Y nos peleamos a gusto en el tranvía para calentar la voz.",
+          "chinese": "我们在电车上痛痛快快地吵了一架，正好把嗓子活动开。"
         }
       ],
       "source_entries": [
@@ -39049,10 +39049,10 @@
       ],
       "examples": [
         {
-          "french": "Espaces localement truc.",
-          "english": "Spaces locally stuff.",
-          "spanish": "Espacios locales.",
-          "chinese": "空间本地的东西。"
+          "french": "Il connaît un truc pour réparer rapidement son vélo.",
+          "english": "He knows a trick for repairing his bicycle quickly.",
+          "spanish": "Conoce un truco para reparar rápidamente su bicicleta.",
+          "chinese": "他知道一个能快速修好自行车的诀窍。"
         }
       ],
       "source_entries": [
@@ -39177,7 +39177,7 @@
       ],
       "examples": [
         {
-          "french": "La grande Limagne! N’est-elle pas l’une des plus féconde plaine de l’univers?",
+          "french": "La grande Limagne ! N’est-elle pas l’une des plaines les plus fécondes de l’univers ?",
           "english": "The great Limagne! Isn’t it one of the most fertile plains in the universe?",
           "spanish": "¡El gran Limagne! ¿No es una de las llanuras más fértiles del universo?",
           "chinese": "伟大的利马涅！它不是宇宙中最肥沃的平原之一吗？"
@@ -39362,9 +39362,9 @@
       "examples": [
         {
           "french": "L’utilisation du pois dans le Croissant fertile est attestée par des données archéologiques datant de 8000 av. J.-C.",
-          "english": "The use of peas in the Fertile Crescent is attested by archaeological data dating back to 8000 BC. AD",
-          "spanish": "El uso de guisantes en el Creciente Fértil está atestiguado por datos arqueológicos que se remontan al 8000 a.C. ANUNCIO",
-          "chinese": "公元前 8000 年的考古数据证明了新月沃地对豌豆的使用。广告"
+          "english": "The use of peas in the Fertile Crescent is attested by archaeological data dating back to 8000 BC.",
+          "spanish": "El uso de guisantes en el Creciente Fértil está atestiguado por datos arqueológicos que se remontan al 8000 a. C.",
+          "chinese": "考古数据证明，公元前8000年新月沃地已经有人食用豌豆。"
         }
       ],
       "source_entries": [
@@ -39433,7 +39433,7 @@
         {
           "english": "vague; unclear",
           "spanish": "vago; impreciso",
-          "chinese": "模糊的；不明确的"
+          "chinese": "模糊的；含糊的；不明确的"
         }
       ],
       "references": [
@@ -39916,7 +39916,7 @@
         {
           "english": "vestimentary",
           "spanish": "indumentario",
-          "chinese": "衣服"
+          "chinese": "服饰的；衣着的"
         }
       ],
       "references": [
@@ -40203,9 +40203,9 @@
       "examples": [
         {
           "french": "Cloison volante.",
-          "english": "Flying partition.",
-          "spanish": "Partición voladora.",
-          "chinese": "飞隔断。"
+          "english": "A movable partition.",
+          "spanish": "Un tabique móvil.",
+          "chinese": "可移动的隔断。"
         }
       ],
       "source_entries": [

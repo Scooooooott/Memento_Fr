@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "batch_id": "meanings-0001-0050",
+  "review_date": "2026-09-14",
+  "status": "complete; integrated into formal source and bundled database",
+  "result": {
+    "checked_words": 50,
+    "meaning_patch_entries": 39,
+    "checked_without_meaning_change": 11,
+    "proposed_senses_in_patch": 99,
+    "total_senses_after_candidate_merge": 110,
+    "meaning_unresolved": 0,
+    "example_review_rows": 50,
+    "reviewed_examples": 110,
+    "example_unresolved": 0,
+    "example_sources": {
+      "editorial-new": 98,
+      "retained-baseline": 9,
+      "baseline-french-retranslated": 3
+    },
+    "spot_check": {
+      "sample_words": 10,
+      "sample_rate": 0.2,
+      "initial_findings": 1,
+      "repairs_applied": 1,
+      "final_failed_words": 0
+    }
+  },
+  "selection": {
+    "book_id": "flelex-a1-high-1000",
+    "member_range_one_based": [1, 50],
+    "source_words_range_one_based": [1, 50],
+    "selection_file": "outputs/flelex-frequency-selection/flelex_A1_frequency_selected.csv",
+    "selection_file_sha256": "fb8486efb5b735c5ac7142f299de6dedaab369cb3124be902fcc8e0406f8ed44"
+  },
+  "baseline": {
+    "source_file": "data/curated/flelex_a1.json",
+    "source_file_sha256": "53d12c9ea19884fbf8214878e1e98a1c5b24429a02b8716e993ebc699f495194",
+    "formal_database": "app/src/main/assets/french_content.db",
+    "formal_database_sha256": "59beead01d5c6cd446c38d4021c6d33528de6479713dbc551697a4e00d97d78d",
+    "word_hash_contract": "sha256(utf8(json.dumps(word, ensure_ascii=false, sort_keys=true, separators=(',', ':'))))"
+  },
+  "integration": {
+    "registry": "data/curated/review-overrides/flelex_a1.json",
+    "registry_sha256": "98f77602fa6da9b5ab4a5ab5d984c5df5ae33d9ee31a565f660f1540b2a0d33b",
+    "formal_source_sha256": "3f9d19243cf3f54eb4d4c03f7a97b16c8e2efdbdf3bbea29388c2058bbc0ab1f",
+    "formal_database_sha256": "45e2426bab08e5532439a588bdc35a771e6f1da582de74ed6a5f3404e327a2e8",
+    "content_version": "2026.09.14-flelex-a1.f4b.1",
+    "words_after_review": 2343,
+    "uid_order_changed": false,
+    "words_outside_batch_changed": 0
+  },
+  "source_registry": {
+    "frwiktionary-a1-snapshot": {
+      "artifact": "data/raw/open_lexicon/flelex_a1_wiktionary.json",
+      "sha256": "98acb260aabb3c6e34db2800dc84f7ae6bbe76565998ce552ecaef211d6d0d39",
+      "entry_url_template": "https://fr.wiktionary.org/wiki/{lemma}#Fran%C3%A7ais",
+      "use": "French same-POS definitions and usage examples; cached page text is evidence, not prior human approval"
+    },
+    "kaikki-a1-snapshot": {
+      "artifact": "data/raw/open_lexicon/kaikki_a1_snapshot.json",
+      "sha256": "f2c01dc6ea845e8a7a8c100b3ca9db929ac0e04e503b130f289817bd50a89f09",
+      "entry_url_template": "https://kaikki.org/dictionary/French/meaning/{lemma_initial}/{lemma}/{lemma}.html",
+      "use": "English Wiktionary same-POS glosses and examples; used as corroborating evidence"
+    },
+    "cnrtl-on": {
+      "url": "https://www.cnrtl.fr/definition/on",
+      "use": "indefinite human subject and colloquial first-person-plural use"
+    },
+    "cnrtl-ne": {
+      "url": "https://www.cnrtl.fr/definition/ne",
+      "use": "negative marker and non-negative expletive ne"
+    },
+    "cnrtl-plus": {
+      "url": "https://www.cnrtl.fr/definition/plus",
+      "use": "comparative, superlative, additive and ne...plus uses"
+    },
+    "cnrtl-aussi": {
+      "url": "https://www.cnrtl.fr/definition/aussi",
+      "use": "additive, equality-comparison and consequence uses"
+    }
+  },
+  "reviewed_uids": [
+    "fr:le:determiner:1",
+    "fr:de:preposition:1",
+    "fr:être:verb:1",
+    "fr:un:determiner:1",
+    "fr:et:conjunction:1",
+    "fr:je:pronoun:1",
+    "fr:à:preposition:1",
+    "fr:avoir:verb:1",
+    "fr:il:pronoun:1",
+    "fr:ce:pronoun:1",
+    "fr:ne:adverb:1",
+    "fr:pas:adverb:1",
+    "fr:elle:pronoun:1",
+    "fr:aller:verb:1",
+    "fr:dans:preposition:1",
+    "fr:vous:pronoun:1",
+    "fr:on:pronoun:1",
+    "fr:son:determiner:1",
+    "fr:en:preposition:1",
+    "fr:pour:preposition:1",
+    "fr:mais:conjunction:1",
+    "fr:faire:verb:1",
+    "fr:se:pronoun:1",
+    "fr:du:preposition:1",
+    "fr:au:preposition:1",
+    "fr:avec:preposition:1",
+    "fr:que:conjunction:1",
+    "fr:ce:determiner:1",
+    "fr:mon:determiner:1",
+    "fr:très:adverb:1",
+    "fr:suivre:verb:1",
+    "fr:des:preposition:1",
+    "fr:ils:pronoun:1",
+    "fr:sur:preposition:1",
+    "fr:pouvoir:verb:1",
+    "fr:dire:verb:1",
+    "fr:nous:pronoun:1",
+    "fr:petit:adjective:1",
+    "fr:me:pronoun:1",
+    "fr:le:pronoun:1",
+    "fr:plus:adverb:1",
+    "fr:vouloir:verb:1",
+    "fr:ça:pronoun:1",
+    "fr:bien:adverb:1",
+    "fr:moi:pronoun:1",
+    "fr:oui:interjection:1",
+    "fr:ou:conjunction:1",
+    "fr:qui:pronoun:1",
+    "fr:voir:verb:1",
+    "fr:aussi:adverb:1"
+  ]
+}
