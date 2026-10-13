@@ -1,0 +1,148 @@
+{
+  "target": "es",
+  "source_sha256": "83a4f0177f0979cb749c6c6930fa569f1d1469447a797706111c0d063b35d26e",
+  "package_sha256": "85edfdb42ee16e4191d4036f7c79ce46ca90a50514ed5929ddf02f4fbd5f4a14",
+  "roundtrip": {
+    "lexeme": {
+      "source_rows": 14290,
+      "roundtrip_rows": 14290,
+      "missing_or_changed": 0,
+      "extra_or_changed": 0,
+      "passed": true
+    },
+    "sense": {
+      "source_rows": 14290,
+      "roundtrip_rows": 14290,
+      "missing_or_changed": 0,
+      "extra_or_changed": 0,
+      "passed": true
+    },
+    "example": {
+      "source_rows": 14290,
+      "roundtrip_rows": 14290,
+      "missing_or_changed": 0,
+      "extra_or_changed": 0,
+      "passed": true
+    },
+    "pronunciation": {
+      "source_rows": 14290,
+      "roundtrip_rows": 14290,
+      "missing_or_changed": 0,
+      "extra_or_changed": 0,
+      "passed": true
+    },
+    "word_form": {
+      "source_rows": 26585,
+      "roundtrip_rows": 26585,
+      "missing_or_changed": 0,
+      "extra_or_changed": 0,
+      "passed": true
+    },
+    "verb_info": {
+      "source_rows": 2234,
+      "roundtrip_rows": 2234,
+      "missing_or_changed": 0,
+      "extra_or_changed": 0,
+      "passed": true
+    },
+    "conjugation_paradigm": {
+      "source_rows": 15676,
+      "roundtrip_rows": 15676,
+      "missing_or_changed": 0,
+      "extra_or_changed": 0,
+      "passed": true
+    },
+    "conjugation_form": {
+      "source_rows": 89578,
+      "roundtrip_rows": 89578,
+      "missing_or_changed": 0,
+      "extra_or_changed": 0,
+      "passed": true
+    },
+    "vocabulary_book": {
+      "source_rows": 17,
+      "roundtrip_rows": 17,
+      "missing_or_changed": 0,
+      "extra_or_changed": 0,
+      "passed": true
+    },
+    "book_lexeme": {
+      "source_rows": 42114,
+      "roundtrip_rows": 42114,
+      "missing_or_changed": 0,
+      "extra_or_changed": 0,
+      "passed": true
+    },
+    "content_meta": {
+      "source_rows": 5,
+      "roundtrip_rows": 5,
+      "missing_or_changed": 0,
+      "extra_or_changed": 0,
+      "passed": true
+    }
+  },
+  "normalized_checks": {
+    "no_cross_target_uid": true,
+    "all_levels_preserved_as_cefr": true,
+    "no_invented_book_levels": true,
+    "no_invented_book_translations": true,
+    "only_original_ipa": true,
+    "no_invented_form_features": true,
+    "grammar_fields_exact": true,
+    "spanish_default_core_senses": true,
+    "spanish_boolean_features_exact": true,
+    "sense_translation_records_exact": true,
+    "sense_translation_review_status_preserved_only": true,
+    "sense_translation_source_reference": true,
+    "example_translation_records_exact": true,
+    "example_translation_review_status_preserved_only": true,
+    "example_translation_source_reference": true,
+    "license_notice_verbatim": true,
+    "attribution_source_preserved": true,
+    "search_records_exact": true
+  },
+  "coverage": {
+    "en": {
+      "lexemes": 14290,
+      "complete_lexemes": 14290,
+      "missing_senses": 0,
+      "missing_examples": 0,
+      "passed": true
+    },
+    "fr": {
+      "lexemes": 14290,
+      "complete_lexemes": 14290,
+      "missing_senses": 0,
+      "missing_examples": 0,
+      "passed": true
+    },
+    "zh-Hans": {
+      "lexemes": 14290,
+      "complete_lexemes": 14290,
+      "missing_senses": 0,
+      "missing_examples": 0,
+      "passed": true
+    }
+  },
+  "counts": {
+    "attribution": 1,
+    "book_lexeme": 42114,
+    "book_translation": 17,
+    "conjugation_form": 89578,
+    "conjugation_paradigm": 15676,
+    "content_meta": 10,
+    "example": 14290,
+    "example_translation": 42870,
+    "grammar_feature": 13404,
+    "lexeme": 14290,
+    "lexeme_search": 14290,
+    "package_language": 1,
+    "pronunciation": 14290,
+    "sense": 14290,
+    "sense_translation": 42870,
+    "vocabulary_book": 17,
+    "word_form": 26585
+  },
+  "passed": true,
+  "semantic_review": "not performed; original text and provenance retained"
+}

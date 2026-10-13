@@ -1,0 +1,13 @@
+<resources>
+    <string name="library_search_fr">搜索法语 / 中文 / EN / ES</string>
+    <string name="library_search_es">搜索西班牙语 / 中文 / EN / FR</string>
+    <string name="library_clear">清除</string>
+    <string name="library_loaded_count">已加载 %1$d / %2$d</string>
+    <string name="library_learned">已学习</string>
+    <string name="library_not_learned">未学习</string>
+    <string name="library_no_results">没有匹配词条，请尝试调整拼写、词书或收藏条件。</string>
+    <string name="library_translation_missing">暂无当前学习语言的释义</string>
+    <string name="library_initial_failed">词条加载失败：%1$s</string>
+    <string name="library_append_failed">后续词条加载失败，已加载的内容保留：%1$s</string>
+    <string name="library_refresh_failed">收藏列表刷新失败，当前内容保留：%1$s</string>
+</resources>

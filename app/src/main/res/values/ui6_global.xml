@@ -1,0 +1,5 @@
+<resources>
+    <string name="ui6_dismiss_notice">关闭提示并停止发音</string>
+    <string name="ui6_dismiss_error">关闭错误提示</string>
+    <string name="ui6_loading_retry_hint">尚未完成加载，可以重试。</string>
+</resources>

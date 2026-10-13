@@ -1,0 +1,23 @@
+<resources>
+    <string name="statistics_today_words">今日不同词条</string>
+    <string name="statistics_streak">连续学习天数</string>
+    <string name="statistics_learned">累计可用已学</string>
+    <string name="statistics_recent">最近 %1$d 天</string>
+    <string name="statistics_expand">展开最近 30 天</string>
+    <string name="statistics_collapse">收起为最近 7 天</string>
+    <string name="statistics_bar_basis">条形按所选日期范围内的最高日词数缩放，仅比较学习数量。</string>
+    <string name="statistics_bar_description">%1$s，%2$d 个不同词条；所选日期范围最高 %3$d 个。仅比较数量。</string>
+    <string name="statistics_kinds">普通评分 %1$d 次 · 额外评分 %2$d 次 · 旧记录评分 %3$d 次</string>
+    <string name="statistics_window_total">%1$d 天日词数合计 %2$d · 评分 %3$d 次</string>
+    <string name="statistics_window_basis">日词数按当天不同词条计；同一词在不同日期学习会分别计入。</string>
+    <string name="statistics_empty">还没有学习记录，开始第一轮学习吧。</string>
+    <string name="statistics_coverage_title">内容覆盖与当前状态</string>
+    <string name="statistics_coverage">当前可用词库已学 %1$d / %2$d</string>
+    <string name="statistics_unavailable">另有 %1$d 个已学词当前内容不可用，历史仍保留，不计入内容覆盖率。</string>
+    <string name="statistics_due">当前到期复习</string>
+    <string name="statistics_new">今日已学新词</string>
+    <string name="statistics_favorites">收藏词条</string>
+    <string name="statistics_favorites_basis">收藏包括已保存但当前内容不可用的词条。</string>
+    <string name="statistics_date_zone">统计归属日期 %1$s · 学习时区 %2$s</string>
+    <string name="statistics_grace">延迟至 02:00 刷新；期间评分计入 %1$s。</string>
+</resources>

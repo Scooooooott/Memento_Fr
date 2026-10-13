@@ -1,0 +1,30 @@
+<resources>
+    <string name="summary_complete_title">今日计划完成</string>
+    <string name="summary_extra_active_title">普通完成，额外复习进行中</string>
+    <string name="summary_extra_choice_title">普通完成，等待额外选择</string>
+    <string name="summary_incomplete_title">未完成的学习记录</string>
+    <string name="summary_empty_title">暂无评分记录</string>
+    <string name="summary_active_title">本轮学习记录</string>
+    <string name="summary_plan_date">%1$s · %2$s · %3$s</string>
+    <string name="summary_word_total">本轮已学习 %1$d 个不同词条</string>
+    <string name="summary_new_count">新词 %1$d</string>
+    <string name="summary_review_count">复习 %1$d</string>
+    <string name="summary_normal">普通计划</string>
+    <string name="summary_extra">额外复习</string>
+    <string name="summary_queue_count">已完成 %1$d · 待评分 %2$d</string>
+    <string name="summary_events">评分次数 %1$d</string>
+    <string name="summary_rating_title">评分分布（普通＋额外，按评分次数）</string>
+    <string name="summary_queue_distribution">本队列评分：忘记 %1$d · 困难 %2$d · 良好 %3$d · 简单 %4$d</string>
+    <string name="summary_extra_declined">已选择结束普通计划。其余到期词保留原复习日期。</string>
+    <string name="summary_extra_offered">还有 %1$d 个可选择的额外复习词，尚未接受。</string>
+    <string name="summary_focus_title">重点复习</string>
+    <string name="summary_focus_hint">本轮标记为「忘记」或「困难」的不同词条</string>
+    <string name="summary_focus_empty">本轮没有重点复习词。</string>
+    <string name="summary_focus_missing">内容暂不可用，历史记录保留：%1$s</string>
+    <string name="summary_legacy_title">同业务日的旧版导入记录</string>
+    <string name="summary_legacy_counts">%1$d 个不同词条 · 新词 %2$d · 复习 %3$d · 评分 %4$d 次</string>
+    <string name="summary_legacy_hint">仅说明该业务日的导入历史，不计入上方本轮评分分布；可能与本轮词条重合。</string>
+    <string name="summary_home">返回首页</string>
+    <string name="summary_resume">继续学习</string>
+    <string name="summary_saved_hint">有效评分已经保存，复习日期已按评分更新。</string>
+</resources>

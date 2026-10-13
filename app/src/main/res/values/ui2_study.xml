@@ -1,0 +1,11 @@
+<resources>
+    <string name="ui2_reveal_hint">点击卡片外的空白处揭示答案</string>
+    <string name="ui2_study_position">%1$d / %2$d</string>
+    <string name="ui2_key_forms">关键形式</string>
+    <string name="ui2_all_details">全部释义与变位 ›</string>
+    <string name="ui2_meaning_number">义项 %1$d</string>
+    <string name="ui2_missing_meaning">所选学习语言的释义暂未收录。</string>
+    <string name="ui2_missing_example">所选学习语言的例句译文暂未收录。</string>
+    <string name="ui2_answer_blocked">核心释义不完整，暂不能评分此词。请查看详情或调整设置。</string>
+    <string name="ui2_rating_hint">根据这次回忆评分</string>
+</resources>

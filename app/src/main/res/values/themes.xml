@@ -1,9 +1,8 @@
 <resources>
-    <style name="Theme.FrenchVocab" parent="android:style/Theme.Material.Light.NoActionBar">
+    <style name="Theme.Memento" parent="android:style/Theme.Material.Light.NoActionBar">
         <item name="android:fontFamily">sans</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:statusBarColor">@android:color/white</item>
         <item name="android:navigationBarColor">@android:color/white</item>
-        <item name="android:windowActionModeOverlay">true</item>
     </style>
 </resources>

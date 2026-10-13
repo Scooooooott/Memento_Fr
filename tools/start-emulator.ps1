@@ -1,14 +1,16 @@
 . "$PSScriptRoot\project-env.ps1"
-$avdPath = Join-Path $env:ANDROID_AVD_HOME 'WordsApi35.avd'
-New-Item -ItemType Directory -Force $avdPath | Out-Null
+& adb start-server
+if ($LASTEXITCODE -ne 0) { throw 'Memento isolated ADB server did not start' }
+$avdPath = Join-Path $env:ANDROID_AVD_HOME 'MementoApi35.avd'
+New-Item -ItemType Directory -Force -Path $avdPath | Out-Null
 @"
 avd.ini.encoding=UTF-8
 path=$avdPath
 target=android-35
-"@ | Set-Content -LiteralPath (Join-Path $env:ANDROID_AVD_HOME 'WordsApi35.ini') -Encoding utf8
+"@ | Set-Content -LiteralPath (Join-Path $env:ANDROID_AVD_HOME 'MementoApi35.ini') -Encoding utf8
 @'
-AvdId=WordsApi35
-avd.ini.displayname=Words API 35
+AvdId=MementoApi35
+avd.ini.displayname=Memento API 35
 abi.type=x86_64
 tag.id=default
 tag.display=Default
@@ -27,5 +29,5 @@ disk.dataPartition.size=2G
 showDeviceFrame=no
 fastboot.forceColdBoot=yes
 '@ | Set-Content -LiteralPath (Join-Path $avdPath 'config.ini') -Encoding utf8
-$process = Start-Process -FilePath "$env:ANDROID_HOME\emulator\emulator.exe" -ArgumentList @('-avd','WordsApi35','-port','5556','-no-window','-no-snapshot','-no-boot-anim','-no-audio','-gpu','software','-no-metrics') -WindowStyle Hidden -PassThru -RedirectStandardOutput "$projectRoot\docs\qa\emulator.log" -RedirectStandardError "$projectRoot\docs\qa\emulator-error.log"
-Write-Output "Project emulator process: $($process.Id); adb serial emulator-5556"
+$process = Start-Process -FilePath "$env:ANDROID_HOME\emulator\emulator.exe" -ArgumentList @('-avd','MementoApi35','-port','5562','-no-window','-no-snapshot','-no-boot-anim','-no-audio','-gpu','software','-no-metrics') -WindowStyle Hidden -PassThru -RedirectStandardOutput "$projectRoot\.tools\emulator.log" -RedirectStandardError "$projectRoot\.tools\emulator-error.log"
+Write-Output "Memento emulator PID $($process.Id); serial emulator-5562; isolated ADB port 5039"

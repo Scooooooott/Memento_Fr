@@ -1,0 +1,37 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Memento normalized content intermediate v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "target_language", "content_version", "legacy_meta", "lexemes", "books", "attribution"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "target_language": {"type": "string", "pattern": "^(?!(?:en|eng)$)[a-z]{2,3}$"},
+    "content_version": {"type": "string", "minLength": 1},
+    "legacy_meta": {"type": "object", "additionalProperties": {"type": "string"}},
+    "lexemes": {"type": "array", "items": {"$ref": "#/$defs/lexeme"}},
+    "books": {"type": "array", "items": {"$ref": "#/$defs/book"}},
+    "attribution": {"type": "array", "items": {"type": "object", "required": ["source_id", "source_json", "license_notice"], "properties": {"source_id": {"type": "string"}, "source_json": {"type": "string"}, "license_notice": {"type": "string"}}, "additionalProperties": false}}
+  },
+  "$defs": {
+    "text": {"type": "string", "pattern": "\\S"},
+    "translation": {"type": "object", "required": ["text", "review_status", "source_json"], "properties": {"text": {"$ref": "#/$defs/text"}, "review_status": {"$ref": "#/$defs/text"}, "source_json": {"type": "string"}}, "additionalProperties": false},
+    "translations": {"type": "object", "minProperties": 1, "propertyNames": {"pattern": "^[a-z]{2,3}(?:-[A-Za-z0-9]+)*$"}, "additionalProperties": {"$ref": "#/$defs/translation"}},
+    "example": {"type": "object", "required": ["id", "order", "source_text", "translations"], "properties": {"id": {"$ref": "#/$defs/text"}, "order": {"type": "integer", "minimum": 0}, "source_text": {"$ref": "#/$defs/text"}, "translations": {"$ref": "#/$defs/translations"}}, "additionalProperties": false},
+    "sense": {"type": "object", "required": ["id", "order", "is_core", "translations", "examples"], "properties": {"id": {"$ref": "#/$defs/text"}, "order": {"type": "integer", "minimum": 0}, "is_core": {"type": "boolean"}, "translations": {"$ref": "#/$defs/translations"}, "examples": {"type": "array", "items": {"$ref": "#/$defs/example"}}}, "additionalProperties": false},
+    "lexeme": {
+      "type": "object", "additionalProperties": false,
+      "required": ["uid", "lemma", "part_of_speech", "homonym", "level_system", "level_value", "gender", "order", "provenance_json", "senses", "pronunciations", "forms", "grammar_features", "paradigms"],
+      "properties": {
+        "uid": {"$ref": "#/$defs/text"}, "lemma": {"$ref": "#/$defs/text"}, "part_of_speech": {"$ref": "#/$defs/text"}, "homonym": {"type": "integer", "minimum": 1},
+        "level_system": {"type": "string"}, "level_value": {"type": "string"}, "gender": {"type": "string"}, "order": {"type": "integer", "minimum": 0}, "provenance_json": {"type": "string"},
+        "senses": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/sense"}},
+        "pronunciations": {"type": "array", "items": {"type": "object", "required": ["locale", "reading_type", "reading_text", "audio_asset"], "properties": {"locale": {"type": "string"}, "reading_type": {"$ref": "#/$defs/text"}, "reading_text": {"type": "string"}, "audio_asset": {"type": ["string", "null"]}}, "additionalProperties": false}},
+        "forms": {"type": "array", "items": {"type": "object", "required": ["order", "label", "form", "features_json"], "properties": {"order": {"type": "integer", "minimum": 0}, "label": {"type": "string"}, "form": {"$ref": "#/$defs/text"}, "features_json": {"type": "string"}}, "additionalProperties": false}},
+        "grammar_features": {"type": "object", "additionalProperties": {"type": "string"}},
+        "paradigms": {"type": "array", "items": {"type": "object", "required": ["id", "order", "mood", "tense", "label", "region", "note", "forms"], "properties": {"id": {"$ref": "#/$defs/text"}, "order": {"type": "integer", "minimum": 0}, "mood": {"type": "string"}, "tense": {"type": "string"}, "label": {"type": "string"}, "region": {"type": "string"}, "note": {"type": "string"}, "forms": {"type": "array", "items": {"type": "object", "required": ["subject_key", "pronoun", "form", "order"], "properties": {"subject_key": {"$ref": "#/$defs/text"}, "pronoun": {"type": "string"}, "form": {"$ref": "#/$defs/text"}, "order": {"type": "integer", "minimum": 0}}, "additionalProperties": false}}}, "additionalProperties": false}}
+      }
+    },
+    "book": {"type": "object", "required": ["id", "order", "level_system", "level_value", "translations", "members"], "properties": {"id": {"$ref": "#/$defs/text"}, "order": {"type": "integer", "minimum": 0}, "level_system": {"type": "string"}, "level_value": {"type": "string"}, "translations": {"type": "object", "minProperties": 1, "additionalProperties": {"type": "object", "required": ["title", "description"], "properties": {"title": {"$ref": "#/$defs/text"}, "description": {"type": "string"}}, "additionalProperties": false}}, "members": {"type": "array", "items": {"type": "object", "required": ["uid", "order"], "properties": {"uid": {"$ref": "#/$defs/text"}, "order": {"type": "integer", "minimum": 0}}, "additionalProperties": false}}}, "additionalProperties": false}
+  }
+}

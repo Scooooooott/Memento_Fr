@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui3_grammar_empty">此词条没有已收录的变位范式。</string>
+    <string name="ui3_grammar_help">全部已收录形式；横向查看人称，纵向查看语气与时态。“—”表示词库未单独列出该项。</string>
+    <string name="ui3_grammar_label_header">语气 · 时态</string>
+    <string name="ui3_grammar_missing">—</string>
+    <string name="ui3_grammar_indicative">直陈式 · %1$s</string>
+    <string name="ui3_grammar_subjunctive">虚拟式 · %1$s</string>
+    <string name="ui3_grammar_imperative">命令式 · %1$s</string>
+    <string name="ui3_grammar_spanish_note">地区标签及说明按词库原样列出，包括 vos。usted / ustedes 的直陈式与虚拟式见第三人称列；命令式只显示实际收录项。肯定、否定、反身与复合形式均保留，缺项不补造。</string>
+    <string name="ui3_grammar_source_note">人称、词形及范式说明均来自词库。未单独列出的项显示“—”，不表示该语法形式不存在。</string>
+</resources>

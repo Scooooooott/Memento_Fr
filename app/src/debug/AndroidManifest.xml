@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <activity android:name="com.scott.memento.qa.ExtensionFixtureActivity" android:exported="false" />
+        <provider android:name="androidx.core.content.FileProvider"
+            android:authorities="com.scott.memento.qa.importfiles" android:exported="false" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/legacy_qa_paths" />
+        </provider>
+    </application>
+</manifest>

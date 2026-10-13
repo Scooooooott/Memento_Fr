@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "normalization_version": "nfkc-lower-latin-nfd-1",
+  "fixture_only": true,
+  "packages": {
+    "de": {
+      "target_language": "de",
+      "label": "德语",
+      "pronunciation_locale": "de-DE",
+      "default_book": "p7-de",
+      "learning_languages": [
+        "zh-Hans",
+        "en",
+        "es"
+      ],
+      "asset": "p7/de.db",
+      "schema_version": 1,
+      "content_version": "p7-fixture-de-1",
+      "sha256": "97fb57067f5b4eeee541883bb53628e471633ce1b7aec3d78fc08aea211c0015",
+      "bytes": 204800
+    },
+    "nl": {
+      "target_language": "nl",
+      "label": "荷兰语",
+      "pronunciation_locale": "nl-NL",
+      "default_book": "p7-nl",
+      "learning_languages": [
+        "zh-Hans",
+        "en",
+        "de"
+      ],
+      "asset": "p7/nl.db",
+      "schema_version": 1,
+      "content_version": "p7-fixture-nl-1",
+      "sha256": "5a4fb102f008fdc4d2b5afcdedc528a9bff3c34f43fd9abefbbad1ffa37734f9",
+      "bytes": 204800
+    },
+    "ja": {
+      "target_language": "ja",
+      "label": "日语",
+      "pronunciation_locale": "ja-JP",
+      "default_book": "p7-ja",
+      "learning_languages": [
+        "zh-Hans",
+        "en",
+        "de"
+      ],
+      "asset": "p7/ja.db",
+      "schema_version": 1,
+      "content_version": "p7-fixture-ja-1",
+      "sha256": "55d9cbd2dd3dbff64714d0a97f6bcf167c9408f66bb166f932b89cf558f7b079",
+      "bytes": 204800
+    },
+    "ko": {
+      "target_language": "ko",
+      "label": "韩语",
+      "pronunciation_locale": "ko-KR",
+      "default_book": "p7-ko",
+      "learning_languages": [
+        "zh-Hans",
+        "en",
+        "de"
+      ],
+      "asset": "p7/ko.db",
+      "schema_version": 1,
+      "content_version": "p7-fixture-ko-1",
+      "sha256": "3ed03c4bfd256ae3bdfc031c31714cf448797edbc8c11f9ff77b48a6cb88cec7",
+      "bytes": 204800
+    }
+  }
+}

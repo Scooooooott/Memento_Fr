@@ -1,0 +1,166 @@
+[
+  {
+    "input": " ÊTRE ",
+    "expected": "etre"
+  },
+  {
+    "input": "negociación",
+    "expected": "negociacion"
+  },
+  {
+    "input": "ＡＢＣ",
+    "expected": "abc"
+  },
+  {
+    "input": "100%_\\",
+    "expected": "100%_\\"
+  },
+  {
+    "input": "Straße",
+    "expected": "straße"
+  },
+  {
+    "input": "huis",
+    "expected": "huis"
+  },
+  {
+    "input": "が",
+    "expected": "が"
+  },
+  {
+    "input": "か",
+    "expected": "か"
+  },
+  {
+    "input": "が",
+    "expected": "が"
+  },
+  {
+    "input": "ｶﾞ",
+    "expected": "ガ"
+  },
+  {
+    "input": "カ",
+    "expected": "カ"
+  },
+  {
+    "input": "ガ",
+    "expected": "ガ"
+  },
+  {
+    "input": "かー",
+    "expected": "かー"
+  },
+  {
+    "input": "がく",
+    "expected": "がく"
+  },
+  {
+    "input": "食べる",
+    "expected": "食べる"
+  },
+  {
+    "input": "日本語",
+    "expected": "日本語"
+  },
+  {
+    "input": "한글",
+    "expected": "한글"
+  },
+  {
+    "input": "한글",
+    "expected": "한글"
+  },
+  {
+    "input": "먹다",
+    "expected": "먹다"
+  },
+  {
+    "input": "مُدَرِّس",
+    "expected": "مُدَرِّس"
+  },
+  {
+    "input": "مدرس",
+    "expected": "مدرس"
+  },
+  {
+    "input": "हिन्दी",
+    "expected": "हिन्दी"
+  },
+  {
+    "input": "क",
+    "expected": "क"
+  },
+  {
+    "input": "कि",
+    "expected": "कि"
+  },
+  {
+    "input": "😀中文",
+    "expected": "😀中文"
+  },
+  {
+    "input": "𝔸ＢＣ",
+    "expected": "abc"
+  },
+  {
+    "input": "İ",
+    "expected": "i"
+  },
+  {
+    "input": "École",
+    "expected": "ecole"
+  },
+  {
+    "input": "각",
+    "expected": "각"
+  },
+  {
+    "input": "가",
+    "expected": "가"
+  },
+  {
+    "input": "한",
+    "expected": "한"
+  },
+  {
+    "input": "한́",
+    "expected": "한́"
+  },
+  {
+    "input": "ΟΣ",
+    "expected": "ος"
+  },
+  {
+    "input": "ός",
+    "expected": "ός"
+  },
+  {
+    "input": "ος",
+    "expected": "ος"
+  },
+  {
+    "input": "ё",
+    "expected": "ё"
+  },
+  {
+    "input": "е",
+    "expected": "е"
+  },
+  {
+    "input": "שָׁלוֹם",
+    "expected": "שָׁלוֹם"
+  },
+  {
+    "input": "שׁ",
+    "expected": "שׁ"
+  },
+  {
+    "input": "กิ",
+    "expected": "กิ"
+  },
+  {
+    "input": "กา",
+    "expected": "กา"
+  }
+]

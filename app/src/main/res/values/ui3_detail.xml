@@ -1,0 +1,10 @@
+<resources>
+    <string name="detail_tab_meanings">释义与例句</string>
+    <string name="detail_tab_forms">关键形式</string>
+    <string name="detail_tab_grammar">动词变位</string>
+    <string name="detail_meanings_empty">此词尚未收录释义。</string>
+    <string name="detail_examples_empty">此义项尚未收录例句。</string>
+    <string name="detail_forms_empty">此词没有单独收录的关键形式。</string>
+    <string name="detail_gender">性别</string>
+    <string name="detail_feature_value">%1$s：%2$s</string>
+</resources>

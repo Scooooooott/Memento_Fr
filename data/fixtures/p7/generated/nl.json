@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "target_language": "nl",
+  "content_version": "p7-fixture-nl-1",
+  "legacy_meta": {
+    "fixture": "not formal content"
+  },
+  "lexemes": [
+    {
+      "uid": "nl:fixture:0:1",
+      "lemma": "huis",
+      "part_of_speech": "fixture",
+      "homonym": 1,
+      "level_system": "CEFR",
+      "level_value": "A1",
+      "gender": "",
+      "order": 0,
+      "provenance_json": "{\"fixture_only\":true}",
+      "senses": [
+        {
+          "id": "nl:fixture:0:1/sense",
+          "order": 0,
+          "is_core": true,
+          "translations": {
+            "zh-Hans": {
+              "text": "房屋",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            },
+            "en": {
+              "text": "house",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            },
+            "de": {
+              "text": "Haus",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            }
+          },
+          "examples": [
+            {
+              "id": "nl:fixture:0:1/example",
+              "order": 0,
+              "source_text": "测试原句：huis",
+              "translations": {
+                "zh-Hans": {
+                  "text": "房屋 / 示例 0",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                },
+                "en": {
+                  "text": "house / 示例 0",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                },
+                "de": {
+                  "text": "Haus / 示例 0",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "pronunciations": [
+        {
+          "locale": "nl-NL",
+          "reading_type": "IPA",
+          "reading_text": "ɦœy̯s",
+          "audio_asset": null
+        }
+      ],
+      "forms": [
+        {
+          "order": 0,
+          "label": "测试词形",
+          "form": "huis",
+          "features_json": "{\"fixture\":true}"
+        }
+      ],
+      "grammar_features": {
+        "fixture_grammar": "测试能力",
+        "register": "测试语体"
+      },
+      "paradigms": [
+        {
+          "id": "fixture-paradigm",
+          "order": 0,
+          "mood": "fixture-capability",
+          "tense": "",
+          "label": "测试可变范式",
+          "region": "测试地区",
+          "note": "仅用于验证可变行数，不是正式教学内容",
+          "forms": [
+            {
+              "subject_key": "singular",
+              "pronoun": "单数",
+              "form": "huis",
+              "order": 0
+            },
+            {
+              "subject_key": "plural",
+              "pronoun": "复数",
+              "form": "huizen",
+              "order": 1
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "books": [
+    {
+      "id": "p7-nl",
+      "order": 0,
+      "level_system": "CEFR",
+      "level_value": "A1",
+      "translations": {
+        "zh-Hans": {
+          "title": "荷兰语测试词书 / zh-Hans",
+          "description": "独立测试内容，不进入正式包"
+        },
+        "en": {
+          "title": "荷兰语测试词书 / en",
+          "description": "独立测试内容，不进入正式包"
+        },
+        "de": {
+          "title": "荷兰语测试词书 / de",
+          "description": "独立测试内容，不进入正式包"
+        }
+      },
+      "members": [
+        {
+          "uid": "nl:fixture:0:1",
+          "order": 0
+        }
+      ]
+    }
+  ],
+  "attribution": [
+    {
+      "source_id": "authored-test",
+      "source_json": "{\"fixture_only\":true}",
+      "license_notice": "Authored P7 test fixture. Not official learning content."
+    }
+  ]
+}

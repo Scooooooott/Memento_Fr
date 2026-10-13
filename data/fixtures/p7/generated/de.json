@@ -1,0 +1,161 @@
+{
+  "schema_version": 1,
+  "target_language": "de",
+  "content_version": "p7-fixture-de-1",
+  "legacy_meta": {
+    "fixture": "not formal content"
+  },
+  "lexemes": [
+    {
+      "uid": "de:fixture:0:1",
+      "lemma": "Haus",
+      "part_of_speech": "fixture",
+      "homonym": 1,
+      "level_system": "CEFR",
+      "level_value": "A1",
+      "gender": "",
+      "order": 0,
+      "provenance_json": "{\"fixture_only\":true}",
+      "senses": [
+        {
+          "id": "de:fixture:0:1/sense",
+          "order": 0,
+          "is_core": true,
+          "translations": {
+            "zh-Hans": {
+              "text": "房屋",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            },
+            "en": {
+              "text": "house",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            },
+            "es": {
+              "text": "casa",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            }
+          },
+          "examples": [
+            {
+              "id": "de:fixture:0:1/example",
+              "order": 0,
+              "source_text": "测试原句：Haus",
+              "translations": {
+                "zh-Hans": {
+                  "text": "房屋 / 示例 0",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                },
+                "en": {
+                  "text": "house / 示例 0",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                },
+                "es": {
+                  "text": "casa / 示例 0",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "pronunciations": [
+        {
+          "locale": "de-DE",
+          "reading_type": "IPA",
+          "reading_text": "haʊs",
+          "audio_asset": null
+        }
+      ],
+      "forms": [
+        {
+          "order": 0,
+          "label": "测试词形",
+          "form": "Haus",
+          "features_json": "{\"fixture\":true}"
+        }
+      ],
+      "grammar_features": {
+        "fixture_grammar": "测试能力",
+        "register": "测试语体"
+      },
+      "paradigms": [
+        {
+          "id": "fixture-paradigm",
+          "order": 0,
+          "mood": "fixture-capability",
+          "tense": "",
+          "label": "测试可变范式",
+          "region": "测试地区",
+          "note": "仅用于验证可变行数，不是正式教学内容",
+          "forms": [
+            {
+              "subject_key": "nom",
+              "pronoun": "主格",
+              "form": "das Haus",
+              "order": 0
+            },
+            {
+              "subject_key": "acc",
+              "pronoun": "宾格",
+              "form": "das Haus",
+              "order": 1
+            },
+            {
+              "subject_key": "dat",
+              "pronoun": "与格",
+              "form": "dem Haus",
+              "order": 2
+            },
+            {
+              "subject_key": "gen",
+              "pronoun": "属格",
+              "form": "des Hauses",
+              "order": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "books": [
+    {
+      "id": "p7-de",
+      "order": 0,
+      "level_system": "CEFR",
+      "level_value": "A1",
+      "translations": {
+        "zh-Hans": {
+          "title": "德语测试词书 / zh-Hans",
+          "description": "独立测试内容，不进入正式包"
+        },
+        "en": {
+          "title": "德语测试词书 / en",
+          "description": "独立测试内容，不进入正式包"
+        },
+        "es": {
+          "title": "德语测试词书 / es",
+          "description": "独立测试内容，不进入正式包"
+        }
+      },
+      "members": [
+        {
+          "uid": "de:fixture:0:1",
+          "order": 0
+        }
+      ]
+    }
+  ],
+  "attribution": [
+    {
+      "source_id": "authored-test",
+      "source_json": "{\"fixture_only\":true}",
+      "license_notice": "Authored P7 test fixture. Not official learning content."
+    }
+  ]
+}

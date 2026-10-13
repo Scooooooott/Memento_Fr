@@ -1,0 +1,5 @@
+<resources>
+    <string name="ui2_summary_page_title">学习总结</string>
+    <string name="ui2_recent_summary">查看最近一轮总结</string>
+    <string name="ui2_summary_unavailable">这份学习记录暂不可用，请返回首页。</string>
+</resources>

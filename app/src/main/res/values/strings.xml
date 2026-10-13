@@ -1,3 +1,88 @@
 <resources>
-    <string name="app_name">French Vocab</string>
+    <string name="review_home">复习</string>
+    <string name="word_detail_title">词条详情</string>
+    <string name="pause_study">暂停</string>
+    <string name="lookup">查词</string>
+    <string name="language_context_format">%1$s · %2$s释义</string>
+    <string name="language_apply">应用语言选择</string>
+    <string name="language_apply_hint">仅切换目标和学习语言，不保存下方计划草稿，也不增加学习额度。</string>
+    <string name="only_favorites">只看收藏</string>
+    <string name="home_remaining_label">普通剩余</string>
+    <string name="home_extra_remaining_label">额外待复习</string>
+    <string name="home_progress_count">普通进度 %1$d / %2$d</string>
+    <string name="home_review_remaining_label">复习剩余</string>
+    <string name="home_new_remaining_label">新词剩余</string>
+    <string name="home_today_done_label">今日完成</string>
+    <string name="home_start">开始学习</string>
+    <string name="home_continue">继续学习</string>
+    <string name="home_continue_extra">继续额外复习</string>
+    <string name="home_normal_completed">普通计划已完成</string>
+    <string name="home_review_all_empty">今日没有待复习任务</string>
+    <string name="home_review_all_completed">今日复习已完成</string>
+    <string name="home_study_unavailable">等待计划恢复</string>
+    <string name="home_book_section">当前词书进度</string>
+    <string name="home_no_book">尚未选择词书</string>
+    <string name="home_book_learned">%1$d / %2$d 已学习</string>
+    <string name="home_book_percent">%1$d%%</string>
+    <string name="home_status_title">今日状态</string>
+    <string name="home_total_learned_label">累计已学</string>
+    <string name="home_streak_label">连续学习</string>
+    <string name="home_streak_days">%1$d 天</string>
+    <string name="home_date_unconfigured">完成设置后生成今日计划</string>
+    <string name="home_extra_progress">额外复习已完成 %1$d · 剩余 %2$d</string>
+    <string name="home_review_backlog">普通计划已完成，另有 %1$d 个到期词尚未复习。</string>
+    <string name="home_overflow_pending">普通计划之外还有 %1$d 个到期词，完成后可选择继续复习。</string>
+    <string name="app_name">Memento</string>
+    <string name="library">词库</string><string name="statistics">统计</string><string name="settings">设置</string>
+    <string name="french">法语</string><string name="spanish">西语</string><string name="chinese">中文</string><string name="english">英语</string>
+    <string name="welcome">选择你的学习方式</string><string name="welcome_hint">目标语言是要学习的语言，学习语言用于释义和例句翻译。每日总目标包含复习与新词。</string>
+    <string name="target_language">目标语言</string><string name="learning_language">学习语言</string><string name="study_today">今日学习</string>
+    <string name="configure_hint">请选择每日复习＋新词总目标，或只复习全部到期词。</string><string name="configure_plan">设置学习计划</string>
+    <string name="adjust_plan">调整目标与词书</string><string name="normal_finished_more">普通计划已完成，还有到期词可继续复习。</string><string name="plan_finished">今日计划已完成。</string>
+    <string name="new_word">新词</string><string name="review_word">复习</string><string name="extra_review">额外复习</string>
+    <string name="pronounce">发音</string><string name="favorite">收藏</string><string name="unfavorite">取消收藏</string>
+    <string name="rating_again">忘记</string><string name="rating_hard">困难</string><string name="rating_good">记得</string><string name="rating_easy">熟悉</string><string name="reveal">查看答案</string>
+    <string name="plan_date">%1$s · %2$s</string><string name="daily_counts">已完成 %1$d · 新词 %2$d · 复习 %3$d</string><string name="remaining_counts">普通剩余 %1$d · 额外剩余 %2$d</string>
+    <string name="clock_rollback">设备时间早于上次学习时间，请校正时间后继续。</string><string name="wait_date">学习时区的日期尚未进入下一日，日期到达后会恢复学习。</string><string name="midnight_pending">已到新一天，请选择刷新时间。</string>
+    <string name="new_day">新的一天</string><string name="rollover_hint">立即刷新今日计划，或继续昨日计划至 02:00。延迟期间的评分计入昨天。</string><string name="reset_now">立即刷新</string><string name="reset_later">02:00 再刷新</string>
+    <string name="overflow_title">继续复习剩余到期词？</string><string name="overflow_hint">普通计划已完成，还剩 %1$d 个到期词。额外复习不添加新词。</string><string name="continue_review">继续复习</string><string name="finish_today">今天结束</string>
+    <string name="book_progress">%1$s · 已学 %2$d / %3$d</string><string name="book_settings_hint">在设置中切换新词词书。</string>
+    <string name="total_goal">每日总目标 %1$d</string><string name="review_all">只复习全部到期词</string><string name="due_count">当前仍到期 %1$d 个</string>
+    <string name="goal_label">每日复习＋新词总目标</string><string name="goal_invalid">请输入大于 0 的整数</string><string name="same_day_hint">当日生效，保留已完成词条，只调整剩余任务。只复习模式不设额度、不学习新词。</string>
+    <string name="choose_book">选择词书</string><string name="book_option">%1$s · %2$d 词</string><string name="save">保存设置</string><string name="begin">完成设置</string><string name="cancel">取消</string><string name="back">返回</string>
+    <string name="study_zone">学习时区</string><string name="zone_hint">首次取设备时区后固定保存。可输入 IANA 时区，如 Asia/Shanghai。</string><string name="zone_invalid">时区无效</string><string name="zone_transition">当前计划保留原时区，结束原日期后使用新时区。切换时区不会重新发放额度。</string>
+    <string name="autoplay">自动发音</string><string name="autoplay_never">关闭</string><string name="autoplay_new">仅新词</string><string name="autoplay_all">全部卡片</string><string name="tts_fallback">使用已安装的离线语音</string><string name="show_reading">显示音标 / 读音</string>
+    <string name="search_hint">查找单词或释义</string><string name="all_books">全部词书</string><string name="result_count">%1$s · %2$d 个词条</string><string name="favorites_empty">还没有收藏，或收藏的词条不在当前内容包中。</string>
+    <string name="word_missing">此词条在当前内容包中不可用。</string><string name="grammar">语法信息</string>
+    <string name="learned_total">累计已学 %1$d 词</string><string name="history_count">%1$s：%2$d 词（新 %3$d / 复习 %4$d）</string><string name="history_ratings">评分 %1$d 次 · 其中额外复习 %2$d 次</string><string name="stats_basis">按目标语言和计划归属日期统计。午夜延迟期间计入前一天；不同词条数与评分次数分别展示。</string>
+    <string name="speech_local">正在播放本地录音</string><string name="speech_offline">正在使用离线语音</string><string name="speech_no_recording">此词暂无本地录音，可在设置中启用离线语音。</string><string name="speech_no_voice">未安装可用的离线语音（%1$s）。请在 Android 语音设置中安装后重试。</string><string name="speech_not_ready">系统语音尚未就绪，请稍后重试。</string><string name="speech_failed">发音失败，请检查系统离线语音包。</string>
+    <string name="operation_failed">操作未完成：%1$s</string><string name="retry">重试</string><string name="loading">正在加载…</string>
+    <string name="book_draft_hint">选择先保存在设置草稿中，保存设置后当日生效。</string>
+    <string name="feature_auxiliary">助动词</string><string name="feature_past_participle">过去分词</string><string name="feature_present_participle">现在分词</string><string name="feature_gerund">副动词</string><string name="feature_irregular">不规则变化</string><string name="feature_reflexive">反身动词</string><string name="feature_group">动词组</string><string name="yes">是</string><string name="no">否</string>
+    <string name="import_title">导入旧应用数据</string>
+    <string name="import_boundary">法语和西语旧应用可与 Memento 并存。请提供可读取的旧用户库备份；新应用不能直接读取旧应用的私有目录。</string>
+    <string name="import_snapshot_hint">需要完整、一致的独立 SQLite 快照。直接复制运行中的 .db 文件可能遗漏 WAL 中的数据，完整性检查也不能判断是否遗漏。旧应用没有新增导出功能；备份获取取决于已有备份或授权环境。</string>
+    <string name="import_choose_file">选择 SQLite 备份</string>
+    <string name="import_change_source">清除预览，选择另一目标语言</string>
+    <string name="import_preview">%1$s用户库 v%2$d：卡片 %3$d，收藏 %4$d，评分 %5$d，会话 %6$d。此时尚未导入。</string>
+    <string name="import_missing">%1$d 张卡片的词条当前不可用，仍保存学习历史。</string>
+    <string name="import_translation_hint">保留当前学习语言。旧翻译开关可能同时开启多种语言，无法据此确定唯一学习语言。</string>
+    <string name="import_source">备份来源名称</string>
+    <string name="import_source_hint">例如“主手机”。同一旧安装的后续备份必须使用同一名称；不同设备使用不同名称。旧库没有安装 UUID，文件名无法识别来源。</string>
+    <string name="import_old_zone">旧日志时区说明</string>
+    <string name="import_zone_hint">旧库未保存时区，请确认旧设备使用的时区。此值仅作为日志说明，原评分日期保持原样，Memento 学习时区不变。</string>
+    <string name="import_zero_hint">旧设置为每日新词 0：导入后只复习全部到期词，不设置总目标。请选择可用词书。</string>
+    <string name="import_positive_hint">旧设置为每日新词 %1$d 个。Memento 的每日目标包含复习与新词；恢复设置时须重新填写总目标。</string>
+    <string name="import_restore_settings">恢复旧词书与播放偏好，并调整当前目标</string>
+    <string name="import_merge_hint">已有进度冲突时保留 Memento 当前状态，完整归档旧记录。导入为合并：不会因备份中缺少收藏或卡片而删除现有数据。今天旧日志中的已学词会占用今天额度，未完成旧会话只作为历史归档。</string>
+    <string name="import_confirm_snapshot">确认这是完整快照，来源名称和旧时区正确</string>
+    <string name="import_commit">确认导入</string>
+    <string name="import_done">导入已完成</string>
+    <string name="import_repeated">该来源的相同备份已导入，本次未重复写入</string>
+    <string name="import_report">批次 %1$d：新增 %2$d 条，更新 %3$d 条，重复 %4$d 条，冲突 %5$d 条。</string>
+    <string name="import_report_hint">完整批次报告和冲突原文保存在用户数据库。下方最多展示 20 项冲突。若时间或午夜选择待处理，返回首页处理后刷新计划。</string>
+    <string name="import_failed_report">导入失败，学习数据未写入。阶段 %1$s，记录 %2$s：%3$s。可修正后重试。</string>
+    <string name="reading_kana">假名</string>
+    <string name="reading_romanization">罗马字</string>
+    <string name="reading_hangul">韩文读音</string>
 </resources>

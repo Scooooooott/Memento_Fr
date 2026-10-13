@@ -1,12 +1,23 @@
-* text=auto
-
-# Keep scripts portable across Windows and Unix-like build hosts.
-gradlew text eol=lf
+# Normal editable source uses LF, regardless of a contributor's autocrlf setting.
+* text=auto eol=lf whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
 *.bat text eol=crlf
-*.ps1 text eol=crlf
 
-# Binary project assets.
+# Preserve exact bytes used by content/fixture/schema hashes and provenance.
+# -text retains ordinary text diffs while disabling checkout/clean conversion.
+/app/src/main/assets/** -text
+/app/src/test/resources/** -text
+/data/** -text
+/schemas/** -text
+/docs/qa/** -text
+
 *.db binary
+*.sqlite binary
+*.sqlite3 binary
 *.jar binary
 *.png binary
-*.wav binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.pdf binary
+*.apk binary
+*.aab binary

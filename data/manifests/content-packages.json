@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "conversion_version": "memento-legacy-adapter-1",
+  "normalization_version": "nfkc-lower-latin-nfd-1",
+  "schema_sha256": "dde0a1ee628fc953a2fee88453564c629ff30021f66d95831970ad38d9546984",
+  "packages": {
+    "fr": {
+      "target_language": "fr",
+      "asset": "content/fr.db",
+      "schema_version": 1,
+      "sha256": "df278bd096378f53dfa9f6d6d4e6de951d0be2488de816d4edb3b257cbb3d87f",
+      "bytes": 83963904,
+      "content_version": "3309f470e1191357c688ba7f701515234a5463aa9ea23b30472d2d0b714cc585",
+      "source_file": "french_content.db",
+      "source_db_sha256": "3309f470e1191357c688ba7f701515234a5463aa9ea23b30472d2d0b714cc585",
+      "source_schema_version": 2,
+      "learning_languages": [
+        "zh-Hans",
+        "en",
+        "es"
+      ],
+      "pronunciation_locale": "fr-FR",
+      "default_book": "flelex-a1-high-1000",
+      "counts": {
+        "attribution": 1,
+        "book_lexeme": 26666,
+        "book_translation": 13,
+        "conjugation_form": 54270,
+        "conjugation_paradigm": 9045,
+        "content_meta": 20,
+        "example": 19525,
+        "example_translation": 58575,
+        "grammar_feature": 12060,
+        "lexeme": 19465,
+        "lexeme_search": 19465,
+        "package_language": 1,
+        "pronunciation": 19465,
+        "sense": 19525,
+        "sense_translation": 58575,
+        "vocabulary_book": 13,
+        "word_form": 52082
+      },
+      "intermediate_sha256": "bede27592ea4983b539369e850b754b37f69f5bd40e2b63ca6a9ed48443472ff",
+      "review_status": "legacy-preserved-unassessed"
+    },
+    "es": {
+      "target_language": "es",
+      "asset": "content/es.db",
+      "schema_version": 1,
+      "sha256": "85edfdb42ee16e4191d4036f7c79ce46ca90a50514ed5929ddf02f4fbd5f4a14",
+      "bytes": 77582336,
+      "content_version": "83a4f0177f0979cb749c6c6930fa569f1d1469447a797706111c0d063b35d26e",
+      "source_file": "spanish_content.db",
+      "source_db_sha256": "83a4f0177f0979cb749c6c6930fa569f1d1469447a797706111c0d063b35d26e",
+      "source_schema_version": 1,
+      "learning_languages": [
+        "zh-Hans",
+        "en",
+        "fr"
+      ],
+      "pronunciation_locale": "es-ES",
+      "default_book": "elelex-a1-top1200-es",
+      "counts": {
+        "attribution": 1,
+        "book_lexeme": 42114,
+        "book_translation": 17,
+        "conjugation_form": 89578,
+        "conjugation_paradigm": 15676,
+        "content_meta": 10,
+        "example": 14290,
+        "example_translation": 42870,
+        "grammar_feature": 13404,
+        "lexeme": 14290,
+        "lexeme_search": 14290,
+        "package_language": 1,
+        "pronunciation": 14290,
+        "sense": 14290,
+        "sense_translation": 42870,
+        "vocabulary_book": 17,
+        "word_form": 26585
+      },
+      "intermediate_sha256": "1db90ea8bc92c2368bfd75dace59886bcfe9511df1fa717490af8e6d51c0d3a3",
+      "review_status": "legacy-preserved-unassessed"
+    }
+  },
+  "licenses": {
+    "APERTIUM-COPYING": {
+      "sha256": "231f7edcc7352d7734a96eef0b8030f77982678c516876fcb81e25b32d68564c",
+      "bytes": 18002
+    },
+    "es-content.md": {
+      "sha256": "24ba2873286e4f1f5f3e208b18f583d8d207c21f3ddd625cf35170cd5724c27e",
+      "bytes": 3050
+    },
+    "fr-content.md": {
+      "sha256": "f2fc740b7acb37e0ea604d57c4a07138f104bcc11703fa8d8076f2202e3c7ff8",
+      "bytes": 1287
+    },
+    "ts-fsrs.txt": {
+      "sha256": "ac78eb00a20fb7dc97616378e86c3071079d35bf46f25b43781615c2274ddd88",
+      "bytes": 1077
+    }
+  }
+}

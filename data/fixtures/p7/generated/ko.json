@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "target_language": "ko",
+  "content_version": "p7-fixture-ko-1",
+  "legacy_meta": {
+    "fixture": "not formal content"
+  },
+  "lexemes": [
+    {
+      "uid": "ko:fixture:0:1",
+      "lemma": "먹다",
+      "part_of_speech": "fixture",
+      "homonym": 1,
+      "level_system": "TOPIK",
+      "level_value": "1",
+      "gender": "",
+      "order": 0,
+      "provenance_json": "{\"fixture_only\":true}",
+      "senses": [
+        {
+          "id": "ko:fixture:0:1/sense",
+          "order": 0,
+          "is_core": true,
+          "translations": {
+            "zh-Hans": {
+              "text": "吃",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            },
+            "en": {
+              "text": "eat",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            },
+            "de": {
+              "text": "essen",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            }
+          },
+          "examples": [
+            {
+              "id": "ko:fixture:0:1/example",
+              "order": 0,
+              "source_text": "测试原句：먹다",
+              "translations": {
+                "zh-Hans": {
+                  "text": "吃 / 示例 0",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                },
+                "en": {
+                  "text": "eat / 示例 0",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                },
+                "de": {
+                  "text": "essen / 示例 0",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "pronunciations": [
+        {
+          "locale": "ko-KR",
+          "reading_type": "HANGUL",
+          "reading_text": "먹다",
+          "audio_asset": null
+        },
+        {
+          "locale": "ko-KR",
+          "reading_type": "ROMANIZATION",
+          "reading_text": "meokda",
+          "audio_asset": null
+        }
+      ],
+      "forms": [
+        {
+          "order": 0,
+          "label": "测试词形",
+          "form": "먹다",
+          "features_json": "{\"fixture\":true}"
+        }
+      ],
+      "grammar_features": {
+        "fixture_grammar": "测试能力",
+        "register": "测试语体"
+      },
+      "paradigms": [
+        {
+          "id": "fixture-paradigm",
+          "order": 0,
+          "mood": "fixture-capability",
+          "tense": "",
+          "label": "测试可变范式",
+          "region": "测试地区",
+          "note": "仅用于验证可变行数，不是正式教学内容",
+          "forms": [
+            {
+              "subject_key": "plain",
+              "pronoun": "普通体",
+              "form": "먹어",
+              "order": 0
+            },
+            {
+              "subject_key": "polite",
+              "pronoun": "礼貌体",
+              "form": "먹어요",
+              "order": 1
+            },
+            {
+              "subject_key": "formal",
+              "pronoun": "正式体",
+              "form": "먹습니다",
+              "order": 2
+            },
+            {
+              "subject_key": "honorific",
+              "pronoun": "敬语",
+              "form": "드시다",
+              "order": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ko:fixture:1:1",
+      "lemma": "한글",
+      "part_of_speech": "fixture",
+      "homonym": 1,
+      "level_system": "TOPIK",
+      "level_value": "1",
+      "gender": "",
+      "order": 1,
+      "provenance_json": "{\"fixture_only\":true}",
+      "senses": [
+        {
+          "id": "ko:fixture:1:1/sense",
+          "order": 0,
+          "is_core": true,
+          "translations": {
+            "zh-Hans": {
+              "text": "韩文",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            },
+            "en": {
+              "text": "Hangul",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            },
+            "de": {
+              "text": "koreanische Schrift",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            }
+          },
+          "examples": [
+            {
+              "id": "ko:fixture:1:1/example",
+              "order": 0,
+              "source_text": "测试原句：한글",
+              "translations": {
+                "zh-Hans": {
+                  "text": "韩文 / 示例 1",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                },
+                "en": {
+                  "text": "Hangul / 示例 1",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                },
+                "de": {
+                  "text": "koreanische Schrift / 示例 1",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "pronunciations": [
+        {
+          "locale": "ko-KR",
+          "reading_type": "HANGUL",
+          "reading_text": "한글",
+          "audio_asset": null
+        }
+      ],
+      "forms": [
+        {
+          "order": 0,
+          "label": "测试词形",
+          "form": "한글",
+          "features_json": "{\"fixture\":true}"
+        }
+      ],
+      "grammar_features": {
+        "fixture_grammar": "测试能力",
+        "register": "测试语体"
+      },
+      "paradigms": [
+        {
+          "id": "fixture-paradigm",
+          "order": 0,
+          "mood": "fixture-capability",
+          "tense": "",
+          "label": "测试可变范式",
+          "region": "测试地区",
+          "note": "仅用于验证可变行数，不是正式教学内容",
+          "forms": []
+        }
+      ]
+    }
+  ],
+  "books": [
+    {
+      "id": "p7-ko",
+      "order": 0,
+      "level_system": "TOPIK",
+      "level_value": "1",
+      "translations": {
+        "zh-Hans": {
+          "title": "韩语测试词书 / zh-Hans",
+          "description": "独立测试内容，不进入正式包"
+        },
+        "en": {
+          "title": "韩语测试词书 / en",
+          "description": "独立测试内容，不进入正式包"
+        },
+        "de": {
+          "title": "韩语测试词书 / de",
+          "description": "独立测试内容，不进入正式包"
+        }
+      },
+      "members": [
+        {
+          "uid": "ko:fixture:0:1",
+          "order": 0
+        },
+        {
+          "uid": "ko:fixture:1:1",
+          "order": 1
+        }
+      ]
+    }
+  ],
+  "attribution": [
+    {
+      "source_id": "authored-test",
+      "source_json": "{\"fixture_only\":true}",
+      "license_notice": "Authored P7 test fixture. Not official learning content."
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+<resources>
+    <string name="ui6_deferred_hint">延迟至02:00刷新；期间评分计入%1$s</string>
+</resources>

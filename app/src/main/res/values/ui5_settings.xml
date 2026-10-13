@@ -1,0 +1,16 @@
+<resources>
+    <string name="ui5_settings_draft_hint">修改先保存在此页，点击“保存设置”后生效。</string>
+    <string name="ui5_language_section">学习语言</string>
+    <string name="ui5_plan_section">学习计划</string>
+    <string name="ui5_display_section">释义与读音</string>
+    <string name="ui5_voice_section">发音</string>
+    <string name="ui5_time_section">学习时区</string>
+    <string name="ui5_import_section">数据导入</string>
+    <string name="ui5_book_count">共 %1$d 本词书</string>
+    <string name="ui5_book_current">当前使用</string>
+    <string name="ui5_book_confirm">确认选择</string>
+    <string name="ui5_book_missing">尚未选择可用词书</string>
+    <string name="ui5_plan_unconfigured">此目标语言尚未设置学习计划。请填写每日总目标，或选择只复习全部到期词。</string>
+    <string name="ui5_tts_hint">无本地录音时，使用设备已安装的该目标语言离线语音。</string>
+    <string name="ui5_reading_hint">在学习卡片与详情中显示词条已有的音标或读音。</string>
+</resources>

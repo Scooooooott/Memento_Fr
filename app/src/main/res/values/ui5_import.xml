@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui5_import_source_section">选择旧数据</string>
+    <string name="ui5_import_preview_section">只读预览</string>
+    <string name="ui5_import_identity_section">来源与原学习时区</string>
+    <string name="ui5_import_settings_section">导入后的学习设置</string>
+    <string name="ui5_import_confirm_section">确认合并</string>
+    <string name="ui5_import_result_section">导入结果</string>
+</resources>

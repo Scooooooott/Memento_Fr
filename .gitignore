@@ -1,117 +1,105 @@
-# Keep Gradle Wrapper JARs, source data, and bundled/test databases versioned.
-
-# Android / Gradle build state
+# Machine tools, caches, Android SDK/AVDs and build output.
+.tools/
 .gradle/
 .kotlin/
 **/build/
-out/
-.externalNativeBuild/
-.cxx/
-.navigation/
-captures/
-*.class
-*.dex
-*.hprof
-
-# IDE and machine-local configuration
-.idea/
-.fleet/
-.vscode/
-*.iml
 local.properties
+__pycache__/
+*.py[cod]
+.pytest_cache/
 
-# Signing material and local environment files
-keystore.properties
-signing.properties
-key.properties
+# Local editor and operating-system files.
+.idea/
+.vscode/
+.vs/
+.agents/
+.codex/
+.aws/
+*.iml
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Signing material and local secrets; keep example configuration templates.
+.env
+.env.*
+!.env.example
+!.env.sample
 *.jks
 *.keystore
 *.p12
 *.pfx
-*.key
 *.pem
-.env
-.env.*
-!.env.example
+*.key
+keystore.properties
+signing.properties
 
-# Packaged Android artifacts (publish these as GitHub Releases instead)
-*.apk
-*.apk.idsig
-*.aab
-*.apks
-/releases/
-
-# Python caches and virtual environments
-__pycache__/
-*.py[cod]
-*$py.class
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.coverage
-htmlcov/
-.venv/
-venv/
-env/
-
-# Node/package-manager caches and unpacked third-party references
-node_modules/
-.npm/
-tools/fsrs-reference/package/
-tools/fsrs-reference/*.tgz
-
-# Project-local SDKs, emulators, caches and scratch work
-/.tools/
-/.task-backups/
-/tmp/
-
-# FLELex workbook builders are source; their local dependencies stay ignored.
-/.flelex_artifact/*
-!/.flelex_artifact/build_flelex_workbook.mjs
-!/.flelex_artifact/build_flelex_selection_workbook.mjs
-
-# Generated reports and exports. Keep textbook, CEFR, and frequency-book CSV inputs.
-/outputs/*
-!/outputs/a1-french-vocabulary/
-/outputs/a1-french-vocabulary/*
-!/outputs/a1-french-vocabulary/*.csv
-!/outputs/a2-b1-b2-french-vocabulary/
-/outputs/a2-b1-b2-french-vocabulary/*
-!/outputs/a2-b1-b2-french-vocabulary/*.csv
-!/outputs/flelex-cefr-sorted/
-/outputs/flelex-cefr-sorted/*
-!/outputs/flelex-cefr-sorted/*.csv
-!/outputs/flelex-frequency-selection/
-/outputs/flelex-frequency-selection/*
-!/outputs/flelex-frequency-selection/*.csv
-
-# Generated device/build evidence; Markdown reports and screenshots stay versioned.
-*.log
-/docs/qa/**/*.db
-/docs/qa/**/*.xml
-/docs/qa/**/junit/
-/docs/qa/gradle-threads.txt
-
-# SQLite transient files (the checked-in content/test databases remain versioned)
+# User data and temporary SQLite sidecars. Formal DBs are NOT globally ignored.
+/user-data/
+/backups/
+/imports/
+/exports/
+/data/user-data/
+/data/backups/
+/data/imports/
+/data/exports/
+/*.db
+/*.sqlite
+/*.sqlite3
+memento-user*.db
+memento-qa*.db
+memento_user.db
+memento-test-*.db
 *.db-journal
-*.db-shm
 *.db-wal
-
-# Atomic content-generation staging files
-*.db.building*
-*.db.*-building*
-*.json.*-building
-
-# Local textbook PDFs are source references, not redistributable project sources.
-/*.pdf
-
-# Operating-system and editor noise
-.DS_Store
-Thumbs.db
-Desktop.ini
-*.swp
-*.swo
-*~
-*.orig
+*.db-shm
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+*.copying
 *.bak
-*.tmp
+*.orig
+*.rej
+*~
+
+# APKs, local downloads/research extracts and other generated outputs.
+/releases/
+/tmp/
+/temp/
+/outputs/
+/logs/
+/coverage/
+*.apk
+*.apks
+*.aab
+*.hprof
+*.log
+/提升GHFind评分建议.pdf
+
+# Host-specific bootstrap/dependency records, not dependency specifications.
+/data/manifests/copied-inputs.json
+/data/manifests/resolved-build-artifacts.json
+
+# Only the two audited formal sources belong to the current app source set.
+# Downloaded research snapshots remain local until a separate content workflow is approved.
+/data/source-snapshots/*
+!/data/source-snapshots/french_content.db
+!/data/source-snapshots/spanish_content.db
+
+# Development instructions, plans, research, audits and QA explanations stay local.
+/AGENTS.md
+/MULTILINGUAL_REFACTOR_PLAN.md
+/CONTRIBUTING.md
+/app/src/main/java/com/scott/memento/domain/fsrs/README.md
+/docs/**
+!/docs/
+!/docs/qa/
+!/docs/qa/baseline/
+!/docs/qa/p4/
+# These machine-readable inputs are required by the current content/build gates.
+!/docs/qa/baseline/reference-audit.json
+!/docs/qa/p4/fr-content-diff.json
+!/docs/qa/p4/es-content-diff.json

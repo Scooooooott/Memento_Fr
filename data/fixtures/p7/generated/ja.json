@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "target_language": "ja",
+  "content_version": "p7-fixture-ja-1",
+  "legacy_meta": {
+    "fixture": "not formal content"
+  },
+  "lexemes": [
+    {
+      "uid": "ja:fixture:0:1",
+      "lemma": "食べる",
+      "part_of_speech": "fixture",
+      "homonym": 1,
+      "level_system": "JLPT",
+      "level_value": "N5",
+      "gender": "",
+      "order": 0,
+      "provenance_json": "{\"fixture_only\":true}",
+      "senses": [
+        {
+          "id": "ja:fixture:0:1/sense",
+          "order": 0,
+          "is_core": true,
+          "translations": {
+            "zh-Hans": {
+              "text": "吃",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            },
+            "en": {
+              "text": "eat",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            },
+            "de": {
+              "text": "essen",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            }
+          },
+          "examples": [
+            {
+              "id": "ja:fixture:0:1/example",
+              "order": 0,
+              "source_text": "测试原句：食べる",
+              "translations": {
+                "zh-Hans": {
+                  "text": "吃 / 示例 0",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                },
+                "en": {
+                  "text": "eat / 示例 0",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                },
+                "de": {
+                  "text": "essen / 示例 0",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "pronunciations": [
+        {
+          "locale": "ja-JP",
+          "reading_type": "KANA",
+          "reading_text": "たべる",
+          "audio_asset": null
+        },
+        {
+          "locale": "ja-JP",
+          "reading_type": "ROMAJI",
+          "reading_text": "taberu",
+          "audio_asset": null
+        }
+      ],
+      "forms": [
+        {
+          "order": 0,
+          "label": "测试词形",
+          "form": "食べる",
+          "features_json": "{\"fixture\":true}"
+        }
+      ],
+      "grammar_features": {
+        "fixture_grammar": "测试能力",
+        "register": "测试语体"
+      },
+      "paradigms": [
+        {
+          "id": "fixture-paradigm",
+          "order": 0,
+          "mood": "fixture-capability",
+          "tense": "",
+          "label": "测试可变范式",
+          "region": "测试地区",
+          "note": "仅用于验证可变行数，不是正式教学内容",
+          "forms": [
+            {
+              "subject_key": "plain",
+              "pronoun": "普通体",
+              "form": "食べる",
+              "order": 0
+            },
+            {
+              "subject_key": "polite",
+              "pronoun": "礼貌体",
+              "form": "食べます",
+              "order": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": "ja:fixture:1:1",
+      "lemma": "か",
+      "part_of_speech": "fixture",
+      "homonym": 1,
+      "level_system": "JLPT",
+      "level_value": "N5",
+      "gender": "",
+      "order": 1,
+      "provenance_json": "{\"fixture_only\":true}",
+      "senses": [
+        {
+          "id": "ja:fixture:1:1/sense",
+          "order": 0,
+          "is_core": true,
+          "translations": {
+            "zh-Hans": {
+              "text": "假名 か",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            },
+            "en": {
+              "text": "kana か",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            }
+          },
+          "examples": [
+            {
+              "id": "ja:fixture:1:1/example",
+              "order": 0,
+              "source_text": "测试原句：か",
+              "translations": {
+                "zh-Hans": {
+                  "text": "假名 か / 示例 1",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                },
+                "en": {
+                  "text": "kana か / 示例 1",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "pronunciations": [
+        {
+          "locale": "ja-JP",
+          "reading_type": "KANA",
+          "reading_text": "か",
+          "audio_asset": null
+        }
+      ],
+      "forms": [
+        {
+          "order": 0,
+          "label": "测试词形",
+          "form": "か",
+          "features_json": "{\"fixture\":true}"
+        }
+      ],
+      "grammar_features": {
+        "fixture_grammar": "测试能力",
+        "register": "测试语体"
+      },
+      "paradigms": [
+        {
+          "id": "fixture-paradigm",
+          "order": 0,
+          "mood": "fixture-capability",
+          "tense": "",
+          "label": "测试可变范式",
+          "region": "测试地区",
+          "note": "仅用于验证可变行数，不是正式教学内容",
+          "forms": []
+        }
+      ]
+    },
+    {
+      "uid": "ja:fixture:2:1",
+      "lemma": "が",
+      "part_of_speech": "fixture",
+      "homonym": 1,
+      "level_system": "JLPT",
+      "level_value": "N5",
+      "gender": "",
+      "order": 2,
+      "provenance_json": "{\"fixture_only\":true}",
+      "senses": [
+        {
+          "id": "ja:fixture:2:1/sense",
+          "order": 0,
+          "is_core": true,
+          "translations": {
+            "zh-Hans": {
+              "text": "假名 が",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            },
+            "en": {
+              "text": "kana が",
+              "review_status": "fixture-only",
+              "source_json": "{\"authored_test\":true}"
+            }
+          },
+          "examples": [
+            {
+              "id": "ja:fixture:2:1/example",
+              "order": 0,
+              "source_text": "测试原句：が",
+              "translations": {
+                "zh-Hans": {
+                  "text": "假名 が / 示例 2",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                },
+                "en": {
+                  "text": "kana が / 示例 2",
+                  "review_status": "fixture-only",
+                  "source_json": "{\"authored_test\":true}"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "pronunciations": [
+        {
+          "locale": "ja-JP",
+          "reading_type": "KANA",
+          "reading_text": "が",
+          "audio_asset": null
+        }
+      ],
+      "forms": [
+        {
+          "order": 0,
+          "label": "测试词形",
+          "form": "が",
+          "features_json": "{\"fixture\":true}"
+        }
+      ],
+      "grammar_features": {
+        "fixture_grammar": "测试能力",
+        "register": "测试语体"
+      },
+      "paradigms": [
+        {
+          "id": "fixture-paradigm",
+          "order": 0,
+          "mood": "fixture-capability",
+          "tense": "",
+          "label": "测试可变范式",
+          "region": "测试地区",
+          "note": "仅用于验证可变行数，不是正式教学内容",
+          "forms": []
+        }
+      ]
+    }
+  ],
+  "books": [
+    {
+      "id": "p7-ja",
+      "order": 0,
+      "level_system": "JLPT",
+      "level_value": "N5",
+      "translations": {
+        "zh-Hans": {
+          "title": "日语测试词书 / zh-Hans",
+          "description": "独立测试内容，不进入正式包"
+        },
+        "en": {
+          "title": "日语测试词书 / en",
+          "description": "独立测试内容，不进入正式包"
+        },
+        "de": {
+          "title": "日语测试词书 / de",
+          "description": "独立测试内容，不进入正式包"
+        }
+      },
+      "members": [
+        {
+          "uid": "ja:fixture:0:1",
+          "order": 0
+        },
+        {
+          "uid": "ja:fixture:1:1",
+          "order": 1
+        },
+        {
+          "uid": "ja:fixture:2:1",
+          "order": 2
+        }
+      ]
+    }
+  ],
+  "attribution": [
+    {
+      "source_id": "authored-test",
+      "source_json": "{\"fixture_only\":true}",
+      "license_notice": "Authored P7 test fixture. Not official learning content."
+    }
+  ]
+}

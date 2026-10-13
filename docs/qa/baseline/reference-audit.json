@@ -1,0 +1,1508 @@
+{
+  "generated_at_utc": "2026-10-09T07:56:59.955578+00:00",
+  "kind": "live_read_only_reference_audit",
+  "application_tests_executed": false,
+  "projects": {
+    "fr": {
+      "root": "L:\\Words",
+      "git_before": {
+        "exit_code": 0,
+        "porcelain": "",
+        "stderr": ""
+      },
+      "git_after": {
+        "exit_code": 0,
+        "porcelain": "",
+        "stderr": ""
+      },
+      "file_manifest": [
+        {
+          "relative_path": "app\\build.gradle.kts",
+          "bytes": 2028,
+          "sha256": "18f07a6f89302df6a5ca026f0612e64313e277a104ed1f2509bb4bb84c332849"
+        },
+        {
+          "relative_path": "app\\proguard-rules.pro",
+          "bytes": 80,
+          "sha256": "9fd3127ed9a0dae3b89decb2d18d05b8e9e9f7f615c7f28d6788e0778745133e"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\assets\\content-fixtures\\chinese-senses-only.db",
+          "bytes": 188416,
+          "sha256": "ebe7d360d62d945427ce3affddc178aca7a1faa5124758d52b85f8ce7a1e9fa5"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\assets\\content-fixtures\\chinese-v1.db",
+          "bytes": 188416,
+          "sha256": "dd1ce268fc587668b6551f4a279e860567e4a8f3325c06f1a0d90e106a654465"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\assets\\content-fixtures\\chinese.db",
+          "bytes": 188416,
+          "sha256": "0b0dc8058d36242a675cac7c8c73548cd18d3fa02a6069a789948fd2cf5b0aee"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\assets\\content-fixtures\\future.db",
+          "bytes": 188416,
+          "sha256": "b460ee63fc1edb83776a44e8d9bdebeac1396d28a1521a84589d45d97a75b451"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\assets\\content-fixtures\\legacy.db",
+          "bytes": 188416,
+          "sha256": "53286ce490dfa255332de4f1b5e9a363fcb9aff877d3738ffef60f0dd7424582"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\assets\\french_content.db",
+          "bytes": 188416,
+          "sha256": "638aedc3eb4a98ee267517bebf86e2e8d1177b135e5c0de195b22c1a0abfd94b"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\assets\\qa-tone.wav",
+          "bytes": 6444,
+          "sha256": "929f41642ba3187f0f952fb44632b85ab027adae74192c12363818b0d1fa5ede"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\java\\com\\scott\\frenchvocab\\AppFlowInstrumentedTest.kt",
+          "bytes": 12122,
+          "sha256": "f2edd38e93c704b4b3666a62b52d7486a7a7ad0bb28f7ecfe46b6305e1d204c7"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\java\\com\\scott\\frenchvocab\\BookSelectionInstrumentedTest.kt",
+          "bytes": 9405,
+          "sha256": "68ff79d4fa4af309a049ae700c88f8dfa8a76b03210035b0d645d65ed85cfc98"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\java\\com\\scott\\frenchvocab\\ChineseContentInstrumentedTest.kt",
+          "bytes": 5039,
+          "sha256": "6439d7b3afa907ae3a5cc7b93b745fdb1593bebddf3fa67f6a7b3dd35d630a94"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\java\\com\\scott\\frenchvocab\\ChineseUiInstrumentedTest.kt",
+          "bytes": 6433,
+          "sha256": "5922da44e8f40a63e85028e06c090fc304c39ed93f56fed618ee1a3746da1fbf"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\java\\com\\scott\\frenchvocab\\PronunciationInstrumentedTest.kt",
+          "bytes": 2358,
+          "sha256": "0a8f3f31a343999d308ddf0cb1b644e0ff2026001d4b98250e00fec473db0d33"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\java\\com\\scott\\frenchvocab\\RepositoryInstrumentedTest.kt",
+          "bytes": 11114,
+          "sha256": "ef87ebd75628c2222f81947b06cef8781b72f8609407fe7266739a3d2450f85c"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\java\\com\\scott\\frenchvocab\\SettingsMigrationInstrumentedTest.kt",
+          "bytes": 14064,
+          "sha256": "77c505a8d5adf8137ac0703f2264cd15ff674bb98d0bd676fd75e9315994593a"
+        },
+        {
+          "relative_path": "app\\src\\main\\AndroidManifest.xml",
+          "bytes": 845,
+          "sha256": "ea4689398dbeea5db12485e0f3cb3628b1ef25550ac434187c6470b7fb08392d"
+        },
+        {
+          "relative_path": "app\\src\\main\\assets\\french_content.db",
+          "bytes": 36380672,
+          "sha256": "3309f470e1191357c688ba7f701515234a5463aa9ea23b30472d2d0b714cc585"
+        },
+        {
+          "relative_path": "app\\src\\main\\assets\\licenses\\ts-fsrs.txt",
+          "bytes": 1077,
+          "sha256": "ac78eb00a20fb7dc97616378e86c3071079d35bf46f25b43781615c2274ddd88"
+        },
+        {
+          "relative_path": "app\\src\\main\\assets\\THIRD_PARTY_CONTENT.md",
+          "bytes": 1287,
+          "sha256": "f2fc740b7acb37e0ea604d57c4a07138f104bcc11703fa8d8076f2202e3c7ff8"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\data\\content\\ContentRepository.kt",
+          "bytes": 13899,
+          "sha256": "ee90b0c696cf3b89ff36c34e2b4abbed519003ea94dc0b64e3b18bb41048100d"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\data\\user\\SessionPlanner.kt",
+          "bytes": 1496,
+          "sha256": "09400e279a1a04c4c3cb860e8cef0bbb330f7ef689f83dbeca6d532427cda1f5"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\data\\user\\StudyRepository.kt",
+          "bytes": 16992,
+          "sha256": "79d73bb94d7c7baec1059e7a89e36ee67bce88fc2368bc47ef2a0905b153aa4f"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\domain\\audio\\PronunciationPlayer.kt",
+          "bytes": 6036,
+          "sha256": "56690cd6bab0dfc08b4fe389881999eca7ef51e6ed0fbe750c2468642d9f1428"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\domain\\fsrs\\FsrsScheduler.kt",
+          "bytes": 4985,
+          "sha256": "df3270db5470d1a586d7768b1b728be7e03bdf43b2965bbd9680a6d8e1a01f1b"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\domain\\fsrs\\README.md",
+          "bytes": 2636,
+          "sha256": "c8e92c8608649208fbb8417e2a345d3a2dc8f41d4e208e7c204baa71df49f5b4"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\domain\\fsrs\\THIRD_PARTY_LICENSE.txt",
+          "bytes": 1077,
+          "sha256": "ac78eb00a20fb7dc97616378e86c3071079d35bf46f25b43781615c2274ddd88"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\domain\\Models.kt",
+          "bytes": 2968,
+          "sha256": "abb2e8255dceba252cb311b2f0a5ed44f4ac7fc2614208b516e8fda79c79ab53"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\feature\\BookSelectionScreen.kt",
+          "bytes": 4246,
+          "sha256": "1f0701ee6326c871f9656fc73812fc9ed8ffbe35009e986b21e28812029d7bc2"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\feature\\FrenchVocabApp.kt",
+          "bytes": 13222,
+          "sha256": "5c663eb240eef2d66ea8be0eaf25e744673ba3a574125324d4049555effbc299"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\feature\\FrenchVocabViewModel.kt",
+          "bytes": 10705,
+          "sha256": "a27031bd53196401c281aa1133eb5baf942aa82d01898b9759318c70a18a4ccf"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\feature\\home\\HomeScreen.kt",
+          "bytes": 6738,
+          "sha256": "12019293e4ecb2f9f00e1b8d43fc34e321438576d6e597e77e8a7a287760ec68"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\feature\\LibrarySettingsScreens.kt",
+          "bytes": 15554,
+          "sha256": "ab0ced649bf4b209a1b9ca7822056825f71cff2d2eff1bab0e7a070367b99792"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\feature\\StudyScreens.kt",
+          "bytes": 20350,
+          "sha256": "268ab1bf0b850f493102fca42be6f8ae83382d6d891bd9f3eb3fb349fd83187b"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\feature\\TranslationDisplay.kt",
+          "bytes": 720,
+          "sha256": "1bb17c6d181e870d364a668c137c93e4f16d248867c8b80759bdfc8191ecab5f"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\MainActivity.kt",
+          "bytes": 935,
+          "sha256": "a6dad9164a3b41ae74b6605d89651dd73ba6d0ad8b86027f8acdbe29588eb919"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\ui\\theme\\Color.kt",
+          "bytes": 387,
+          "sha256": "8385aaa4ee53c6d32b743756ddd09558aad63c74d99b9a52faf1d96949dcde0e"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\ui\\theme\\Theme.kt",
+          "bytes": 828,
+          "sha256": "dd9898bb6c41dcc2af0d75de0c21b22c46e3624e52e727f776f5cd3a47002d7a"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\frenchvocab\\ui\\theme\\Type.kt",
+          "bytes": 503,
+          "sha256": "6c54ab50ef3e9c21b81f6b8453ff8da29c5d5251a1f97dffbe231b731dc14127"
+        },
+        {
+          "relative_path": "app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml",
+          "bytes": 748,
+          "sha256": "4bf33130865ba050a5ed18629667788c19c6217a1a010e1262bb9432ef8d8cc9"
+        },
+        {
+          "relative_path": "app\\src\\main\\res\\mipmap-anydpi\\ic_launcher.xml",
+          "bytes": 334,
+          "sha256": "b14d1d36a5f3cb40921143c47db1a5cdcb624ae5d4e8ff40753e614bead1c7e8"
+        },
+        {
+          "relative_path": "app\\src\\main\\res\\values\\colors.xml",
+          "bytes": 69,
+          "sha256": "476063bbdd53ed01a6c45ea0aacbd29c02c59d429063c83da284974d89c218ff"
+        },
+        {
+          "relative_path": "app\\src\\main\\res\\values\\strings.xml",
+          "bytes": 75,
+          "sha256": "68c5e711a3cc22ecd4a1303774487f19736446349ee16b58a436a7e4c02437f1"
+        },
+        {
+          "relative_path": "app\\src\\main\\res\\values\\themes.xml",
+          "bytes": 458,
+          "sha256": "99bc6dd66d25617f93a42ff70a69eb9d1843f5afd8b02e594af026e8a38cf5f8"
+        },
+        {
+          "relative_path": "app\\src\\test\\java\\com\\scott\\frenchvocab\\data\\user\\SessionPlannerTest.kt",
+          "bytes": 3821,
+          "sha256": "6ee77735f9317a7f93f22260e77bf1bf86175e92982ecc96cbcfbf1ec1dbd94b"
+        },
+        {
+          "relative_path": "app\\src\\test\\java\\com\\scott\\frenchvocab\\domain\\fsrs\\FsrsSchedulerTest.kt",
+          "bytes": 3254,
+          "sha256": "fabbd1089413dcbec677590bec626b5c60f954d1d8aa1a0e395b386bf5eaf09c"
+        },
+        {
+          "relative_path": "app\\src\\test\\resources\\fsrs-5.4.2-reference.csv",
+          "bytes": 3620,
+          "sha256": "c127fcaa974eddba009e629af56663bb529c0a3d8216895ed5bdbc1d303b1fa6"
+        },
+        {
+          "relative_path": "build.gradle.kts",
+          "bytes": 217,
+          "sha256": "61cd8e15a65a3ded440013250aa5c2bbc875158d0cf2db2e8fc5185ec3c69105"
+        },
+        {
+          "relative_path": "gradle\\wrapper\\gradle-wrapper.jar",
+          "bytes": 63375,
+          "sha256": "a8451eeda314d0568b5340498b36edf147a8f0d692c5ff58082d477abe9146e4"
+        },
+        {
+          "relative_path": "gradle\\wrapper\\gradle-wrapper.properties",
+          "bytes": 250,
+          "sha256": "3d91f0932da99885c41e9dc4e85c9f9a2d3bfef4f0ad87473014dc0827a94884"
+        },
+        {
+          "relative_path": "gradle.properties",
+          "bytes": 136,
+          "sha256": "678c35a27eeda302d6a960484179d118d08fb1edf05c1b40745bc7aed6e88f03"
+        },
+        {
+          "relative_path": "gradlew",
+          "bytes": 8527,
+          "sha256": "e0108761fee312b7b373ee96c0870cab5c167e664ac507776814b1d59e9b3bad"
+        },
+        {
+          "relative_path": "gradlew.bat",
+          "bytes": 2868,
+          "sha256": "8e327fcb99d29ce0fe3ee2fec6e6a25de815a2df83a6a44a553dea89ffc92955"
+        },
+        {
+          "relative_path": "local.properties",
+          "bytes": 39,
+          "sha256": "090b25faf2e9f6dbaaea9eacbbc77a69e6d2ec0f3ce1d74ad4573922c59b940d"
+        },
+        {
+          "relative_path": "settings.gradle.kts",
+          "bytes": 332,
+          "sha256": "bceeae5fa0b1afffb6caaeef929b8d3b1e69ae66455f3d1d906f470387011d56"
+        },
+        {
+          "relative_path": "tools\\build.ps1",
+          "bytes": 389,
+          "sha256": "13eac65dcf78e61420a3a182c810e3e0344c4a65a4cad56f306a4834c2a36991"
+        },
+        {
+          "relative_path": "tools\\fsrs-reference\\generate-fixtures.cjs",
+          "bytes": 2296,
+          "sha256": "68e0f29588f9308acd8a928ec2906f59ef8861f30a81acdec6cabee3880b9ae9"
+        },
+        {
+          "relative_path": "tools\\fsrs-reference\\package\\LICENSE",
+          "bytes": 1079,
+          "sha256": "8b83a73dd2894ff553d6de6113064b3ad9dfad3f839837b61f3b183881131d01"
+        },
+        {
+          "relative_path": "tools\\lexicon\\add_flelex_frequency_books.py",
+          "bytes": 4759,
+          "sha256": "c41689119b2d932ea6cc75a880f7fff1acd35f7f9bdfe58d8fafa0f91407dd3d"
+        },
+        {
+          "relative_path": "tools\\lexicon\\analyze_a1_coverage.py",
+          "bytes": 2998,
+          "sha256": "a2d52d13b77cf9b49ea0f056da15b943bac68a640b11e9af924094f1f75393de"
+        },
+        {
+          "relative_path": "tools\\lexicon\\apply_content_review.py",
+          "bytes": 6592,
+          "sha256": "b535918b3adb3b5f9ec3e89cf9d3e87ffcd798852625df929f23e45632d0f596"
+        },
+        {
+          "relative_path": "tools\\lexicon\\apply_llm_judge_overrides.py",
+          "bytes": 7770,
+          "sha256": "9bc915758a9bc64f9089655ed5e0255cc2909ac4e8a495265140cefa1bd9eec5"
+        },
+        {
+          "relative_path": "tools\\lexicon\\apply_meaning_overrides.py",
+          "bytes": 5256,
+          "sha256": "5c2fecd1e9d0a0c8b9b76f03b71fc68dbbace254a65c18156237cff373d5c833"
+        },
+        {
+          "relative_path": "tools\\lexicon\\audit_full_corpus.py",
+          "bytes": 7258,
+          "sha256": "6304ba3f7db81b163bce42ce00f3db1a18d2f41e08b59388bfd8df1dbcdf19d9"
+        },
+        {
+          "relative_path": "tools\\lexicon\\build_a1_source.py",
+          "bytes": 70072,
+          "sha256": "8553ef0db84c37b27be457d79bb058bee64514d1ba659de4c41952459c06782a"
+        },
+        {
+          "relative_path": "tools\\lexicon\\build_content.py",
+          "bytes": 18536,
+          "sha256": "b777f3b845faf3ed6a7fa9eb543d2a130c2f344fe78c3175fc3a576cfce609ba"
+        },
+        {
+          "relative_path": "tools\\lexicon\\content_review.py",
+          "bytes": 7705,
+          "sha256": "1997dbfa9b50e10124193f1bc3e9b5303cb499eba0ab93c3a016956d6adc0cd7"
+        },
+        {
+          "relative_path": "tools\\lexicon\\curate_low_quality_examples.py",
+          "bytes": 46334,
+          "sha256": "b6331ddfbc0501797b640071506672dbecebac87aa389a5d96aed2deeaafe79d"
+        },
+        {
+          "relative_path": "tools\\lexicon\\extract_chinese_glosses.py",
+          "bytes": 9680,
+          "sha256": "a4c0d91c2902a472df650577be0c81ff7e31e562d6627f8876793ca3f23ca61c"
+        },
+        {
+          "relative_path": "tools\\lexicon\\fetch_a1_open_lexicon.py",
+          "bytes": 7789,
+          "sha256": "b280f3ee21c6d2b12773aca8fb4230150683177c4d718eba385b0d8854b85147"
+        },
+        {
+          "relative_path": "tools\\lexicon\\fetch_example_zh.py",
+          "bytes": 3614,
+          "sha256": "27d9a5107f82b6a931ee3cfb0435437408b0dbf1e085c3abf117ca28da07a4be"
+        },
+        {
+          "relative_path": "tools\\lexicon\\fetch_flelex_wiktionary.py",
+          "bytes": 4343,
+          "sha256": "d9f9f31e9c10eb8ae110942b652559e7021b3b5a5f6bed6a4330a2b6c9a05eed"
+        },
+        {
+          "relative_path": "tools\\lexicon\\ingest_flelex_a1.py",
+          "bytes": 84835,
+          "sha256": "d0453efb43d77a90821ab052ef5ef2969b0364b260c3d358a737061fa75e94fe"
+        },
+        {
+          "relative_path": "tools\\lexicon\\resume_judge_tmp.py",
+          "bytes": 1972,
+          "sha256": "9f5d332760cb61c14ad67e2e46542d84a9431a1dc45bdfdae9ae302a91a3e468"
+        },
+        {
+          "relative_path": "tools\\lexicon\\schema.sql",
+          "bytes": 3364,
+          "sha256": "8bb40bf86491e87b9894a44748f18588002ec5d584c4130cd9288abceeb33f5b"
+        },
+        {
+          "relative_path": "tools\\lexicon\\sync_curated_sources_to_db.py",
+          "bytes": 4717,
+          "sha256": "02578ab2d257a690e7ce09442afb7643bb13aa43b9ff510eb6f21cb8096a4ff4"
+        },
+        {
+          "relative_path": "tools\\lexicon\\test_content.py",
+          "bytes": 10666,
+          "sha256": "5c973b6e50588cab73a6f69c272930f96ef6c581c2c51284ed6f5cfb710db859"
+        },
+        {
+          "relative_path": "tools\\lexicon\\test_content_review.py",
+          "bytes": 3835,
+          "sha256": "dcba5105beedec42aea7e403a38e14d06f3438605d8b1f251cf55518e9e7143e"
+        },
+        {
+          "relative_path": "tools\\prepare-test-content.py",
+          "bytes": 1886,
+          "sha256": "52e61e4ddbd54dac74ce3857a8bdfc94da0fa054e9038f81cee89a78c7a5c407"
+        },
+        {
+          "relative_path": "tools\\project-env.ps1",
+          "bytes": 1142,
+          "sha256": "5a61c41dc043f950058004469bfe1fd7105871cac605a1b216c2548e29009aea"
+        },
+        {
+          "relative_path": "tools\\start-emulator.ps1",
+          "bytes": 1249,
+          "sha256": "ea053e89a320eafa7e92eceae5c3b097306e8bf9a11282fe181914e0b585023f"
+        },
+        {
+          "relative_path": "tools\\verify-apk-upgrade.py",
+          "bytes": 3907,
+          "sha256": "0e850b1e0a94b3857522909ede9f7dd028ae88325a8aa469c89683ef8decab7a"
+        },
+        {
+          "relative_path": "tools\\verify-device.ps1",
+          "bytes": 1631,
+          "sha256": "7505a941655fb49525039f6dad758af8078daee88c1c56abd8ebe27a7dc5733d"
+        },
+        {
+          "relative_path": "tools\\verify-process-recovery.py",
+          "bytes": 5789,
+          "sha256": "06ba36db9bda2652f11de9f35dc4287edc59005506e2b800a8c352b05e1817d0"
+        }
+      ],
+      "tests_static_inventory": {
+        "test": [
+          {
+            "path": "app\\src\\test\\java\\com\\scott\\frenchvocab\\data\\user\\SessionPlannerTest.kt",
+            "methods": [
+              "dueWordsFromEveryBookAreCombinedWithOnlyCurrentBookNewWords",
+              "repeatedSessionsShareOneDailyAllowance",
+              "quantitiesAboveOneHundredArePreservedAndIntBoundariesDoNotOverflow",
+              "exhaustedQuotaStillAllowsDueReviewAndEmptyQueueDoesNotInventWork",
+              "fixedSeedReproducesAQueueWithoutDuplicates",
+              "streakIncludesYesterdayBeforeTodayHasStarted"
+            ]
+          },
+          {
+            "path": "app\\src\\test\\java\\com\\scott\\frenchvocab\\domain\\fsrs\\FsrsSchedulerTest.kt",
+            "methods": [
+              "publishedPackageOracleMatchesAllMemoryStatesAndIntervals",
+              "retentionIsNinetyPercentAtStability",
+              "againDoesNotCountAnInitialLapseAndIsAtLeastOneDayLater",
+              "invalidStatesAndTimeFailBeforePersistence",
+              "elapsedDaysUseUtcBoundaryConsistentWithUpstream"
+            ]
+          }
+        ],
+        "androidTest": [
+          {
+            "path": "app\\src\\androidTest\\java\\com\\scott\\frenchvocab\\AppFlowInstrumentedTest.kt",
+            "methods": [
+              "completeLearningFlowWithRotationDetailAndSettings",
+              "searchFavoritesTabsAndMissingAudioAreFunctional",
+              "settingsAcceptLargeLimitRejectOverflowAndKeepOneMeaningLanguage",
+              "blankTapRevealsButCardControlsAndDraggingDoNot",
+              "backgroundReturnShowsHomeAndContinueRestoresRevealedCard",
+              "wordLibraryFirstPageTiming"
+            ]
+          },
+          {
+            "path": "app\\src\\androidTest\\java\\com\\scott\\frenchvocab\\BookSelectionInstrumentedTest.kt",
+            "methods": [
+              "homeAndSettingsOnlyShowCurrentBookAndBackCancelsSelection",
+              "saveBookPersistsIndependentlyAndPreservesOtherSettingsDraftAcrossRecreation",
+              "switchingDuringStudyPreservesActiveSessionAndReturnDestination"
+            ]
+          },
+          {
+            "path": "app\\src\\androidTest\\java\\com\\scott\\frenchvocab\\ChineseContentInstrumentedTest.kt",
+            "methods": [
+              "oldBilingualBooksRemainReadableWithoutInventingChinese",
+              "optionalChineseLoadsForBothSupportedVersionsAndNullBecomesEmpty",
+              "chineseMeaningsCanArriveBeforeExampleTranslations",
+              "unknownFutureSchemaIsRejected",
+              "actualBundledBookLoadsCompleteChineseWithoutChangingStableIds",
+              "bundledCatalogPagesByFiftyAndSearchesBeyondTheFirstPage",
+              "examplesRemainOwnedByTheirDatabaseSense",
+              "freshInstallUsesBundledA1FrequencyBook"
+            ]
+          },
+          {
+            "path": "app\\src\\androidTest\\java\\com\\scott\\frenchvocab\\ChineseUiInstrumentedTest.kt",
+            "methods": [
+              "chineseAnswerUsesSelectedLanguageAndShowsAllCoreSenses",
+              "detailShowsAllThreeLanguagesInOrderAndAllSenses",
+              "missingChineseShowsExplicitMessagesWithoutOtherLanguages",
+              "chineseSearchFindsWordAndPreviewRespectsLanguageChoice"
+            ]
+          },
+          {
+            "path": "app\\src\\androidTest\\java\\com\\scott\\frenchvocab\\PronunciationInstrumentedTest.kt",
+            "methods": [
+              "packagedAudioPlaysWithoutTtsFallback",
+              "missingOrInvalidRecordingReportsUnavailableWhenFallbackDisabled",
+              "fallbackEitherUsesInstalledFranceVoiceOrExplainsMissingVoice"
+            ]
+          },
+          {
+            "path": "app\\src\\androidTest\\java\\com\\scott\\frenchvocab\\RepositoryInstrumentedTest.kt",
+            "methods": [
+              "contentLoadsWithStableIdsAndCompleteCoreVerbTables",
+              "fixedQueueAnswerAndSettingsSurviveRepositoryReopen",
+              "ratingsRequireRevealAndPersistAllFourOutcomes",
+              "dailyNewLimitIsSharedAcrossSessionsAndZeroMeansReviewsOnly",
+              "midnightChargesNewCardsToActualReviewDayAndKeepsQueue",
+              "changingBookDoesNotHidePreviouslyLearnedDueCards",
+              "failedTransactionRollsBackCardLogAndSessionTogether",
+              "favoritesAndValidatedSettingsPersistIndependentlyOfContentCopy",
+              "missingFrequencyBookFallsBackExplicitlyWithoutResettingUserData",
+              "contentUpgradeKeepsCardsLogsFavoritesAndUnfinishedSession"
+            ]
+          },
+          {
+            "path": "app\\src\\androidTest\\java\\com\\scott\\frenchvocab\\SettingsMigrationInstrumentedTest.kt",
+            "methods": [
+              "realV1UpgradeKeepsAllSixTablesAndFreezesLegacySessionSettings",
+              "freshV2PersistsLargeLimitsAndAtLeastOneOfThreeMeaningLanguages",
+              "zeroLimitStaysReviewOnlyAndNegativeInputIsNormalized"
+            ]
+          }
+        ]
+      },
+      "formal_content": {
+        "path": "L:\\Words\\app\\src\\main\\assets\\french_content.db",
+        "bytes": 36380672,
+        "sha256": "3309f470e1191357c688ba7f701515234a5463aa9ea23b30472d2d0b714cc585",
+        "sqlite_user_version": 2,
+        "integrity_check": [
+          "ok"
+        ],
+        "foreign_key_check": [],
+        "content_meta": {
+          "content_version": "2026.09.11-flelex-c1.1",
+          "example_quality_review": "{\"date\": \"2026-09-14\", \"rows\": 22831, \"sources\": {\"editorial-fallback\": 7576, \"wiktionary-fr\": 15255}}",
+          "flelex_a1_f4b_review": "{\"batches\": [{\"batch_id\": \"0001-0050\", \"examples\": 110, \"meaning_patches\": 39, \"review_date\": \"2026-09-14\", \"senses\": 110, \"words\": 50}], \"changed_words\": 2, \"content_version\": \"2026.09.14-flelex-a1.f4b.1\", \"formal_source_sha256\": \"0de3a462d75dadef0ea837a01c12513f0613a60b27f81808a38fa6d5523fe283\", \"registry\": \"data/curated/review-overrides/flelex_a1.json\", \"registry_sha256\": \"98f77602fa6da9b5ab4a5ab5d984c5df5ae33d9ee31a565f660f1540b2a0d33b\", \"review_date\": \"2026-09-14\", \"reviewed_examples\": 110, \"reviewed_senses\": 110, \"reviewed_words\": 50, \"target_uids\": [\"fr:le:determiner:1\", \"fr:de:preposition:1\", \"fr:être:verb:1\", \"fr:un:determiner:1\", \"fr:et:conjunction:1\", \"fr:je:pronoun:1\", \"fr:à:preposition:1\", \"fr:avoir:verb:1\", \"fr:il:pronoun:1\", \"fr:ce:pronoun:1\", \"fr:ne:adverb:1\", \"fr:pas:adverb:1\", \"fr:elle:pronoun:1\", \"fr:aller:verb:1\", \"fr:dans:preposition:1\", \"fr:vous:pronoun:1\", \"fr:on:pronoun:1\", \"fr:son:determiner:1\", \"fr:en:preposition:1\", \"fr:pour:preposition:1\", \"fr:mais:conjunction:1\", \"fr:faire:verb:1\", \"fr:se:pronoun:1\", \"fr:du:preposition:1\", \"fr:au:preposition:1\", \"fr:avec:preposition:1\", \"fr:que:conjunction:1\", \"fr:ce:determiner:1\", \"fr:mon:determiner:1\", \"fr:très:adverb:1\", \"fr:suivre:verb:1\", \"fr:des:preposition:1\", \"fr:ils:pronoun:1\", \"fr:sur:preposition:1\", \"fr:pouvoir:verb:1\", \"fr:dire:verb:1\", \"fr:nous:pronoun:1\", \"fr:petit:adjective:1\", \"fr:me:pronoun:1\", \"fr:le:pronoun:1\", \"fr:plus:adverb:1\", \"fr:vouloir:verb:1\", \"fr:ça:pronoun:1\", \"fr:bien:adverb:1\", \"fr:moi:pronoun:1\", \"fr:oui:interjection:1\", \"fr:ou:conjunction:1\", \"fr:qui:pronoun:1\", \"fr:voir:verb:1\", \"fr:aussi:adverb:1\"]}",
+          "flelex_a1_source_sha256": "6d77606202a74e12fe9e83101d4f6df8e27c0e6ba8f19212919e74364cb45ce8",
+          "flelex_a2_source_sha256": "df97f717d314abbe37fbe278e9543d9b28cb5de37f399604844b3ca36cc78b25",
+          "flelex_b1_source_sha256": "a3290c7e877129a16a343bc66477b75b0395722a1d8343e84033c5fe971dbdc9",
+          "flelex_b2_source_sha256": "b7eb0689c07b2e24222546c0ecebf061a53e23b5bf54a3d54851a7ddf06e3bd4",
+          "flelex_c1_source_sha256": "0f0b0f012e2085170d0b9f5766f71c1cf0b50990d578b76f9e6b463642d9611a",
+          "flelex_c2_source_sha256": "713d180c1f6eed972c7cbfbb0db040f3da2975a5f0fb455dfb3ef7a0827530fc",
+          "french_llm_judge_review_2026-09-16": "{\"uids\": 453}",
+          "language": "fr-FR",
+          "provenance_json": "{\"authorship\": \"FLELex C1 词表由用户提供；法语词条信息优先取法语 Wiktionary 结构化数据，缺失的英/西/中释义由本地词典或 Lingva 翻译接口补全。\", \"duplicate_policy\": \"overwrite\", \"review_date\": \"2026-09-11\", \"review_status\": \"machine-assisted; pending professional human editorial review\", \"sources\": {\"flelex-c1-csv\": {\"artifact\": \"outputs/flelex-cefr-sorted/flelex_C1.csv\", \"checked\": \"FLELex C1 source rows and CEFR/POS metadata\"}, \"wiktionary-fr\": {\"checked\": \"French POS, IPA, gender, translations and available French examples\", \"url\": \"https://fr.wiktionary.org/\"}, \"cfdict-fr-zh\": {\"artifact\": \"data/raw/open_lexicon/cfdict.u8\", \"checked\": \"French-to-Chinese lexical equivalents\", \"license\": \"CC BY-SA 3.0\", \"url\": \"https://chine.in/cfdict.php\"}, \"apertium-fra-spa\": {\"artifact\": \"data/raw/open_lexicon/apertium-fra-spa.fra-spa.dix\", \"checked\": \"French-to-Spanish lexical equivalents\", \"license\": \"GPL-2.0\", \"url\": \"https://github.com/apertium/apertium-fra-spa\"}, \"kaikki-enwiktionary\": {\"artifact\": \"data/raw/open_lexicon/kaikki_a1_snapshot.json\", \"checked\": \"English glosses, IPA and inflection facts\", \"license\": \"CC BY-SA\", \"url\": \"https://kaikki.org/dictionary/French/index.html\"}, \"wiktapi-eswiktionary\": {\"artifact\": \"data/raw/open_lexicon/wiktapi_a1_snapshot.json\", \"checked\": \"Spanish glosses\", \"license\": \"CC BY-SA\", \"url\": \"https://wiktapi.dev/quickstart\"}, \"lingva-translate\": {\"checked\": \"Batch fallback for missing English, Spanish and Chinese glosses\", \"url\": \"https://github.com/cysr214/lingva-translate/blob/main/README.md\"}, \"google-translate-fallback\": {\"checked\": \"Per-item fallback for rare empty Lingva responses\", \"url\": \"https://translate.google.com/\"}, \"editorial-examples\": {\"checked\": \"Context-appropriate examples generated by POS-specific templates when no suitable retained example was available; translations are aligned French/English/Spanish/Chinese sentences\"}}}",
+          "schema_version": "2",
+          "scope": "FLELex C1 3743 个唯一词形/词性词条；来源文件 3743 行。",
+          "source_sha256": "6842818cb26d951e9442b6d8efc236730b76b31b4b28997f231d2002b1955e7c"
+        },
+        "counts": {
+          "book_lexeme": 26666,
+          "conjugation_form": 54270,
+          "content_meta": 15,
+          "example": 19525,
+          "lexeme": 19465,
+          "pronunciation": 19465,
+          "sense": 19525,
+          "verb_info": 3015,
+          "vocabulary_book": 13,
+          "word_form": 52082
+        },
+        "schema": {
+          "book_lexeme": "CREATE TABLE book_lexeme (\n  book_id TEXT NOT NULL REFERENCES vocabulary_book(book_id),\n  lexeme_uid TEXT NOT NULL REFERENCES lexeme(lexeme_uid),\n  sort_order INTEGER NOT NULL,\n  PRIMARY KEY(book_id, lexeme_uid),\n  UNIQUE(book_id, sort_order)\n)",
+          "conjugation_form": "CREATE TABLE conjugation_form (\n  lexeme_uid TEXT NOT NULL REFERENCES verb_info(lexeme_uid),\n  mood TEXT NOT NULL CHECK (mood = 'indicatif'),\n  tense TEXT NOT NULL CHECK (tense IN ('présent','passé composé','imparfait')),\n  tense_order INTEGER NOT NULL,\n  person INTEGER NOT NULL CHECK (person BETWEEN 1 AND 6),\n  pronoun TEXT NOT NULL,\n  form TEXT NOT NULL CHECK (length(trim(form)) > 0),\n  PRIMARY KEY(lexeme_uid, mood, tense, person)\n)",
+          "content_meta": "CREATE TABLE content_meta (key TEXT PRIMARY KEY, value TEXT NOT NULL)",
+          "example": "CREATE TABLE example (\n  example_id TEXT PRIMARY KEY,\n  sense_id TEXT NOT NULL REFERENCES sense(sense_id),\n  sort_order INTEGER NOT NULL CHECK (sort_order >= 0),\n  french TEXT NOT NULL CHECK (length(trim(french)) > 0),\n  english TEXT NOT NULL CHECK (length(trim(english)) > 0),\n  spanish TEXT NOT NULL CHECK (length(trim(spanish)) > 0),\n  chinese TEXT NOT NULL DEFAULT '',\n  UNIQUE(sense_id, sort_order)\n)",
+          "lexeme": "CREATE TABLE \"lexeme\" (\n  lexeme_uid TEXT PRIMARY KEY,\n  language TEXT NOT NULL CHECK (language = 'fr-FR'),\n  lemma TEXT NOT NULL,\n  part_of_speech TEXT NOT NULL CHECK (part_of_speech IN (\n    'verb','noun','adjective','adverb','interjection','preposition','conjunction',\n    'pronoun','determiner','proper_noun','expression','numeral'\n  )),\n  homonym INTEGER NOT NULL CHECK (homonym > 0),\n  level TEXT NOT NULL CHECK (level IN ('A1','A2','B1','B2','C1','C2')),\n  gender TEXT NOT NULL DEFAULT '',\n  sort_order INTEGER NOT NULL UNIQUE,\n  provenance_json TEXT NOT NULL,\n  UNIQUE(language, lemma, part_of_speech, homonym)\n)",
+          "pronunciation": "CREATE TABLE pronunciation (\n  lexeme_uid TEXT NOT NULL REFERENCES lexeme(lexeme_uid),\n  locale TEXT NOT NULL CHECK (locale = 'fr-FR'),\n  ipa TEXT NOT NULL CHECK (length(trim(ipa)) > 2),\n  audio_asset TEXT,\n  PRIMARY KEY(lexeme_uid, locale)\n)",
+          "sense": "CREATE TABLE sense (\n  sense_id TEXT PRIMARY KEY,\n  lexeme_uid TEXT NOT NULL REFERENCES lexeme(lexeme_uid),\n  sort_order INTEGER NOT NULL CHECK (sort_order >= 0),\n  english TEXT NOT NULL CHECK (length(trim(english)) > 0),\n  spanish TEXT NOT NULL CHECK (length(trim(spanish)) > 0),\n  chinese TEXT NOT NULL DEFAULT '',\n  is_core INTEGER NOT NULL CHECK (is_core IN (0,1)),\n  UNIQUE(lexeme_uid, sort_order)\n)",
+          "verb_info": "CREATE TABLE verb_info (\n  lexeme_uid TEXT PRIMARY KEY REFERENCES lexeme(lexeme_uid),\n  verb_group TEXT NOT NULL,\n  auxiliary TEXT NOT NULL CHECK (auxiliary IN ('avoir','être')),\n  past_participle TEXT NOT NULL,\n  present_participle TEXT NOT NULL\n)",
+          "vocabulary_book": "CREATE TABLE vocabulary_book (\n  book_id TEXT PRIMARY KEY,\n  title TEXT NOT NULL,\n  description TEXT NOT NULL,\n  sort_order INTEGER NOT NULL UNIQUE\n)",
+          "word_form": "CREATE TABLE word_form (\n  lexeme_uid TEXT NOT NULL REFERENCES lexeme(lexeme_uid),\n  sort_order INTEGER NOT NULL CHECK (sort_order >= 0),\n  label TEXT NOT NULL,\n  form TEXT NOT NULL CHECK (length(trim(form)) > 0),\n  PRIMARY KEY(lexeme_uid, sort_order)\n)"
+        },
+        "empty_translation_fields": {
+          "sense": {
+            "chinese": 0,
+            "english": 0,
+            "spanish": 0
+          },
+          "example": {
+            "chinese": 0,
+            "english": 0,
+            "french": 0,
+            "spanish": 0
+          }
+        },
+        "uid_prefix_counts": {
+          "fr:": 19465
+        },
+        "lexeme_languages": {
+          "fr-FR": 19465
+        },
+        "uid_set_sha256": "49627df6aa81597b154073fef04077b29ec5b515b518350588ecc8a748f3d6e6",
+        "ordered_book_membership_sha256": "714aae3cc87a475c0419c58fa8e40d7471f0061c6bad2c13d88f9fcc4f5de8ee",
+        "lexemes_without_sense": 0,
+        "lexemes_without_pronunciation": 0,
+        "audio_asset_count": 0,
+        "books": [
+          {
+            "id": "essential-fr",
+            "title": "你好！法语 2 · A2 词表",
+            "member_count": 866
+          },
+          {
+            "id": "verbs-fr",
+            "title": "Verbes A2 · A2 动词",
+            "member_count": 242
+          },
+          {
+            "id": "flelex-a1",
+            "title": "FLELex_A1全部词汇",
+            "member_count": 2343
+          },
+          {
+            "id": "flelex-a2",
+            "title": "FLELex_A2全部词汇",
+            "member_count": 1658
+          },
+          {
+            "id": "flelex-b1",
+            "title": "FLELex_B1全部词汇",
+            "member_count": 3196
+          },
+          {
+            "id": "flelex-b2",
+            "title": "FLELex_B2全部词汇",
+            "member_count": 5611
+          },
+          {
+            "id": "flelex-c2",
+            "title": "FLELex_C2全部词汇",
+            "member_count": 2508
+          },
+          {
+            "id": "flelex-c1",
+            "title": "FLELex_C1全部词汇",
+            "member_count": 3743
+          },
+          {
+            "id": "flelex-a1-high-1000",
+            "title": "FLELex_A1高频1000词",
+            "member_count": 1000
+          },
+          {
+            "id": "flelex-a2-high-800",
+            "title": "FLELex_A2高频800词",
+            "member_count": 800
+          },
+          {
+            "id": "flelex-b1-high-1200",
+            "title": "FLELex_B1高频1200词",
+            "member_count": 1199
+          },
+          {
+            "id": "flelex-b2-high-2000",
+            "title": "FLELex_B2高频2000词",
+            "member_count": 2000
+          },
+          {
+            "id": "flelex-c1-high-1500",
+            "title": "FLELex_C1高频1500词",
+            "member_count": 1500
+          }
+        ],
+        "unchanged_after_read": true
+      },
+      "curated_json_inventory": [
+        {
+          "name": "flelex_a1.json",
+          "bytes": 2655701
+        },
+        {
+          "name": "flelex_a2.json",
+          "bytes": 1906153
+        },
+        {
+          "name": "flelex_b1.json",
+          "bytes": 3766697
+        },
+        {
+          "name": "flelex_b2.json",
+          "bytes": 7061798
+        },
+        {
+          "name": "flelex_c1.json",
+          "bytes": 4697707
+        },
+        {
+          "name": "flelex_c2.json",
+          "bytes": 3048972
+        },
+        {
+          "name": "french_a1.json",
+          "bytes": 1039244
+        },
+        {
+          "name": "french_a2.json",
+          "bytes": 1084600
+        },
+        {
+          "name": "french_b1.json",
+          "bytes": 1052708
+        },
+        {
+          "name": "french_b2.json",
+          "bytes": 1069062
+        },
+        {
+          "name": "french_dev.json",
+          "bytes": 15704
+        },
+        {
+          "name": "provenance.json",
+          "bytes": 5341
+        },
+        {
+          "name": "provenance_a2.json",
+          "bytes": 5029
+        },
+        {
+          "name": "provenance_b1.json",
+          "bytes": 5019
+        },
+        {
+          "name": "provenance_b2.json",
+          "bytes": 5019
+        }
+      ]
+    },
+    "es": {
+      "root": "L:\\Words_esp",
+      "git_before": {
+        "exit_code": 0,
+        "porcelain": "",
+        "stderr": ""
+      },
+      "git_after": {
+        "exit_code": 0,
+        "porcelain": "",
+        "stderr": ""
+      },
+      "file_manifest": [
+        {
+          "relative_path": "app\\build.gradle.kts",
+          "bytes": 2103,
+          "sha256": "f61003c9e0671c013871ac9c87777ae3e619e8b5ffd15e0dbf129cf7cbc3533b"
+        },
+        {
+          "relative_path": "app\\proguard-rules.pro",
+          "bytes": 80,
+          "sha256": "9fd3127ed9a0dae3b89decb2d18d05b8e9e9f7f615c7f28d6788e0778745133e"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\assets\\mock_content.db",
+          "bytes": 286720,
+          "sha256": "2b698ad72e368c538e2fdf76ba7ebb08b2fe09304209b22432779fd762702911"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\assets\\qa-tone.wav",
+          "bytes": 6444,
+          "sha256": "929f41642ba3187f0f952fb44632b85ab027adae74192c12363818b0d1fa5ede"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\assets\\spanish_content.db",
+          "bytes": 22999040,
+          "sha256": "98c5c1da6ac399732ddc696a68709f66a5c313d6b080fda61e0a6a5cb0a2d86c"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\assets\\trimmed_content.db",
+          "bytes": 155648,
+          "sha256": "290f31eb583b7a49bb45e62d3b0b20e892ce4c70a4793732a682e80fb70dee25"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\java\\com\\scott\\spanishvocab\\AppFlowInstrumentedTest.kt",
+          "bytes": 13267,
+          "sha256": "c2151f5331bd0e4fbaf1741bece52f3815214fb15f0cddf6088ac7cf4d9d5de4"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\java\\com\\scott\\spanishvocab\\BookSelectionInstrumentedTest.kt",
+          "bytes": 9529,
+          "sha256": "426de94cc8c1086338a748cd192f2e8a3e05c04b0208c62567f6e723ff09dfee"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\java\\com\\scott\\spanishvocab\\ContentPagingInstrumentedTest.kt",
+          "bytes": 3460,
+          "sha256": "6ec00c87f079ba323ded61c33a0dee0c7c807f8b7e8992897509c58e64a5f147"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\java\\com\\scott\\spanishvocab\\PronunciationInstrumentedTest.kt",
+          "bytes": 2405,
+          "sha256": "6da20b6af37a5e54e573794f9fb22c2eebc6e62b18b5713d74eb5cee5bfc2081"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\java\\com\\scott\\spanishvocab\\RepositoryInstrumentedTest.kt",
+          "bytes": 13451,
+          "sha256": "187bb243f70950dcd2828d5b059d5651d307269c588782ef4ee3b423eca4e01f"
+        },
+        {
+          "relative_path": "app\\src\\androidTest\\java\\com\\scott\\spanishvocab\\SpanishUiInstrumentedTest.kt",
+          "bytes": 5469,
+          "sha256": "c99a9f34ed18f1a1f651320ac8a0869fe75069250462e372077712452914c8ac"
+        },
+        {
+          "relative_path": "app\\src\\main\\AndroidManifest.xml",
+          "bytes": 871,
+          "sha256": "1e36b9897f400ec81cf8335ca920aa0867da8f82dae4fd771f35a08264c0285f"
+        },
+        {
+          "relative_path": "app\\src\\main\\assets\\licenses\\ts-fsrs.txt",
+          "bytes": 1077,
+          "sha256": "ac78eb00a20fb7dc97616378e86c3071079d35bf46f25b43781615c2274ddd88"
+        },
+        {
+          "relative_path": "app\\src\\main\\assets\\spanish_content.db",
+          "bytes": 47587328,
+          "sha256": "83a4f0177f0979cb749c6c6930fa569f1d1469447a797706111c0d063b35d26e"
+        },
+        {
+          "relative_path": "app\\src\\main\\assets\\THIRD_PARTY_CONTENT.md",
+          "bytes": 3050,
+          "sha256": "24ba2873286e4f1f5f3e208b18f583d8d207c21f3ddd625cf35170cd5724c27e"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\data\\content\\ContentRepository.kt",
+          "bytes": 15746,
+          "sha256": "8ec9d4cfcbe34b68681be995af9260422ca2b5944e64990cddc28e9a1bbd4218"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\data\\user\\SessionPlanner.kt",
+          "bytes": 1529,
+          "sha256": "729cb3a4a230d00191afeb5bf11e5d6cf07d90a81df22d839686ef9dcb23ba62"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\data\\user\\StudyRepository.kt",
+          "bytes": 18365,
+          "sha256": "e8bf23367c0a8dd1d06e3bc8d08cf27fa7aae15e5a0cfcca615057bb905e9a0d"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\domain\\audio\\PronunciationPlayer.kt",
+          "bytes": 6254,
+          "sha256": "5468550da225e6f4b2ea9739e722893c038eb9f7f66240fca1fd193d00055d22"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\domain\\fsrs\\FsrsScheduler.kt",
+          "bytes": 5086,
+          "sha256": "6cd91275498aef50ab02d22426c18a752ad9bc712d86206833bf1783a233a7db"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\domain\\fsrs\\README.md",
+          "bytes": 2658,
+          "sha256": "0a4ae664e95da0ba9c6c6224faffa871d4b20c9b7947e4a1765084795c69ca52"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\domain\\fsrs\\THIRD_PARTY_LICENSE.txt",
+          "bytes": 1077,
+          "sha256": "ac78eb00a20fb7dc97616378e86c3071079d35bf46f25b43781615c2274ddd88"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\domain\\Models.kt",
+          "bytes": 2969,
+          "sha256": "0ee9d1a104ba977baedf5372ca6338afffae67887a76eca33018cade8957ca84"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\feature\\BookSelectionScreen.kt",
+          "bytes": 4321,
+          "sha256": "326d7899fbb502fe532960c02710ac4c93d0bed78145d0dadfb521c39d2ec6e3"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\feature\\home\\HomeScreen.kt",
+          "bytes": 6824,
+          "sha256": "a211935d3959a78ccaa69b2ce2ba5b4e61942739b67093d746284e1d2b2e33cf"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\feature\\LibrarySettingsScreens.kt",
+          "bytes": 16757,
+          "sha256": "27869947f13360248e0191d77de4e3d6b6b733db22cf76bcf9a867682fe905f0"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\feature\\SpanishVocabApp.kt",
+          "bytes": 13702,
+          "sha256": "dc5753272e06619e030140b2c02f899ae153de3d9657a2cf67449ace5deb05fd"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\feature\\SpanishVocabViewModel.kt",
+          "bytes": 9726,
+          "sha256": "f3062357bd223b4cde57bf7d6bed494f93a60a01e6e4e51b280d836ac96302ec"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\feature\\StudyScreens.kt",
+          "bytes": 24267,
+          "sha256": "df9303922590e223a9eafb066d677a8b1ff0dd80ac854509524693fec9499197"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\feature\\TranslationDisplay.kt",
+          "bytes": 729,
+          "sha256": "e3a76c7804dc94eeec53b11d7d642d54624043bbe91ed20ff9570ce265cef3b2"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\MainActivity.kt",
+          "bytes": 978,
+          "sha256": "dde86d9492443312ebd5d756e77a232941d2d83c530181cb56762c99b25ac443"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\ui\\theme\\Color.kt",
+          "bytes": 401,
+          "sha256": "613bdae5e812279b93bd60946c538866d76bff010770ee7331411e566cd1b233"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\ui\\theme\\Theme.kt",
+          "bytes": 862,
+          "sha256": "b5d55401fd1a64e401b9d4068c3b6e778a7a977fea6ea4a7e29872fe51b9198e"
+        },
+        {
+          "relative_path": "app\\src\\main\\java\\com\\scott\\spanishvocab\\ui\\theme\\Type.kt",
+          "bytes": 521,
+          "sha256": "7e0bf3c7a212c27b668fa98422f076f2eb4da342365b76aab84ccdd854cc661f"
+        },
+        {
+          "relative_path": "app\\src\\main\\res\\drawable\\ic_launcher_foreground.xml",
+          "bytes": 756,
+          "sha256": "deba644a0c323b959d176127be99bd6d24f95799398a49136c8c8d57371821ae"
+        },
+        {
+          "relative_path": "app\\src\\main\\res\\mipmap-anydpi\\ic_launcher.xml",
+          "bytes": 340,
+          "sha256": "3a7a01eee7f181173d3a1b870c6c271b7859d6d78e306eafea2576fc92ebcfb8"
+        },
+        {
+          "relative_path": "app\\src\\main\\res\\values\\colors.xml",
+          "bytes": 70,
+          "sha256": "c96ed36be753523a180477db82b062ee9af2127ec9bbe15ba7851895de7a363d"
+        },
+        {
+          "relative_path": "app\\src\\main\\res\\values\\strings.xml",
+          "bytes": 79,
+          "sha256": "a4797a576abf11941ab212951b1fd5c12937e08a61b89c1983cc33069268e4ff"
+        },
+        {
+          "relative_path": "app\\src\\main\\res\\values\\themes.xml",
+          "bytes": 468,
+          "sha256": "9d2edafc1d76fa49e9e79862dcb44e32bead3220bc628a3db1471c5dbd84e041"
+        },
+        {
+          "relative_path": "app\\src\\test\\java\\com\\scott\\spanishvocab\\data\\user\\SessionPlannerTest.kt",
+          "bytes": 3894,
+          "sha256": "940994427af39ebb61654d71d3b942a060e980d9acaaa229670d46eb0437b7ba"
+        },
+        {
+          "relative_path": "app\\src\\test\\java\\com\\scott\\spanishvocab\\domain\\fsrs\\FsrsSchedulerTest.kt",
+          "bytes": 3315,
+          "sha256": "2aa1e3affde01f29e75c66f89aac30e811c3fb4e14937d548339121a1b625710"
+        },
+        {
+          "relative_path": "app\\src\\test\\java\\com\\scott\\spanishvocab\\feature\\TranslationDisplayTest.kt",
+          "bytes": 821,
+          "sha256": "7e7067348ab4adf811a2513b3bbb66405cb1979f862ea40391a054bd2dde1528"
+        },
+        {
+          "relative_path": "app\\src\\test\\resources\\fsrs-5.4.2-reference.csv",
+          "bytes": 3620,
+          "sha256": "c127fcaa974eddba009e629af56663bb529c0a3d8216895ed5bdbc1d303b1fa6"
+        },
+        {
+          "relative_path": "build.gradle.kts",
+          "bytes": 222,
+          "sha256": "38be499bfd4f170fbca759c6746d0b4eeaf15d4646a64e6c4d8a472b29b4e070"
+        },
+        {
+          "relative_path": "gradle\\wrapper\\gradle-wrapper.jar",
+          "bytes": 63375,
+          "sha256": "a8451eeda314d0568b5340498b36edf147a8f0d692c5ff58082d477abe9146e4"
+        },
+        {
+          "relative_path": "gradle\\wrapper\\gradle-wrapper.properties",
+          "bytes": 250,
+          "sha256": "3d91f0932da99885c41e9dc4e85c9f9a2d3bfef4f0ad87473014dc0827a94884"
+        },
+        {
+          "relative_path": "gradle.properties",
+          "bytes": 136,
+          "sha256": "678c35a27eeda302d6a960484179d118d08fb1edf05c1b40745bc7aed6e88f03"
+        },
+        {
+          "relative_path": "gradlew",
+          "bytes": 8527,
+          "sha256": "e0108761fee312b7b373ee96c0870cab5c167e664ac507776814b1d59e9b3bad"
+        },
+        {
+          "relative_path": "gradlew.bat",
+          "bytes": 2868,
+          "sha256": "8e327fcb99d29ce0fe3ee2fec6e6a25de815a2df83a6a44a553dea89ffc92955"
+        },
+        {
+          "relative_path": "local.properties",
+          "bytes": 39,
+          "sha256": "090b25faf2e9f6dbaaea9eacbbc77a69e6d2ec0f3ce1d74ad4573922c59b940d"
+        },
+        {
+          "relative_path": "settings.gradle.kts",
+          "bytes": 351,
+          "sha256": "c589bbfd8297b6a30f169af4a76ca152b5df6b8595f4e6f9194c283633151ed8"
+        },
+        {
+          "relative_path": "tools\\build.ps1",
+          "bytes": 396,
+          "sha256": "2c676806a072801143fc933592001a4beefb471faad40bfb59b8e1f9f257dc10"
+        },
+        {
+          "relative_path": "tools\\lexicon\\analyze_elelex_sources.py",
+          "bytes": 7780,
+          "sha256": "bba08e1caef4fd0c6ac889b3ccef337a5be203fabf73e2af569cd0aca82fed38"
+        },
+        {
+          "relative_path": "tools\\lexicon\\analyze_eswiktionary_sources.py",
+          "bytes": 5559,
+          "sha256": "e37543a3883b94fc4abc2486df374d774b6b04d182c3f36f4e858951e83b4d6f"
+        },
+        {
+          "relative_path": "tools\\lexicon\\analyze_tatoeba_examples.py",
+          "bytes": 7338,
+          "sha256": "0edabe2a2004909c0c226c50cce41fc1a7f0a9e0b47f1b07a0007d8630e7f0f6"
+        },
+        {
+          "relative_path": "tools\\lexicon\\build_content.py",
+          "bytes": 9687,
+          "sha256": "5efc987f7b11293b75855739d7b0a513d83081217d7ebe87996d0d89a7afc5ef"
+        },
+        {
+          "relative_path": "tools\\lexicon\\generate_elelex_content.py",
+          "bytes": 138590,
+          "sha256": "e7c02242ecb926330aa7e4f34712e2aab41b10bb45524ddea3d4137e4a78e60a"
+        },
+        {
+          "relative_path": "tools\\lexicon\\generate_mock.py",
+          "bytes": 11856,
+          "sha256": "8600a4ceefe3e67bfe6e369e64488186ff38b0816fd6780eef273b3d6ff10cc6"
+        },
+        {
+          "relative_path": "tools\\lexicon\\schema.sql",
+          "bytes": 3537,
+          "sha256": "33e26b5a3cecbd22a3e334902bed4acf1c64bd95b67151bf292d007a0d62f80e"
+        },
+        {
+          "relative_path": "tools\\lexicon\\test_content.py",
+          "bytes": 5482,
+          "sha256": "4d8956525c033ec1fdaf92f7de031fa1b328960beac9ec96dcea4c7f01fa8abd"
+        },
+        {
+          "relative_path": "tools\\lexicon\\test_elelex_full.py",
+          "bytes": 7394,
+          "sha256": "587916f71c0f327be2b3fb5fe0f4dc1a970dcef64761e19a6ba0c7f8da22a44b"
+        },
+        {
+          "relative_path": "tools\\lexicon\\test_generate_elelex_content.py",
+          "bytes": 2367,
+          "sha256": "29a8215c88eba86f203a473f7578de663e63834bf30bfb199f62ba7a3c709b87"
+        },
+        {
+          "relative_path": "tools\\prepare-test-content.py",
+          "bytes": 1147,
+          "sha256": "0a7634bab2622e147acb9853676f88f5f088e66817916e1b56c1e5d49bee2fbd"
+        },
+        {
+          "relative_path": "tools\\project-env.ps1",
+          "bytes": 1136,
+          "sha256": "4872e32d8c21d943c74d1dd5074125eb61174b9869e906d4093a9b705811dc63"
+        },
+        {
+          "relative_path": "tools\\start-emulator.ps1",
+          "bytes": 1295,
+          "sha256": "7fc9921774fe975df35e6fce7949ddf5bc429e449275568c161fedf236529655"
+        },
+        {
+          "relative_path": "tools\\verify-device.ps1",
+          "bytes": 1661,
+          "sha256": "58e6d6adea5256308ad5b39c2f4adfea3bff95b510d507102d2613db2423d1f6"
+        },
+        {
+          "relative_path": "tools\\verify-process-recovery.py",
+          "bytes": 5176,
+          "sha256": "ad5802d203c29756bfefb7d4a519bd857eeb3c21d377a6f6421383eb618b0d14"
+        }
+      ],
+      "tests_static_inventory": {
+        "test": [
+          {
+            "path": "app\\src\\test\\java\\com\\scott\\spanishvocab\\data\\user\\SessionPlannerTest.kt",
+            "methods": [
+              "dueWordsFromEveryBookAreCombinedWithOnlyCurrentBookNewWords",
+              "repeatedSessionsShareOneDailyAllowance",
+              "quantitiesAboveOneHundredArePreservedAndIntBoundariesDoNotOverflow",
+              "exhaustedQuotaStillAllowsDueReviewAndEmptyQueueDoesNotInventWork",
+              "fixedSeedReproducesAQueueWithoutDuplicates",
+              "streakIncludesYesterdayBeforeTodayHasStarted"
+            ]
+          },
+          {
+            "path": "app\\src\\test\\java\\com\\scott\\spanishvocab\\domain\\fsrs\\FsrsSchedulerTest.kt",
+            "methods": [
+              "publishedPackageOracleMatchesAllMemoryStatesAndIntervals",
+              "retentionIsNinetyPercentAtStability",
+              "againDoesNotCountAnInitialLapseAndIsAtLeastOneDayLater",
+              "invalidStatesAndTimeFailBeforePersistence",
+              "elapsedDaysUseUtcBoundaryConsistentWithUpstream"
+            ]
+          },
+          {
+            "path": "app\\src\\test\\java\\com\\scott\\spanishvocab\\feature\\TranslationDisplayTest.kt",
+            "methods": [
+              "auxiliaryLanguagesAreChineseEnglishFrenchInOrder",
+              "frenchOnlyNeverShowsOtherLanguagesOrInventsMissingText"
+            ]
+          }
+        ],
+        "androidTest": [
+          {
+            "path": "app\\src\\androidTest\\java\\com\\scott\\spanishvocab\\AppFlowInstrumentedTest.kt",
+            "methods": [
+              "completeLearningFlowWithRotationDetailAndSettings",
+              "searchFavoritesTabsAndMissingAudioAreFunctional",
+              "browseLoadsFiftyWordsAtATimeWhileScrolling",
+              "settingsAcceptLargeLimitRejectOverflowAndKeepOneMeaningLanguage",
+              "blankTapRevealsButCardControlsAndDraggingDoNot",
+              "backgroundAndActivityRestartReturnHomeThenContinueRevealedCard"
+            ]
+          },
+          {
+            "path": "app\\src\\androidTest\\java\\com\\scott\\spanishvocab\\BookSelectionInstrumentedTest.kt",
+            "methods": [
+              "homeAndSettingsOnlyShowCurrentBookAndBackCancelsSelection",
+              "saveBookPersistsIndependentlyAndPreservesOtherSettingsDraftAcrossRecreation",
+              "switchingDuringStudyPreservesActiveSessionAndReturnDestination"
+            ]
+          },
+          {
+            "path": "app\\src\\androidTest\\java\\com\\scott\\spanishvocab\\ContentPagingInstrumentedTest.kt",
+            "methods": [
+              "formalContentUsesStableSummaryPagesAndTheA1DefaultBook",
+              "formalSearchCoversAllLanguagesAndIgnoresAccents",
+              "aFreshUserStartsWithTheRealTwelveHundredWordBook"
+            ]
+          },
+          {
+            "path": "app\\src\\androidTest\\java\\com\\scott\\spanishvocab\\PronunciationInstrumentedTest.kt",
+            "methods": [
+              "packagedAudioPlaysWithoutTtsFallback",
+              "missingOrInvalidRecordingReportsUnavailableWhenFallbackDisabled",
+              "fallbackEitherUsesInstalledSpanishVoiceOrExplainsMissingVoice"
+            ]
+          },
+          {
+            "path": "app\\src\\androidTest\\java\\com\\scott\\spanishvocab\\RepositoryInstrumentedTest.kt",
+            "methods": [
+              "contentLoadsWithStableIdsAndCompleteCoreVerbTables",
+              "fixedQueueAnswerAndSettingsSurviveRepositoryReopen",
+              "ratingsRequireRevealAndPersistAllFourOutcomes",
+              "dailyNewLimitIsSharedAcrossSessionsAndZeroMeansReviewsOnly",
+              "midnightChargesNewCardsToActualReviewDayAndKeepsQueue",
+              "changingBookDoesNotHidePreviouslyLearnedDueCards",
+              "failedTransactionRollsBackCardLogAndSessionTogether",
+              "favoritesAndValidatedSettingsPersistIndependentlyOfContentCopy",
+              "contentUpgradeKeepsDurableStateAndSurvivingSessionItems",
+              "replacingMockLexiconSkipsUnavailablePendingWordsWithoutLosingHistory"
+            ]
+          },
+          {
+            "path": "app\\src\\androidTest\\java\\com\\scott\\spanishvocab\\SpanishUiInstrumentedTest.kt",
+            "methods": [
+              "allConjugationsAppearTogetherAndImperativeDoesNotInventYo",
+              "allFourSearchLanguagesAndRegionalVosAreReachable"
+            ]
+          }
+        ]
+      },
+      "formal_content": {
+        "path": "L:\\Words_esp\\app\\src\\main\\assets\\spanish_content.db",
+        "bytes": 47587328,
+        "sha256": "83a4f0177f0979cb749c6c6930fa569f1d1469447a797706111c0d063b35d26e",
+        "sqlite_user_version": 1,
+        "integrity_check": [
+          "ok"
+        ],
+        "foreign_key_check": [],
+        "content_meta": {
+          "content_version": "2026.09.12-elelex-a1-c1-frequency-books",
+          "language": "es-ES",
+          "schema_version": "1",
+          "scope": "ELELex A1-C1: 14,290 source rows; multilingual definitions, Spanish IPA, examples and Chinese/English/French translations",
+          "source_sha256": "977e0cc493865b8f6ea388419f58a6d164b2ffd4ccbd5b5ce455234c1f52f986"
+        },
+        "counts": {
+          "book_lexeme": 42114,
+          "conjugation_form": 89578,
+          "conjugation_paradigm": 15676,
+          "content_meta": 5,
+          "example": 14290,
+          "lexeme": 14290,
+          "pronunciation": 14290,
+          "sense": 14290,
+          "verb_info": 2234,
+          "vocabulary_book": 17,
+          "word_form": 26585
+        },
+        "schema": {
+          "book_lexeme": "CREATE TABLE book_lexeme (\n book_id TEXT NOT NULL REFERENCES vocabulary_book(book_id),lexeme_uid TEXT NOT NULL REFERENCES lexeme(lexeme_uid),\n sort_order INTEGER NOT NULL,PRIMARY KEY(book_id,lexeme_uid),UNIQUE(book_id,sort_order)\n)",
+          "conjugation_form": "CREATE TABLE conjugation_form (\n lexeme_uid TEXT NOT NULL, paradigm_id TEXT NOT NULL, subject_key TEXT NOT NULL,\n pronoun TEXT NOT NULL, form TEXT NOT NULL CHECK(length(trim(form))>0), sort_order INTEGER NOT NULL,\n PRIMARY KEY(lexeme_uid,paradigm_id,subject_key), UNIQUE(lexeme_uid,paradigm_id,sort_order),\n FOREIGN KEY(lexeme_uid,paradigm_id) REFERENCES conjugation_paradigm(lexeme_uid,paradigm_id)\n)",
+          "conjugation_paradigm": "CREATE TABLE conjugation_paradigm (\n lexeme_uid TEXT NOT NULL REFERENCES verb_info(lexeme_uid), paradigm_id TEXT NOT NULL,\n mood TEXT NOT NULL CHECK(mood IN ('indicativo','subjuntivo','imperativo')),\n tense TEXT NOT NULL, label TEXT NOT NULL, region TEXT NOT NULL DEFAULT '', note TEXT NOT NULL DEFAULT '',\n sort_order INTEGER NOT NULL, PRIMARY KEY(lexeme_uid,paradigm_id), UNIQUE(lexeme_uid,sort_order)\n)",
+          "content_meta": "CREATE TABLE content_meta (key TEXT PRIMARY KEY, value TEXT NOT NULL)",
+          "example": "CREATE TABLE example (\n example_id TEXT PRIMARY KEY, sense_id TEXT NOT NULL REFERENCES sense(sense_id), sort_order INTEGER NOT NULL,\n spanish TEXT NOT NULL CHECK(length(trim(spanish))>0), english TEXT NOT NULL DEFAULT '',\n french TEXT NOT NULL DEFAULT '', chinese TEXT NOT NULL DEFAULT '', UNIQUE(sense_id,sort_order)\n)",
+          "lexeme": "CREATE TABLE lexeme (\n lexeme_uid TEXT PRIMARY KEY, language TEXT NOT NULL CHECK(language='es-ES'),\n lemma TEXT NOT NULL, part_of_speech TEXT NOT NULL,\n homonym INTEGER NOT NULL CHECK(homonym>0), level TEXT NOT NULL,\n gender TEXT NOT NULL DEFAULT '', sort_order INTEGER NOT NULL UNIQUE, provenance_json TEXT NOT NULL,\n UNIQUE(language,lemma,part_of_speech,homonym)\n)",
+          "pronunciation": "CREATE TABLE pronunciation (\n lexeme_uid TEXT NOT NULL REFERENCES lexeme(lexeme_uid), locale TEXT NOT NULL CHECK(locale='es-ES'),\n ipa TEXT NOT NULL, audio_asset TEXT, PRIMARY KEY(lexeme_uid,locale)\n)",
+          "sense": "CREATE TABLE sense (\n sense_id TEXT PRIMARY KEY, lexeme_uid TEXT NOT NULL REFERENCES lexeme(lexeme_uid),\n sort_order INTEGER NOT NULL, english TEXT NOT NULL DEFAULT '', french TEXT NOT NULL DEFAULT '', chinese TEXT NOT NULL DEFAULT '',\n CHECK(length(trim(english))>0 OR length(trim(french))>0 OR length(trim(chinese))>0),\n UNIQUE(lexeme_uid,sort_order)\n)",
+          "verb_info": "CREATE TABLE verb_info (\n lexeme_uid TEXT PRIMARY KEY REFERENCES lexeme(lexeme_uid),\n verb_group TEXT NOT NULL CHECK(verb_group IN ('-ar','-er','-ir')),\n auxiliary TEXT NOT NULL CHECK(auxiliary='haber'),\n participle TEXT NOT NULL, gerund TEXT NOT NULL,\n is_irregular INTEGER NOT NULL CHECK(is_irregular IN (0,1)),\n is_reflexive INTEGER NOT NULL CHECK(is_reflexive IN (0,1))\n)",
+          "vocabulary_book": "CREATE TABLE vocabulary_book (book_id TEXT PRIMARY KEY,title TEXT NOT NULL,description TEXT NOT NULL,sort_order INTEGER NOT NULL UNIQUE)",
+          "word_form": "CREATE TABLE word_form (\n lexeme_uid TEXT NOT NULL REFERENCES lexeme(lexeme_uid), sort_order INTEGER NOT NULL,\n label TEXT NOT NULL, form TEXT NOT NULL CHECK(length(trim(form))>0), PRIMARY KEY(lexeme_uid,sort_order)\n)"
+        },
+        "empty_translation_fields": {
+          "sense": {
+            "chinese": 0,
+            "english": 0,
+            "french": 0
+          },
+          "example": {
+            "chinese": 0,
+            "english": 0,
+            "french": 0,
+            "spanish": 0
+          }
+        },
+        "uid_prefix_counts": {
+          "es:": 14290
+        },
+        "lexeme_languages": {
+          "es-ES": 14290
+        },
+        "uid_set_sha256": "420e1ad093d7bb91c796316982ee5e278ee2df6e58b8bd06666d5ad22e3cd10f",
+        "ordered_book_membership_sha256": "cd61ce885bb38b8d61499e55f4b8e03398f35485ec3c2d4d6fbb91c0a07c61be",
+        "lexemes_without_sense": 0,
+        "lexemes_without_pronunciation": 0,
+        "audio_asset_count": 0,
+        "books": [
+          {
+            "id": "essential-es",
+            "title": "西班牙语 A1–C1 · ELELex",
+            "member_count": 14290
+          },
+          {
+            "id": "elelex-a1-es",
+            "title": "西班牙语 A1 · ELELex",
+            "member_count": 3674
+          },
+          {
+            "id": "elelex-a2-es",
+            "title": "西班牙语 A2 · ELELex",
+            "member_count": 3576
+          },
+          {
+            "id": "elelex-b1-es",
+            "title": "西班牙语 B1 · ELELex",
+            "member_count": 3018
+          },
+          {
+            "id": "elelex-b2-es",
+            "title": "西班牙语 B2 · ELELex",
+            "member_count": 2119
+          },
+          {
+            "id": "elelex-c1-es",
+            "title": "西班牙语 C1 · ELELex",
+            "member_count": 1903
+          },
+          {
+            "id": "verbs-es",
+            "title": "西班牙语 A1–C1 动词",
+            "member_count": 2234
+          },
+          {
+            "id": "elelex-a1-top2000-es",
+            "title": "A1高频2000词",
+            "member_count": 2000
+          },
+          {
+            "id": "elelex-a1-top1200-es",
+            "title": "A1高频1200词",
+            "member_count": 1200
+          },
+          {
+            "id": "elelex-a2-top2000-es",
+            "title": "A2高频2000词",
+            "member_count": 2000
+          },
+          {
+            "id": "elelex-a2-top800-es",
+            "title": "A2高频800词",
+            "member_count": 800
+          },
+          {
+            "id": "elelex-b1-top1500-es",
+            "title": "B1高频1500词",
+            "member_count": 1500
+          },
+          {
+            "id": "elelex-b1-top800-es",
+            "title": "B1高频800词",
+            "member_count": 800
+          },
+          {
+            "id": "elelex-b2-top1000-es",
+            "title": "B2高频1000词",
+            "member_count": 1000
+          },
+          {
+            "id": "elelex-b2-top500-es",
+            "title": "B2高频500词",
+            "member_count": 500
+          },
+          {
+            "id": "elelex-c1-top1000-es",
+            "title": "C1高频1000词",
+            "member_count": 1000
+          },
+          {
+            "id": "elelex-c1-top500-es",
+            "title": "C1高频500词",
+            "member_count": 500
+          }
+        ],
+        "unchanged_after_read": true
+      },
+      "curated_json_inventory": [
+        {
+          "name": "spanish_full.json",
+          "bytes": 23854226
+        },
+        {
+          "name": "spanish_full_qa.json",
+          "bytes": 1008271
+        },
+        {
+          "name": "spanish_mock.json",
+          "bytes": 149053
+        },
+        {
+          "name": "spanish_sample_qa.json",
+          "bytes": 121765
+        }
+      ]
+    }
+  },
+  "shared_code_comparison_after_package_normalization": {
+    "domain/fsrs/FsrsScheduler.kt": true,
+    "data/user/SessionPlanner.kt": true
+  },
+  "plan_reference_checks": [
+    {
+      "path": "L:\\Words\\app\\build.gradle.kts",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\app\\src\\main\\AndroidManifest.xml",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\app\\src\\main\\java\\com\\scott\\frenchvocab\\domain\\Models.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\app\\src\\main\\java\\com\\scott\\frenchvocab\\domain\\fsrs\\FsrsScheduler.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\app\\src\\main\\java\\com\\scott\\frenchvocab\\domain\\audio\\PronunciationPlayer.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\app\\src\\main\\java\\com\\scott\\frenchvocab\\data\\content\\ContentRepository.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\app\\src\\main\\java\\com\\scott\\frenchvocab\\data\\user\\StudyRepository.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\app\\src\\main\\java\\com\\scott\\frenchvocab\\data\\user\\SessionPlanner.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\app\\src\\main\\java\\com\\scott\\frenchvocab\\feature\\FrenchVocabApp.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\app\\src\\main\\java\\com\\scott\\frenchvocab\\feature\\FrenchVocabViewModel.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\app\\src\\main\\java\\com\\scott\\frenchvocab\\feature\\home\\HomeScreen.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\app\\src\\main\\java\\com\\scott\\frenchvocab\\feature\\LibrarySettingsScreens.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\app\\src\\test\\java\\com\\scott\\frenchvocab\\data\\user\\SessionPlannerTest.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\app\\src\\androidTest\\java\\com\\scott\\frenchvocab\\RepositoryInstrumentedTest.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\app\\src\\androidTest\\java\\com\\scott\\frenchvocab\\SettingsMigrationInstrumentedTest.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\tools\\lexicon\\schema.sql",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\tools\\lexicon\\build_content.py",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\tools\\lexicon\\sync_curated_sources_to_db.py",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\app\\src\\main\\assets\\french_content.db",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words\\app\\src\\main\\assets\\THIRD_PARTY_CONTENT.md",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words_esp\\app\\build.gradle.kts",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words_esp\\app\\src\\main\\java\\com\\scott\\spanishvocab\\domain\\Models.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words_esp\\app\\src\\main\\java\\com\\scott\\spanishvocab\\data\\content\\ContentRepository.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words_esp\\app\\src\\main\\java\\com\\scott\\spanishvocab\\data\\user\\StudyRepository.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words_esp\\app\\src\\main\\java\\com\\scott\\spanishvocab\\data\\user\\SessionPlanner.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words_esp\\app\\src\\main\\java\\com\\scott\\spanishvocab\\feature\\SpanishVocabApp.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words_esp\\app\\src\\main\\java\\com\\scott\\spanishvocab\\feature\\StudyScreens.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words_esp\\app\\src\\androidTest\\java\\com\\scott\\spanishvocab\\RepositoryInstrumentedTest.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words_esp\\app\\src\\androidTest\\java\\com\\scott\\spanishvocab\\ContentPagingInstrumentedTest.kt",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words_esp\\tools\\lexicon\\schema.sql",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words_esp\\tools\\lexicon\\build_content.py",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words_esp\\data\\curated\\spanish_full.json",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words_esp\\app\\src\\main\\assets\\spanish_content.db",
+      "exists": true
+    },
+    {
+      "path": "L:\\Words_esp\\app\\src\\main\\assets\\THIRD_PARTY_CONTENT.md",
+      "exists": true
+    }
+  ],
+  "audit_checks_passed": true
+}
